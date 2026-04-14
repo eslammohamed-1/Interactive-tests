@@ -196,12 +196,13 @@
     }
     .btn-choice {
       width: 100%;
-      text-align: right;
+      text-align: start;
       justify-content: flex-start;
       background: var(--color-surface-2);
       color: var(--color-text);
       margin-bottom: var(--space-3);
       font-weight: 700;
+      unicode-bidi: isolate;
     }
     .btn-choice:hover:not(:disabled) {
       background: #fff9e6;
@@ -275,6 +276,8 @@
       border: var(--border-width) solid var(--color-ink);
       border-radius: var(--radius);
       box-shadow: var(--shadow-sm);
+      unicode-bidi: isolate;
+      text-align: start;
     }
     .feedback {
       display: none;
@@ -284,6 +287,8 @@
       font-weight: 700;
       border: var(--border-width) solid var(--color-ink);
       box-shadow: var(--shadow-sm);
+      unicode-bidi: isolate;
+      text-align: start;
     }
     .feedback.show {
       display: block;
@@ -390,6 +395,8 @@
       font-weight: 800;
       margin-bottom: var(--space-2);
       color: var(--color-text);
+      unicode-bidi: isolate;
+      text-align: start;
     }
     footer {
       text-align: center;
@@ -409,9 +416,141 @@
     .mt-lg {
       margin-top: var(--space-4);
     }
+    .live-score {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-3);
+      justify-content: center;
+      align-items: stretch;
+      margin-bottom: var(--space-4);
+    }
+    .live-score__box {
+      flex: 1 1 140px;
+      min-width: 0;
+      padding: var(--space-3) var(--space-4);
+      border: var(--border-width) solid var(--color-ink);
+      border-radius: var(--radius);
+      background: var(--color-primary);
+      box-shadow: var(--shadow-sm);
+      font-weight: 800;
+      font-size: 14px;
+      text-align: center;
+      color: var(--color-ink);
+    }
+    .live-score__box em {
+      font-style: normal;
+      display: block;
+      font-size: clamp(1.35rem, 5vw, 1.85rem);
+      font-family: var(--font-ui);
+      margin-top: var(--space-1);
+      line-height: 1.2;
+    }
+    .live-score__box--muted {
+      background: var(--color-surface-2);
+      border-color: var(--color-secondary);
+    }
+    .celebration-root {
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: 50;
+      overflow: hidden;
+    }
+    .cele-shape {
+      position: absolute;
+      bottom: -24px;
+      opacity: 0;
+      animation: celeFloat 1.1s ease-out forwards;
+    }
+    @keyframes celeFloat {
+      0% {
+        transform: translateY(0) rotate(0deg) scale(0.4);
+        opacity: 0;
+      }
+      12% {
+        opacity: 1;
+      }
+      100% {
+        transform: translateY(-72vh) rotate(var(--rot, 180deg)) scale(1);
+        opacity: 0;
+      }
+    }
+    .cele-shape--sq {
+      width: 18px;
+      height: 18px;
+      border: 3px solid var(--color-ink);
+      background: var(--color-primary);
+      box-shadow: 3px 3px 0 var(--color-ink);
+    }
+    .cele-shape--sq.alt {
+      background: var(--color-secondary);
+    }
+    .cele-shape--circ {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      border: 3px solid var(--color-ink);
+      background: var(--color-success);
+      box-shadow: 3px 3px 0 var(--color-ink);
+    }
+    .cele-shape--star {
+      font-size: 26px;
+      line-height: 1;
+      filter: drop-shadow(2px 2px 0 var(--color-ink));
+    }
+    .cele-burst {
+      position: absolute;
+      left: var(--bx, 50%);
+      top: var(--by, 70%);
+      transform: translate(-50%, -50%);
+      width: 120px;
+      height: 120px;
+      pointer-events: none;
+    }
+    .cele-ring {
+      position: absolute;
+      inset: 0;
+      border: var(--border-width) solid var(--color-success);
+      border-radius: 50%;
+      animation: celeRing 0.65s ease-out forwards;
+      opacity: 0.9;
+    }
+    @keyframes celeRing {
+      0% {
+        transform: scale(0.2);
+        opacity: 1;
+      }
+      100% {
+        transform: scale(2.2);
+        opacity: 0;
+      }
+    }
+    .cele-check {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%) scale(0);
+      font-size: 56px;
+      font-weight: 900;
+      color: var(--color-success);
+      text-shadow: 3px 3px 0 var(--color-ink);
+      animation: celePop 0.55s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+    }
+    @keyframes celePop {
+      0% {
+        transform: translate(-50%, -50%) scale(0) rotate(-25deg);
+      }
+      70% {
+        transform: translate(-50%, -50%) scale(1.08) rotate(8deg);
+      }
+      100% {
+        transform: translate(-50%, -50%) scale(1) rotate(0deg);
+      }
+    }
   </style>
 </head>
 <body>
+  <div id="celebration-root" class="celebration-root" aria-hidden="true"></div>
   <div class="wrap">
     <header>
       <h1>اختبارات تفاعلية</h1>
@@ -446,6 +585,16 @@
         <div class="progress-wrap">
           <div class="progress-bar"><div class="progress-fill" id="progress-fill"></div></div>
           <div class="progress-text" id="progress-text"></div>
+        </div>
+        <div class="live-score" id="live-score" aria-live="polite">
+          <div class="live-score__box">
+            إجابات صحيحة
+            <em id="live-correct">0</em>
+          </div>
+          <div class="live-score__box live-score__box--muted">
+            أجبت على
+            <em><span id="live-answered">0</span> / <span id="live-total">0</span></em>
+          </div>
         </div>
         <div class="q-body" id="q-text"></div>
         <div id="q-mcq"></div>
@@ -488,6 +637,62 @@
     let questions = [];
     let currentIndex = 0;
     let results = [];
+    /** اسم ملف JSON الحالي (لتخمين لغة المادة: إنجليزي، فرنسي، عربي…) */
+    let currentQuizFile = "";
+
+    function updateLiveScore() {
+      const total = results.length;
+      const answered = results.filter((r) => r.correct !== null).length;
+      const correct = results.filter((r) => r.correct === true).length;
+      const elC = document.getElementById("live-correct");
+      const elA = document.getElementById("live-answered");
+      const elT = document.getElementById("live-total");
+      if (elC) elC.textContent = String(correct);
+      if (elA) elA.textContent = String(answered);
+      if (elT) elT.textContent = String(total);
+    }
+
+    /** أشكال وحركة عند إجابة صحيحة */
+    function playCorrectCelebration() {
+      const root = document.getElementById("celebration-root");
+      if (!root) return;
+      root.innerHTML = "";
+
+      const burst = document.createElement("div");
+      burst.className = "cele-burst";
+      burst.style.setProperty("--bx", "50%");
+      burst.style.setProperty("--by", "42%");
+      const ring = document.createElement("div");
+      ring.className = "cele-ring";
+      const check = document.createElement("div");
+      check.className = "cele-check";
+      check.textContent = "✓";
+      burst.appendChild(ring);
+      burst.appendChild(check);
+      root.appendChild(burst);
+
+      const kinds = ["sq", "sq alt", "circ", "star"];
+      const count = 14;
+      for (let i = 0; i < count; i++) {
+        const el = document.createElement("div");
+        const k = kinds[i % kinds.length];
+        if (k === "star") {
+          el.className = "cele-shape cele-shape--star";
+          el.textContent = i % 2 === 0 ? "★" : "✦";
+        } else {
+          el.className = "cele-shape cele-shape--" + k.split(" ")[0] + (k.includes("alt") ? " alt" : "");
+        }
+        const left = 8 + Math.random() * 84;
+        el.style.left = left + "%";
+        el.style.animationDelay = (Math.random() * 0.12).toFixed(2) + "s";
+        el.style.setProperty("--rot", (Math.random() * 540 - 180).toFixed(0) + "deg");
+        root.appendChild(el);
+      }
+
+      window.setTimeout(() => {
+        root.innerHTML = "";
+      }, 1200);
+    }
 
     function norm(s) {
       return String(s ?? "")
@@ -496,6 +701,95 @@
         .toLowerCase()
         .normalize("NFD")
         .replace(/[\u0300-\u036f]/g, "");
+    }
+
+    /** عد حروف عربية مقابل لاتينية (مواد أجنبية / عربي) */
+    function countArabicLatinLetters(s) {
+      const str = String(s ?? "");
+      let ar = 0;
+      let lat = 0;
+      for (let i = 0; i < str.length; i++) {
+        const cp = str.codePointAt(i);
+        if (cp >= 0x10000) i++;
+        if (
+          (cp >= 0x0600 && cp <= 0x06ff) ||
+          (cp >= 0x0750 && cp <= 0x077f) ||
+          (cp >= 0x08a0 && cp <= 0x08ff) ||
+          (cp >= 0xfb50 && cp <= 0xfdff) ||
+          (cp >= 0xfe70 && cp <= 0xfeff)
+        ) {
+          ar++;
+          continue;
+        }
+        if (
+          (cp >= 0x0041 && cp <= 0x005a) ||
+          (cp >= 0x0061 && cp <= 0x007a) ||
+          (cp >= 0x00c0 && cp <= 0x024f) ||
+          (cp >= 0x1e00 && cp <= 0x1eff)
+        ) {
+          lat++;
+        }
+      }
+      return { ar, lat };
+    }
+
+    function isLatinSubjectFile(name) {
+      const n = String(name || "").toLowerCase();
+      if (n.includes("ict_arabic") || /\barabic\b/.test(n)) return false;
+      return (
+        n.includes("english") ||
+        n.includes("eglish") ||
+        n.includes("deutsch") ||
+        n.includes("french") ||
+        n.includes("espanol") ||
+        n.includes("espan") ||
+        n.includes("italiano") ||
+        n.includes("italian")
+      );
+    }
+
+    function isArabicSubjectFile(name) {
+      const n = String(name || "").toLowerCase();
+      return n.includes("ict_arabic") || n.includes("arabic") || n.includes("_arab_");
+    }
+
+    /**
+     * اتجاه النص: يعتمد على نسبة الحروف في النص، مع تلميح من اسم الملف (مادة إنجليزي/فرنسي…).
+     */
+    function dirForText(text, quizFile) {
+      const { ar, lat } = countArabicLatinLetters(text);
+      const letters = ar + lat;
+      const file = String(quizFile || "");
+      const latinCourse = isLatinSubjectFile(file);
+      const arabicCourse = isArabicSubjectFile(file);
+
+      if (letters === 0) {
+        if (latinCourse) return "ltr";
+        if (arabicCourse) return "rtl";
+        return "rtl";
+      }
+      if (lat > ar * 1.2) return "ltr";
+      if (ar > lat * 1.2) return "rtl";
+      if (latinCourse && lat >= ar) return "ltr";
+      if (arabicCourse && ar >= lat) return "rtl";
+      return lat >= ar ? "ltr" : "rtl";
+    }
+
+    function langForLtrFromFilename(filename) {
+      const n = String(filename || "").toLowerCase();
+      if (n.includes("french")) return "fr";
+      if (n.includes("deutsch")) return "de";
+      if (n.includes("espanol") || n.includes("espan")) return "es";
+      if (n.includes("italiano") || n.includes("italian")) return "it";
+      return "en";
+    }
+
+    function applyTextDirection(el, text) {
+      if (!el) return;
+      const d = dirForText(text, currentQuizFile);
+      el.setAttribute("dir", d);
+      if (d === "ltr") el.setAttribute("lang", langForLtrFromFilename(currentQuizFile));
+      else el.setAttribute("lang", "ar");
     }
 
     /**
@@ -646,6 +940,7 @@
         if (!st || !gr || !te || !quizLabel) return;
         const file = indexData[st][gr][te][quizLabel];
         try {
+          currentQuizFile = file;
           const data = await loadQuiz(file);
           questions = buildQuestionsFromObject(data);
           results = questions.map((q) => ({
@@ -658,6 +953,7 @@
           }));
           currentIndex = 0;
           showScreen("screen-quiz");
+          updateLiveScore();
           renderQuestion();
         } catch (e) {
           setLoadError("تعذر تحميل ملف الاختبار: " + file + "<br><small>" + String(e) + "</small>");
@@ -673,16 +969,22 @@
       document.getElementById("progress-text").textContent =
         "سؤال " + (currentIndex + 1) + " من " + total;
 
-      document.getElementById("q-text").textContent = q.displayQuestion;
+      const qTextEl = document.getElementById("q-text");
+      qTextEl.textContent = q.displayQuestion;
+      applyTextDirection(qTextEl, q.displayQuestion);
+
       const fb = document.getElementById("feedback");
       fb.className = "feedback";
       fb.textContent = "";
+      fb.removeAttribute("dir");
+      fb.removeAttribute("lang");
 
       const mcq = document.getElementById("q-mcq");
       const tw = document.getElementById("q-text-wrap");
       const inp = document.getElementById("q-input");
       mcq.innerHTML = "";
       inp.value = "";
+      inp.oninput = null;
 
       const res = results[currentIndex];
 
@@ -693,6 +995,7 @@
           b.type = "button";
           b.className = "btn btn-choice";
           b.textContent = c;
+          applyTextDirection(b, c);
           if (res.correct !== null) {
             b.disabled = true;
             if (norm(c) === norm(res.correctAnswer)) b.classList.add("correct");
@@ -707,13 +1010,18 @@
         if (res.correct !== null) {
           inp.value = res.userAnswer ?? "";
           inp.disabled = true;
+          applyTextDirection(inp, q.displayQuestion + " " + inp.value);
           document.getElementById("btn-check").style.display = "none";
           showFeedback(res);
         } else {
           inp.disabled = false;
           document.getElementById("btn-check").style.display = "block";
+          applyTextDirection(inp, q.displayQuestion);
+          inp.oninput = () => applyTextDirection(inp, q.displayQuestion + " " + inp.value);
         }
       }
+
+      updateLiveScore();
 
       document.getElementById("btn-prev").disabled = currentIndex === 0;
       const answered = res.correct !== null;
@@ -736,6 +1044,7 @@
         fb.textContent =
           "إجابة غير صحيحة. الإجابة الصحيحة: " + String(res.correctAnswer);
       }
+      applyTextDirection(fb, fb.textContent);
     }
 
     function onMcqPick(choice, btnEl) {
@@ -750,6 +1059,8 @@
         else if (b === btnEl && !res.correct) b.classList.add("wrong");
       });
       showFeedback(res);
+      updateLiveScore();
+      if (res.correct) playCorrectCelebration();
       document.getElementById("btn-next").disabled = false;
       if (currentIndex === questions.length - 1) {
         document.getElementById("btn-next").textContent = "عرض النتيجة";
@@ -765,6 +1076,8 @@
       inp.disabled = true;
       document.getElementById("btn-check").style.display = "none";
       showFeedback(res);
+      updateLiveScore();
+      if (res.correct) playCorrectCelebration();
       document.getElementById("btn-next").disabled = false;
       if (currentIndex === questions.length - 1) {
         document.getElementById("btn-next").textContent = "عرض النتيجة";
@@ -812,6 +1125,8 @@
             ? "<div>الصحيح: " + escapeHtml(String(r.correctAnswer)) + "</div>"
             : "");
         list.appendChild(div);
+        const rq = div.querySelector(".review-q");
+        if (rq) applyTextDirection(rq, r.displayQuestion || r.question);
       });
 
       showScreen("screen-result");
