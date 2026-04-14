@@ -1,0 +1,210 @@
+[
+  {
+    "id": 1,
+    "question": "Quando invito un amico, dico:",
+    "type": "اختيار من متعدد (اختر إجابتين)",
+    "options": [
+      "Vuoi venire in pizzeria con noi?",
+      "No, grazie.",
+      "Mi dispiace, non posso venire",
+      "Perché non andiamo in pizzeria?",
+      "Con piacere, vado in pizzeria con voi"
+    ],
+    "correct_answer": "Vuoi venire in pizzeria con noi? / Perché non andiamo in pizzeria?"
+  },
+  {
+    "id": 2,
+    "question": "Quando accetto l'invito di un'amica, dico:",
+    "type": "اختيار من متعدد (اختر إجابتين)",
+    "options": [
+      "Vieni con noi al ristorante?",
+      "Perché no? vengo con voi.",
+      "No, non posso venire con voi.",
+      "Volentieri, vengo con voi.",
+      "Vuoi venire con noi al ristorante?"
+    ],
+    "correct_answer": "Perché no? vengo con voi. / Volentieri, vengo con voi."
+  },
+  {
+    "id": 3,
+    "question": "Dico \"Che ne dici di andare a teatro con noi?\" quando:",
+    "type": "اختيار من متعدد (اختر إجابتين)",
+    "options": [
+      "invito un amico ad andare a teatro.",
+      "accetto l'invito di andare a teatro.",
+      "chiedo l'ora.",
+      "rifiuto l'invito di andare a teatro.",
+      "chiedo ad un amico di venire con noi a teatro."
+    ],
+    "correct_answer": "invito un amico ad andare a teatro. / chiedo ad un amico di venire con noi a teatro."
+  },
+  {
+    "id": 4,
+    "question": "Quando invito un amico a fare qualcosa, dico:",
+    "type": "اختيار من متعدد (اختر إجابتين)",
+    "options": [
+      "Vuoi venire con noi al cinema?",
+      "No, non posso!",
+      "Si, ѐ una bella idea!",
+      "Andiamo al cinema insieme?",
+      "Perché no? vengo con voi al cinema."
+    ],
+    "correct_answer": "Vuoi venire con noi al cinema? / Andiamo al cinema insieme?"
+  },
+  {
+    "id": 5,
+    "question": "Quando rifiuto l'invito di un'amica, dico:",
+    "type": "اختيار من متعدد (اختر إجابتين)",
+    "options": [
+      "Vieni con noi allo zoo?",
+      "Con piacere, vado con voi allo zoo",
+      "No, non posso venire con voi",
+      "Purtroppo, non posso",
+      "Vuoi venire con noi allo zoo?"
+    ],
+    "correct_answer": "No, non posso venire con voi / Purtroppo, non posso"
+  },
+  {
+    "id": 6,
+    "question": "Scrivi un tema da 15 a 20 parole usando gli elementi dati: Come passi Il tempo libero? (-Il luogo, -Con Chi?)",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "إجابة حرة من الطالب تتضمن المكان والأشخاص"
+  },
+  {
+    "id": 7,
+    "question": "Scrivi un tema da 15 a 20 parole usando gli elementi dati: Una serata al cinema (-Con chi?, -L’attore preferito)",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "إجابة حرة من الطالب تتضمن مع من والممثل المفضل"
+  },
+  {
+    "id": 8,
+    "question": "Io e Maria ...................la casa oggi.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "pulisco",
+      "puliamo",
+      "puliscono",
+      "pulite"
+    ],
+    "correct_answer": "puliamo"
+  },
+  {
+    "id": 9,
+    "question": "Ragazzi, ..................con noi a scuola?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "vengono",
+      "veniamo",
+      "vieni",
+      "venite"
+    ],
+    "correct_answer": "venite"
+  },
+  {
+    "id": 10,
+    "question": "Dino, quando..................al cinema?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "vai",
+      "vado",
+      "vanno",
+      "va"
+    ],
+    "correct_answer": "vai"
+  },
+  {
+    "id": 11,
+    "question": "Rispondi alla seguente e-mail scrivendo frasi complete: Ciao Fabio, Tu adori il cinema. Qual ѐ il tuo attore preferito? Quante volte vai al cinema al mese? Baci Mario",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "إجابة حرة (رد على البريد الإلكتروني بجمل كاملة)"
+  },
+  {
+    "id": 12,
+    "question": "Amici, ...................il metrò o l’autobus?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "preferisco",
+      "preferiscono",
+      "preferite",
+      "preferisci"
+    ],
+    "correct_answer": "preferite"
+  },
+  {
+    "id": 13,
+    "question": "Giulia.................. la domenica con Stella.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "esce",
+      "usciamo",
+      "escono",
+      "esci"
+    ],
+    "correct_answer": "esce"
+  },
+  {
+    "id": 14,
+    "question": "Paolo, quando..................i compiti?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "fate",
+      "fa",
+      "fai",
+      "faccio"
+    ],
+    "correct_answer": "fai"
+  },
+  {
+    "id": 15,
+    "question": "Rispondi alla seguente e-mail scrivendo frasi complete: Ciao Lara, Voi andate al cinema il fine settimana. Come andate? Quale film vedete? Baci Alessia",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "إجابة حرة (رد على البريد الإلكتروني بجمل كاملة)"
+  },
+  {
+    "id": 16,
+    "question": "Ragazzi, Dove .........................oggi?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "andate",
+      "vanno",
+      "vai",
+      "vado"
+    ],
+    "correct_answer": "andate"
+  },
+  {
+    "id": 17,
+    "question": "Dalia e Rania ..................sport ogni giorno.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "fai",
+      "fate",
+      "fanno",
+      "facciamo"
+    ],
+    "correct_answer": "fanno"
+  },
+  {
+    "id": 18,
+    "question": "Io...................bene la lezione nuova.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "capisce",
+      "capisci",
+      "capisco",
+      "capiamo"
+    ],
+    "correct_answer": "capisco"
+  },
+  {
+    "id": 19,
+    "question": "Rispondi alla seguente e-mail scrivendo frasi complete: Ciao Alessia, Tu lavori in uno studio nuovo. Dov’ѐ questo studio? Quanti compagni di lavoro hai? Baci Chiara",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "إجابة حرة (رد على البريد الإلكتروني بجمل كاملة)"
+  }
+]

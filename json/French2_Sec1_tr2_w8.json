@@ -1,0 +1,127 @@
+[
+  {
+    "id": 1,
+    "question": "Pour décrire ton copain, tu dis :",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Il est grand",
+      "Il a 15 ans.",
+      "Il a deux frères .",
+      "Il est musclé.",
+      "Il a mal au ventre."
+    ],
+    "correct_answer": "Il est grand, Il est musclé."
+  },
+  {
+    "id": 2,
+    "question": "Tu demandes à ton ami de décrire son frère, tu dis :",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Comment va ton frère ?",
+      "Comment est ton frère ?",
+      "Comment s’appelle ton frère ?",
+      "Quels sont les caractères de ton frère ?",
+      "Comment va ton frère à son école ?"
+    ],
+    "correct_answer": "Comment est ton frère ?, Quels sont les caractères de ton frère ?"
+  },
+  {
+    "id": 3,
+    "question": "Ton frère te demande \"Avec quoi on voit ?\", tu réponds :",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Avec les yeux",
+      "J’ai mal aux yeux",
+      "J’اي des yeux bleus",
+      "On utilise les yeux",
+      "On a deux oreilles."
+    ],
+    "correct_answer": "Avec les yeux, On utilise les yeux"
+  },
+  {
+    "id": 4,
+    "question": "Réponds à ce mail par deux phrases complètes : Salut ! Comment est ton père ? Il a quel âge ? À plus !",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Mon père est grand et sportif. Il a 45 ans."
+  },
+  {
+    "id": 5,
+    "question": "Mon père a une …………… blanche.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "genou",
+      "nez",
+      "barbe",
+      "ventre"
+    ],
+    "correct_answer": "barbe"
+  },
+  {
+    "id": 6,
+    "question": "…………… est la couleur de tes yeux ?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Quel",
+      "Quelle",
+      "Quels",
+      "Quelles"
+    ],
+    "correct_answer": "Quelle"
+  },
+  {
+    "id": 7,
+    "question": "Écris de 15 à 20 mots dans le sujet suivant : Décris ton copain (caractère – âge).",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Mon copain s'appelle Sami. Il a seize ans. Il est très intelligent et sociable."
+  },
+  {
+    "id": 8,
+    "question": "Mon grand-père …………… à une course.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "participe",
+      "participes",
+      "participer",
+      "participez"
+    ],
+    "correct_answer": "participe"
+  },
+  {
+    "id": 9,
+    "question": "Ma copine française est ………………….",
+    "type": "اختيار من متعدد",
+    "options": [
+      "blond",
+      "blonde",
+      "blonds",
+      "blondes"
+    ],
+    "correct_answer": "blonde"
+  },
+  {
+    "id": 10,
+    "question": "……………… est ton ami ?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Quelle",
+      "Combien",
+      "Comment",
+      "Quand"
+    ],
+    "correct_answer": "Comment"
+  },
+  {
+    "id": 11,
+    "question": "Elle est timide. Elle ……………… les joues rouges.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "ai",
+      "as",
+      "a",
+      "ont"
+    ],
+    "correct_answer": "a"
+  }
+]

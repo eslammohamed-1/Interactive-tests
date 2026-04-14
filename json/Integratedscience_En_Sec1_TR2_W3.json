@@ -1,0 +1,351 @@
+[
+  {
+    "id": 1,
+    "question": "The primary function of xylem tissue in plants is to transport …..",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Products of photosynthesis",
+      "Oxygen",
+      "Water and minerals",
+      "Energy"
+    ],
+    "correct_answer": "Water and minerals"
+  },
+  {
+    "id": 2,
+    "question": "During summer, why does the process of transpiration become more important for the plant?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Because it helps cool the leaves",
+      "Because it increases sugar storage",
+      "Because it reduces salt absorption",
+      "Because it stops photosynthesis"
+    ],
+    "correct_answer": "Because it helps cool the leaves"
+  },
+  {
+    "id": 3,
+    "question": "The appearance of air bubbles inside xylem vessels causes ….",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Increased transpiration rate",
+      "Increased speed of water ascent",
+      "Salt accumulation in leaves",
+      "Obstruction of the water column movement upwards"
+    ],
+    "correct_answer": "Obstruction of the water column movement upwards"
+  },
+  {
+    "id": 4,
+    "question": "The system responsible for transporting oxygen and nutrients in the human body is the ……",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Respiratory system",
+      "Circulatory system",
+      "Excretory system",
+      "Digestive system"
+    ],
+    "correct_answer": "Circulatory system"
+  },
+  {
+    "id": 5,
+    "question": "Which of the following agricultural applications benefits most from Micro-CT results?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Improving protein productivity",
+      "Increasing cellular respiration rate",
+      "Developing drought resistance strategies",
+      "Enhancing chlorophyll formation"
+    ],
+    "correct_answer": "Developing drought resistance strategies"
+  },
+  {
+    "id": 6,
+    "question": "The pulmonary circulation begins with …..",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Oxygenated blood from the left ventricle",
+      "Deoxygenated blood from the right ventricle",
+      "Deoxygenated blood from the left ventricle",
+      "Oxygenated blood from the right ventricle"
+    ],
+    "correct_answer": "Deoxygenated blood from the right ventricle"
+  },
+  {
+    "id": 7,
+    "question": "In which blood vessels does the actual gas exchange occur?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Aorta",
+      "Pulmonary artery",
+      "Pulmonary veins",
+      "Blood capillaries"
+    ],
+    "correct_answer": "Blood capillaries"
+  },
+  {
+    "id": 8,
+    "question": "Which of the following processes is responsible for converting potential energy in food into active energy?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Transport",
+      "Respiration",
+      "Excretion",
+      "Photosynthesis"
+    ],
+    "correct_answer": "Respiration"
+  },
+  {
+    "id": 9,
+    "question": "The renal denervation technique is a physical application used to treat ……",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Shortness of breath",
+      "Diabetes mellitus",
+      "Visual weakness",
+      "High blood pressure"
+    ],
+    "correct_answer": "High blood pressure"
+  },
+  {
+    "id": 10,
+    "question": "A decrease in blood density leads to …..",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Increased blood pressure",
+      "Cardiac stopped",
+      "Decreased effort required to pump blood",
+      "Oxygen accumulation"
+    ],
+    "correct_answer": "Decreased effort required to pump blood"
+  },
+  {
+    "id": 11,
+    "question": "Anaerobic respiration occurs within the cell inside the……",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Cytoplasm",
+      "Mitochondria",
+      "Nucleus",
+      "Sap vacuole"
+    ],
+    "correct_answer": "Cytoplasm"
+  },
+  {
+    "id": 12,
+    "question": "Why is aerobic respiration considered more efficient than anaerobic respiration?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Because it produces $CO_2$",
+      "Because it occurs only in the cytoplasm",
+      "Because it produces a larger amount of energy ($ATP$)",
+      "Because it does not require enzymes"
+    ],
+    "correct_answer": "Because it produces a larger amount of energy ($ATP$)"
+  },
+  {
+    "id": 13,
+    "question": "The accumulation of lactic acid in muscles leads to …….",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Products of photosynthesis",
+      "Feeling of muscle fatigue (tired)",
+      "decreases in water and minerals",
+      "Increased muscle activity"
+    ],
+    "correct_answer": "Feeling of muscle fatigue (tired)"
+  },
+  {
+    "id": 14,
+    "question": "Explain: The ability of giant trees to lift water to biggest heights.",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "This is due to the cohesion-adhesion-tension theory, where transpiration pull creates a continuous column of water that can reach great heights."
+  },
+  {
+    "id": 15,
+    "question": "Explain: The importance of the presence of companion cells associated with sieve tubes.",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Companion cells contain mitochondria that provide the sieve tubes with the energy ($ATP$) required for the active transport of organic substances."
+  },
+  {
+    "id": 16,
+    "question": "Give reasons: The presence of valves in the heart.",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Valves ensure that blood flows in only one direction and prevent its backflow."
+  },
+  {
+    "id": 17,
+    "question": "Trace: the pathway of chemical energy stored in glucose during anaerobic.",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Glucose undergoes glycolysis in the cytoplasm to produce pyruvic acid and 2 $ATP$. In the absence of oxygen, pyruvic acid is converted to lactic acid (in muscles) or ethanol and $CO_2$ (in yeast)."
+  },
+  {
+    "id": 18,
+    "question": "If the leaves of a pine tree are coated with a waxy substance that blocks the stomata, the first process to stop will be",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Lignin production",
+      "Upward movement of water to the leaves",
+      "Water flow in the phloem",
+      "Food storage"
+    ],
+    "correct_answer": "Upward movement of water to the leaves"
+  },
+  {
+    "id": 19,
+    "question": "Modern technologies, such as Micro-CT Scanning (Micro-X-ray Computed Tomography), are used to",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Accurately image water and food transport mechanisms",
+      "Kill pests",
+      "Increase growth rate",
+      "Stimulate respiration"
+    ],
+    "correct_answer": "Accurately image water and food transport mechanisms"
+  },
+  {
+    "id": 20,
+    "question": "Blood pressure in the arteries is at its highest level during",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Ventricular diastole (relaxation)",
+      "Sleep",
+      "When blood reaches the veins",
+      "Ventricular systole (contraction)"
+    ],
+    "correct_answer": "Ventricular systole (contraction)"
+  },
+  {
+    "id": 21,
+    "question": "If a substance is innovated to increase the efficiency of oxygen transport to the mitochondria, it is expected to",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Increase lactic acid fermentation",
+      "Aerobic respiration switches to anaerobic respiration",
+      "Increase the efficient in energy production",
+      "Stop $ATP$ production"
+    ],
+    "correct_answer": "Increase the efficient in energy production"
+  },
+  {
+    "id": 22,
+    "question": "Give reasons for: Hemoglobin affects blood viscosity.",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Blood viscosity depends on the concentration of red blood cells and plasma proteins; since hemoglobin is the main component of red blood cells, its concentration directly affects the thickness and flow resistance of blood."
+  },
+  {
+    "id": 23,
+    "question": "Blood viscosity, as a physical property, mainly depends on …..",
+    "type": "اختيار من متعدد",
+    "options": [
+      "affects the effort required to pump the blood",
+      "Concentration of protein and red blood cells",
+      "Oxygen percentage",
+      "Adhesion force"
+    ],
+    "correct_answer": "Concentration of protein and red blood cells"
+  },
+  {
+    "id": 24,
+    "question": "The Cohesion-Adhesion theory depends primarily on the properties of …",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Water molecules",
+      "Food molecules",
+      "Oxygen",
+      "Carbon dioxide"
+    ],
+    "correct_answer": "Water molecules"
+  },
+  {
+    "id": 25,
+    "question": "Anaerobic respiration in human muscles during strenuous exercise results in the accumulation of",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Ethyl alcohol",
+      "Glucose",
+      "Glycogen",
+      "Lactic acid"
+    ],
+    "correct_answer": "Lactic acid"
+  },
+  {
+    "id": 26,
+    "question": "Storing sugars in roots during winter and transporting them to leaves in spring proves that transport in the phloem",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Depends on gravity",
+      "Occurs in two directions (bidirectional)",
+      "Occurs from bottom to top only",
+      "Stops in extreme cold"
+    ],
+    "correct_answer": "Occurs in two directions (bidirectional)"
+  },
+  {
+    "id": 27,
+    "question": "Explain: The presence of valves inside the heart contributes to maintaining the efficiency of blood circulation.",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Valves prevent the backflow of blood, ensuring it moves in a one-way direction through the heart chambers and into the main arteries, which maintains efficient circulation."
+  },
+  {
+    "id": 28,
+    "question": "Damage to the phloem in a tree leads to",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Roots drying out due to lack of water",
+      "Death of roots due to lack of food supply",
+      "Increased salt absorption",
+      "Stopping of transpiration"
+    ],
+    "correct_answer": "Death of roots due to lack of food supply"
+  },
+  {
+    "id": 29,
+    "question": "Which of the following processes is responsible for converting potential energy in food into active energy?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Photosynthesis",
+      "Excretion",
+      "Respiration",
+      "Transport"
+    ],
+    "correct_answer": "Respiration"
+  },
+  {
+    "id": 30,
+    "question": "Which of the following factors leads to an \"increase\" in arterial blood pressure?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Increased resistance of arterial walls",
+      "widening of blood vessels",
+      "Decrease in blood volume",
+      "Slow heart rate"
+    ],
+    "correct_answer": "Increased resistance of arterial walls"
+  },
+  {
+    "id": 31,
+    "question": "Anaerobic fermentation in yeast cells produces",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Oxygen",
+      "Water only",
+      "Lactic acid",
+      "Ethanol"
+    ],
+    "correct_answer": "Ethanol"
+  },
+  {
+    "id": 32,
+    "question": "Explain: The importance of lignin in xylem vessels for tall plants such as trees.",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Lignin provides structural support and strength to the xylem vessels, preventing them from collapsing under the high negative pressure (tension) created by transpiration pull."
+  }
+]

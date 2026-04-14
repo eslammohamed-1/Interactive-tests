@@ -1,0 +1,351 @@
+[
+  {
+    "id": 1,
+    "question": "\"Nanocomposites\" are an example of …………. materials",
+    "type": "اختيار من متعدد",
+    "options": [
+      "(1) $D$",
+      "(2) $D$",
+      "(3) $D$",
+      "(0) $D$"
+    ],
+    "correct_answer": "(3) $D$"
+  },
+  {
+    "id": 2,
+    "question": "Which type of nanomaterials is best suited for manufacturing \"micro- filters\" for water",
+    "type": "اختيار من متعدد",
+    "options": [
+      "3D porous nanomaterials",
+      "0D nanomaterials",
+      "2D thin films",
+      "Quantum dots"
+    ],
+    "correct_answer": "3D porous nanomaterials"
+  },
+  {
+    "id": 3,
+    "question": "\"Nano chemistry\" is concerned with studying changes in properties at a small scale. Which of the following falls within its interests?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Manufacturing massive devices",
+      "Studying planetary motion",
+      "Uranium decay",
+      "Manufacturing and describing nanomaterials in their varous forms"
+    ],
+    "correct_answer": "Manufacturing and describing nanomaterials in their varous forms"
+  },
+  {
+    "id": 4,
+    "question": "If the number of atoms exposed for reaction on the surface of a nanomaterial increases, this leads to",
+    "type": "اختيار من متعدد",
+    "options": [
+      "chemical inactivity",
+      "a massive increase in chemical activity",
+      "transformation of matter into gas",
+      "increase in melting point"
+    ],
+    "correct_answer": "a massive increase in chemical activity"
+  },
+  {
+    "id": 5,
+    "question": "The primary benefit of enclosing a cancer drug with nanoparticles is",
+    "type": "اختيار من متعدد",
+    "options": [
+      "increasing the drug’s size for easier swallowing",
+      "changing the drug’s taste",
+      "reducing effectiveness for safety",
+      "targeting cancerous cells only"
+    ],
+    "correct_answer": "targeting cancerous cells only"
+  },
+  {
+    "id": 6,
+    "question": "Which of the following materials is most effective for creating a nanobridge between the two ends of a severed nerve?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Quantum dots",
+      "Flat graphene",
+      "Carbon nanotubes",
+      "Water molecule"
+    ],
+    "correct_answer": "Carbon nanotubes"
+  },
+  {
+    "id": 7,
+    "question": "The movement of smart prosthetics limbs depends on",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Nano-chip commands",
+      "large external batteries",
+      "wind movement",
+      "automatic muscle response"
+    ],
+    "correct_answer": "Nano-chip commands"
+  },
+  {
+    "id": 8,
+    "question": "The primary fuel used in biofuel cells is",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Gasoline",
+      "External hydrogen gas",
+      "Glucose",
+      "Nano coal"
+    ],
+    "correct_answer": "Glucose"
+  },
+  {
+    "id": 9,
+    "question": "Thin films appear as examples of…….materials",
+    "type": "اختيار من متعدد",
+    "options": [
+      "One-dimensional Nanomaterials",
+      "Three-dimensional Nanomaterials",
+      "Zero-dimensional Nanomaterials",
+      "Two-dimensional Nanomaterials"
+    ],
+    "correct_answer": "One-dimensional Nanomaterials"
+  },
+  {
+    "id": 10,
+    "question": "Electrons in a biofuel cell move through an external circuit toward the",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Cathode",
+      "Anode",
+      "Human body",
+      "Ground"
+    ],
+    "correct_answer": "Cathode"
+  },
+  {
+    "id": 11,
+    "question": "The role of \"carbon nanotubes\" in biofuel cells is",
+    "type": "اختيار من متعدد",
+    "options": [
+      "storing glucose",
+      "coating the electrodes to increase surface area",
+      "preventing protons from reaching the cathode",
+      "cooling the medical device"
+    ],
+    "correct_answer": "coating the electrodes to increase surface area"
+  },
+  {
+    "id": 12,
+    "question": "Which of the following organelles in a living cell performs a function similar of the positive electrode in consuming oxygen and protons to produce water?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Mitochondria",
+      "Vacuole",
+      "Nucleus",
+      "Cell wall"
+    ],
+    "correct_answer": "Mitochondria"
+  },
+  {
+    "id": 13,
+    "question": "Why are biofuel cells considered safe and clean implantable medical devices?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Because they only work in the dark",
+      "Because they are made of plastic",
+      "Because they use glucose as an energy source",
+      "Because they do not release any thermal energy"
+    ],
+    "correct_answer": "Because they use glucose as an energy source"
+  },
+  {
+    "id": 14,
+    "question": "Explain: why traditional cancer treatments are called a double-edged sword.",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Traditional cancer treatments like chemotherapy and radiation are called a double-edged sword because while they are effective at killing cancerous cells, they also damage healthy cells in the body, leading to severe side effects."
+  },
+  {
+    "id": 15,
+    "question": "Explain: Nanomaterials have a higher capacity for chemical interaction.",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Nanomaterials have a higher capacity for chemical interaction because of their extremely high surface area-to-volume ratio. This means a much larger proportion of atoms are exposed on the surface and available for reaction compared to bulk materials."
+  },
+  {
+    "id": 16,
+    "question": "Explain the operating principle of Neural Nano-electrodes.",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Neural Nano-electrodes work by recording electrical signals from neurons and transmitting them to external devices or smart prosthetic limbs, allowing for communication or control through thought."
+  },
+  {
+    "id": 17,
+    "question": "Explain how nanotechnology can improve the efficiency of biofuel cells.",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Nanotechnology improves biofuel cell efficiency by using nanomaterials (like carbon nanotubes or nano-gold) to coat electrodes, which significantly increases the surface area for reactions and acts as a catalyst to speed up the oxidation of glucose."
+  },
+  {
+    "id": 18,
+    "question": "Which of the following represents the most accurate explanation of the term \"Nanotechnology\"?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "The study of dwarfs in ancient Greek times",
+      "The practical application of knowledge to control materials at the nanoscale",
+      "Measuring the lengths of materials using the traditional meter",
+      "The study of large molecules in their normal state"
+    ],
+    "correct_answer": "The practical application of knowledge to control materials at the nanoscale"
+  },
+  {
+    "id": 19,
+    "question": "Which of the following properties does not typically change when matter is reduced to the nanoscale?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Electrical conductivity",
+      "Color",
+      "Melting point",
+      "Atomic mass of the element itself"
+    ],
+    "correct_answer": "Atomic mass of the element itself"
+  },
+  {
+    "id": 20,
+    "question": "\"Nano-chips\" implanted in the brain allow paralyzed patients to",
+    "type": "اختيار من متعدد",
+    "options": [
+      "walk by relying on their damaged muscles",
+      "see distant objects",
+      "Treat bone fractures",
+      "communicate via devices merely by thinking"
+    ],
+    "correct_answer": "communicate via devices merely by thinking"
+  },
+  {
+    "id": 21,
+    "question": "The operating principle of Biofuel Cells is inspired by",
+    "type": "اختيار من متعدد",
+    "options": [
+      "wood combustion",
+      "wave movement",
+      "cellular respiration",
+      "solar energy"
+    ],
+    "correct_answer": "cellular respiration"
+  },
+  {
+    "id": 22,
+    "question": "Explain the role of \"blood glucose\" and the sustainability of implanted medical devices.",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Blood glucose acts as a continuous and renewable fuel source for implanted biofuel cells. This ensures the sustainability of the devices because they generate power directly from the body's own energy source, eliminating the need for external batteries or frequent surgical replacements."
+  },
+  {
+    "id": 23,
+    "question": "Why is nanotechnology considered a revolution in human interaction with the biosphere?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Because is increases the size of cells to be seen by the naked eye",
+      "Because it eliminates the need to study traditional chemistry",
+      "Because it relies only on radiation for treatment",
+      "Due to its ability to observe and control matter at the level of atoms and molecules"
+    ],
+    "correct_answer": "Due to its ability to observe and control matter at the level of atoms and molecules"
+  },
+  {
+    "id": 24,
+    "question": "The change in material properties at the nanoscale is due to two main factors, which are",
+    "type": "اختيار من متعدد",
+    "options": [
+      "color and hardness",
+      "increase in the ratio of surface area to volume and quantum effects",
+      "melting point and electrical conductivity",
+      "atomic size and electron speed"
+    ],
+    "correct_answer": "increase in the ratio of surface area to volume and quantum effects"
+  },
+  {
+    "id": 25,
+    "question": "Neural Nano-electrodes are used for",
+    "type": "اختيار من متعدد",
+    "options": [
+      "brainwashing",
+      "cooling the Skull",
+      "recording neural signals and transmitting them to smart prosthetics limbs",
+      "increasing reading speed"
+    ],
+    "correct_answer": "recording neural signals and transmitting them to smart prosthetics limbs"
+  },
+  {
+    "id": 26,
+    "question": "The use of Nano-Gold in biofuel cells aims to",
+    "type": "اختيار من متعدد",
+    "options": [
+      "act as an electrical catalyst",
+      "prevent corrosion only",
+      "produce red light",
+      "make the device expensive"
+    ],
+    "correct_answer": "act as an electrical catalyst"
+  },
+  {
+    "id": 27,
+    "question": "Explain: The classification of Quantum Dots based on their dimensions.",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Quantum dots are classified as zero-dimensional ($0D$) nanomaterials because all three of their dimensions are in the nanoscale (typically $1-100$ nm), which confines electrons in all three spatial directions."
+  },
+  {
+    "id": 28,
+    "question": "What is the result of one nanometer being one hundred thousand times smaller than the diameter of a human hair?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Inability to use it in medical applications",
+      "increase in the weight of materials when converted to the nanoscale",
+      "Nanomaterials possess unique properties not found in their normal states",
+      "Easy of seeing nanomaterials with a regular light microscope"
+    ],
+    "correct_answer": "Nanomaterials possess unique properties not found in their normal states"
+  },
+  {
+    "id": 29,
+    "question": "Which of the following materials can be used as thin films?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Graphene",
+      "Gold nanoparticles",
+      "Porous materials",
+      "Nanowires"
+    ],
+    "correct_answer": "Graphene"
+  },
+  {
+    "id": 30,
+    "question": "Carbon nanotubes are used in nerve treatment because they",
+    "type": "اختيار من متعدد",
+    "options": [
+      "kill bacteria in the nerve",
+      "transmit signals across the damaged area",
+      "give the nerve a distinctive color",
+      "reduce the nerve temperature"
+    ],
+    "correct_answer": "transmit signals across the damaged area"
+  },
+  {
+    "id": 31,
+    "question": "In a biofuel cell, glucose is oxidized at",
+    "type": "اختيار من متعدد",
+    "options": [
+      "the positive electrode (cathode)",
+      "inside the wires only",
+      "in the light lamp",
+      "negative electrode (anode)"
+    ],
+    "correct_answer": "negative electrode (anode)"
+  },
+  {
+    "id": 32,
+    "question": "Explain: The increase in hardness of Nano-copper compared to ordinary copper.",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "The hardness of copper increases at the nanoscale because the reduction in grain size prevents the movement of dislocations within the crystal lattice, making the material significantly stronger and harder than its bulk form."
+  }
+]

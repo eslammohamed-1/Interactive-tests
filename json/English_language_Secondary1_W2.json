@@ -1,0 +1,392 @@
+[
+  {
+    "id": 1,
+    "question": "…………… means making you feel fresh, cool, or full of energy again.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Single",
+      "Refreshing",
+      "Energetic",
+      "Routine"
+    ],
+    "correct_answer": "Refreshing"
+  },
+  {
+    "id": 2,
+    "question": "…………… means a regular way of doing things every day.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Schedule",
+      "Treasure",
+      "Routine",
+      "Artifact"
+    ],
+    "correct_answer": "Routine"
+  },
+  {
+    "id": 3,
+    "question": "………means objects made or used long ago and often found in museums.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "treasures",
+      "routines",
+      "artifacts",
+      "identities"
+    ],
+    "correct_answer": "artifacts"
+  },
+  {
+    "id": 4,
+    "question": "People follow different …………in different countries.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "customs",
+      "kimono",
+      "artifacts",
+      "society"
+    ],
+    "correct_answer": "customs"
+  },
+  {
+    "id": 5,
+    "question": "Artists often use shapes and colors to …………emotions in their paintings.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "express",
+      "motivate",
+      "do",
+      "respect"
+    ],
+    "correct_answer": "express"
+  },
+  {
+    "id": 6,
+    "question": "Last week, I…………some pictures.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "painted",
+      "was painting",
+      "had painted",
+      "paint"
+    ],
+    "correct_answer": "painted"
+  },
+  {
+    "id": 7,
+    "question": "I wish my aunt …………..with me now.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "are",
+      "were",
+      "had been",
+      "have been"
+    ],
+    "correct_answer": "were"
+  },
+  {
+    "id": 8,
+    "question": "He didn't ………….. me yesterday.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "visits",
+      "visited",
+      "had visited",
+      "visit"
+    ],
+    "correct_answer": "visit"
+  },
+  {
+    "id": 9,
+    "question": "…………at school last Monday?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Did you",
+      "Were you",
+      "Have you been",
+      "Will you be"
+    ],
+    "correct_answer": "Were you"
+  },
+  {
+    "id": 10,
+    "question": "A week……………., I played squash.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "last",
+      "in the past",
+      "ago",
+      "once"
+    ],
+    "correct_answer": "ago"
+  },
+  {
+    "id": 11,
+    "question": "Where did Ali find the notebook?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Under the bed",
+      "In a drawer",
+      "On a shelf",
+      "In a bag"
+    ],
+    "correct_answer": "In a drawer"
+  },
+  {
+    "id": 12,
+    "question": "The notebook was mainly about grandfather’s……………",
+    "type": "اختيار من متعدد",
+    "options": [
+      "travels",
+      "friends",
+      "youth and struggles",
+      "inventions"
+    ],
+    "correct_answer": "youth and struggles"
+  },
+  {
+    "id": 13,
+    "question": "What happened to grandfather in one entry?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "He won a prize",
+      "He failed an exam",
+      "He traveled abroad",
+      "He retired"
+    ],
+    "correct_answer": "He failed an exam"
+  },
+  {
+    "id": 14,
+    "question": "The word 'setbacks' means………..",
+    "type": "اختيار من متعدد",
+    "options": [
+      "successes",
+      "problems",
+      "plans",
+      "hopes"
+    ],
+    "correct_answer": "problems"
+  },
+  {
+    "id": 15,
+    "question": "Ali felt …………….. after reading.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "bored",
+      "inspired",
+      "angry",
+      "confused"
+    ],
+    "correct_answer": "inspired"
+  },
+  {
+    "id": 16,
+    "question": "Grandfather refused to……………",
+    "type": "اختيار من متعدد",
+    "options": [
+      "study",
+      "work",
+      "give up",
+      "travel"
+    ],
+    "correct_answer": "give up"
+  },
+  {
+    "id": 17,
+    "question": "The best title is \"…………..\"",
+    "type": "اختيار من متعدد",
+    "options": [
+      "A Dusty Room",
+      "Old Memories",
+      "The Forgotten Notebook",
+      "A Wooden Chair"
+    ],
+    "correct_answer": "The Forgotten Notebook"
+  },
+  {
+    "id": 18,
+    "question": "He bowed politely when he met his teacher. The synonyms of bow are ………",
+    "type": "اختيار من متعدد",
+    "options": [
+      "lean",
+      "jump",
+      "bend",
+      "run",
+      "stand straight"
+    ],
+    "correct_answer": "lean, bend"
+  },
+  {
+    "id": 19,
+    "question": "Regular exercise improves your fitness. The antonyms of fitness are …………",
+    "type": "اختيار من متعدد",
+    "options": [
+      "health",
+      "weakness",
+      "strength",
+      "unfitness",
+      "power"
+    ],
+    "correct_answer": "weakness, unfitness"
+  },
+  {
+    "id": 20,
+    "question": "The school encourages students to work together to create a sense of …..",
+    "type": "اختيار من متعدد",
+    "options": [
+      "unity",
+      "heritage",
+      "culture",
+      "treasure"
+    ],
+    "correct_answer": "unity"
+  },
+  {
+    "id": 21,
+    "question": "When I was in Alex, I…………in the sea every day.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "swim",
+      "swam",
+      "was swimming",
+      "swims"
+    ],
+    "correct_answer": "swam"
+  },
+  {
+    "id": 22,
+    "question": "Our house……………..in 2010.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "was built",
+      "built",
+      "is built",
+      "has been built"
+    ],
+    "correct_answer": "was built"
+  },
+  {
+    "id": 23,
+    "question": "I check the schedule before the exam. The synonyms of schedule are…",
+    "type": "اختيار من متعدد",
+    "options": [
+      "agenda",
+      "confusion",
+      "timetable",
+      "disorder",
+      "chaos"
+    ],
+    "correct_answer": "agenda, timetable"
+  },
+  {
+    "id": 24,
+    "question": "Punctuality is important in our life. The antonyms of punctuality are ………",
+    "type": "اختيار من متعدد",
+    "options": [
+      "timeliness",
+      "delay",
+      "promptness",
+      "accuracy",
+      "lateness"
+    ],
+    "correct_answer": "delay, lateness"
+  },
+  {
+    "id": 25,
+    "question": "The effects of the medicine can ……….. for up to six hours.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "last",
+      "motivate",
+      "shape",
+      "respect"
+    ],
+    "correct_answer": "last"
+  },
+  {
+    "id": 26,
+    "question": "She used to wear glasses but now she ……………..",
+    "type": "اختيار من متعدد",
+    "options": [
+      "does",
+      "doesn’t",
+      "isn’t",
+      "didn’t"
+    ],
+    "correct_answer": "doesn’t"
+  },
+  {
+    "id": 27,
+    "question": "He ……………playing tennis at the club.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "is used to",
+      "was used to",
+      "is used for",
+      "no longer"
+    ],
+    "correct_answer": "is used to"
+  },
+  {
+    "id": 28,
+    "question": "Students should show respect to their teachers. The synonyms of respect are",
+    "type": "اختيار من متعدد",
+    "options": [
+      "admiration",
+      "rudeness",
+      "disrespect",
+      "appreciation",
+      "insult"
+    ],
+    "correct_answer": "admiration, appreciation"
+  },
+  {
+    "id": 29,
+    "question": "A cold drink on a hot day is very refreshing. The antonyms of refreshing are",
+    "type": "اختيار من متعدد",
+    "options": [
+      "exhausting",
+      "cool",
+      "stunned",
+      "pleasant",
+      "tiring"
+    ],
+    "correct_answer": "exhausting, tiring"
+  },
+  {
+    "id": 30,
+    "question": "The farmers are worried about changes in the ……………..",
+    "type": "اختيار من متعدد",
+    "options": [
+      "climate",
+      "physics",
+      "destination",
+      "chemistry"
+    ],
+    "correct_answer": "climate"
+  },
+  {
+    "id": 31,
+    "question": "He used to come late, but now he…………",
+    "type": "اختيار من متعدد",
+    "options": [
+      "isn't",
+      "doesn't",
+      "wasn't",
+      "didn't"
+    ],
+    "correct_answer": "doesn't"
+  },
+  {
+    "id": 32,
+    "question": "He no longer trains as he ………… .",
+    "type": "اختيار من متعدد",
+    "options": [
+      "will do",
+      "used to do",
+      "is used to doing",
+      "never used to do"
+    ],
+    "correct_answer": "used to do"
+  }
+]

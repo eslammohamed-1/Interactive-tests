@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "question": "Il …………… le basket et le foot.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "aime",
+      "aimes",
+      "aimez",
+      "aimer"
+    ],
+    "correct_answer": "aime"
+  },
+  {
+    "id": 2,
+    "question": "Nathan, c’est …………… copain de Stéphane.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "un",
+      "une",
+      "des",
+      "de"
+    ],
+    "correct_answer": "un"
+  },
+  {
+    "id": 3,
+    "question": "Monsieur ! Je vous présente …………… parents.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "mon",
+      "ma",
+      "mes",
+      "ton"
+    ],
+    "correct_answer": "mes"
+  },
+  {
+    "id": 4,
+    "question": "…………… est ton grand-père ?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Comment",
+      "Quand",
+      "Quoi",
+      "Quel"
+    ],
+    "correct_answer": "Comment"
+  },
+  {
+    "id": 5,
+    "question": "Réponds à ce mail par deux phrases complètes : Salut ! Comment est ton grand-père ? Quel sport préfère-t-il ? À plus !",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Salut ! Mon grand-père est grand et sportif. Il préfère le tennis. À plus !"
+  }
+]

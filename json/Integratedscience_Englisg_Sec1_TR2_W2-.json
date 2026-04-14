@@ -1,0 +1,351 @@
+[
+  {
+    "id": 1,
+    "question": "All four groups (carbohydrates, proteins, lipids, and nucleic acids) share the characteristic that they are ....",
+    "type": "اختيار من متعدد",
+    "options": [
+      "They store genetic information",
+      "They were dissolving easily in water",
+      "They were function as enzymes to regulate vital processes",
+      "They are organic compounds mainly containing carbon and hydrogen"
+    ],
+    "correct_answer": "They are organic compounds mainly containing carbon and hydrogen"
+  },
+  {
+    "id": 2,
+    "question": "When a person has a deep wound, a doctor advises increasing the intake of protein-rich foods. What is the scientific explanation for this?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Because proteins are involved in building body tissues and replacing damaged ones",
+      "Because proteins are the primary source of energy",
+      "Because proteins store energy for long periods",
+      "Because proteins prevent water loss from the wound"
+    ],
+    "correct_answer": "Because proteins are involved in building body tissues and replacing damaged ones"
+  },
+  {
+    "id": 3,
+    "question": "The relationship between the number of glucose molecules in disaccharide and polysaccharide and their solubility in water is ........... relationship",
+    "type": "اختيار من متعدد",
+    "options": [
+      "direct",
+      "inverse",
+      "constant",
+      "not exists"
+    ],
+    "correct_answer": "inverse"
+  },
+  {
+    "id": 4,
+    "question": "The unit of measurement (kJ/g) is used to express …….. .",
+    "type": "اختيار من متعدد",
+    "options": [
+      "The molar mass of chemical compounds",
+      "The energy required to raise the temperature of water",
+      "The heat capacity of water",
+      "The amount of heat produced by the combustion of one gram of a substance"
+    ],
+    "correct_answer": "The amount of heat produced by the combustion of one gram of a substance"
+  },
+  {
+    "id": 5,
+    "question": "Which of the following foods would you expect to give the highest $\\Delta T$ value when one gram of it is burned in a calorimeter?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "A piece of bread",
+      "A piece of muscle fiber meat",
+      "A drop of olive oil",
+      "A piece of cucumber"
+    ],
+    "correct_answer": "A drop of olive oil"
+  },
+  {
+    "id": 6,
+    "question": "A CGM device helps patients by monitoring ……",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Heart rate",
+      "Blood sugar levels and carbohydrate availability",
+      "Oxygen levels",
+      "Blood viscosity"
+    ],
+    "correct_answer": "Blood sugar levels and carbohydrate availability"
+  },
+  {
+    "id": 7,
+    "question": "\"Cholesterol\" in the human body is involved in the formation of......",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Vitamin D",
+      "Starch",
+      "Nucleic acids",
+      "Muscle fibers"
+    ],
+    "correct_answer": "Vitamin D"
+  },
+  {
+    "id": 8,
+    "question": "Proteins that fight infection are called ……",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Enzymes",
+      "Immune bodies",
+      "Keratin",
+      "Phospholipids"
+    ],
+    "correct_answer": "Immune bodies"
+  },
+  {
+    "id": 9,
+    "question": "Advances in electron microscopy technology have helped in …..",
+    "type": "اختيار من متعدد",
+    "options": [
+      "converting sugar into fats",
+      "increasing body weight",
+      "understanding how molecules are arranged inside the cell",
+      "cooling the cell"
+    ],
+    "correct_answer": "understanding how molecules are arranged inside the cell"
+  },
+  {
+    "id": 10,
+    "question": "The \"Genetic Code\" results from the difference in ….",
+    "type": "اختيار من متعدد",
+    "options": [
+      "the sequence of nitrogenous bases",
+      "the type of sugar only",
+      "the number of phosphate groups",
+      "the sequence of amino acids"
+    ],
+    "correct_answer": "the sequence of nitrogenous bases"
+  },
+  {
+    "id": 11,
+    "question": "CRISPR-Cas9 technology is described as a ….",
+    "type": "اختيار من متعدد",
+    "options": [
+      "light microscope",
+      "digestive enzyme",
+      "diet system",
+      "high-precision molecular scissor"
+    ],
+    "correct_answer": "high-precision molecular scissor"
+  },
+  {
+    "id": 12,
+    "question": "Why is DNA, and not RNA, responsible for transporting genetic information across generations?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Because it is smaller in size",
+      "Due to its double-stranded structure",
+      "Because it exists in the cytoplasm",
+      "Because it does not contain phosphate"
+    ],
+    "correct_answer": "Due to its double-stranded structure"
+  },
+  {
+    "id": 13,
+    "question": "Which of the following alternatives represents the correct order for the speed of obtaining energy?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Starch $\\rightarrow$ Fats $\\rightarrow$ Glucose",
+      "Glucose $\\rightarrow$ Sucrose $\\rightarrow$ Starch",
+      "Cellulose $\\rightarrow$ Glucose $\\rightarrow$ Fats",
+      "Glycogen $\\rightarrow$ Protein $\\rightarrow$ Sucrose"
+    ],
+    "correct_answer": "Glucose $\\rightarrow$ Sucrose $\\rightarrow$ Starch"
+  },
+  {
+    "id": 14,
+    "question": "An electron microscope can see membrane proteins, while a light microscope cannot, Explain?",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Electron microscopes have a much higher resolution and magnification power than light microscopes because they use a beam of electrons with a very short wavelength compared to visible light, allowing them to visualize tiny structures like membrane proteins."
+  },
+  {
+    "id": 15,
+    "question": "Give reasons: Why is RNA not used as a permanent store for genetic information, even though it carries nitrogenous bases?",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "RNA is generally single-stranded and less stable than DNA. It is more susceptible to chemical degradation and enzymatic breakdown, making it unsuitable for long-term, permanent storage of genetic information across generations."
+  },
+  {
+    "id": 16,
+    "question": "Explain how CRISPR-Cas9 technology treats Sickle Cell Anemia?",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "CRISPR-Cas9 acts as a high-precision molecular scissor that can target and edit the specific DNA sequence responsible for the mutation in the hemoglobin gene, thereby correcting the genetic defect that causes Sickle Cell Anemia."
+  },
+  {
+    "id": 17,
+    "question": "\"Uracil\" is absent in DNA and \"Thymine\" is absent in RNA, Explain this sentence?",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "This refers to the difference in nitrogenous bases between the two types of nucleic acids: DNA contains Adenine, Guanine, Cytosine, and Thymine, while RNA contains Adenine, Guanine, Cytosine, and Uracil (which replaces Thymine)."
+  },
+  {
+    "id": 18,
+    "question": "The chemical bond that stores the greatest amount of energy in the ATP molecule is located between ......",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Ribose sugar and the nitrogenous base",
+      "The first and second phosphate groups",
+      "The second and third phosphate groups",
+      "Carbon and hydrogen in the sugar"
+    ],
+    "correct_answer": "The second and third phosphate groups"
+  },
+  {
+    "id": 19,
+    "question": "Adjusting diet pattern based on a CGM device improves …….",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Bone density",
+      "Stability of energy levels",
+      "Speed of thinking only",
+      "Heart rate"
+    ],
+    "correct_answer": "Stability of energy levels"
+  },
+  {
+    "id": 20,
+    "question": "The basic unit for measuring caloric content is …",
+    "type": "اختيار من متعدد",
+    "options": [
+      "kJ/g",
+      "cal / J",
+      "kCal/g",
+      "kcal/J"
+    ],
+    "correct_answer": "kCal/g"
+  },
+  {
+    "id": 21,
+    "question": "Which of the following does NOT contain nitrogen in its structure?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Immune bodies",
+      "Enzymes",
+      "Muscles",
+      "Plant cell wall"
+    ],
+    "correct_answer": "Plant cell wall"
+  },
+  {
+    "id": 22,
+    "question": "Explain: Genetic engineering plays a role in food sustainability despite climate change.",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Genetic engineering allows for the development of crops that are more resistant to environmental stressors caused by climate change, such as drought, high temperatures, and pests, thereby ensuring a stable food supply."
+  },
+  {
+    "id": 23,
+    "question": "“Cellulose is involved in building cell walls, while starch is for storage\" Which of the following explains this difference?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Difference in the elements composing them",
+      "Difference in biological function",
+      "Presence of phosphorus in starch",
+      "Solubility of cellulose in water"
+    ],
+    "correct_answer": "Difference in biological function"
+  },
+  {
+    "id": 24,
+    "question": "Why does the cell not use glucose energy directly without an intermediate compound (ATP)?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Because glucose is a complex sugar",
+      "Because glucose does not contain energy",
+      "Because ATP molecules have a simple structure",
+      "Because ATP represents a continuous and renewable energy"
+    ],
+    "correct_answer": "Because ATP represents a continuous and renewable energy"
+  },
+  {
+    "id": 25,
+    "question": "The unit most used in practice to measure the energy content of food is …",
+    "type": "اختيار من متعدد",
+    "options": [
+      "kJ/g",
+      "cal / J",
+      "kCal/g",
+      "kcal/J"
+    ],
+    "correct_answer": "kCal/g"
+  },
+  {
+    "id": 26,
+    "question": "A practical application resulting from using the electron microscope to study cell membranes is",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Designing drugs that target specific proteins inside the cell",
+      "Improving the ability of organisms to produce energy",
+      "Increasing the rate of cell division",
+      "Reducing the need for lipids in membranes"
+    ],
+    "correct_answer": "Designing drugs that target specific proteins inside the cell"
+  },
+  {
+    "id": 27,
+    "question": "Give reasons for: The presence of two types of nucleic acids (DNA and RNA) in living organisms.",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "DNA serves as the permanent blueprint for genetic information, ensuring its preservation and transmission, while RNA acts as a messenger and functional molecule to translate that information into proteins necessary for life processes."
+  },
+  {
+    "id": 28,
+    "question": "\"Chitin\" in insects and \"Cellulose\" in plants are similar in the function of ….",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Both are rapid sources of energy",
+      "Both are stored in the liver",
+      "Both dissolve in water",
+      "Both are involved in forming support structures"
+    ],
+    "correct_answer": "Both are involved in forming support structures"
+  },
+  {
+    "id": 29,
+    "question": "Proteins are distinguished from carbohydrates by the essential presence of the element ….",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Carbon",
+      "Nitrogen",
+      "Hydrogen",
+      "Oxygen"
+    ],
+    "correct_answer": "Nitrogen"
+  },
+  {
+    "id": 30,
+    "question": "If you have 1 Kcal, how much does that equal in Kilojoules?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "0.418 KJ",
+      "41.8 KJ",
+      "418 KJ",
+      "4.18 KJ"
+    ],
+    "correct_answer": "4.18 KJ"
+  },
+  {
+    "id": 31,
+    "question": "What might happen if there were no RNA in the cell?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Protein synthesis will stop despite the presence of DNA",
+      "Proteins will continue to be synthesized normally",
+      "The number of nucleotides in the DNA will increase",
+      "DNA will become capable of producing energy directly"
+    ],
+    "correct_answer": "Protein synthesis will stop despite the presence of DNA"
+  },
+  {
+    "id": 32,
+    "question": "Explain the role of mitochondria in \"recharging\" the ADP molecule.",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Mitochondria perform cellular respiration to break down glucose and release energy. This energy is then used to attach a third phosphate group to an ADP (Adenosine Diphosphate) molecule, converting it back into a high-energy ATP (Adenosine Triphosphate) molecule."
+  }
+]

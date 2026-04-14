@@ -1,0 +1,247 @@
+[
+  {
+    "id": 1,
+    "question": "أثبت أن $\\begin{vmatrix} 3 & 2 & 1 \\\\ 4 & 6 & -1 \\\\ 2 & 5 & 3 \\end{vmatrix} = \\begin{vmatrix} 3 & 4 & 2 \\\\ 2 & 6 & 5 \\\\ 1 & -1 & 3 \\end{vmatrix}$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "المحدد الثاني هو مدور المحدد الأول، وقيمة المحدد لا تتغير بتدوير الصفوف إلى أعمدة والأعمدة إلى صفوف."
+  },
+  {
+    "id": 2,
+    "question": "بدون فك المحدد أوجد قيمة $\\begin{vmatrix} 2 & 1 & 5 \\\\ 3 & 0 & 4 \\\\ 2 & 1 & 5 \\end{vmatrix}$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "0"
+  },
+  {
+    "id": 3,
+    "question": "بدون فك المحدد أوجد قيمة $\\begin{vmatrix} 3 & -1 & 2 \\\\ 0 & 1 & 4 \\\\ 0 & 0 & 5 \\end{vmatrix}$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "15"
+  },
+  {
+    "id": 4,
+    "question": "إذا كان: $\\begin{vmatrix} ا & د & ز \\\\ ب & هـ & ح \\\\ ج & و & ع \\end{vmatrix} = 15$ ، أوجد قيمة $\\begin{vmatrix} 3ا & 3د & 3ز \\\\ ب & هـ & ح \\\\ 2ج & 2و & 2ع \\end{vmatrix}$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "90"
+  },
+  {
+    "id": 5,
+    "question": "حل المثلث $ABC$ القائم الزاوية في $B$ ، إذا كان $AB = 8$ سم ، $m(\\angle C) = 34^\\circ$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$m(\\angle A) = 56^\\circ, BC \\approx 11.86 \\text{ cm}, AC \\approx 14.31 \\text{ cm}$"
+  },
+  {
+    "id": 6,
+    "question": "حل المثلث $ABC$ القائم الزاوية في $B$ ، إذا كان $AC = 26$ سم ، $m(\\angle C) = 53^\\circ$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$m(\\angle A) = 37^\\circ, AB \\approx 20.76 \\text{ cm}, BC \\approx 15.65 \\text{ cm}$"
+  },
+  {
+    "id": 7,
+    "question": "أوجد ميل المستقيم المار بالنقطتين $(5, 3)$ ، $(2, -1)$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$m = \\frac{4}{3}$"
+  },
+  {
+    "id": 8,
+    "question": "أوجد ميل المستقيم الذي يوازي المستقيم $5x - y + 3 = 0$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$m = 5$"
+  },
+  {
+    "id": 9,
+    "question": "أوجد معادلة المستقيم الذي يمر بالنقطة $(3, 2)$ والمتجه $\\vec{u} = (3, 2)$ متجه اتجاه له",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$\\vec{r} = (3, 2) + k(3, 2)$"
+  },
+  {
+    "id": 10,
+    "question": "أوجد المعادلتين الوسيطتين للمستقيم الذي يمر بالنقطة $(1, 4)$ ومتجه اتجاه له $\\vec{u} = (2, 5)$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$x = 1 + 2k, y = 4 + 5k$"
+  },
+  {
+    "id": 11,
+    "question": "أثبت أن $\\begin{vmatrix} 2 & -4 & 5 \\\\ 1 & 2 & -3 \\\\ 7 & 1 & 0 \\end{vmatrix} = \\begin{vmatrix} 2 & 1 & 7 \\\\ -4 & 2 & 1 \\\\ 5 & -3 & 0 \\end{vmatrix}$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "المحدد الثاني هو مدور المحدد الأول، وقيمة المحدد لا تتغير بتدويره."
+  },
+  {
+    "id": 12,
+    "question": "بدون فك المحدد أوجد قيمة $\\begin{vmatrix} 1 & 2 & 1 \\\\ 5 & 0 & 0 \\\\ 4 & 7 & 4 \\end{vmatrix}$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "0"
+  },
+  {
+    "id": 13,
+    "question": "بدون فك المحدد أوجد قيمة $\\begin{vmatrix} 3 & 2 & 7 \\\\ 0 & -1 & 5 \\\\ 0 & 0 & 2 \\end{vmatrix}$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "-6"
+  },
+  {
+    "id": 14,
+    "question": "إذا كان: $\\begin{vmatrix} ا & د & ز \\\\ ب & هـ & ح \\\\ ج & و & ع \\end{vmatrix} = 6$ ، أوجد قيمة $\\begin{vmatrix} -2ا & -2د & -2ز \\\\ ب & هـ & ح \\\\ 4ج & 4و & 4ع \\end{vmatrix}$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "-48"
+  },
+  {
+    "id": 15,
+    "question": "حل المثلث $ABC$ القائم الزاوية في $B$ ، إذا كان $AB = 9$ سم ، $m(\\angle C) = 28^\\circ$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$m(\\angle A) = 62^\\circ, BC \\approx 16.93 \\text{ cm}, AC \\approx 19.17 \\text{ cm}$"
+  },
+  {
+    "id": 16,
+    "question": "حل المثلث $ABC$ القائم الزاوية في $B$ ، إذا كان $AC = 11$ سم ، $m(\\angle C) = 72^\\circ$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$m(\\angle A) = 18^\\circ, AB \\approx 10.46 \\text{ cm}, BC \\approx 3.40 \\text{ cm}$"
+  },
+  {
+    "id": 17,
+    "question": "أوجد ميل المستقيم المار بالنقطتين $(1, -2)$ ، $(4, 3)$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$m = \\frac{5}{3}$"
+  },
+  {
+    "id": 18,
+    "question": "أوجد ميل المستقيم الذي يوازي المستقيم $4x + 2y + 7 = 0$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$m = -2$"
+  },
+  {
+    "id": 19,
+    "question": "أوجد معادلة المستقيم الذي يمر بالنقطة $(4, -7)$ والمتجه $\\vec{u} = (2, 0)$ متجه اتجاه له",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$\\vec{r} = (4, -7) + k(2, 0)$"
+  },
+  {
+    "id": 20,
+    "question": "أوجد المعادلتين الوسيطتين للمستقيم الذي يمر بالنقطة $(3, -2)$ ومتجه اتجاه له $\\vec{u} = (4, -2)$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$x = 3 + 4k, y = -2 - 2k$"
+  },
+  {
+    "id": 21,
+    "question": "بدون فك المحدد أوجد قيمة $\\begin{vmatrix} 7 & -1 & 1 \\\\ 2 & 3 & 5 \\\\ 2 & 3 & 5 \\end{vmatrix}$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "0"
+  },
+  {
+    "id": 22,
+    "question": "إذا كان: $\\begin{vmatrix} ا & د & ز \\\\ ب & هـ & ح \\\\ ج & و & ع \\end{vmatrix} = 8$ ، أوجد قيمة $\\begin{vmatrix} 2ا & 2د & 2ز \\\\ 3ب & 3هـ & 3ح \\\\ ج & و & ع \\end{vmatrix}$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "48"
+  },
+  {
+    "id": 23,
+    "question": "حل المثلث $ABC$ القائم الزاوية في $B$ ، إذا كان $AC = 16$ سم ، $m(\\angle C) = 40^\\circ$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$m(\\angle A) = 50^\\circ, AB \\approx 10.28 \\text{ cm}, BC \\approx 12.26 \\text{ cm}$"
+  },
+  {
+    "id": 24,
+    "question": "أوجد ميل المستقيم المار بالنقطتين $(-2, 7)$ ، $(1, 3)$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$m = -\\frac{4}{3}$"
+  },
+  {
+    "id": 25,
+    "question": "أوجد المعادلتين الوسيطتين للمستقيم الذي يمر بالنقطة $(-1, 0)$ ومتجه اتجاه له $\\vec{u} = (3, 3)$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$x = -1 + 3k, y = 3k$"
+  },
+  {
+    "id": 26,
+    "question": "بدون فك المحدد أوجد قيمة $\\begin{vmatrix} 1 & 4 & 1 \\\\ 1 & 4 & 1 \\\\ 3 & 8 & 7 \\end{vmatrix}$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "0"
+  },
+  {
+    "id": 27,
+    "question": "إذا كان: $\\begin{vmatrix} ا & د & ز \\\\ ب & هـ & ح \\\\ ج & و & ع \\end{vmatrix} = 2$ ، أوجد قيمة $\\begin{vmatrix} ا & د & ز \\\\ 4ب & 4هـ & 4ح \\\\ 3ج & 3و & 3ع \\end{vmatrix}$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "24"
+  },
+  {
+    "id": 28,
+    "question": "حل المثلث $ABC$ القائم الزاوية في $B$ ، إذا كان $AC = 21$ سم ، $m(\\angle C) = 21^\\circ$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$m(\\angle A) = 69^\\circ, AB \\approx 7.53 \\text{ cm}, BC \\approx 19.61 \\text{ cm}$"
+  },
+  {
+    "id": 29,
+    "question": "أوجد ميل المستقيم المار بالنقطتين $(3, 0)$ ، $(1, 2)$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$m = -1$"
+  },
+  {
+    "id": 30,
+    "question": "أوجد المعادلتين الوسيطتين للمستقيم الذي يمر بالنقطة $(1, 0)$ ومتجه اتجاه له $\\vec{u} = (2, 2)$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$x = 1 + 2k, y = 2k$"
+  },
+  {
+    "id": 31,
+    "question": "بدون فك المحدد أوجد قيمة $\\begin{vmatrix} 3 & 3 & 4 \\\\ 2 & 2 & 7 \\\\ 1 & 1 & 11 \\end{vmatrix}$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "0"
+  },
+  {
+    "id": 32,
+    "question": "إذا كان: $\\begin{vmatrix} ا & د & ز \\\\ ب & هـ & ح \\\\ ج & و & ع \\end{vmatrix} = 9$ ، أوجد قيمة $\\begin{vmatrix} ا & د & ز \\\\ 2ب & 2هـ & 2ح \\\\ 4ج & 4و & 4ع \\end{vmatrix}$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "72"
+  },
+  {
+    "id": 33,
+    "question": "حل المثلث $ABC$ القائم الزاوية في $B$ ، إذا كان $AB = 12$ سم ، $m(\\angle C) = 35^\\circ$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$m(\\angle A) = 55^\\circ, BC \\approx 17.14 \\text{ cm}, AC \\approx 20.92 \\text{ cm}$"
+  },
+  {
+    "id": 34,
+    "question": "أوجد ميل المستقيم المار بالنقطتين $(-3, 8)$ ، $(1, 7)$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$m = -\\frac{1}{4}$"
+  },
+  {
+    "id": 35,
+    "question": "أوجد المعادلتين الوسيطتين للمستقيم الذي يمر بالنقطة $(0, -1)$ ومتجه اتجاه له $\\vec{u} = (1, 1)$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$x = k, y = -1 + k$"
+  }
+]

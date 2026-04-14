@@ -1,0 +1,104 @@
+[
+  {
+    "id": 1,
+    "question": "Vous aimez ce pantalon? – Non, je préfère ______ de la vitrine.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "ce",
+      "celui",
+      "celle",
+      "celles"
+    ],
+    "correct_answer": "celui"
+  },
+  {
+    "id": 2,
+    "question": "C’est une professeure ______je connais bien.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "que",
+      "qui",
+      "dont",
+      "où"
+    ],
+    "correct_answer": "que"
+  },
+  {
+    "id": 3,
+    "question": "______ chaussures préférez-vous?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Quel",
+      "Quelle",
+      "Quels",
+      "Quelles"
+    ],
+    "correct_answer": "Quelles"
+  },
+  {
+    "id": 4,
+    "question": "Les employés doivent porter des vêtements ______.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "formelles",
+      "courtes",
+      "stricts",
+      "démodées"
+    ],
+    "correct_answer": "stricts"
+  },
+  {
+    "id": 5,
+    "question": "Ils ont eu un accident ______ mauvais temps.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "à cause du",
+      "grâce au",
+      "parce que",
+      "car"
+    ],
+    "correct_answer": "à cause du"
+  },
+  {
+    "id": 6,
+    "question": "Faites une phrase pour exprimer la cause : Le match est annulé / la pluie.",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Le match est annulé à cause de la pluie."
+  },
+  {
+    "id": 7,
+    "question": "Faites une phrase pour exprimer la cause : Elle est arrivée en retard / elle a raté son bus.",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Elle est arrivée en retard parce qu'elle a raté son bus."
+  },
+  {
+    "id": 8,
+    "question": "Faites une phrase pour exprimer la cause : Il a réussi son examen / son travail sérieux.",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Il a réussi son examen grâce à son travail sérieux."
+  },
+  {
+    "id": 9,
+    "question": "Faites une phrase pour exprimer la cause : Nous restons à la maison / il fait trop froid dehors.",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Nous restons à la maison car il fait trop froid dehors."
+  },
+  {
+    "id": 10,
+    "question": "Faites une phrase pour exprimer la cause : J'ai gagné la course / mon entraînement quotidien.",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "J'ai gagné la course grâce à mon entraînement quotidien."
+  },
+  {
+    "id": 11,
+    "question": "Faites une phrase pour exprimer la cause : Le gâteau est brulé / ma mère a oublié de régler le minuteur.",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Le gâteau est brulé parce que ma mère a oublié de régler le minuteur."
+  }
+]

@@ -1,0 +1,218 @@
+[
+  {
+    "id": 1,
+    "question": "What is meant by a computer network?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "A program for storing data.",
+      "A group of connected devices to exchange data.",
+      "An output device.",
+      "An operating system."
+    ],
+    "correct_answer": "A group of connected devices to exchange data."
+  },
+  {
+    "id": 2,
+    "question": "Which of the following is an example of a Local Area Network (LAN)?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "The Internet.",
+      "An international network.",
+      "A network of devices within a single building.",
+      "A satellite network."
+    ],
+    "correct_answer": "A network of devices within a single building."
+  },
+  {
+    "id": 3,
+    "question": "Which of the following is considered a wireless communication medium?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Fiber optic cable.",
+      "Copper cable.",
+      "Wi-Fi.",
+      "Ethernet."
+    ],
+    "correct_answer": "Wi-Fi."
+  },
+  {
+    "id": 4,
+    "question": "Which connection type features the highest data transfer speed?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Coaxial cable.",
+      "Bluetooth.",
+      "Infrared.",
+      "Fiber optics."
+    ],
+    "correct_answer": "Fiber optics."
+  },
+  {
+    "id": 5,
+    "question": "What is the function of an IP address?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Identifying the website name.",
+      "Identifying the location of a device on the network.",
+      "Increasing internet speed.",
+      "Data protection."
+    ],
+    "correct_answer": "Identifying the location of a device on the network."
+  },
+  {
+    "id": 6,
+    "question": "An IPv4 address consists of:",
+    "type": "اختيار من متعدد",
+    "options": [
+      "2 numbers only.",
+      "4 groups of numbers.",
+      "6 groups of letters.",
+      "One long number."
+    ],
+    "correct_answer": "4 groups of numbers."
+  },
+  {
+    "id": 7,
+    "question": "A network that covers a large geographical area is called:",
+    "type": "اختيار من متعدد",
+    "options": [
+      "LAN",
+      "MAN",
+      "PAN",
+      "WAN"
+    ],
+    "correct_answer": "WAN"
+  },
+  {
+    "id": 8,
+    "question": "In a Peer-to-Peer model, devices are:",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Linked to a main server.",
+      "Unable to share files.",
+      "Equal in permissions/privileges.",
+      "Connected to the internet only."
+    ],
+    "correct_answer": "Equal in permissions/privileges."
+  },
+  {
+    "id": 9,
+    "question": "Bluetooth technology is most commonly used for:",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Global networks.",
+      "Connecting short-range devices.",
+      "Communication via cables.",
+      "Server networks."
+    ],
+    "correct_answer": "Connecting short-range devices."
+  },
+  {
+    "id": 10,
+    "question": "One of the disadvantages of wireless communication is:",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Ease of use.",
+      "Flexibility.",
+      "Low cost.",
+      "Susceptibility to interference (noise)."
+    ],
+    "correct_answer": "Susceptibility to interference (noise)."
+  },
+  {
+    "id": 11,
+    "question": "Which of the following is a correct example of an IP address?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "www.google.com",
+      "192.168.1.1",
+      "google@com",
+      "http://site"
+    ],
+    "correct_answer": "192.168.1.1"
+  },
+  {
+    "id": 12,
+    "question": "What is the benefit of Domain Names?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Replacing an IP address with an easy-to-remember name.",
+      "Data encryption.",
+      "Increasing storage capacity.",
+      "Preventing internet connection."
+    ],
+    "correct_answer": "Replacing an IP address with an easy-to-remember name."
+  },
+  {
+    "id": 13,
+    "question": "Which network model relies on a central main server?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Peer to Peer",
+      "LAN",
+      "Client / Server",
+      "PAN"
+    ],
+    "correct_answer": "Client / Server"
+  },
+  {
+    "id": 14,
+    "question": "One of the benefits of using networks is:",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Increasing data size.",
+      "Sharing resources and information.",
+      "Reducing device efficiency.",
+      "Preventing data exchange."
+    ],
+    "correct_answer": "Sharing resources and information."
+  },
+  {
+    "id": 15,
+    "question": "Which of the following is a wired communication method?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Wi-Fi",
+      "Bluetooth",
+      "Infrared",
+      "Fiber optic cable"
+    ],
+    "correct_answer": "Fiber optic cable"
+  },
+  {
+    "id": 16,
+    "question": "Wired connection is preferred because it is:",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Less secure.",
+      "Slow.",
+      "More stable and secure.",
+      "Affected by interference."
+    ],
+    "correct_answer": "More stable and secure."
+  },
+  {
+    "id": 17,
+    "question": "Which of the following is a Domain Name?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "172.16.0.1",
+      "255.255.255.0",
+      "www.moe.gov.eg",
+      "10.0.0.5"
+    ],
+    "correct_answer": "www.moe.gov.eg"
+  },
+  {
+    "id": 18,
+    "question": "The server responsible for converting a domain name into an IP address is:",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Web Server",
+      "File Server",
+      "DNS Server",
+      "Mail Server"
+    ],
+    "correct_answer": "DNS Server"
+  }
+]

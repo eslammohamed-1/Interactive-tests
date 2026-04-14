@@ -1,0 +1,268 @@
+[
+  {
+    "id": 1,
+    "question": "Was ist der Singular von 'Fische'?",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "ein Fisch"
+  },
+  {
+    "id": 2,
+    "question": "Was ist der Plural von 'ein Apfel'?",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Äpfel"
+  },
+  {
+    "id": 3,
+    "question": "Was ist der Singular von 'Kuchen' (Plural)?",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "ein Kuchen"
+  },
+  {
+    "id": 4,
+    "question": "Was ist der Singular von 'Joghurts'?",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "ein Joghurt"
+  },
+  {
+    "id": 5,
+    "question": "Was ist der Plural von 'ein Saft'?",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Säfte"
+  },
+  {
+    "id": 6,
+    "question": "Was ist der Singular von 'Eier'?",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "ein Ei"
+  },
+  {
+    "id": 7,
+    "question": "Was ist der Plural von 'ein Brötchen'?",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Brötchen"
+  },
+  {
+    "id": 8,
+    "question": "Was ist der Plural von 'eine Kiwi'?",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Kiwis"
+  },
+  {
+    "id": 9,
+    "question": "Was ist der Singular von 'Orangen'?",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "eine Orange"
+  },
+  {
+    "id": 10,
+    "question": "Was ist der Singular von 'Kartoffeln'?",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "eine Kartoffel"
+  },
+  {
+    "id": 11,
+    "question": "Papa fragt am Telefon: „Haben wir noch Lebensmittel?“ Wie antwortet Mama? (Wähle die zwei richtigen Antworten aus!)",
+    "type": "اختيار من متعدد",
+    "options": [
+      "a) Ja, 2 Äpfel und 4 Bananen.",
+      "b) Nein, wir haben keine Birnen mehr.",
+      "c) Nein, das ist doch keine Kartoffel.",
+      "d) Ja, das sind Länder und Städte.",
+      "e) Nein, das sind Zahlen und Buchstaben."
+    ],
+    "correct_answer": "a, b"
+  },
+  {
+    "id": 12,
+    "question": "Danke Amir, ich habe Brot. Im Korb sind noch ..................... .",
+    "type": "اختيار من متعدد",
+    "options": [
+      "a) drei Brote",
+      "b) kein Brot",
+      "c) keine Brote",
+      "d) mein Brot"
+    ],
+    "correct_answer": "a) drei Brote"
+  },
+  {
+    "id": 13,
+    "question": "Meine Mutter hat keine ..................... mehr.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "a) Apfel",
+      "b) Äpfeln",
+      "c) Apfels",
+      "d) Äpfel"
+    ],
+    "correct_answer": "d) Äpfel"
+  },
+  {
+    "id": 14,
+    "question": "Wir haben ……………….. Lebensmittel.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "a) eine",
+      "b) keine",
+      "c) kein",
+      "d) ein"
+    ],
+    "correct_answer": "b) keine"
+  },
+  {
+    "id": 15,
+    "question": "Silke schreibt Leon eine SMS und sagt: „Hi Leon, zu Hause haben wir kein Lebensmittel mehr.“ Was verstehst du? (Wähle die zwei richtigen Antworten aus!)",
+    "type": "اختيار من متعدد",
+    "options": [
+      "a) Silke lebt nicht zu Hause.",
+      "b) Zu Hause hat Silke keine Trauben.",
+      "c) Leon hat Lebensmittel zu Hause.",
+      "d) Silke hat alles zu Hause.",
+      "e) Silka und Leon haben keine Eier."
+    ],
+    "correct_answer": "b, e"
+  },
+  {
+    "id": 16,
+    "question": "Stimmt! Das sind .................. .",
+    "type": "اختيار من متعدد",
+    "options": [
+      "a) Brötchen",
+      "b) Banane",
+      "c) Brot",
+      "d) Birne"
+    ],
+    "correct_answer": "a) Brötchen"
+  },
+  {
+    "id": 17,
+    "question": "Das sind ..................... Orangen. Das sind Birnen.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "a) kein",
+      "b) keine",
+      "c) eine",
+      "d) ein"
+    ],
+    "correct_answer": "b) keine"
+  },
+  {
+    "id": 18,
+    "question": "Hast du nur einen Fisch? – Nein, hier sind noch 2 .........................",
+    "type": "اختيار من متعدد",
+    "options": [
+      "a) Fische",
+      "b) Fischen",
+      "c) Fisches",
+      "d) Fisch"
+    ],
+    "correct_answer": "a) Fische"
+  },
+  {
+    "id": 19,
+    "question": "Die Mutter sagt: „Im Korb haben wir Lebensmittel?“ Das heißt: „Im Korb sind ………………… .“ (Wähle die zwei richtigen Antworten aus!)",
+    "type": "اختيار من متعدد",
+    "options": [
+      "a) Brüder und Schwestern.",
+      "b) Birnen und Äpfel.",
+      "c) Kiwis und Trauben.",
+      "d) Söhne und Töchter.",
+      "e) Häuser und Straßen."
+    ],
+    "correct_answer": "b, c"
+  },
+  {
+    "id": 20,
+    "question": "Ich habe 2 Kilo ………………",
+    "type": "اختيار من متعدد",
+    "options": [
+      "a) Kartoffel",
+      "b) Orange",
+      "c) Kartoffeln",
+      "d) Tomate"
+    ],
+    "correct_answer": "c) Kartoffeln"
+  },
+  {
+    "id": 21,
+    "question": "Ägypten und Deutschland sind ……………………. Städte.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "a) ein",
+      "b) eine",
+      "c) kein",
+      "d) keine"
+    ],
+    "correct_answer": "d) keine"
+  },
+  {
+    "id": 22,
+    "question": "Hast du einen Saft? – Nein, ich habe 2 …………………",
+    "type": "اختيار من متعدد",
+    "options": [
+      "a) Säfte",
+      "b) Säften",
+      "c) Saftes",
+      "d) Saft"
+    ],
+    "correct_answer": "a) Säfte"
+  },
+  {
+    "id": 23,
+    "question": "Du sprichst über Lebensmittel Du sagst: „Ich habe …………. .“ (Wähle die zwei richtigen Antworten aus!)",
+    "type": "اختيار من متعدد",
+    "options": [
+      "a) ein Kilo Birnen.",
+      "b) drei Geschwister.",
+      "c) keine Informationen.",
+      "d) zwei Flaschen Saft.",
+      "e) keine Kinder."
+    ],
+    "correct_answer": "a, d"
+  },
+  {
+    "id": 24,
+    "question": "Das sind meine ……………… .",
+    "type": "اختيار من متعدد",
+    "options": [
+      "a) Freund",
+      "b) Freundin",
+      "c) Freunde",
+      "d) Freunden"
+    ],
+    "correct_answer": "c) Freunde"
+  },
+  {
+    "id": 25,
+    "question": "Das sind ..................... Würste. Das sind Fische.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "a) kein",
+      "b) keine",
+      "c) eine",
+      "d) ein"
+    ],
+    "correct_answer": "b) keine"
+  },
+  {
+    "id": 26,
+    "question": "Hast du nur einen Kuchen? – Nein, ich habe noch zwei …………………. .",
+    "type": "اختيار من متعدد",
+    "options": [
+      "a) Joghurt",
+      "b) Brot",
+      "c) Ei",
+      "d) Kuchen"
+    ],
+    "correct_answer": "d) Kuchen"
+  }
+]

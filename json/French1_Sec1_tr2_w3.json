@@ -1,0 +1,119 @@
+[
+  {
+    "id": 1,
+    "question": "Je voudrais ………………… lait dans mon café, s’il vous plaît.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "un peu de",
+      "tout",
+      "toute",
+      "tous",
+      "toutes",
+      "la plupart",
+      "plusieurs"
+    ],
+    "correct_answer": "un peu de"
+  },
+  {
+    "id": 2,
+    "question": "………………… le monde était présent à la réunion hier.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "un peu de",
+      "tout",
+      "toute",
+      "tous",
+      "toutes",
+      "la plupart",
+      "plusieurs"
+    ],
+    "correct_answer": "Tout"
+  },
+  {
+    "id": 3,
+    "question": "………………… des gens aiment voyager en été.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "un peu de",
+      "tout",
+      "toute",
+      "tous",
+      "toutes",
+      "la plupart",
+      "plusieurs"
+    ],
+    "correct_answer": "La plupart"
+  },
+  {
+    "id": 4,
+    "question": "Il a visité ………………… pays européens l’année dernière.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "un peu de",
+      "tout",
+      "toute",
+      "tous",
+      "toutes",
+      "la plupart",
+      "plusieurs"
+    ],
+    "correct_answer": "plusieurs"
+  },
+  {
+    "id": 5,
+    "question": "………………… la journée, il a plu sans arrêt.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "un peu de",
+      "tout",
+      "toute",
+      "tous",
+      "toutes",
+      "la plupart",
+      "plusieurs"
+    ],
+    "correct_answer": "Toute"
+  },
+  {
+    "id": 6,
+    "question": "Ton ami(e) te dit qu’il/elle se sent souvent fatigué(e) et stressé(e), et qu’il/elle a du mal à rester en bonne santé avec son mode de vie actuel. Écris-lui un message (de 80 à 100 mots) pour lui donner des conseils pratiques afin d’améliorer sa santé.",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "إجابة حرة تتضمن نصائح صحية مثل ممارسة الرياضة وتناول طعام متوازن والنوم الكافي."
+  },
+  {
+    "id": 7,
+    "question": "Qui est élu chef de la colonie et sur quelle base est-il choisi ? Qu'est-ce que cela nous révèle des valeurs du groupe ?",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Gordon est élu chef. Il est choisi pour son sérieux et son esprit d'organisation. Cela montre que le groupe valorise la discipline et la responsabilité."
+  },
+  {
+    "id": 8,
+    "question": "Comment Gordon organise-t-il la vie quotidienne des jeunes colons ? Quels sont les deux aspects principaux de son programme et pourquoi sont-ils importants pour leur survie et leur cohésion ?",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Gordon instaure un emploi du temps rigoureux. Les deux aspects sont le travail manuel et l'étude. C'est important pour maintenir le moral et l'ordre social."
+  },
+  {
+    "id": 9,
+    "question": "Que signifie le nom « French-den » et que peut-on en déduire sur l'état d'esprit et les aménagements réalisés par les garçons depuis leur naufrage ?",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "« French-den » signifie 'le repaire des Français'. Cela indique qu'ils ont réussi à transformer une grotte en un lieu de vie civilisé et organisé."
+  },
+  {
+    "id": 10,
+    "question": "Faites une phrase complète avec le mot suivant : (régime)",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Exemple : Le médecin m'a conseillé de suivre un régime équilibré."
+  },
+  {
+    "id": 11,
+    "question": "Faites une phrase complète avec le mot suivant : (maigrir)",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Exemple : Elle fait beaucoup de sport pour maigrir rapidement."
+  }
+]

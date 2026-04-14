@@ -1,0 +1,247 @@
+[
+  {
+    "id": 1,
+    "question": "أوجد قيمة $\\begin{vmatrix} 2 & 5 \\\\ 1 & -1 \\\\ \\end{vmatrix}$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$-7$"
+  },
+  {
+    "id": 2,
+    "question": "أوجد قيمة س إذا كان $\\begin{vmatrix} س & 2 \\\\ 1 & 4 \\\\ \\end{vmatrix} = 10$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$س = 3$"
+  },
+  {
+    "id": 3,
+    "question": "أوجد قيمة $\\begin{vmatrix} 2 & -1 & 3 \\\\ -2 & 1 & 2 \\\\ -1 & 1 & 1 \\\\ \\end{vmatrix}$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$-5$"
+  },
+  {
+    "id": 4,
+    "question": "أوجد قيمة $\\begin{vmatrix} 3 & 4 & -3 \\\\ 2 & 1 & -1 \\\\ 5 & 2 & 1 \\\\ \\end{vmatrix}$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$-16$"
+  },
+  {
+    "id": 5,
+    "question": "إذا كانت جـ نقطة منتصف $\\overline{اب}$ حيث أ $(3 ، 5)$ ، ب $(1 ، 7)$ أوجد احداثي نقطة جـ",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$(2 ، 6)$"
+  },
+  {
+    "id": 6,
+    "question": "في $\\triangle$ اب جـ حيث أ $(3 ، 2)$ ، ب $(0 ، 5)$ ، جـ $(4 ، 4)$ وكانت م نقطة تلاقي متوسطاته. أوجد احداثي نقطة م",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$(\\frac{7}{3} ، \\frac{11}{3})$"
+  },
+  {
+    "id": 7,
+    "question": "إذا كانت أ $(3 ، 1)$ ، ب $(-2 ، 5)$ أوجد احداثيات النقطة جـ التي تقسم $\\overline{اب}$ من الداخل بنسبة $3:2$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$(0 ، \\frac{17}{5})$"
+  },
+  {
+    "id": 8,
+    "question": "إذا كانت أ $(2 ، 5)$ ، ب $(7 ، -1)$ أوجد احداثي النقطة جـ التي تقسم $\\overline{اب}$ من الخارج بنسبة $2:3$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$(-8 ، 17)$"
+  },
+  {
+    "id": 9,
+    "question": "إذا كانت أ $(1 ، 3)$ ، ب $(-4 ، -2)$ أوجد احداثي النقطة جـ إذا كانت جـ $\\in \\overleftrightarrow{اب}$ بحيث $3 \\vec{اجـ} = 2 \\vec{جـب}$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$(-1 ، 1)$"
+  },
+  {
+    "id": 10,
+    "question": "أوجد النسبة التي يقسم بها محور السينات القطعة المستقيمة $\\overline{اب}$ حيث أ $(-4 ، 3)$ ، ب $(8 ، 6)$ مبيناً نوع التقسيم",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "النسبة هي $1:2$ من الخارج"
+  },
+  {
+    "id": 11,
+    "question": "أوجد قيمة $\\begin{vmatrix} 3 & 4 \\\\ 2 & 3 \\\\ \\end{vmatrix}$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$1$"
+  },
+  {
+    "id": 12,
+    "question": "أوجد قيمة س إذا كان $\\begin{vmatrix} س & -2 \\\\ 5 & 3 \\\\ \\end{vmatrix} = 16$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$س = 2$"
+  },
+  {
+    "id": 13,
+    "question": "أوجد قيمة $\\begin{vmatrix} 5 & -1 & 2 \\\\ 3 & 0 & 1 \\\\ 2 & -1 & 4 \\\\ \\end{vmatrix}$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$9$"
+  },
+  {
+    "id": 14,
+    "question": "أوجد قيمة $\\begin{vmatrix} -1 & 2 & 1 \\\\ 3 & 0 & 1 \\\\ 4 & 5 & 2 \\\\ \\end{vmatrix}$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$16$"
+  },
+  {
+    "id": 15,
+    "question": "إذا كانت جـ نقطة منتصف $\\overline{اب}$ حيث أ $(2 ، 9)$ ، ب $(4 ، 5)$ أوجد احداثي نقطة جـ",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$(3 ، 7)$"
+  },
+  {
+    "id": 16,
+    "question": "في $\\triangle$ اب جـ حيث أ $(4 ، 5)$ ، ب $(2 ، 6)$ ، جـ $(3 ، 7)$ وكانت م نقطة تلاقي متوسطاته. أوجد احداثي نقطة م",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$(3 ، 6)$"
+  },
+  {
+    "id": 17,
+    "question": "إذا كانت أ $(-3 ، -7)$ ، ب $(4 ، 0)$ أوجد احداثيات النقطة جـ التي تقسم $\\overline{اب}$ من الداخل بنسبة $5:2$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$(2 ، -2)$"
+  },
+  {
+    "id": 18,
+    "question": "إذا كانت أ $(2 ، 3)$ ، ب $(5 ، 6)$ أوجد احداثي النقطة جـ التي تقسم $\\overline{اب}$ من الخارج بنسبة $1:2$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$(-1 ، 0)$"
+  },
+  {
+    "id": 19,
+    "question": "إذا كانت أ $(-1 ، 4)$ ، ب $(3 ، 4)$ أوجد احداثي النقطة جـ إذا كانت جـ $\\in \\overleftrightarrow{اب}$ بحيث $اب = 4 ب جـ$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$(4 ، 4)$ أو $(2 ، 4)$"
+  },
+  {
+    "id": 20,
+    "question": "أوجد النسبة التي يقسم بها محور السينات القطعة المستقيمة $\\overline{اب}$ حيث أ $(2 ، 5)$ ، ب $(7 ، -2)$ مبيناً نوع التقسيم",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "النسبة هي $5:2$ من الداخل"
+  },
+  {
+    "id": 21,
+    "question": "أوجد قيمة س إذا كان $\\begin{vmatrix} س & 1 \\\\ 3 & 2 \\\\ \\end{vmatrix} = 4$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$س = 3.5$"
+  },
+  {
+    "id": 22,
+    "question": "أوجد قيمة $\\begin{vmatrix} 1 & 2 & 5 \\\\ 0 & 2 & 1 \\\\ 0 & 0 & -1 \\\\ \\end{vmatrix}$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$-2$"
+  },
+  {
+    "id": 23,
+    "question": "حل المثلث اب جـ القائم الزاوية في ب إذا كان ب جـ = 3 سم، أ جـ = 5 سم",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$اب = 4$ سم، $ق(\\angle جـ) \\approx 53.13^\\circ$، $ق(\\angle أ) \\approx 36.87^\\circ$"
+  },
+  {
+    "id": 24,
+    "question": "إذا كان أ = $(2 ، 4)$ ، ب = $(6 ، 7)$ ، أوجد $|\\vec{اب}|$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$5$"
+  },
+  {
+    "id": 25,
+    "question": "إذا كانت جـ نقطة منتصف $\\overline{اب}$ حيث أ $(1 ، 2)$ ، ب $(7 ، 8)$ أوجد احداثي نقطة جـ",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$(4 ، 5)$"
+  },
+  {
+    "id": 26,
+    "question": "أوجد قيمة س إذا كان $\\begin{vmatrix} س & 2 \\\\ 3 & 1 \\\\ \\end{vmatrix} = 11$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$س = 17$"
+  },
+  {
+    "id": 27,
+    "question": "أوجد قيمة $\\begin{vmatrix} 1 & 2 & 5 \\\\ 0 & 2 & 1 \\\\ 0 & 0 & -1 \\\\ \\end{vmatrix}$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$-2$"
+  },
+  {
+    "id": 28,
+    "question": "حل المثلث اب جـ القائم الزاوية في ب إذا كان أ ب = 9 سم، ب جـ = 12 سم",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$أ جـ = 15$ سم، $ق(\\angle جـ) \\approx 36.87^\\circ$، $ق(\\angle أ) \\approx 53.13^\\circ$"
+  },
+  {
+    "id": 29,
+    "question": "إذا كان أ = $(1 ، 0)$ ، ب = $(7 ، 8)$ ، أوجد $|\\vec{اب}|$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$10$"
+  },
+  {
+    "id": 30,
+    "question": "إذا كانت جـ نقطة منتصف $\\overline{اب}$ حيث أ $(7 ، 12)$ ، ب $(5 ، 2)$ أوجد احداثي نقطة جـ",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$(6 ، 7)$"
+  },
+  {
+    "id": 31,
+    "question": "أوجد قيمة س إذا كان $\\begin{vmatrix} س & -2 \\\\ 4 & 3 \\\\ \\end{vmatrix} = 20$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$س = 4$"
+  },
+  {
+    "id": 32,
+    "question": "أوجد قيمة $\\begin{vmatrix} 0 & 1 & 3 \\\\ 0 & -2 & 4 \\\\ 0 & 3 & 4 \\\\ \\end{vmatrix}$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$0$"
+  },
+  {
+    "id": 33,
+    "question": "حل المثلث اب جـ القائم الزاوية في ب إذا كان أ ب = 24 سم، ب جـ = 7 سم",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$أ جـ = 25$ سم، $ق(\\angle جـ) \\approx 73.74^\\circ$، $ق(\\angle أ) \\approx 16.26^\\circ$"
+  },
+  {
+    "id": 34,
+    "question": "إذا كان أ = $(4 ، 3)$ ، ب = $(8 ، 6)$ ، أوجد $|\\vec{اب}|$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$5$"
+  },
+  {
+    "id": 35,
+    "question": "إذا كانت جـ نقطة منتصف $\\overline{اب}$ حيث أ $(8 ، 5)$ ، ب $(4 ، 5)$ أوجد احداثي نقطة جـ",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$(6 ، 5)$"
+  }
+]

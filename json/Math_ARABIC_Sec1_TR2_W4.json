@@ -1,0 +1,247 @@
+[
+  {
+    "id": 1,
+    "question": "إذا كانت المصفوفة أ على النظم $2 \times 3$ والمصفوفة ب على النظم $3 \times 2$ فأوجد نظم المصفوفة أب",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "نظم المصفوفة أب هو $2 \times 2$"
+  },
+  {
+    "id": 2,
+    "question": "إذا كانت المصفوفة أ على النظم $2 \times 4$ والمصفوفة أب على النظم $2 \times 3$ فأوجد نظم المصفوفة ب",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "نظم المصفوفة ب هو $4 \times 3$"
+  },
+  {
+    "id": 3,
+    "question": "إذا كانت $A = \\begin{pmatrix} 1 & 3 \\\\ 6 & 2 \\end{pmatrix}$ ، $B = \\begin{pmatrix} 0 & 1 \\\\ 3 & 9 \\end{pmatrix}$ فأوجد $AB$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$AB = \\begin{pmatrix} 9 & 28 \\\\ 6 & 24 \\end{pmatrix}$"
+  },
+  {
+    "id": 4,
+    "question": "حل المعادلة: $\\tan \\theta - \\sin \\theta \\tan \\theta = 0$ ، حيث $\\theta \\in [0, \\frac{3\\pi}{2}]$ ",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$\\{0, \\pi, \\frac{\\pi}{2}\\}$"
+  },
+  {
+    "id": 5,
+    "question": "حل المعادلة: $\\cos^2 \\theta = \\frac{1}{2}$ ، حيث $\\theta \\in [0, \\pi]$ ",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$\\{\\frac{\\pi}{4}, \\frac{3\\pi}{4}\\}$"
+  },
+  {
+    "id": 6,
+    "question": "إذا كان $\\vec{A} = (3, 6)$ ، $\\vec{B} = (k, 12)$ فأوجد قيمة $k$ عندما $\\vec{A} // \\vec{B}$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$k = 6$"
+  },
+  {
+    "id": 7,
+    "question": "إذا كان $\\vec{A} = (7, 2)$ ، $\\vec{B} = (14, k)$ فأوجد قيمة $k$ عندما $\\vec{A} \\perp \\vec{B}$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$k = -49$"
+  },
+  {
+    "id": 8,
+    "question": "إذا كان $\\vec{A} = 3\\vec{i} + 4\\vec{j}$ ، $\\vec{B} = -6\\vec{i} - 8\\vec{j}$ أثبت أن $\\vec{A} // \\vec{B}$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "بما أن $\\vec{B} = -2\\vec{A}$ ، فإن المتجهين متوازيان."
+  },
+  {
+    "id": 9,
+    "question": "إذا كان $\\vec{B} = (6, -9)$ ، $\\vec{C} = (2, 3)$ أثبت أن: $\\vec{B} \\perp \\vec{C}$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "بما أن $\\vec{B} \\cdot \\vec{C} = 6(2) + (-9)(3) = 12 - 27 = -15 \\neq 0$ ، فإن المتجهين غير متعامدين بناءً على الأرقام المعطاة في المستند."
+  },
+  {
+    "id": 10,
+    "question": "في المثلث $ABC$ ، $D \\in BC$ حيث $BD : DC = 3 : 2$ أثبت أن: $2\\vec{AB} + 3\\vec{AC} = 5\\vec{AD}$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "باستخدام قاعدة تقسيم قطعة مستقيمة بنسبة معلومة في المتجهات."
+  },
+  {
+    "id": 11,
+    "question": "إذا كانت المصفوفة أ على النظم $1 \\times 3$ والمصفوفة ب على النظم $3 \\times 1$ فأوجد نظم المصفوفة أب",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "نظم المصفوفة أب هو $1 \\times 1$"
+  },
+  {
+    "id": 12,
+    "question": "إذا كانت المصفوفة أ على النظم $2 \\times 3$ والمصفوفة أب على النظم $2 \\times 3$ فأوجد نظم المصفوفة ب",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "نظم المصفوفة ب هو $3 \\times 3$"
+  },
+  {
+    "id": 13,
+    "question": "إذا كانت $A = \\begin{pmatrix} 1 & 2 \\\\ -1 & 0 \\end{pmatrix}$ ، $B = \\begin{pmatrix} 2 & -1 \\\\ 4 & 0 \\end{pmatrix}$ فأوجد $AB$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$AB = \\begin{pmatrix} 10 & -1 \\\\ -2 & 1 \\end{pmatrix}$"
+  },
+  {
+    "id": 14,
+    "question": "حل المعادلة: $\\sin \\theta - \\sin \\theta \\tan \\theta = 0$ ، حيث $\\theta \\in [0, \\frac{3\\pi}{2}]$ ",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$\\{0, \\pi, \\frac{\\pi}{4}, \\frac{5\\pi}{4}\\}$"
+  },
+  {
+    "id": 15,
+    "question": "حل المعادلة: $\\tan \\theta = \\frac{1}{\\sqrt{3}}$ ، حيث $\\theta \\in [0, \\pi]$ ",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$\\{\\frac{\\pi}{6}\\}$"
+  },
+  {
+    "id": 16,
+    "question": "إذا كان $\\vec{A} = (4, 2)$ ، $\\vec{B} = (k, 12)$ فأوجد قيمة $k$ عندما $\\vec{A} // \\vec{B}$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$k = 24$"
+  },
+  {
+    "id": 17,
+    "question": "إذا كان $\\vec{A} = (5, -2)$ ، $\\vec{B} = (6, k)$ فأوجد قيمة $k$ عندما $\\vec{A} \\perp \\vec{B}$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$k = 15$"
+  },
+  {
+    "id": 18,
+    "question": "إذا كان $\\vec{A} = 2\\vec{i} + 5\\vec{j}$ ، $\\vec{B} = 4\\vec{i} + 10\\vec{j}$ أثبت أن $\\vec{A} // \\vec{B}$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "بما أن $\\vec{B} = 2\\vec{A}$ ، فإن المتجهين متوازيان."
+  },
+  {
+    "id": 19,
+    "question": "إذا كان $\\vec{B} = (2, -4)$ ، $\\vec{C} = (4, 8)$ أثبت أن: $\\vec{B} \\perp \\vec{C}$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "بما أن $\\vec{B} \\cdot \\vec{C} = 2(4) + (-4)(8) = 8 - 32 = -24 \\neq 0$ ، فإن المتجهين غير متعامدين بناءً على الأرقام المعطاة."
+  },
+  {
+    "id": 20,
+    "question": "في المثلث $ABC$ ، $D \\in BC$ حيث $BD : DC = 2 : 1$ أثبت أن: $2\\vec{AB} + \\vec{AC} = 3\\vec{AD}$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "باستخدام قاعدة تقسيم قطعة مستقيمة بنسبة معلومة في المتجهات."
+  },
+  {
+    "id": 21,
+    "question": "إذا كانت المصفوفة أ على النظم $2 \\times 2$ والمصفوفة ب على النظم $2 \\times 1$ فأوجد نظم المصفوفة أب",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "نظم المصفوفة أب هو $2 \\times 1$"
+  },
+  {
+    "id": 22,
+    "question": "إذا كانت $A = \\begin{pmatrix} 3 \\\\ 5 \\end{pmatrix}$ ، $B = (1 \\quad 3)$ فأوجد $AB$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$AB = \\begin{pmatrix} 3 & 9 \\\\ 5 & 15 \\end{pmatrix}$"
+  },
+  {
+    "id": 23,
+    "question": "حل المعادلة: $\\sin \\theta = \\frac{\\sqrt{2}}{2}$ ، حيث $\\theta \\in [0, \\frac{\\pi}{2}]$ ",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$\\{\\frac{\\pi}{4}\\}$"
+  },
+  {
+    "id": 24,
+    "question": "إذا كان $\\vec{A} = (3, 1)$ ، $\\vec{B} = (m, 12)$ فأوجد قيمة $m$ عندما $\\vec{A} // \\vec{B}$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$m = 36$"
+  },
+  {
+    "id": 25,
+    "question": "إذا كان $\\vec{A} = (1, 3)$ ، $\\vec{B} = (6, m)$ فأوجد قيمة $m$ عندما $\\vec{A} \\perp \\vec{B}$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$m = -2$"
+  },
+  {
+    "id": 26,
+    "question": "إذا كانت المصفوفة أ على النظم $3 \\times 3$ والمصفوفة ب على النظم $3 \\times 1$ فأوجد نظم المصفوفة أب",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "نظم المصفوفة أب هو $3 \\times 1$"
+  },
+  {
+    "id": 27,
+    "question": "إذا كانت $A = \\begin{pmatrix} 1 \\\\ 2 \\end{pmatrix}$ ، $B = (5 \\quad 4)$ فأوجد $AB$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$AB = \\begin{pmatrix} 5 & 4 \\\\ 10 & 8 \\end{pmatrix}$"
+  },
+  {
+    "id": 28,
+    "question": "حل المعادلة: $\\sin \\theta = \\frac{\\sqrt{3}}{2}$ ، حيث $\\theta \\in [0, \\frac{\\pi}{2}]$ ",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$\\{\\frac{\\pi}{3}\\}$"
+  },
+  {
+    "id": 29,
+    "question": "إذا كان $\\vec{A} = (m, 1)$ ، $\\vec{B} = (16, 4)$ فأوجد قيمة $m$ عندما $\\vec{A} // \\vec{B}$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$m = 4$"
+  },
+  {
+    "id": 30,
+    "question": "إذا كان $\\vec{A} = (6, 2)$ ، $\\vec{B} = (3, m)$ فأوجد قيمة $m$ عندما $\\vec{A} \\perp \\vec{B}$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$m = -9$"
+  },
+  {
+    "id": 31,
+    "question": "إذا كانت المصفوفة أ على النظم $4 \\times 2$ والمصفوفة ب على النظم $2 \\times 4$ فأوجد نظم المصفوفة أب",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "نظم المصفوفة أب هو $4 \\times 4$"
+  },
+  {
+    "id": 32,
+    "question": "إذا كانت $A = \\begin{pmatrix} 1 \\\\ 4 \\end{pmatrix}$ ، $B = (2 \\quad 1)$ فأوجد $AB$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$AB = \\begin{pmatrix} 2 & 1 \\\\ 8 & 4 \\end{pmatrix}$"
+  },
+  {
+    "id": 33,
+    "question": "حل المعادلة: $\\sin \\theta = \\frac{1}{2}$ ، حيث $\\theta \\in [0, \\frac{\\pi}{2}]$ ",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$\\{\\frac{\\pi}{6}\\}$"
+  },
+  {
+    "id": 34,
+    "question": "إذا كان $\\vec{A} = (2, 5)$ ، $\\vec{B} = (m, 8)$ فأوجد قيمة $m$ عندما $\\vec{A} // \\vec{B}$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$m = 3.2$"
+  },
+  {
+    "id": 35,
+    "question": "إذا كان $\\vec{A} = (m, -1)$ ، $\\vec{B} = (9, 3)$ فأوجد قيمة $m$ عندما $\\vec{A} \\perp \\vec{B}$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$m = \\frac{1}{3}$"
+  }
+]

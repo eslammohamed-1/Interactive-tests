@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "question": "A variable in programming is used to:",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Start the computer",
+      "Store a value that can be changed",
+      "Write texts",
+      "Design pages"
+    ],
+    "correct_answer": "Store a value that can be changed"
+  },
+  {
+    "id": 2,
+    "question": "Generative AI relies on:",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Storage only",
+      "Probabilistic modeling and prediction",
+      "Manual input",
+      "Traditional programming only"
+    ],
+    "correct_answer": "Probabilistic modeling and prediction"
+  },
+  {
+    "id": 3,
+    "question": "The language responsible for building the structure of a web page is:",
+    "type": "اختيار من متعدد",
+    "options": [
+      "CSS",
+      "JavaScript",
+      "HTML",
+      "Python"
+    ],
+    "correct_answer": "HTML"
+  },
+  {
+    "id": 4,
+    "question": "CSS is used for:",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Running the server",
+      "Designing the layout/appearance of the web page",
+      "Storing data",
+      "Writing text only"
+    ],
+    "correct_answer": "Designing the layout/appearance of the web page"
+  },
+  {
+    "id": 5,
+    "question": "Assigning a value to a variable means:",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Deleting the variable",
+      "Giving the variable a specific value",
+      "Printing the variable",
+      "Running the program"
+    ],
+    "correct_answer": "Giving the variable a specific value"
+  },
+  {
+    "id": 6,
+    "question": "Generative AI does NOT rely on:",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Big Data",
+      "Statistical prediction",
+      "Real human consciousness/perception",
+      "Learning from data"
+    ],
+    "correct_answer": "Real human consciousness/perception"
+  },
+  {
+    "id": 7,
+    "question": "The <h1> tag is used to represent:",
+    "type": "اختيار من متعدد",
+    "options": [
+      "A text paragraph",
+      "An image",
+      "A main heading",
+      "A link"
+    ],
+    "correct_answer": "A main heading"
+  },
+  {
+    "id": 8,
+    "question": "Which property is used to change text color?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "font-size",
+      "background",
+      "color",
+      "border"
+    ],
+    "correct_answer": "color"
+  },
+  {
+    "id": 9,
+    "question": "Which of the following is a valid variable name?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "1name",
+      "name-1",
+      "name1",
+      "name space"
+    ],
+    "correct_answer": "name1"
+  },
+  {
+    "id": 10,
+    "question": "An example of a Generative AI tool is:",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Microsoft Word",
+      "ChatGPT",
+      "Excel",
+      "Paint"
+    ],
+    "correct_answer": "ChatGPT"
+  },
+  {
+    "id": 11,
+    "question": "The <p> tag is used to display:",
+    "type": "اختيار من متعدد",
+    "options": [
+      "An image",
+      "A heading",
+      "A text paragraph",
+      "A table"
+    ],
+    "correct_answer": "A text paragraph"
+  },
+  {
+    "id": 12,
+    "question": "An external CSS file is linked to an HTML page using:",
+    "type": "اختيار من متعدد",
+    "options": [
+      "<style>",
+      "<script>",
+      "<link>",
+      "<meta>"
+    ],
+    "correct_answer": "<link>"
+  }
+]

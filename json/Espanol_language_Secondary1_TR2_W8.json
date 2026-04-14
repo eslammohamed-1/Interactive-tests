@@ -1,0 +1,246 @@
+[
+  {
+    "id": 1,
+    "question": "Ahmed……………….en la mezquita.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "reza",
+      "rezas",
+      "rezan",
+      "rezáis"
+    ],
+    "correct_answer": "reza"
+  },
+  {
+    "id": 2,
+    "question": "En el recreo, Dana………..un bocata.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "comer",
+      "come",
+      "coméis",
+      "comen"
+    ],
+    "correct_answer": "come"
+  },
+  {
+    "id": 3,
+    "question": "Yo…………….…..del cole a las tres.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "sale",
+      "salen",
+      "salgo",
+      "sales"
+    ],
+    "correct_answer": "salgo"
+  },
+  {
+    "id": 4,
+    "question": "Karim prefiere estudiar………….la noche.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "por",
+      "en",
+      "a",
+      "de"
+    ],
+    "correct_answer": "por"
+  },
+  {
+    "id": 5,
+    "question": "Juan…………levanta muy temprano",
+    "type": "اختيار من متعدد",
+    "options": [
+      "me",
+      "se",
+      "te",
+      "nos"
+    ],
+    "correct_answer": "se"
+  },
+  {
+    "id": 6,
+    "question": "¿Qué dices para hablar de las actividades del recreo? (اختر إجابتين)",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Juego con el móvil.",
+      "¿Normalmente juegas con el móvil?",
+      "¿Qué haces en el recreo?",
+      "Son las tres y media",
+      "Said habla con sus amigos."
+    ],
+    "correct_answer": "Juego con el móvil. و Said habla con sus amigos."
+  },
+  {
+    "id": 7,
+    "question": "¿Qué dices para hablar de los horarios? (اختر إجابتين)",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Me gusta ir al gimnasio.",
+      "¿Vamos a comer?",
+      "¿A qué hora empieza?",
+      "Empieza a las once.",
+      "Termina a las tres en punto."
+    ],
+    "correct_answer": "Empieza a las once. و Termina a las tres en punto."
+  },
+  {
+    "id": 8,
+    "question": "¿Cuándo dices: \"¿Comes en mi casa?\"? - Al……………… . (اختر إجابتين)",
+    "type": "اختيار من متعدد",
+    "options": [
+      "invitar",
+      "hablar sobre el recreo",
+      "expresar gustos",
+      "proponer",
+      "preguntar por hábitos"
+    ],
+    "correct_answer": "invitar و proponer"
+  },
+  {
+    "id": 9,
+    "question": "¿Cuándo dices: \"Nunca salimos del cole.\"? - Al……………… . (اختر إجابتين)",
+    "type": "اختيار من متعدد",
+    "options": [
+      "describir",
+      "expresar frecuencia",
+      "expresar gustos",
+      "proponer",
+      "hablar de actividades del recreo"
+    ],
+    "correct_answer": "expresar frecuencia و hablar de actividades del recreo"
+  },
+  {
+    "id": 10,
+    "question": "¿Qué dices para preguntar cuándo se levanta tu amigo? (اختر إجابتين)",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Salgo con mi amigo.",
+      "¿Qué haces el fin de semana?",
+      "¿A qué hora te levantas?",
+      "Me levanto a las seis.",
+      "¿Te levantas temprano?"
+    ],
+    "correct_answer": "¿A qué hora te levantas? و ¿Te levantas temprano?"
+  },
+  {
+    "id": 11,
+    "question": "Yo no………………………..nunca al cine.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "voy",
+      "va",
+      "ir",
+      "vas"
+    ],
+    "correct_answer": "voy"
+  },
+  {
+    "id": 12,
+    "question": "Omar juega……………………..el móvil.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "por",
+      "de",
+      "con",
+      "en"
+    ],
+    "correct_answer": "con"
+  },
+  {
+    "id": 13,
+    "question": "Lee el siguiente correo electrónico y responde a las preguntas en frases completas: ¡Hola Karim! Dime, ¿A qué hora es el recreo? Y ¿qué haces normalmente? Saludos, Sara",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "El recreo es a las once y normalmente juego con mis amigos."
+  },
+  {
+    "id": 14,
+    "question": "¿Cuándo dices: \"Normalmente juego al fútbol en el club.\"? - Al……………… . (اختر إجابتين)",
+    "type": "اختيار من متعدد",
+    "options": [
+      "expresar gustos",
+      "expresar hábito",
+      "invitar",
+      "proponer",
+      "hablar sobre frecuencia"
+    ],
+    "correct_answer": "expresar hábito و hablar sobre frecuencia"
+  },
+  {
+    "id": 15,
+    "question": "La película………………………..…..a las ocho.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "empiezo",
+      "empieza",
+      "empiezan",
+      "empiezas"
+    ],
+    "correct_answer": "empieza"
+  },
+  {
+    "id": 16,
+    "question": "Salgo del colegio……………………...la tarde.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "de",
+      "en",
+      "por",
+      "con"
+    ],
+    "correct_answer": "por"
+  },
+  {
+    "id": 17,
+    "question": "Lee el siguiente correo electrónico y responde a las preguntas en frases completas: ¡Hola Nadia! Dime, ¿a qué hora te levantas? Y ¿qué haces el fin de semana? Saludos, Mona",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Me levanto a las ocho y el fin de semana voy al club."
+  },
+  {
+    "id": 18,
+    "question": "¿Qué dices para invitar o proponer una idea? (اختر إجابتين)",
+    "type": "اختيار من متعدد",
+    "options": [
+      "¿Comemos pizza?",
+      "¿Qué haces el fin de semana?",
+      "¿Dónde prefieres jugar en el club?",
+      "¿Escuchas música egipcia?",
+      "¿Conoces a Don Omar?"
+    ],
+    "correct_answer": "¿Comemos pizza? و ¿Dónde prefieres jugar en el club?"
+  },
+  {
+    "id": 19,
+    "question": "Yo……………la tele después de la escuela.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "ve",
+      "veo",
+      "ves",
+      "ven"
+    ],
+    "correct_answer": "veo"
+  },
+  {
+    "id": 20,
+    "question": "Llego a las seis………………la tarde.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "a",
+      "por",
+      "de",
+      "en"
+    ],
+    "correct_answer": "de"
+  },
+  {
+    "id": 21,
+    "question": "Lee el siguiente correo electrónico y responde a las preguntas en frases completas: ¡Hola Yasser! Dime, ¿A qué hora es la primera clase? Y ¿qué haces en el recreo? Saludos, Juan",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "La primera clase es a las ocho y en el recreo como un bocata."
+  }
+]

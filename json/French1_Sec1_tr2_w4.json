@@ -1,0 +1,97 @@
+[
+  {
+    "id": 1,
+    "question": "Quelle cuisine est surtout connue pour ses sauces élaborées et ses fromages ?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "la cuisine italienne",
+      "la cuisine française",
+      "la cuisine japonaise",
+      "la cuisine mexicaine"
+    ],
+    "correct_answer": "la cuisine française"
+  },
+  {
+    "id": 2,
+    "question": "Quel aliment est typique de la cuisine italienne ?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "le guacamole",
+      "la pizza",
+      "le curry",
+      "les sushis"
+    ],
+    "correct_answer": "la pizza"
+  },
+  {
+    "id": 3,
+    "question": "Quelle cuisine utilise souvent le wasabi et la sauce soja ?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "la cuisine mexicaine",
+      "la cuisine japonaise",
+      "la cuisine indienne",
+      "la cuisine française"
+    ],
+    "correct_answer": "la cuisine japonaise"
+  },
+  {
+    "id": 4,
+    "question": "Dans quelle cuisine trouve-t-on fréquemment du maïs, du piment et de l’avocat ?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "la cuisine française",
+      "la cuisine mexicaine",
+      "la cuisine italienne",
+      "la cuisine japonaise"
+    ],
+    "correct_answer": "la cuisine mexicaine"
+  },
+  {
+    "id": 5,
+    "question": "Quelle caractéristique est vraie pour la cuisine indienne ?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Elle n’utilise jamais d’épices.",
+      "Elle propose beaucoup de plats végétariens.",
+      "Elle est basée principalement sur les fruits de mer.",
+      "Elle ne comprend pas de pain."
+    ],
+    "correct_answer": "Elle propose beaucoup de plats végétariens."
+  },
+  {
+    "id": 6,
+    "question": "Pourquoi les jeunes colons décident-ils d’organiser une journée de repos ce dimanche de mai, et comment se déroule cette journée ? Quel contraste peut-on observer entre leurs activités et les conditions extérieures ?",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Ils décident de se reposer pour maintenir une routine civilisée et un sentiment de normalité. La journée se passe à l'intérieur avec des lectures ou des jeux. Le contraste est marqué entre le confort et l'organisation à l'intérieur de leur abri et la rudesse sauvage de l'hiver à l'extérieur."
+  },
+  {
+    "id": 7,
+    "question": "L’extrait décrit l’hiver comme « un peu rude ». Quelles sont les principales difficultés auxquelles les garçons sont confrontés pendant cette saison, et comment parviennent-ils à y faire face ?",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Les difficultés incluent le froid extrême, l'accumulation de neige bloquant les sorties et l'impossibilité de mener des activités extérieures. Ils y font face en restant confinés, en gérant leurs stocks de nourriture et de combustible, et en s'occupant l'esprit par des activités intellectuelles."
+  },
+  {
+    "id": 8,
+    "question": "Quel est l’état d’esprit des garçons à la fin de l’hiver, lorsque « la belle saison s’annonce » ? Que symbolise la fonte des neiges pour eux et pour la suite de leur aventure sur l’île Chairman ?",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Les garçons ressentent un sentiment d'espoir, de soulagement et de renouveau. La fonte des neiges symbolise la fin de leur isolement forcé, la liberté de mouvement retrouvée et la possibilité de reprendre l'exploration de l'île pour assurer leur survie ou chercher un moyen de secours."
+  },
+  {
+    "id": 9,
+    "question": "Faites une phrase complète avec le mot suivant : (un régime)",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Exemple : Le médecin m'a conseillé de suivre un régime équilibré pour rester en forme."
+  },
+  {
+    "id": 10,
+    "question": "Faites une phrase complète avec le mot suivant : (désagréable)",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Exemple : Il fait un froid désagréable ce matin dans la rue."
+  }
+]

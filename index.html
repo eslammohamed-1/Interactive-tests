@@ -117,6 +117,14 @@
       box-shadow: var(--shadow);
       border-top: 8px solid var(--color-secondary);
     }
+    code {
+      font-family: var(--font-mono);
+      font-size: 12px;
+      padding: 2px 6px;
+      background: var(--color-surface-2);
+      border: 2px solid var(--color-ink);
+      border-radius: 4px;
+    }
     label {
       display: block;
       font-weight: 700;
@@ -315,13 +323,6 @@
       font-weight: 600;
       box-shadow: var(--shadow-sm);
     }
-    .alert--warning {
-      border-color: var(--color-warning);
-      background: #fffbeb;
-      color: #78350f;
-      margin-top: var(--space-4);
-      margin-bottom: 0;
-    }
     .result-score {
       text-align: center;
       padding: var(--space-4) 0;
@@ -397,21 +398,6 @@
       color: var(--color-text);
       unicode-bidi: isolate;
       text-align: start;
-    }
-    footer {
-      text-align: center;
-      padding: var(--space-5) var(--space-2);
-      font-size: 13px;
-      color: var(--color-text-muted);
-      font-weight: 600;
-    }
-    footer code {
-      font-family: var(--font-mono);
-      font-size: 12px;
-      padding: 2px 6px;
-      background: var(--color-surface-2);
-      border: 2px solid var(--color-ink);
-      border-radius: 4px;
     }
     .mt-lg {
       margin-top: var(--space-4);
@@ -575,7 +561,6 @@
         <select id="sel-quiz" disabled><option value="">— اختر الاختبار —</option></select>
 
         <button type="button" class="btn btn-primary block-full" id="btn-start" disabled>ابدأ الاختبار</button>
-        <div id="pending-box" class="alert alert--warning" style="display: none"></div>
       </div>
     </section>
 
@@ -628,7 +613,6 @@
       </div>
     </section>
 
-    <footer>ضع ملفات JSON داخل مجلد <code>json/</code> وحدّث <code>json/index.json</code></footer>
   </div>
 
   <script>
@@ -1140,19 +1124,6 @@
         .replace(/"/g, "&quot;");
     }
 
-    function renderPendingList() {
-      const pending = indexData["لم_يُحوّل_بعد"];
-      const box = document.getElementById("pending-box");
-      if (!box || !Array.isArray(pending) || !pending.length) return;
-      box.style.display = "block";
-      box.innerHTML =
-        "<strong>ملفات PDF لم يُحوّل لها JSON بعد</strong> (" +
-        pending.length +
-        ") — راجعها في <code>json/index.json</code> تحت المفتاح <code>لم_يُحوّل_بعد</code><br><small style=\"line-height:1.8\">" +
-        pending.map((p) => escapeHtml(p)).join(" · ") +
-        "</small>";
-    }
-
     document.getElementById("btn-restart").addEventListener("click", () => {
       document.getElementById("load-error").style.display = "none";
       showScreen("screen-select");
@@ -1166,7 +1137,6 @@
       try {
         indexData = await loadIndex();
         initSelectors();
-        renderPendingList();
       } catch (e) {
         setLoadError(
           "لم يتم تحميل فهرس الاختبارات. إذا فتحت الملف مباشرة من القرص، المتصفح قد يمنع التحميل.<br>" +

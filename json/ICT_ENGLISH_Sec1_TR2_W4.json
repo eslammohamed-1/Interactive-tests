@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "question": "What is meant by an \"Algorithm\"?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "A programming language",
+      "A computer device",
+      "A set of ordered steps to solve a problem",
+      "A ready-made software"
+    ],
+    "correct_answer": "A set of ordered steps to solve a problem"
+  },
+  {
+    "id": 2,
+    "question": "One characteristic of a correct algorithm is being:",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Unordered",
+      "Infinite (no defined end)",
+      "Clear and specific",
+      "Dependent on a specific device"
+    ],
+    "correct_answer": "Clear and specific"
+  },
+  {
+    "id": 3,
+    "question": "Which of the following is an example of an algorithm?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Turning on a computer",
+      "Steps for making a cup of tea",
+      "A keyboard",
+      "An operating system"
+    ],
+    "correct_answer": "Steps for making a cup of tea"
+  },
+  {
+    "id": 4,
+    "question": "Algorithms are usually written using:",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Images only",
+      "Sounds",
+      "Verbal or symbolic steps",
+      "Input devices"
+    ],
+    "correct_answer": "Verbal or symbolic steps"
+  },
+  {
+    "id": 5,
+    "question": "The first step when solving any problem using algorithms is:",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Writing the program",
+      "Understanding the problem",
+      "Testing the solution",
+      "Executing the solution"
+    ],
+    "correct_answer": "Understanding the problem"
+  },
+  {
+    "id": 6,
+    "question": "A condition for a good algorithm is that it must have:",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Complexity",
+      "Non-executability",
+      "A start and an end",
+      "Very long length"
+    ],
+    "correct_answer": "A start and an end"
+  },
+  {
+    "id": 7,
+    "question": "Which of the following is NOT a benefit of algorithms?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Organizing thoughts",
+      "Making programming easier",
+      "Increasing solution errors",
+      "Solving problems systematically"
+    ],
+    "correct_answer": "Increasing solution errors"
+  },
+  {
+    "id": 8,
+    "question": "An algorithm can be represented using:",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Flowcharts",
+      "Keyboard",
+      "Mouse",
+      "Monitor"
+    ],
+    "correct_answer": "Flowcharts"
+  },
+  {
+    "id": 9,
+    "question": "The correct order of algorithm steps must be:",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Random",
+      "Unclear",
+      "Logical and sequential",
+      "Always changing"
+    ],
+    "correct_answer": "Logical and sequential"
+  },
+  {
+    "id": 10,
+    "question": "Which of the following is used to represent an algorithm graphically?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "A table",
+      "A flowchart",
+      "A database",
+      "A text file"
+    ],
+    "correct_answer": "A flowchart"
+  },
+  {
+    "id": 11,
+    "question": "A good algorithm should provide:",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Always the same result for the same inputs",
+      "Different results",
+      "Unknown results",
+      "Random results"
+    ],
+    "correct_answer": "Always the same result for the same inputs"
+  },
+  {
+    "id": 12,
+    "question": "Before converting an algorithm into a program, you must:",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Turn on the computer",
+      "Test the algorithm",
+      "Delete the steps",
+      "Change the problem"
+    ],
+    "correct_answer": "Test the algorithm"
+  }
+]

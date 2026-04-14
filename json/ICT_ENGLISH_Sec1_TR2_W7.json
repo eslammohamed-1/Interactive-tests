@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "question": "What is the function of JavaScript within web pages?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Building the page structure",
+      "Designing the page layout",
+      "Making the page interactive",
+      "Storing data"
+    ],
+    "correct_answer": "Making the page interactive"
+  },
+  {
+    "id": 2,
+    "question": "The id attribute is used in HTML to:",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Repeat an element more than once",
+      "Identify a unique element on the page",
+      "Change the text color",
+      "Link a CSS file"
+    ],
+    "correct_answer": "Identify a unique element on the page"
+  },
+  {
+    "id": 3,
+    "question": "The function document.getElementById() is used to:",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Create a new element",
+      "Delete an element",
+      "Access an HTML element",
+      "Resize the page"
+    ],
+    "correct_answer": "Access an HTML element"
+  },
+  {
+    "id": 4,
+    "question": "The textContent property is used to:",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Change the text color",
+      "Change the text content inside an element",
+      "Change the font size",
+      "Hide the element"
+    ],
+    "correct_answer": "Change the text content inside an element"
+  },
+  {
+    "id": 5,
+    "question": "Which element is used to execute an action when clicked?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "<p>",
+      "<h1>",
+      "<button>",
+      "<div>"
+    ],
+    "correct_answer": "<button>"
+  },
+  {
+    "id": 6,
+    "question": "The onclick event occurs when:",
+    "type": "اختيار من متعدد",
+    "options": [
+      "The page loads",
+      "Hovering the mouse",
+      "Clicking on the element",
+      "Closing the page"
+    ],
+    "correct_answer": "Clicking on the element"
+  },
+  {
+    "id": 7,
+    "question": "The goal of using JavaScript with HTML is to:",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Increase the page size",
+      "Add interaction with the user",
+      "Improve internet speed",
+      "Store images"
+    ],
+    "correct_answer": "Add interaction with the user"
+  },
+  {
+    "id": 8,
+    "question": "Which code is correct for changing an element's text?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "element.text = \"Hi\"",
+      "element.textContent = \"Hi\"",
+      "element.inner = \"Hi\"",
+      "element.changeText(\"Hi\")"
+    ],
+    "correct_answer": "element.textContent = \"Hi\""
+  },
+  {
+    "id": 9,
+    "question": "To change the text size using JavaScript, we use the property:",
+    "type": "اختيار من متعدد",
+    "options": [
+      "fontColor",
+      "textSize",
+      "style.fontSize",
+      "size.text"
+    ],
+    "correct_answer": "style.fontSize"
+  },
+  {
+    "id": 10,
+    "question": "Which of the following makes the page respond to user actions?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "HTML only",
+      "CSS only",
+      "JavaScript",
+      "Images"
+    ],
+    "correct_answer": "JavaScript"
+  },
+  {
+    "id": 11,
+    "question": "What is the benefit of linking a button to JavaScript code?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Improving the page layout",
+      "Adding interaction upon clicking",
+      "Saving data",
+      "Running the browser"
+    ],
+    "correct_answer": "Adding interaction upon clicking"
+  },
+  {
+    "id": 12,
+    "question": "Which of the following is a correct example of an interactive web page?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "A page containing only text",
+      "A page with static images",
+      "A page whose content changes upon clicking",
+      "A page without buttons"
+    ],
+    "correct_answer": "A page whose content changes upon clicking"
+  }
+]

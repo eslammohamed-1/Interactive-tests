@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1,
+    "question": "Anna...................... con le amiche a Roma.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "vado",
+      "va",
+      "vanno",
+      "vai"
+    ],
+    "correct_answer": "va"
+  },
+  {
+    "id": 2,
+    "question": "Di solito Monica e Fabio .................. di casa alle 7.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "escono",
+      "usciute",
+      "esce",
+      "usciamo"
+    ],
+    "correct_answer": "escono"
+  },
+  {
+    "id": 3,
+    "question": "Io e Sandro .....................il compito da soli.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "fanno",
+      "fai",
+      "fate",
+      "facciamo"
+    ],
+    "correct_answer": "facciamo"
+  },
+  {
+    "id": 4,
+    "question": "Molti turisti ......................a Firenze.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "vieni",
+      "veniamo",
+      "vengono",
+      "venite"
+    ],
+    "correct_answer": "vengono"
+  },
+  {
+    "id": 5,
+    "question": "Tu e Sara...............................al cinema il fine settimana?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "andiamo",
+      "andate",
+      "vai",
+      "vanno"
+    ],
+    "correct_answer": "andate"
+  },
+  {
+    "id": 6,
+    "question": "Maria, .........................sport a casa?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "fate",
+      "fanno",
+      "faccio",
+      "fai"
+    ],
+    "correct_answer": "fai"
+  },
+  {
+    "id": 7,
+    "question": "La domenica Fatma .................con Chiara .",
+    "type": "اختيار من متعدد",
+    "options": [
+      "esce",
+      "uscite",
+      "esci",
+      "escono"
+    ],
+    "correct_answer": "esce"
+  },
+  {
+    "id": 8,
+    "question": "Da dove ........................Stella e Carlo?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "venite",
+      "veniamo",
+      "viene",
+      "vengono"
+    ],
+    "correct_answer": "vengono"
+  },
+  {
+    "id": 9,
+    "question": "Ragazzi, Perché non ....................in centro?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "vanno",
+      "andate",
+      "vai",
+      "va"
+    ],
+    "correct_answer": "andate"
+  },
+  {
+    "id": 10,
+    "question": "Il sabato Mario ed io ........................tante cose insieme.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "fanno",
+      "fa",
+      "facciamo",
+      "fate"
+    ],
+    "correct_answer": "facciamo"
+  },
+  {
+    "id": 11,
+    "question": "Il fine setrtimana io e Dino ...................la spesa.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "faccio",
+      "fa",
+      "fanno",
+      "facciamo"
+    ],
+    "correct_answer": "facciamo"
+  },
+  {
+    "id": 12,
+    "question": "Gli amici ..................a scuola in macchina.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "vai",
+      "vanno",
+      "andate",
+      "va"
+    ],
+    "correct_answer": "vanno"
+  },
+  {
+    "id": 13,
+    "question": "Prof Marco, ..................stasera con Marta?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "esci",
+      "escono",
+      "esco",
+      "esce"
+    ],
+    "correct_answer": "esce"
+  },
+  {
+    "id": 14,
+    "question": "Stefano....................a giocare a calcio con noi.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "viene",
+      "vengo",
+      "venite",
+      "vieni"
+    ],
+    "correct_answer": "viene"
+  },
+  {
+    "id": 15,
+    "question": "Ragazze, ...................con Silvia in pizzeria?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "vai",
+      "andate",
+      "vanno",
+      "va"
+    ],
+    "correct_answer": "andate"
+  },
+  {
+    "id": 16,
+    "question": "I bambini ...................con Marco a Bari .",
+    "type": "اختيار من متعدد",
+    "options": [
+      "vai",
+      "andate",
+      "vanno",
+      "va"
+    ],
+    "correct_answer": "vanno"
+  },
+  {
+    "id": 17,
+    "question": "Giulia ...................il compito la domenica.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "faccio",
+      "fa",
+      "fanno",
+      "facciamo"
+    ],
+    "correct_answer": "fa"
+  },
+  {
+    "id": 18,
+    "question": "Oggi io e Daniela .................. alle 6 di sera.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "uscite",
+      "escono",
+      "esco",
+      "usciamo"
+    ],
+    "correct_answer": "usciamo"
+  },
+  {
+    "id": 19,
+    "question": "Alessia e Chiara ..................al lavoro in treno.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "vai",
+      "vanno",
+      "andate",
+      "va"
+    ],
+    "correct_answer": "vanno"
+  },
+  {
+    "id": 20,
+    "question": "Signora Maria, ...................scuola con noi?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "vieni",
+      "vengo",
+      "venite",
+      "Viene"
+    ],
+    "correct_answer": "Viene"
+  },
+  {
+    "id": 21,
+    "question": "Dina e Lara, ..................stasera ?.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "uscite",
+      "escono",
+      "esco",
+      "usciamo"
+    ],
+    "correct_answer": "uscite"
+  },
+  {
+    "id": 22,
+    "question": "Aldo ...................a studiare con noi.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "vieni",
+      "vengo",
+      "venite",
+      "viene"
+    ],
+    "correct_answer": "viene"
+  },
+  {
+    "id": 23,
+    "question": "Amici, ...................a teatro la sera?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "vai",
+      "andate",
+      "vanno",
+      "va"
+    ],
+    "correct_answer": "andate"
+  },
+  {
+    "id": 24,
+    "question": "Signor Rossi, ...................l’insegnante?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "faccio",
+      "fai",
+      "fa",
+      "fanno"
+    ],
+    "correct_answer": "fa"
+  },
+  {
+    "id": 25,
+    "question": "Stefania ..................a Firenze in autobus.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "vai",
+      "va",
+      "andate",
+      "vanno"
+    ],
+    "correct_answer": "va"
+  }
+]

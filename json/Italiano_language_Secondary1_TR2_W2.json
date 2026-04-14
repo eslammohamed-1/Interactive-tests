@@ -1,0 +1,273 @@
+[
+  {
+    "id": 1,
+    "question": "Completa il dialogo: Chiara: Sì, professore. E .................................?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Lei, ѐ di Firenze ?",
+      "Lei come si chiama?",
+      "Di dove sei ?",
+      "Quale materia insegna?"
+    ],
+    "correct_answer": "Lei come si chiama?"
+  },
+  {
+    "id": 2,
+    "question": "Completa il dialogo: Prof. Rossi: Io sono il professore Aldo Rossi. ...........................?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Lei, ѐ di Firenze ?",
+      "Lei come si chiama?",
+      "Di dove sei ?",
+      "Quale materia insegna?"
+    ],
+    "correct_answer": "Di dove sei ?"
+  },
+  {
+    "id": 3,
+    "question": "Completa il dialogo: Chiara: Sono di Bari. E .....................................?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Lei, ѐ di Firenze ?",
+      "Lei come si chiama?",
+      "Di dove sei ?",
+      "Quale materia insegna?"
+    ],
+    "correct_answer": "Lei, ѐ di Firenze ?"
+  },
+  {
+    "id": 4,
+    "question": "Completa il dialogo: Chiara: .......................................?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Lei, ѐ di Firenze ?",
+      "Lei come si chiama?",
+      "Di dove sei ?",
+      "Quale materia insegna?"
+    ],
+    "correct_answer": "Quale materia insegna?"
+  },
+  {
+    "id": 5,
+    "question": "Mettete in ordine il seguente dialogo: ( ) - Com’ѐ Giulia? Bella? / ( ) - E come sono i nasi alla francese? / ( ) - Bionda e ha il naso alla francese. / ( ) - Sì, ѐ bella e alta. È anche molto simpatica. / ( ) - È bionda o bruna? / ( ) - Come quello di Giulia!",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "1. Com’ѐ Giulia? Bella? / 2. Sì, ѐ bella e alta. È anche molto simpatica. / 3. È bionda o bruna? / 4. Bionda e ha il naso alla francese. / 5. E come sono i nasi alla francese? / 6. Come quello di Giulia!"
+  },
+  {
+    "id": 6,
+    "question": "Modello A: Io sono brava in italiano, ma .......................... la storia, perché la prof ѐ simpatica.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "preferisce",
+      "preferisco",
+      "preferisci",
+      "preferiamo"
+    ],
+    "correct_answer": "preferisco"
+  },
+  {
+    "id": 7,
+    "question": "Modello A: Alessia, tu............ tanto e non mai!.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "dormiamo",
+      "dorme",
+      "dormite",
+      "dormi"
+    ],
+    "correct_answer": "dormi"
+  },
+  {
+    "id": 8,
+    "question": "Modello A: Alessia, tu dormi tanto e non .............. mai!.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "pulisci",
+      "pulisco",
+      "pulisce",
+      "puliscono"
+    ],
+    "correct_answer": "pulisci"
+  },
+  {
+    "id": 9,
+    "question": "Modello A: I ragazzi .................... chattare al computer con gli amici.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "preferisco",
+      "preferisci",
+      "preferiamo",
+      "preferiscono"
+    ],
+    "correct_answer": "preferiscono"
+  },
+  {
+    "id": 10,
+    "question": "Modello A: I genitori perό non.................. e non noi ragazzi...",
+    "type": "اختيار من متعدد",
+    "options": [
+      "ascoltano",
+      "ascoltate",
+      "ascoltiamo",
+      "ascolti"
+    ],
+    "correct_answer": "ascoltano"
+  },
+  {
+    "id": 11,
+    "question": "Modello A: I genitori perό non ascoltano e non...........................................",
+    "type": "اختيار من متعدد",
+    "options": [
+      "capisci",
+      "capiscono",
+      "capiamo",
+      "capite"
+    ],
+    "correct_answer": "capiscono"
+  },
+  {
+    "id": 12,
+    "question": "Modello B: Noi siamo bravi in italiano, ma noi.......................... la storia, perché la prof ѐ brava.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "preferite",
+      "preferiamo",
+      "preferisco",
+      "preferisci"
+    ],
+    "correct_answer": "preferiamo"
+  },
+  {
+    "id": 13,
+    "question": "Modello B: Paolo e Dino, Voi ............ tanto e non mai!",
+    "type": "اختيار من متعدد",
+    "options": [
+      "dormite",
+      "dormi",
+      "dormo",
+      "dormono"
+    ],
+    "correct_answer": "dormite"
+  },
+  {
+    "id": 14,
+    "question": "Modello B: Paolo e Dino, Voi dormite tanto e non .............. mai!",
+    "type": "اختيار من متعدد",
+    "options": [
+      "puliscono",
+      "puliamo",
+      "pulite",
+      "pulisco"
+    ],
+    "correct_answer": "pulite"
+  },
+  {
+    "id": 15,
+    "question": "Modello B: I ragazzi .................... chattare al computer con gli amici.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "preferiscono",
+      "preferisci",
+      "preferite",
+      "preferisco"
+    ],
+    "correct_answer": "preferiscono"
+  },
+  {
+    "id": 16,
+    "question": "Modello B: I genitori perό non.................. e non noi ragazzi...",
+    "type": "اختيار من متعدد",
+    "options": [
+      "ascoltiamo",
+      "ascoltate",
+      "ascoltano",
+      "ascolta"
+    ],
+    "correct_answer": "ascoltano"
+  },
+  {
+    "id": 17,
+    "question": "Modello B: I genitori perό non ascoltano e non...........................................",
+    "type": "اختيار من متعدد",
+    "options": [
+      "capisci",
+      "capiscono",
+      "capiamo",
+      "capite"
+    ],
+    "correct_answer": "capiscono"
+  },
+  {
+    "id": 18,
+    "question": "Modello C: Lui ѐ bravo in italiano, ma lui.................. la storia, perché la prof ѐ simpatica e brava.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "preferisco",
+      "preferisce",
+      "preferisci",
+      "preferiamo"
+    ],
+    "correct_answer": "preferisce"
+  },
+  {
+    "id": 19,
+    "question": "Modello C: Omar ............................... tanto e non mai!",
+    "type": "اختيار من متعدد",
+    "options": [
+      "dorme",
+      "dormi",
+      "dormo",
+      "dormite"
+    ],
+    "correct_answer": "dorme"
+  },
+  {
+    "id": 20,
+    "question": "Modello C: Omar dorme tanto e non .................. mai!",
+    "type": "اختيار من متعدد",
+    "options": [
+      "pulisci",
+      "pulisco",
+      "pulisce",
+      "puliamo"
+    ],
+    "correct_answer": "pulisce"
+  },
+  {
+    "id": 21,
+    "question": "Modello C: I ragazzi .................... chattare al computer con gli amici.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "preferite",
+      "preferiscono",
+      "preferiamo",
+      "preferisci"
+    ],
+    "correct_answer": "preferiscono"
+  },
+  {
+    "id": 22,
+    "question": "Modello C: I genitori perό non.................. e non noi ragazzi...",
+    "type": "اختيار من متعدد",
+    "options": [
+      "ascoltano",
+      "ascolti",
+      "ascoltate",
+      "ascoltiamo"
+    ],
+    "correct_answer": "ascoltano"
+  },
+  {
+    "id": 23,
+    "question": "Modello C: I genitori perό non ascoltano e non...........................................",
+    "type": "اختيار من متعدد",
+    "options": [
+      "capiamo",
+      "capite",
+      "capisco",
+      "capiscono"
+    ],
+    "correct_answer": "capiscono"
+  }
+]

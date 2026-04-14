@@ -1,0 +1,336 @@
+[
+  {
+    "id": 1,
+    "question": "Da ............tempo sei qui?",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "quanto"
+  },
+  {
+    "id": 2,
+    "question": "Sono a ...........da due mesi.",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Firenze"
+  },
+  {
+    "id": 3,
+    "question": "In uno...............qui vicino.",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "studio"
+  },
+  {
+    "id": 4,
+    "question": "Dove abitate ,qui in............ ?",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "centro"
+  },
+  {
+    "id": 5,
+    "question": "Mi piace ...........il treno all’auto.",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "più"
+  },
+  {
+    "id": 6,
+    "question": "Di dov’ѐ Chiara?",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Chiara è di Bari."
+  },
+  {
+    "id": 7,
+    "question": "Che lavoro fa il padre di Chiara?",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Il padre di Chiara è architetto."
+  },
+  {
+    "id": 8,
+    "question": "Perchѐ ѐ a Firenze?",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Perché il padre lavora lì."
+  },
+  {
+    "id": 9,
+    "question": "Dove abitano?",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Abitano fuori città."
+  },
+  {
+    "id": 10,
+    "question": "Da quanto tempo Chiara ѐ a Firenze ?",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Chiara è a Firenze da due mesi."
+  },
+  {
+    "id": 11,
+    "question": "Tu sei Chiara, vero?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Sono di Bari",
+      "Si",
+      "È architetto",
+      "Fuori città",
+      "Siamo qui da 2 mesi",
+      "Io mi chiamo Paolo"
+    ],
+    "correct_answer": "Si"
+  },
+  {
+    "id": 12,
+    "question": "E tu come ti chiami?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Sono di Bari",
+      "Si",
+      "È architetto",
+      "Fuori città",
+      "Siamo qui da 2 mesi",
+      "Io mi chiamo Paolo"
+    ],
+    "correct_answer": "Io mi chiamo Paolo"
+  },
+  {
+    "id": 13,
+    "question": "Di dove sei?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Sono di Bari",
+      "Si",
+      "È architetto",
+      "Fuori città",
+      "Siamo qui da 2 mesi",
+      "Io mi chiamo Paolo"
+    ],
+    "correct_answer": "Sono di Bari"
+  },
+  {
+    "id": 14,
+    "question": "Da quanto tempo sei qui?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Sono di Bari",
+      "Si",
+      "È architetto",
+      "Fuori città",
+      "Siamo qui da 2 mesi",
+      "Io mi chiamo Paolo"
+    ],
+    "correct_answer": "Siamo qui da 2 mesi"
+  },
+  {
+    "id": 15,
+    "question": "Che lavoro fa tuo padre?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Sono di Bari",
+      "Si",
+      "È architetto",
+      "Fuori città",
+      "Siamo qui da 2 mesi",
+      "Io mi chiamo Paolo"
+    ],
+    "correct_answer": "È architetto"
+  },
+  {
+    "id": 16,
+    "question": "Dove abitate?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Sono di Bari",
+      "Si",
+      "È architetto",
+      "Fuori città",
+      "Siamo qui da 2 mesi",
+      "Io mi chiamo Paolo"
+    ],
+    "correct_answer": "Fuori città"
+  },
+  {
+    "id": 17,
+    "question": "Il blog ѐ di......................",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Hamid",
+      "Franco",
+      "Leonardo",
+      "Sara"
+    ],
+    "correct_answer": "Franco"
+  },
+  {
+    "id": 18,
+    "question": "Da quanto tempo lui ѐ a Bari? Da...............",
+    "type": "اختيار من متعدد",
+    "options": [
+      "4 settimane",
+      "6 settimane",
+      "4 mesi",
+      "6 mesi."
+    ],
+    "correct_answer": "6 mesi."
+  },
+  {
+    "id": 19,
+    "question": "Che lavoro fanno il padre e la madre di Franco?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Sono professori",
+      "Sono studenti",
+      "Sono architetti",
+      "Non lavorano"
+    ],
+    "correct_answer": "Sono professori"
+  },
+  {
+    "id": 20,
+    "question": "Chi ѐ Hamid?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Il padre di Franco",
+      "Il professore di Franco",
+      "Il compagno di Franco",
+      "Il fratello di Franco"
+    ],
+    "correct_answer": "Il compagno di Franco"
+  },
+  {
+    "id": 21,
+    "question": "Anna e Alberto................in centro.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "abita",
+      "abitiamo",
+      "abitano",
+      "abito"
+    ],
+    "correct_answer": "abitano"
+  },
+  {
+    "id": 22,
+    "question": "Chi scrive questo blog?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Fabio",
+      "Maria",
+      "Lara",
+      "Anna"
+    ],
+    "correct_answer": "Anna"
+  },
+  {
+    "id": 23,
+    "question": "Da quanto tempo Anna abita a Perugia?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Da una settimana",
+      "Da due settimane",
+      "Da due mesi",
+      "Da un mese"
+    ],
+    "correct_answer": "Da due mesi"
+  },
+  {
+    "id": 24,
+    "question": "Il padre e la madre di Anna..............",
+    "type": "اختيار من متعدد",
+    "options": [
+      "sono studenti",
+      "sono professori",
+      "sono architetti",
+      "non lavorano"
+    ],
+    "correct_answer": "sono professori"
+  },
+  {
+    "id": 25,
+    "question": "Con quale mezzo di trasporto le due studentesse vanno a scuola ?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "In taxi",
+      "In treno",
+      "In autobus",
+      "In macchina"
+    ],
+    "correct_answer": "In treno"
+  },
+  {
+    "id": 26,
+    "question": "Sara..............sempre l’autobus.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "prende",
+      "prendi",
+      "prendo",
+      "prendiamo"
+    ],
+    "correct_answer": "prende"
+  },
+  {
+    "id": 27,
+    "question": "Il blog ѐ di......................",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Andrea",
+      "Dino",
+      "Paolo",
+      "Hamid"
+    ],
+    "correct_answer": "Dino"
+  },
+  {
+    "id": 28,
+    "question": "Dino sta a Firenze da................",
+    "type": "اختيار من متعدد",
+    "options": [
+      "4 anni",
+      "5 anni",
+      "4 mesi",
+      "5 mesi."
+    ],
+    "correct_answer": "5 anni"
+  },
+  {
+    "id": 29,
+    "question": "Che lavoro fa il padre?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Ѐ un professore",
+      "Ѐ un architetto",
+      "Ѐ un medico",
+      "Non lavora"
+    ],
+    "correct_answer": "Ѐ un architetto"
+  },
+  {
+    "id": 30,
+    "question": "Come si chiama l’amico spagnolo?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Andrea",
+      "Hamid",
+      "Paolo",
+      "Dino"
+    ],
+    "correct_answer": "Andrea"
+  },
+  {
+    "id": 31,
+    "question": "Io e Dino................a Bari.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "lavora",
+      "lavoriamo",
+      "lavorano",
+      "lavoro"
+    ],
+    "correct_answer": "lavoriamo"
+  }
+]

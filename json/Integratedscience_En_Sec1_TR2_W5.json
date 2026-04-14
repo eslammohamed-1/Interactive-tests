@@ -1,0 +1,351 @@
+[
+  {
+    "id": 1,
+    "question": "Ammonia in the liver is converted into ....",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Bilirubin",
+      "Glucose",
+      "Urea",
+      "Uric acid"
+    ],
+    "correct_answer": "Urea"
+  },
+  {
+    "id": 2,
+    "question": "What is the main function of reabsorption in the kidneys ?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Removing wastes from the blood",
+      "Recovering useful substances such as glucose",
+      "Storing urine",
+      "Converting ammonia into urea"
+    ],
+    "correct_answer": "Recovering useful substances such as glucose"
+  },
+  {
+    "id": 3,
+    "question": "Urine moves from the kidney to the bladder through ....",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Ureters",
+      "Urethra",
+      "Nephron",
+      "Blood vessels"
+    ],
+    "correct_answer": "Ureters"
+  },
+  {
+    "id": 4,
+    "question": "Evaporation of sweat from the skin surface helps ......",
+    "type": "اختيار من متعدد",
+    "options": [
+      "raise body temperature",
+      "increase blood viscosity",
+      "absorb oxygen",
+      "decrease body temperature"
+    ],
+    "correct_answer": "decrease body temperature"
+  },
+  {
+    "id": 5,
+    "question": "Bile helps in the disposal of .......",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Glucose",
+      "Oxygen",
+      "Excess cholesterol",
+      "Urea"
+    ],
+    "correct_answer": "Excess cholesterol"
+  },
+  {
+    "id": 6,
+    "question": "Increased blood acidity caused by $CO_2$ negatively affects ...",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Enzyme activity",
+      "Bones",
+      "Skin",
+      "Hair"
+    ],
+    "correct_answer": "Enzyme activity"
+  },
+  {
+    "id": 7,
+    "question": "When there is a disturbance in ion concentration inside the body, delicate vital processes such as ………………….… are affected",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Hair growth",
+      "Nerve and muscle function",
+      "Skin color",
+      "Liver size"
+    ],
+    "correct_answer": "Nerve and muscle function"
+  },
+  {
+    "id": 8,
+    "question": "The skin has an immune function because it contains ....",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Epidermis",
+      "Dermis",
+      "Hypodermis",
+      "Blood capillaries"
+    ],
+    "correct_answer": "Epidermis"
+  },
+  {
+    "id": 9,
+    "question": "The activity of sweat glands is directly proportional to .....",
+    "type": "اختيار من متعدد",
+    "options": [
+      "the amount of proteins consumed",
+      "Kidney size",
+      "decrease in breathing rate",
+      "increase in surrounding temperature"
+    ],
+    "correct_answer": "increase in surrounding temperature"
+  },
+  {
+    "id": 10,
+    "question": "Which of the following illustrates the dual nature of metabolism?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Muscle contraction and relaxation",
+      "Inhalation and exhalation",
+      "Nerve impulse transmission",
+      "Protein synthesis and glucose breakdown"
+    ],
+    "correct_answer": "Protein synthesis and glucose breakdown"
+  },
+  {
+    "id": 11,
+    "question": "Which of the following shows the importance of excretion in homeostasis?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Preventing accumulation of harmful by-products",
+      "Maintaining stable blood glucose levels",
+      "Ensuring oxygen delivery to tissues",
+      "Regulating nerve impulse speed"
+    ],
+    "correct_answer": "Preventing accumulation of harmful by-products"
+  },
+  {
+    "id": 12,
+    "question": "The layer that contains sweat glands and hair follicles is ....",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Dermis",
+      "Epidermis",
+      "Hypodermis",
+      "Outer membrane"
+    ],
+    "correct_answer": "Dermis"
+  },
+  {
+    "id": 13,
+    "question": "The relationship between the liver and kidney in dealing with proteins is ...",
+    "type": "اختيار من متعدد",
+    "options": [
+      "The kidney breaks down proteins and the liver expels them",
+      "The liver converts ammonia into urea and the kidney excretes it",
+      "Both absorb proteins",
+      "No relationship"
+    ],
+    "correct_answer": "The liver converts ammonia into urea and the kidney excretes it"
+  },
+  {
+    "id": 14,
+    "question": "Explain: Why does the accumulation of $CO_2$ \"threaten vital processes\"?",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "The accumulation of $CO_2$ increases blood acidity, which negatively affects enzyme activity and other delicate vital processes."
+  },
+  {
+    "id": 15,
+    "question": "Explain: The liver acts as a main \"processing station\" for toxins.",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "The liver filters toxins from the blood and converts them into less toxic or insoluble forms to be excreted by the kidneys or bile."
+  },
+  {
+    "id": 16,
+    "question": "Give reason: Why losing large amounts of water is considered \"dangerous to human life\"?",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Losing large amounts of water leads to dehydration, which disrupts homeostasis, affects blood volume and pressure, and can lead to organ failure."
+  },
+  {
+    "id": 17,
+    "question": "Explain: the role of the lungs in the excretion process?",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "The lungs excrete metabolic waste products such as carbon dioxide ($CO_2$) and water vapor during the process of exhalation."
+  },
+  {
+    "id": 18,
+    "question": "The accumulation of metabolic wastes directly leads to…………….",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Increase rate of catabolism",
+      "Decrease in temperature",
+      "Increase efficiency of cells",
+      "Disturbance of the chemical balance of fluids"
+    ],
+    "correct_answer": "Disturbance of the chemical balance of fluids"
+  },
+  {
+    "id": 19,
+    "question": "The subcutaneous layer functions as………………",
+    "type": "اختيار من متعدد",
+    "options": [
+      "A barrier against microbes",
+      "A filter for blood",
+      "A thermal insulator due to its fat content",
+      "A producer of sweat"
+    ],
+    "correct_answer": "A thermal insulator due to its fat content"
+  },
+  {
+    "id": 20,
+    "question": "The accumulation of bilirubin in the body leads to ................",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Jaundice",
+      "Bile",
+      "Asthma",
+      "Dehydration"
+    ],
+    "correct_answer": "Jaundice"
+  },
+  {
+    "id": 21,
+    "question": "Which excretory organ would be most affected when consuming foods containing dyes?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Lungs",
+      "Liver",
+      "Bladder",
+      "Skin"
+    ],
+    "correct_answer": "Liver"
+  },
+  {
+    "id": 22,
+    "question": "Explain: why metabolic wastes are considered \"by-products\" despite originating from essential reactions.",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "They are considered by-products because they are secondary substances produced during metabolic reactions (like catabolism) that the body must eliminate to maintain homeostasis, rather than being the primary intended product of the reaction."
+  },
+  {
+    "id": 23,
+    "question": "Ammonia is a waste product resulting from the breakdown of ...........",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Starch",
+      "Amino acids",
+      "Fats",
+      "Glucose"
+    ],
+    "correct_answer": "Amino acids"
+  },
+  {
+    "id": 24,
+    "question": "Which of the following organ contribute to regulating both body temperature and salts?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Salivary glands",
+      "Endocrine glands",
+      "liver",
+      "Skin"
+    ],
+    "correct_answer": "Skin"
+  },
+  {
+    "id": 25,
+    "question": "which of the following metabolic waste it’s accumulation increases blood acidity?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Carbon dioxide",
+      "Mineral salt",
+      "Urea",
+      "Ammonia"
+    ],
+    "correct_answer": "Carbon dioxide"
+  },
+  {
+    "id": 26,
+    "question": "Metabolism is a process of .....................",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Catabolism only",
+      "Anabolism only",
+      "Both catabolism and anabolism",
+      "Excretion only"
+    ],
+    "correct_answer": "Both catabolism and anabolism"
+  },
+  {
+    "id": 27,
+    "question": "Explain: The nephron is considered the functional unit of the kidney.",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "The nephron is the functional unit because it is the microscopic structure responsible for the actual filtration of blood, reabsorption of useful substances, and the formation of urine."
+  },
+  {
+    "id": 28,
+    "question": "When examining a urine sample from a patient, it was found to contain large amounts of glucose. This may indicate a defect in the process of .........",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Filtration",
+      "Storage of urine",
+      "Reabsorption",
+      "Excretion"
+    ],
+    "correct_answer": "Reabsorption"
+  },
+  {
+    "id": 29,
+    "question": "An increase in the concentration of sodium ions in the blood directly affects",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Rate of breathing",
+      "Kidneys activity",
+      "Production of skin pigment",
+      "Breakdown of hemoglobin"
+    ],
+    "correct_answer": "Kidneys activity"
+  },
+  {
+    "id": 30,
+    "question": "The breakdown of hemoglobin resulting from the destruction of old red blood cells produces the substance",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Ammonia",
+      "Urea",
+      "Uric acid",
+      "Bilirubin"
+    ],
+    "correct_answer": "Bilirubin"
+  },
+  {
+    "id": 31,
+    "question": "The relationship between \"catabolism\" and metabolic waste products is",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Direct; increased catabolism increases waste products",
+      "Inverse; catabolism reduces waste products",
+      "constant; unaffected by activity",
+      "Metabolic waste products are limited to the products of anabolism only"
+    ],
+    "correct_answer": "Direct; increased catabolism increases waste products"
+  },
+  {
+    "id": 32,
+    "question": "Explain: The skin plays a dual role in human life.",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "The skin plays a dual role as it acts as an excretory organ (through sweat production to regulate temperature and excrete salts/urea) and as a protective/immune organ (acting as a physical barrier against pathogens)."
+  }
+]

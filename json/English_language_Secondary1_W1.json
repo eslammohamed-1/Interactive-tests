@@ -1,0 +1,309 @@
+[
+  {
+    "id": 1,
+    "question": "Always ............ others’ opinions, even if they’re different from yours.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "bow",
+      "refresh",
+      "respect",
+      "fit"
+    ],
+    "correct_answer": "respect"
+  },
+  {
+    "id": 2,
+    "question": "I admire Hassan’s ............; he always arrives on time.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "resilience",
+      "routine",
+      "difference",
+      "punctuality"
+    ],
+    "correct_answer": "punctuality"
+  },
+  {
+    "id": 3,
+    "question": "Good teachers ............ their students to work hard and succeed.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "motivate",
+      "stand",
+      "differ",
+      "dismiss"
+    ],
+    "correct_answer": "motivate"
+  },
+  {
+    "id": 4,
+    "question": "Asmaa follows a fixed ............ that helps her stay organized.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "honesty",
+      "difference",
+      "routine",
+      "variety"
+    ],
+    "correct_answer": "routine"
+  },
+  {
+    "id": 5,
+    "question": "Mariam showed great ............ by listening quietly to her teacher.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "dishonesty",
+      "qualification",
+      "schedule",
+      "respect"
+    ],
+    "correct_answer": "respect"
+  },
+  {
+    "id": 6,
+    "question": "Our opinions ............ as each of us has had different experiences.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "motivate",
+      "discourage",
+      "differ",
+      "attend"
+    ],
+    "correct_answer": "differ"
+  },
+  {
+    "id": 7,
+    "question": "Did you .................... my missing keys?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "saw",
+      "see",
+      "had seen",
+      "were seen"
+    ],
+    "correct_answer": "see"
+  },
+  {
+    "id": 8,
+    "question": "Mona .................... her friend Nada a short time ago.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "meets",
+      "met",
+      "is meeting",
+      "has met"
+    ],
+    "correct_answer": "met"
+  },
+  {
+    "id": 9,
+    "question": "We .................... to the cinema because we were tired.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "have gone",
+      "weren’t gone",
+      "don’t go",
+      "didn’t go"
+    ],
+    "correct_answer": "didn’t go"
+  },
+  {
+    "id": 10,
+    "question": "Those beautiful paintings ....................in an auction last month.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "sell",
+      "sold",
+      "were sold",
+      "have sold"
+    ],
+    "correct_answer": "were sold"
+  },
+  {
+    "id": 11,
+    "question": "Write an essay of about 150 words on the following topic: \"Your Daily Routine\"",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "The student should write a coherent essay of approximately 150 words describing their daily activities and schedule."
+  },
+  {
+    "id": 12,
+    "question": "Fatma prefers to keep a/an ............ schedule so she never forgets her tasks.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "organized",
+      "social",
+      "free-lanced",
+      "lasted"
+    ],
+    "correct_answer": "organized"
+  },
+  {
+    "id": 13,
+    "question": "The movie was really ............. so, he watched it twice.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "awesome",
+      "dull",
+      "excited",
+      "joined"
+    ],
+    "correct_answer": "awesome"
+  },
+  {
+    "id": 14,
+    "question": "Adham maintains a ............ diet to stay healthy.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "tiresome",
+      "balanced",
+      "lasting",
+      "social"
+    ],
+    "correct_answer": "balanced"
+  },
+  {
+    "id": 15,
+    "question": "In the 18th century, people ............ traveled by airplane.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "didn’t",
+      "weren’t",
+      "never",
+      "always"
+    ],
+    "correct_answer": "never"
+  },
+  {
+    "id": 16,
+    "question": "Mohamed ............ enjoy the party because he was very tired.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "doesn’t",
+      "didn’t",
+      "wasn’t",
+      "hasn’t"
+    ],
+    "correct_answer": "didn’t"
+  },
+  {
+    "id": 17,
+    "question": "The hotel hosted an exciting ............ for doctors last week.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "race",
+      "event",
+      "competition",
+      "teamwork"
+    ],
+    "correct_answer": "event"
+  },
+  {
+    "id": 18,
+    "question": "That calm ............ of the music helped me relax.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "rhythm",
+      "difference",
+      "break",
+      "affect"
+    ],
+    "correct_answer": "rhythm"
+  },
+  {
+    "id": 19,
+    "question": "This restaurant offers a ............ of meals to choose from.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "vary",
+      "varied",
+      "various",
+      "variety"
+    ],
+    "correct_answer": "variety"
+  },
+  {
+    "id": 20,
+    "question": "He .................... in Aswan in 1969.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "bore",
+      "was born",
+      "had been born",
+      "has been born"
+    ],
+    "correct_answer": "was born"
+  },
+  {
+    "id": 21,
+    "question": "How long ago .................... from Cairo university?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "did she graduate",
+      "she graduated",
+      "graduated she",
+      "was she graduating"
+    ],
+    "correct_answer": "did she graduate"
+  },
+  {
+    "id": 22,
+    "question": "Volunteering in the community can really make a/an ........ for people in need.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "mess",
+      "difference",
+      "noise",
+      "excuse"
+    ],
+    "correct_answer": "difference"
+  },
+  {
+    "id": 23,
+    "question": "A clear workspace helps employees stay........and complete tasks efficiently.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "careless",
+      "messy",
+      "distracted",
+      "calm"
+    ],
+    "correct_answer": "calm"
+  },
+  {
+    "id": 24,
+    "question": "During the meeting, everyone was encouraged to ............. opinion frankly.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "make",
+      "express",
+      "avoid",
+      "expire"
+    ],
+    "correct_answer": "express"
+  },
+  {
+    "id": 25,
+    "question": "In the past, some people ....................believe the Earth was flat.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "use to",
+      "used to",
+      "were using",
+      "were used to"
+    ],
+    "correct_answer": "used to"
+  },
+  {
+    "id": 26,
+    "question": "Did you .................... the lost map?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "found",
+      "find",
+      "had found",
+      "were found"
+    ],
+    "correct_answer": "find"
+  }
+]

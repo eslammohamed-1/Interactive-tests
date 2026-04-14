@@ -1,0 +1,351 @@
+[
+  {
+    "id": 1,
+    "question": "The number of moles in 180 g of acetic acid ($CH_3COOH$) = … ($C = 12, H = 1, O = 16$)",
+    "type": "اختيار من متعدد",
+    "options": [
+      "1 mol",
+      "2 mol",
+      "3 mol",
+      "4 mol"
+    ],
+    "correct_answer": "3 mol"
+  },
+  {
+    "id": 2,
+    "question": "Which process is considered an exothermic system:",
+    "type": "اختيار من متعدد",
+    "options": [
+      "freezing",
+      "evaporation",
+      "melting",
+      "heating water"
+    ],
+    "correct_answer": "freezing"
+  },
+  {
+    "id": 3,
+    "question": "In an exothermic reaction:",
+    "type": "اختيار من متعدد",
+    "options": [
+      "The energy stored in the products is less than the energy stored in the reactants.",
+      "The energy stored in the reactants is less than the energy stored in the products.",
+      "The surrounding medium lose heat",
+      "The system gains heat."
+    ],
+    "correct_answer": "The energy stored in the products is less than the energy stored in the reactants."
+  },
+  {
+    "id": 4,
+    "question": "Which of the following biological processes represents an example of an endothermic (energy-absorbing) reaction?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Cellular respiration",
+      "Formation of water molecules",
+      "Decomposition of potassium chloride",
+      "Photosynthesis"
+    ],
+    "correct_answer": "Photosynthesis"
+  },
+  {
+    "id": 5,
+    "question": "The activation energy of a reaction is at its maximum when…",
+    "type": "اختيار من متعدد",
+    "options": [
+      "The energy of the products is less than the energy of the reactants",
+      "The energy of the reactants is greater than the energy of the products",
+      "The energy of the reactants is less than the energy of the products",
+      "It has no relation to the energy of the reactants and products"
+    ],
+    "correct_answer": "The energy of the reactants is less than the energy of the products"
+  },
+  {
+    "id": 6,
+    "question": "In the cellular respiration experiment using seeds, it was observed that the limewater in flask (A) (at room temperature) turned cloudy faster than in flask (B) (in the refrigerator). How can this difference be analyzed?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "The rate of oxygen production is higher in flask (A).",
+      "The rate of carbon dioxide consumption is higher in flask (B).",
+      "The rate of cellular respiration ($CO_2$ production) is higher in flask (A)",
+      "The seeds in flask (B) died due to extreme cold"
+    ],
+    "correct_answer": "The rate of cellular respiration ($CO_2$ production) is higher in flask (A)"
+  },
+  {
+    "id": 7,
+    "question": "Which of the following equations represents an exothermic reaction?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "$XY_5 \\rightarrow XY_3 + Y_2 , \\Delta H= +420 KJ$",
+      "$XY_5 \\rightarrow XY_3 + Y_2 + 420 KJ$",
+      "$XY_5 \\rightarrow XY_3 + Y_2 - 420 KJ$",
+      "$XY_5 + 420 KJ \\rightarrow XY_3 + Y_2$"
+    ],
+    "correct_answer": "$XY_5 \\rightarrow XY_3 + Y_2 + 420 KJ$"
+  },
+  {
+    "id": 8,
+    "question": "In the reaction: $2H_2O_2 (\\ell) \\rightarrow 2H_2O (\\ell) + O_2 (g) , \\Delta H = -196 kJ/mol$, what is the change in heat of the decomposition of 0.34 g of hydrogen peroxide $H_2O_2$ ($H = 1 , O = 16$)?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "- 0.98 kJ",
+      "- 1.96 kJ",
+      "- 196 kJ",
+      "- 98 KJ"
+    ],
+    "correct_answer": "- 0.98 kJ"
+  },
+  {
+    "id": 9,
+    "question": "If the enthalpy of the reactants is 2584 kJ and that of the products is 5642 kJ, then this reaction is ………",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Exothermic, with $\\Delta H$ negative",
+      "Endothermic, with $\\Delta H$ negative",
+      "Exothermic, with $\\Delta H$ positive",
+      "Endothermic, with $\\Delta H$ positive"
+    ],
+    "correct_answer": "Endothermic, with $\\Delta H$ positive"
+  },
+  {
+    "id": 10,
+    "question": "Which graph represented a reaction produces largest amount of energy (heat) to the surrounding medium?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Graph a",
+      "Graph b",
+      "Graph c",
+      "Graph d"
+    ],
+    "correct_answer": "Graph c"
+  },
+  {
+    "id": 11,
+    "question": "Which of the following best describe the heat change of this reaction (where reactants are at a lower energy level than products)?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Sum of heat content of products ($H_p$) is greater than of sum of heat content of reactants ($H_R$) and sign of $\\Delta H$ is positive",
+      "Sum of heat content of products ($H_p$) is less than of sum of heat content of reactants ($H_R$) and sign of $\\Delta H$ is positive",
+      "Sum of heat content of products ($H_p$) is less than of sum of heat content of reactants ($H_R$) and sign of $\\Delta H$ is negative",
+      "Sum of heat content of products ($H_p$) is greater than of sum of heat content of reactants ($H_R$) and sign of $\\Delta H$ is negative"
+    ],
+    "correct_answer": "Sum of heat content of products ($H_p$) is greater than of sum of heat content of reactants ($H_R$) and sign of $\\Delta H$ is positive"
+  },
+  {
+    "id": 12,
+    "question": "From the following equation: $H_2O(\\ell) \\rightleftharpoons H_2O(g) , \\Delta H = +44 KJ/mol$:",
+    "type": "اختيار من متعدد",
+    "options": [
+      "heat content of water vapour > heat content of liquid water",
+      "heat content of water vapour = half heat content of liquid water",
+      "heat content of water vapour < heat content of liquid water",
+      "heat content of water vapour = heat content of liquid water"
+    ],
+    "correct_answer": "heat content of water vapour > heat content of liquid water"
+  },
+  {
+    "id": 13,
+    "question": "If $\\Delta H$ for the reaction = + 200 kJ, then…",
+    "type": "اختيار من متعدد",
+    "options": [
+      "The system releases heat",
+      "The surrounding medium gain heat",
+      "The system gains heat",
+      "$\\Delta H$ is negative"
+    ],
+    "correct_answer": "The system gains heat"
+  },
+  {
+    "id": 14,
+    "question": "Study the opposite figure then answer: Which reaction (1 or 2) absorbs more energy to occur?",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Reaction 2 absorbs more energy because it is an endothermic reaction with a higher activation energy barrier."
+  },
+  {
+    "id": 15,
+    "question": "From the following reaction: $CH_3OH + 3 O_2 \\rightarrow 4 H_2O + 2 CO_2, \\Delta H = -726.5 kJ/mol$. If an amount of energy equal to 4359 kJ is released, calculate the mass of methanol burned? ($c= 12 , H = 1 , O = 16$)",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Molar mass of $CH_3OH = 12 + (4 \\times 1) + 16 = 32 g/mol$. Number of moles = $4359 / 726.5 = 6$ moles. Mass = $6 \\times 32 = 192 g$."
+  },
+  {
+    "id": 16,
+    "question": "Indicate whether the following reactions/descriptions are endothermic or exothermic and the sign of $\\Delta H$: (a) Heat content of products less than reactants, (b) Reaction produces heat, (c) $NH_4NO_3(s) + H_2O + 100 kJ \\rightarrow NH_4^+(aq) + NO_3^-(aq)$, (d) $NaOH(s) + H_2O \\rightarrow Na^+(aq) + OH^-(aq)$ (Temp increases), (e) $2C_2H_2(g) + 5O_2(g) - 7000 KJ \\rightarrow 4CO_2(g) + 2H_2O(v)$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "(a) Exothermic, -ve; (b) Exothermic, -ve; (c) Endothermic, +ve; (d) Exothermic, -ve; (e) Endothermic, +ve."
+  },
+  {
+    "id": 17,
+    "question": "From the following equation: $2S(s) + 3O_2(g) \\rightarrow 2SO_3(g) , \\Delta H = -790 KJ$. What is the change value in heat content of combustion of 0.972 g of Sulphur [$S = 32$]?",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Moles of S = $0.972 / 32 = 0.030375$ mol. $\\Delta H$ for 1 mole S = $-790 / 2 = -395 kJ/mol$. Change in heat = $0.030375 \\times -395 = -11.998 kJ$."
+  },
+  {
+    "id": 18,
+    "question": "From the equation: $2C(s) + 2H_2(g) + 52.3 kJ \\rightarrow C_2H_4(g)$, It can be concluded that…..",
+    "type": "اختيار من متعدد",
+    "options": [
+      "the medium acquires heat.",
+      "heat transfers from the surrounding medium to the system.",
+      "the system loses heat.",
+      "heat transfers from the system to the surrounding medium"
+    ],
+    "correct_answer": "heat transfers from the surrounding medium to the system."
+  },
+  {
+    "id": 19,
+    "question": "Why must a chemical equation be balanced when calculating enthalpy change?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "To achieve the law of conservation of energy.",
+      "To achieve the law of conservation of mass",
+      "To keep the temperature constant",
+      "To determine the type of reaction (endothermic/exothermic)."
+    ],
+    "correct_answer": "To achieve the law of conservation of mass"
+  },
+  {
+    "id": 20,
+    "question": "Equal amounts of four different substances (A, B, C & D) were added separately to equal amounts of an acid and a thermometer placed in each mixture. For which mixture is the reaction the most exothermic?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "mixture (A) temperature rises by $3^\\circ C$",
+      "mixture (B) temperature rises by $5^\\circ C$",
+      "mixture (C) temperature falls by $3^\\circ C$",
+      "mixture (D) temperature falls by $5^\\circ C$"
+    ],
+    "correct_answer": "mixture (B) temperature rises by $5^\\circ C$"
+  },
+  {
+    "id": 21,
+    "question": "Which of this process is always endothermic?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "freezing",
+      "condensation",
+      "burning",
+      "melting"
+    ],
+    "correct_answer": "melting"
+  },
+  {
+    "id": 22,
+    "question": "If you know the following reaction take place under hard condition: $H_2O(\\ell) \\rightarrow H_2O(s) + 6.03 KJ/mole , [H = 1 , O = 16]$. Calculate the amount of heat lost from 252 g of water to freeze.",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Moles of water = $252 / 18 = 14$ moles. Heat lost = $14 \\times 6.03 = 84.42 kJ$."
+  },
+  {
+    "id": 23,
+    "question": "In exothermic system , ………………..",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Heat transfers from the surrounding medium to system",
+      "Heat transfers from the system to the surrounding medium",
+      "Heat doesn't transfer between the system and surrounding medium",
+      "The temperature of system is rising."
+    ],
+    "correct_answer": "Heat transfers from the system to the surrounding medium"
+  },
+  {
+    "id": 24,
+    "question": "Which one from following graphs represented a reaction absorbed largest amount of energy (heat) from the surrounding medium?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Graph a",
+      "Graph b",
+      "Graph c",
+      "Graph d"
+    ],
+    "correct_answer": "Graph b"
+  },
+  {
+    "id": 25,
+    "question": "Using the chemical equation: $H_2O(v) \\rightarrow H_2O(\\ell) , \\Delta H = - 44 K.J$. Then heat change ($\\Delta H$) for condensation 2 mole of water =…….K.J",
+    "type": "اختيار من متعدد",
+    "options": [
+      "-88 K.J",
+      "+88 K.J",
+      "-44 K.J",
+      "+ 44 K.J"
+    ],
+    "correct_answer": "-88 K.J"
+  },
+  {
+    "id": 26,
+    "question": "From the combustion equation of the hydrocarbon: $C_2H_4 + 3O_2 \\rightarrow 2CO_2 + 2H_2O + 955 kJ$ ($C = 12 , H = 1$). If 84 grams of the hydrocarbon are completely burned, then …..",
+    "type": "اختيار من متعدد",
+    "options": [
+      "The surrounding medium gains 955 KJ of energy",
+      "The surrounding medium loses 2865 KJ of energy",
+      "The reactants lost 2865 KJ of energy",
+      "The surrounding medium gains 1910 KJ of energy"
+    ],
+    "correct_answer": "The reactants lost 2865 KJ of energy"
+  },
+  {
+    "id": 27,
+    "question": "Compare between exothermic reactions and endothermic reactions in terms of: 1- Sign of $\\Delta H$, 2- $H_R$ and $H_P$.",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Exothermic: 1- $\\Delta H$ is negative (-ve), 2- $H_R > H_P$. Endothermic: 1- $\\Delta H$ is positive (+ve), 2- $H_P > H_R$."
+  },
+  {
+    "id": 28,
+    "question": "Heat content of water is the sum amount of stored energy in ……($H = 1 , O = 16$)",
+    "type": "اختيار من متعدد",
+    "options": [
+      "1 L",
+      "18 g",
+      "22.4 L",
+      "1 Kg"
+    ],
+    "correct_answer": "18 g"
+  },
+  {
+    "id": 29,
+    "question": "By using the following equation of burning of octane: $2C_8H_{18}(\\ell) + 25O_2(g) \\rightarrow 16CO_2(g) + 18H_2O(g) + 10900 KJ$. Then the change in ($\\Delta H$) enthalpy when 4 moles are resulted from $CO_2$ equal …",
+    "type": "اختيار من متعدد",
+    "options": [
+      "-5450 KJ",
+      "+5450 KJ",
+      "+2725 KJ",
+      "-2725 KJ"
+    ],
+    "correct_answer": "-2725 KJ"
+  },
+  {
+    "id": 30,
+    "question": "If the heat enthalpy of reactant ($H_R$) is 1250 KJ and enthalpy of product ($H_P$) is 1720 KJ then:",
+    "type": "اختيار من متعدد",
+    "options": [
+      "The reaction is endothermic, $\\Delta H = +470 KJ$",
+      "The reaction is exothermic, $\\Delta H = -470 KJ$",
+      "The reaction is exothermic, $\\Delta H = +470 KJ$",
+      "The reaction is endothermic, $\\Delta H = -470 KJ$"
+    ],
+    "correct_answer": "The reaction is endothermic, $\\Delta H = +470 KJ$"
+  },
+  {
+    "id": 31,
+    "question": "From the opposite diagram of energy (Reactants at 500 KJ, Products at 300 KJ), the value of $\\Delta H = …$",
+    "type": "اختيار من متعدد",
+    "options": [
+      "+ 200 KJ",
+      "- 200 KJ",
+      "+ 300 KJ",
+      "- 300 kJ"
+    ],
+    "correct_answer": "- 200 KJ"
+  },
+  {
+    "id": 32,
+    "question": "Study the following figures (A: Endothermic, B: Exothermic) then answer: a- Which reaction required energy to occur? b- Which reaction will increase the temperature of the surrounding medium?",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "a- Reaction (A) required energy to occur. b- Reaction (B) will increase the temperature of the surrounding medium."
+  }
+]

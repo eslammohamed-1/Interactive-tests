@@ -1,0 +1,235 @@
+[
+  {
+    "id": 1,
+    "question": "¿Qué dices para invitar?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "¿Comemos fuera?",
+      "¿Qué haces en el recreo?",
+      "¿Vas al cine?",
+      "¿Te gusta el teatro?",
+      "¿A qué hora empezamos?"
+    ],
+    "correct_answer": "¿Comemos fuera?, ¿Vas al cine?"
+  },
+  {
+    "id": 2,
+    "question": "¿Cuándo dices: \"A veces voy al teatro.\"? – Al expresar…………………… .",
+    "type": "اختيار من متعدد",
+    "options": [
+      "hábito",
+      "gustos",
+      "preferencia",
+      "frecuencia",
+      "horarios"
+    ],
+    "correct_answer": "hábito, frecuencia"
+  },
+  {
+    "id": 3,
+    "question": "¡Hola, Talia! ¿A qué hora empieza el recreo en tu escuela? Y ¿qué haces normalmente? Saludo, Sara",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "إجابة مقالية تعتمد على الطالب (مثال: El recreo empieza a las once. Normalmente como un bocadillo y hablo con mis amigos)."
+  },
+  {
+    "id": 4,
+    "question": "¡Hola, Juan! ¿Qué haces el fin de semana? Y ¿con qué frecuencia? Saludo, Hassan",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "إجابة مقالية تعتمد على الطالب (مثال: El fin de semana voy al club. Siempre juego al fútbol)."
+  },
+  {
+    "id": 5,
+    "question": "Escribe de 15 a 20 palabras sobre el tema siguiente usando los elementos entre paréntesis: El recreo: (actividades – frecuencia)",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "موضوع تعبيري قصير (مثال: En el recreo, siempre como un bocadillo y a veces juego al fútbol con mis amigos)."
+  },
+  {
+    "id": 6,
+    "question": "¿Qué dices para expresar frecuencia?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Me gusta leer libros de historia.",
+      "Prefiere escuchar reggaetón.",
+      "A menudo voy al cíber.",
+      "En el recreo como un bocata.",
+      "Mi amiga a veces va al gimnasio."
+    ],
+    "correct_answer": "A menudo voy al cíber., Mi amiga a veces va al gimnasio."
+  },
+  {
+    "id": 7,
+    "question": "¿Cuándo dices: \"¿Comes en mi casa?\"? – Al …………………… .",
+    "type": "اختيار من متعدد",
+    "options": [
+      "saludar",
+      "invitar",
+      "expresar gustos",
+      "expresar la hora",
+      "proponer"
+    ],
+    "correct_answer": "invitar, proponer"
+  },
+  {
+    "id": 8,
+    "question": "Mi clase……….al fútbol con la clase 1/b.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "juega",
+      "juegas",
+      "juegan",
+      "jugar"
+    ],
+    "correct_answer": "juega"
+  },
+  {
+    "id": 9,
+    "question": "Hoy, Pepe no…………..a la escuela.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "voy",
+      "va",
+      "vas",
+      "van"
+    ],
+    "correct_answer": "va"
+  },
+  {
+    "id": 10,
+    "question": "Los estudiantes……………..en el patio.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "jugamos",
+      "juegan",
+      "jugáis",
+      "juegas"
+    ],
+    "correct_answer": "juegan"
+  },
+  {
+    "id": 11,
+    "question": "¿Qué dices para invitar?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "¿Comemos en un restaurante?",
+      "¿Qué haces en la clase de español?",
+      "¿Vamos a jugar al tenis?",
+      "¿Te gusta el cine?",
+      "¿A qué hora terminamos?"
+    ],
+    "correct_answer": "¿Comemos en un restaurante?, ¿Vamos a jugar al tenis?"
+  },
+  {
+    "id": 12,
+    "question": "¿Cuándo dices: \"normalmente voy al club.\"? – Al …………………… .",
+    "type": "اختيار من متعدد",
+    "options": [
+      "pedir información sobre frecuencia",
+      "pedir información sobre preferencia",
+      "dar información sobre frecuencia",
+      "dar información sobre preferencia",
+      "pedir información sobre gustos"
+    ],
+    "correct_answer": "dar información sobre frecuencia"
+  },
+  {
+    "id": 13,
+    "question": "Mis compañeros………….al partido del Ahly.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "van",
+      "voy",
+      "vamos",
+      "vas"
+    ],
+    "correct_answer": "van"
+  },
+  {
+    "id": 14,
+    "question": "Los chicos……………….con el móvil.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "jugar",
+      "juegan",
+      "jugamos",
+      "juegas"
+    ],
+    "correct_answer": "juegan"
+  },
+  {
+    "id": 15,
+    "question": "Yo……….al colegio en el metro.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "vas",
+      "van",
+      "voy",
+      "va"
+    ],
+    "correct_answer": "voy"
+  },
+  {
+    "id": 16,
+    "question": "¿Qué dices para proponer una idea?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "¿A qué hora termina las clases?",
+      "¿Con qué frecuencia?",
+      "¿Sales del cole en el recreo?",
+      "¿Comemos pizza?",
+      "¿Juegas al fútbol?"
+    ],
+    "correct_answer": "¿Comemos pizza?, ¿Juegas al fútbol?"
+  },
+  {
+    "id": 17,
+    "question": "¿Cuándo dices: \"Juego al fútbol a menudo.\"? – Al …………………… .",
+    "type": "اختيار من متعدد",
+    "options": [
+      "preguntar por frecuencia",
+      "preguntar por hábito",
+      "expresar frecuencia",
+      "expresar hábito",
+      "invitar"
+    ],
+    "correct_answer": "expresar frecuencia, expresar hábito"
+  },
+  {
+    "id": 18,
+    "question": "¿……………………haces en el recreo?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Cómo",
+      "Cuánto",
+      "Qué",
+      "Dónde"
+    ],
+    "correct_answer": "Qué"
+  },
+  {
+    "id": 19,
+    "question": "Yo…………...a la escuela en autobús.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "va",
+      "voy",
+      "ir",
+      "vas"
+    ],
+    "correct_answer": "voy"
+  },
+  {
+    "id": 20,
+    "question": "A Laila, le………… las clases de español.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "gusta",
+      "gustan",
+      "جusto",
+      "gustar"
+    ],
+    "correct_answer": "gustan"
+  }
+]

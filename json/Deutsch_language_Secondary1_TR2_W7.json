@@ -1,0 +1,184 @@
+[
+  {
+    "id": 1,
+    "question": "Ergänze die Wörter: die W …o. …h…nung, das Es…..zimmer, die K…..che, das Schl….fzimmer, der Fl….r",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Wohnung, Esszimmer, Küche, Schlafzimmer, Flur"
+  },
+  {
+    "id": 2,
+    "question": "In meiner Wohnung sind vier Zimmer, ………. Flur, nur .......... Bad, ……….. Küche und ………… Balkon.",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "ein, ein, eine, ein"
+  },
+  {
+    "id": 3,
+    "question": "Hier sind ……….. Schlafzimmer, .......... Kinderzimmer und .......... Flur.",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "ein, ein, ein"
+  },
+  {
+    "id": 4,
+    "question": "Sind hier ………. Toilette und ………… Balkon? – Ja, ………. Toilette und ………… Balkon sind dort.",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "eine, ein, die, der"
+  },
+  {
+    "id": 5,
+    "question": "Das hier ist doch kein Arbeitszimmer. Das ist ………….. Wohnzimmer.",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "ein"
+  },
+  {
+    "id": 6,
+    "question": "Ist das dein Schlafzimmer? – Nein, das ist ………. Schlafzimmer von Rita.",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "das"
+  },
+  {
+    "id": 7,
+    "question": "Ist hier auch ein Bad? – Ja, natürlich. ……….. Bad ist dort.",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Das"
+  },
+  {
+    "id": 8,
+    "question": "Jemand sagt: „Entschuldigung, wo ist hier eine Toilette, bitte?“ Du sagst: .........…",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Die Toilette ist groß.",
+      "Dort ist die Toilette.",
+      "Das ist nicht meine Toilette.",
+      "Ich glaube hier.",
+      "Ja, die Toilette ist klein."
+    ],
+    "correct_answer": "Dort ist die Toilette, Ich glaube hier"
+  },
+  {
+    "id": 9,
+    "question": "Corinna hat .......... Wohnung in München.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "eine",
+      "ein",
+      "0",
+      "die"
+    ],
+    "correct_answer": "eine"
+  },
+  {
+    "id": 10,
+    "question": ".......... Garten dort ist sehr schön und groß.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Ein",
+      "Die",
+      "Eine",
+      "Der"
+    ],
+    "correct_answer": "Der"
+  },
+  {
+    "id": 11,
+    "question": "Haben Sie .......... Küche? - Ja, stimmt. Hier ist die Küche.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "die",
+      "der",
+      "eine"
+    ],
+    "correct_answer": "eine"
+  },
+  {
+    "id": 12,
+    "question": "Was ist das? Ist das .......... Balkon? - Ja, genau.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "ein",
+      "eine",
+      "das",
+      "die"
+    ],
+    "correct_answer": "ein"
+  },
+  {
+    "id": 13,
+    "question": "Hier sind .......... Arbeitszimmer. Schön, Die Arbeitszimmer sind sehr groß.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "ein",
+      "das",
+      "eine",
+      "0"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "id": 14,
+    "question": "In der Wohnung ist ein Balkon. .......... Balkon ist aber klein.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Ein",
+      "Die",
+      "Das",
+      "Der"
+    ],
+    "correct_answer": "Der"
+  },
+  {
+    "id": 15,
+    "question": "Entschuldigung! Ist hier .......... Toilette? - Ja, die Toilette ist dort.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "ein",
+      "eine",
+      "das",
+      "die"
+    ],
+    "correct_answer": "eine"
+  },
+  {
+    "id": 16,
+    "question": "Wo ist hier .......... Flur? – Dort.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "eine",
+      "die",
+      "das",
+      "der"
+    ],
+    "correct_answer": "der"
+  },
+  {
+    "id": 17,
+    "question": "Köln und Bonn sind .......... Städte in Deutschland.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "eine",
+      "die",
+      "das",
+      "0"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "id": 18,
+    "question": "Wann sagst du das: „Dort ist die Küche.“? Deine Freundin sagt: ………..",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Was ist das?",
+      "Wo ist die Küche?",
+      "Ich suche die Küche.",
+      "Wie ist die Küche?",
+      "Wer hat eine Küche?"
+    ],
+    "correct_answer": "Wo ist die Küche?, Ich suche die Küche."
+  }
+]

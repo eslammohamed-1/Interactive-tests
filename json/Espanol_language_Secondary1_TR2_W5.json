@@ -1,0 +1,186 @@
+[
+  {
+    "id": 1,
+    "question": "Escribe cada actividad debajo de su dibujo correspondiente:",
+    "type": "مقالي",
+    "options": [
+      "Hablar con amigos",
+      "Ver la tele",
+      "Jugar con el móvil",
+      "Leer un libro",
+      "Escuchar música",
+      "Comer un bocata",
+      "Bailar",
+      "Jugar al fútbol"
+    ],
+    "correct_answer": "تعتمد الإجابة على تحديد النشاط المناسب لكل صورة من الصور الموضحة في التمرين."
+  },
+  {
+    "id": 2,
+    "question": "Mi clase……….al fútbol con la clase 1/b.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "juega",
+      "juegas",
+      "juegan",
+      "jugar"
+    ],
+    "correct_answer": "juega"
+  },
+  {
+    "id": 3,
+    "question": "Hoy, Pepe no…………..a la escuela.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "voy",
+      "va",
+      "vas",
+      "van"
+    ],
+    "correct_answer": "va"
+  },
+  {
+    "id": 4,
+    "question": "Los estudiantes……………..en el patio.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "jugamos",
+      "juegan",
+      "jugáis",
+      "juegas"
+    ],
+    "correct_answer": "juegan"
+  },
+  {
+    "id": 5,
+    "question": "Mis compañeros………….al partido del Ahly.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "van",
+      "voy",
+      "vamos",
+      "vas"
+    ],
+    "correct_answer": "van"
+  },
+  {
+    "id": 6,
+    "question": "Los chicos……………….con el móvil.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "jugar",
+      "juegan",
+      "jugamos",
+      "juegas"
+    ],
+    "correct_answer": "juegan"
+  },
+  {
+    "id": 7,
+    "question": "Yo……….al colegio en el metro.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "vas",
+      "van",
+      "voy",
+      "va"
+    ],
+    "correct_answer": "voy"
+  },
+  {
+    "id": 8,
+    "question": "¿……………………haces en el recreo?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Cómo",
+      "Cuánto",
+      "Qué",
+      "Dónde"
+    ],
+    "correct_answer": "Qué"
+  },
+  {
+    "id": 9,
+    "question": "Yo…………...a la escuela en autobús.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "va",
+      "voy",
+      "ir",
+      "vas"
+    ],
+    "correct_answer": "voy"
+  },
+  {
+    "id": 10,
+    "question": "A Laila, le………… las clases de español.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "gusta",
+      "gustan",
+      "gusto",
+      "gustar"
+    ],
+    "correct_answer": "gustan"
+  },
+  {
+    "id": 11,
+    "question": "¿Qué dices para dar información sobre el recreo? (Elige las dos respuestas correctas)",
+    "type": "اختيار من متعدد",
+    "options": [
+      "¿Juegas al fútbol?",
+      "¿Qué te gusta hacer en el recreo?",
+      "A las nueve empieza la película.",
+      "Veo videoclips de cantantes españoles en el recreo.",
+      "En el recreo hablamos con los compañeros."
+    ],
+    "correct_answer": "d) Veo videoclips de cantantes españoles en el recreo. / e) En el recreo hablamos con los compañeros."
+  },
+  {
+    "id": 12,
+    "question": "Lee el siguiente correo electrónico y responde a las preguntas en frases completas: ¡Hola Yasser! Dime, ¿Qué haces en el recreo? Y ¿A qué hora empieza el recreo? Saludos, Sara",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "En el recreo [actividad, ej: juego al fútbol] y el recreo empieza a las [hora, ej: las once]."
+  },
+  {
+    "id": 13,
+    "question": "¿Qué dices para pedir información sobre el recreo? (Elige las dos respuestas correctas)",
+    "type": "اختيار من متعدد",
+    "options": [
+      "¿A qué hora termina las clases?",
+      "¿Qué haces en el recreo?",
+      "¿Sales del cole en el recreo?",
+      "En el recreo como un bocata.",
+      "Escuchamos música en el recreo."
+    ],
+    "correct_answer": "b) ¿Qué haces en el recreo? / c) ¿Sales del cole en el recreo?"
+  },
+  {
+    "id": 14,
+    "question": "Lee el siguiente correo electrónico y responde a las preguntas en frases completas: ¡Hola, amigo! Por favor, dime: ¿Qué haces el recreo? Y ¿A qué hora termina el recreo? Saludos, Hassan",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "En el recreo [actividad] y el recreo termina a las [hora]."
+  },
+  {
+    "id": 15,
+    "question": "¿Qué dices para pedir información sobre el recreo? (Elige las dos respuestas correctas - Modelo C)",
+    "type": "اختيار من متعدد",
+    "options": [
+      "¿A qué hora termina las clases?",
+      "¿Qué haces en el recreo?",
+      "¿Sales del cole en el recreo?",
+      "En el recreo como un bocata.",
+      "Escuchamos música en el recreo."
+    ],
+    "correct_answer": "b) ¿Qué haces en el recreo? / c) ¿Sales del cole en el recreo?"
+  },
+  {
+    "id": 16,
+    "question": "Lee el siguiente correo electrónico y responde a las preguntas en frases completas: ¡Hola Abir! Dime, ¿Te gustan los fines de semana? Y ¿Por qué? Saludos, Tala",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Sí, me gustan los fines de semana porque [razón, ej: descanso y juego]."
+  }
+]

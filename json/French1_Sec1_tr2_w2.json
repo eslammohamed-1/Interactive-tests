@@ -1,0 +1,173 @@
+[
+  {
+    "id": 1,
+    "question": "Ce serait bien que tu envoies un message à Clara.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Demande",
+      "Proposition",
+      "Acceptation",
+      "Conseil",
+      "Ordre"
+    ],
+    "correct_answer": "Conseil"
+  },
+  {
+    "id": 2,
+    "question": "Peux-tu me dire l’adresse de la bibliothèque ?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Demande",
+      "Proposition",
+      "Acceptation",
+      "Conseil",
+      "Ordre"
+    ],
+    "correct_answer": "Demande"
+  },
+  {
+    "id": 3,
+    "question": "D’accord, je vais vérifier sur Internet.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Demande",
+      "Proposition",
+      "Acceptation",
+      "Conseil",
+      "Ordre"
+    ],
+    "correct_answer": "Acceptation"
+  },
+  {
+    "id": 4,
+    "question": "Il faut finir les devoirs avant ce soir.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Demande",
+      "Proposition",
+      "Acceptation",
+      "Conseil",
+      "Ordre"
+    ],
+    "correct_answer": "Ordre"
+  },
+  {
+    "id": 5,
+    "question": "Tu voudrais qu’on aille au cinéma samedi ?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Demande",
+      "Proposition",
+      "Acceptation",
+      "Conseil",
+      "Ordre"
+    ],
+    "correct_answer": "Proposition"
+  },
+  {
+    "id": 6,
+    "question": "Je voudrais que tu ... avec nous au parc.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "venir",
+      "viennes",
+      "viendras",
+      "viens"
+    ],
+    "correct_answer": "viennes"
+  },
+  {
+    "id": 7,
+    "question": "Si tu travaillais plus, tu ... mieux.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "réussis",
+      "réussisses",
+      "réussirais",
+      "as réussi"
+    ],
+    "correct_answer": "réussirais"
+  },
+  {
+    "id": 8,
+    "question": "Il est nécessaire que nous ... tôt demain.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "partons",
+      "partions",
+      "partirons",
+      "partirions"
+    ],
+    "correct_answer": "partions"
+  },
+  {
+    "id": 9,
+    "question": "Elle ... ravie si tu lui offrais ce livre.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "sera",
+      "serait",
+      "soit",
+      "fut"
+    ],
+    "correct_answer": "serait"
+  },
+  {
+    "id": 10,
+    "question": "Je doute qu’il ... cet après-midi.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "pleut",
+      "pleuvra",
+      "pleuve",
+      "pleuvrait"
+    ],
+    "correct_answer": "pleuve"
+  },
+  {
+    "id": 11,
+    "question": "Vous ... ranger votre chambre avant de sortir.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "devez",
+      "devriez",
+      "devrez"
+    ],
+    "correct_answer": "devriez"
+  },
+  {
+    "id": 12,
+    "question": "Pourquoi les garçons décident-ils de donner des noms aux différents lieux de l’île ? Que révèle cette décision sur leur état d’esprit ?",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Ils décident de nommer les lieux pour s'approprier l'île et recréer un semblant de civilisation. Cela révèle leur volonté d'organisation, leur courage et leur désir de transformer cet environnement sauvage en un foyer structuré."
+  },
+  {
+    "id": 13,
+    "question": "Quels sont les noms proposés pour la rivière et le lac, et quelle est la signification symbolique de chacun de ces choix ?",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Les noms choisis font souvent référence à leur origine ou à des membres du groupe (comme la rivière Phineas). Symboliquement, cela représente le lien persistant avec leur ancienne vie et leur identité scolaire."
+  },
+  {
+    "id": 14,
+    "question": "Comment réagissent les autres garçons à la proposition de Costar de nommer l’île « île Chairman » ? Qu’est-ce que cela nous apprend sur la dynamique du groupe et sur l’importance de leur ancienne vie ?",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Les garçons acceptent avec enthousiasme. Cela montre une forte cohésion de groupe et une nostalgie profonde pour leur pensionnat (Chairman), soulignant que leur ancienne vie reste leur principal point de repère moral et social."
+  },
+  {
+    "id": 15,
+    "question": "Faites une phrase complète avec le mot suivant : (diététicien)",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Le diététicien m'a donné un régime équilibré pour rester en bonne santé."
+  },
+  {
+    "id": 16,
+    "question": "Faites une phrase complète avec le mot suivant : (accompagner)",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Je vais accompagner mon ami à la bibliothèque pour réviser nos leçons."
+  }
+]

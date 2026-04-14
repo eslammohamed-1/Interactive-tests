@@ -1,0 +1,323 @@
+[
+  {
+    "id": 1,
+    "question": "Engineers receive…………………to develop skills for aerospace projects.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "mindfulness",
+      "empathy",
+      "happiness",
+      "training"
+    ],
+    "correct_answer": "training"
+  },
+  {
+    "id": 2,
+    "question": "Flexibility and………..help employees adjust to fast-changing environments.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "virtual",
+      "robotics",
+      "adaptability",
+      "career"
+    ],
+    "correct_answer": "adaptability"
+  },
+  {
+    "id": 3,
+    "question": "Technology allows us to.…….. information instantly at the click of a button.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "access",
+      "ignore",
+      "build",
+      "press"
+    ],
+    "correct_answer": "access"
+  },
+  {
+    "id": 4,
+    "question": "Our schools ……………..old textbooks with new editions every year.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "adapt",
+      "volunteer",
+      "reduce",
+      "replace"
+    ],
+    "correct_answer": "replace"
+  },
+  {
+    "id": 5,
+    "question": "A good student must………..to new situations to succeed academically.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "replace",
+      "adapt",
+      "drone",
+      "artificial"
+    ],
+    "correct_answer": "adapt"
+  },
+  {
+    "id": 6,
+    "question": "Many products in the market are ………………..rather than natural.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "artificial",
+      "sustainable",
+      "empathy",
+      "virtual"
+    ],
+    "correct_answer": "artificial"
+  },
+  {
+    "id": 7,
+    "question": "Teachers encourage ……………..in students to solve problems creatively.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "drone",
+      "adapt",
+      "stability",
+      "creativity"
+    ],
+    "correct_answer": "creativity"
+  },
+  {
+    "id": 8,
+    "question": "People must stay ………when interacting with strangers or new situations.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "artificial",
+      "green",
+      "respectful",
+      "flexible"
+    ],
+    "correct_answer": "flexible"
+  },
+  {
+    "id": 9,
+    "question": "A………………can complete repetitive tasks automatically in factories.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "drone",
+      "specialist",
+      "candidate",
+      "robot"
+    ],
+    "correct_answer": "robot"
+  },
+  {
+    "id": 10,
+    "question": "…………… means the ability to produce new and original ideas or works.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Empathy",
+      "Creativity",
+      "Flexibility",
+      "Addiction"
+    ],
+    "correct_answer": "Creativity"
+  },
+  {
+    "id": 11,
+    "question": "After getting married, she needs to…………………to life in the new city.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "replace",
+      "adapt",
+      "drone",
+      "artificial"
+    ],
+    "correct_answer": "adapt"
+  },
+  {
+    "id": 12,
+    "question": "The word “visitors” refers to ………………….. .",
+    "type": "اختيار من متعدد",
+    "options": [
+      "The merchants",
+      "The problem",
+      "The wisdom",
+      "Wealth and Poverty"
+    ],
+    "correct_answer": "Wealth and Poverty"
+  },
+  {
+    "id": 13,
+    "question": "The visitors wanted the merchants to .............................. .",
+    "type": "اختيار من متعدد",
+    "options": [
+      "be with them in their problem",
+      "judge which one of the two is more beautiful",
+      "sell them his shop",
+      "buy their goods"
+    ],
+    "correct_answer": "judge which one of the two is more beautiful"
+  },
+  {
+    "id": 14,
+    "question": "According to the passage, the way to solve a problem is to……………………. .",
+    "type": "اختيار من متعدد",
+    "options": [
+      "rush",
+      "think calmly",
+      "hesitate",
+      "stop thinking"
+    ],
+    "correct_answer": "think calmly"
+  },
+  {
+    "id": 15,
+    "question": "The underlined word “appreciated” means .............................. .",
+    "type": "اختيار من متعدد",
+    "options": [
+      "valued",
+      "disrespected",
+      "disparaged",
+      "fulfilled"
+    ],
+    "correct_answer": "valued"
+  },
+  {
+    "id": 16,
+    "question": "The moral of the text is ................................... .",
+    "type": "اختيار من متعدد",
+    "options": [
+      "poverty is uglier than wealth",
+      "we should do our best to overcome poverty",
+      "wealth is more beautiful than poverty",
+      "We can solve difficult situations by calm thinking"
+    ],
+    "correct_answer": "We can solve difficult situations by calm thinking"
+  },
+  {
+    "id": 17,
+    "question": "The merchant feared to declare that wealth is more beautiful than poverty because ..... .",
+    "type": "اختيار من متعدد",
+    "options": [
+      "wealth may forsake him",
+      "poverty may curse him",
+      "poverty may forsake him",
+      "wealth may curse him"
+    ],
+    "correct_answer": "poverty may curse him"
+  },
+  {
+    "id": 18,
+    "question": "The underlined word “declare” is the antonym of .............................. .",
+    "type": "اختيار من متعدد",
+    "options": [
+      "confirm",
+      "acknowledge",
+      "claim",
+      "deny"
+    ],
+    "correct_answer": "deny"
+  },
+  {
+    "id": 19,
+    "question": "Rewrite the following sentence using the word in brackets: Sama started learning English in 2009. (for)",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Sama has been learning English for 16 years."
+  },
+  {
+    "id": 20,
+    "question": "Rewrite the following sentence using the word in brackets: Mariam went to Italy and came back. (been to)",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Mariam has been to Italy."
+  },
+  {
+    "id": 21,
+    "question": "Rewrite the following sentence using the word in brackets: Adham has lived in Alexandria for five years. (since)",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Adham has lived in Alexandria since 2020."
+  },
+  {
+    "id": 22,
+    "question": "Rewrite the following sentence using the word in brackets: Nada last saw her cousin two weeks ago. (hasn't)",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Nada hasn't seen her cousin for two weeks."
+  },
+  {
+    "id": 23,
+    "question": "Rewrite the following sentence using the word in brackets: He finished his lunch a moment ago. (just)",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "He has just finished his lunch."
+  },
+  {
+    "id": 24,
+    "question": "Rewrite the following sentence using the word in brackets: Mo Salah has played for Liverpool since 2017. (for)",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Mo Salah has played for Liverpool for 8 years."
+  },
+  {
+    "id": 25,
+    "question": "Rewrite the following sentence using the word in brackets: He practiced swimming daily when he was young. (since)",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "He has practiced swimming daily since he was young."
+  },
+  {
+    "id": 26,
+    "question": "Rewrite the following sentence using the word in brackets: Ali went to Aswan. He came back home. (has been)",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Ali has been to Aswan."
+  },
+  {
+    "id": 27,
+    "question": "Rewrite the following sentence using the word in brackets: I last saw Ahmed two years ago. (haven't)",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "I haven't seen Ahmed for two years."
+  },
+  {
+    "id": 28,
+    "question": "Rewrite the following sentence using the word in brackets: I met my uncle a few minutes ago. (just)",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "I have just met my uncle."
+  },
+  {
+    "id": 29,
+    "question": "Rewrite the following sentence using the word in brackets: It's been a long time since I last saw Heba. (haven't)",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "I haven't seen Heba for a long time."
+  },
+  {
+    "id": 30,
+    "question": "Rewrite the following sentence using the word in brackets: They watched the match a short time ago. (just)",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "They have just watched the match."
+  },
+  {
+    "id": 31,
+    "question": "Rewrite the following sentence using the word in brackets: This is the most beautiful girl I have ever seen. (never)",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "I have never seen such a beautiful girl."
+  },
+  {
+    "id": 32,
+    "question": "Rewrite the following sentence using the word in brackets: Ibrahim went to the market and she is still there. (gone)",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Ibrahim has gone to the market."
+  },
+  {
+    "id": 33,
+    "question": "Rewrite the following sentence using the word in brackets: The last time I saw Hassan was in June. (since)",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "I haven't seen Hassan since June."
+  }
+]

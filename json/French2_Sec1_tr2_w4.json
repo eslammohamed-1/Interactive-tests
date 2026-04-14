@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "question": "Ton copain te demande ton emploi du temps, tu dis :",
+    "type": "اختيار من متعدد",
+    "options": [
+      "J’ai maths le lundi à 10h30.",
+      "Il a 5 heures d’anglais par semaine.",
+      "Il a la récré à 10h.",
+      "J’ai histoire-géo jeudi après-midi.",
+      "J’aime la musique."
+    ],
+    "correct_answer": "a, d"
+  },
+  {
+    "id": 2,
+    "question": "Tu demandes à ton ami l’heure, tu dis :",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Quelle heure est-il, s.t.p. ?",
+      "À quelle heure tu termines le lundi ?",
+      "À quelle heure tu as français ?",
+      "Combien d’heures il a de chimie ?",
+      "Il est quelle heure ?"
+    ],
+    "correct_answer": "a, e"
+  },
+  {
+    "id": 3,
+    "question": "Décris ton emploi du temps. (Les matières – l’heure)",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "إجابة مفتوحة من الطالب يصف فيها جدوله الدراسي مستخدماً أسماء المواد والأوقات."
+  },
+  {
+    "id": 4,
+    "question": "Réponds à ce mail par deux phrases complètes : Salut ! J’ai des cours toute la journée, et toi ? Tu as quelles matières aujourd’hui ? Et quel professeur aimes-tu ? À plus !",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "إجابة مفتوحة (مثال: Salut! Aujourd'hui j'ai anglais et chimie. J'aime le professeur de français. À plus!)"
+  },
+  {
+    "id": 5,
+    "question": "J’ai EPS ……………… mercredi.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "le",
+      "la",
+      "l’",
+      "les"
+    ],
+    "correct_answer": "le"
+  },
+  {
+    "id": 6,
+    "question": "……………… matière tu as à 9h. ?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Quel",
+      "Quelle",
+      "Quels",
+      "Quelles"
+    ],
+    "correct_answer": "Quelle"
+  },
+  {
+    "id": 7,
+    "question": "Il est 7h. et ………………",
+    "type": "اختيار من متعدد",
+    "options": [
+      "demi",
+      "demie",
+      "pile",
+      "moins le quart"
+    ],
+    "correct_answer": "demie"
+  },
+  {
+    "id": 8,
+    "question": "Nous ………………… technologie tous les jours.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "ai",
+      "as",
+      "avons",
+      "ont"
+    ],
+    "correct_answer": "avons"
+  }
+]

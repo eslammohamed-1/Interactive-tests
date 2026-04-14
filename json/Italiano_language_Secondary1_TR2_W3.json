@@ -1,0 +1,175 @@
+[
+  {
+    "id": 1,
+    "question": "Dino e Paolo......................mangiare la pizza.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Preferisci",
+      "preferiscono",
+      "preferisce",
+      "preferite"
+    ],
+    "correct_answer": "preferiscono"
+  },
+  {
+    "id": 2,
+    "question": "Queste ragazze sono ..................",
+    "type": "اختيار من متعدد",
+    "options": [
+      "intelligenti",
+      "intelligente",
+      "cortese",
+      "belli"
+    ],
+    "correct_answer": "intelligenti"
+  },
+  {
+    "id": 3,
+    "question": "Signora, quando.........................la casa?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "pulite",
+      "puliscono",
+      "pulisce",
+      "pulisci"
+    ],
+    "correct_answer": "pulisce"
+  },
+  {
+    "id": 4,
+    "question": "Questo libro ѐ ....................",
+    "type": "اختيار من متعدد",
+    "options": [
+      "bella",
+      "interessante",
+      "moderna",
+      "interessanti"
+    ],
+    "correct_answer": "interessante"
+  },
+  {
+    "id": 5,
+    "question": "Signor Aldo, dove.................?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "abita",
+      "abitate",
+      "abitano",
+      "abiti"
+    ],
+    "correct_answer": "abita"
+  },
+  {
+    "id": 6,
+    "question": "Scrivi un tema da 15 a 20 parole usando gli elementi dati: Descrivi il tuo compagno (L’aspetto fisico - La nazionalità)",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "تعبير كتابي يصف الزميل من حيث المظهر والجنسية"
+  },
+  {
+    "id": 7,
+    "question": "Scrivi un tema da 15 a 20 parole usando gli elementi dati: Descrivi il tuo amico Dino (Il carattere - L‘età)",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "تعبير كتابي يصف الصديق دينو من حيث الشخصية والعمر"
+  },
+  {
+    "id": 8,
+    "question": "Quando descrivo l’aspetto di Carla, dico:",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Carla ha 20 anni",
+      "Carla ѐ italiana",
+      "Carla ѐ alta",
+      "Carla ѐ allegra",
+      "Carla ha gli occhi neri"
+    ],
+    "correct_answer": "Carla ѐ alta, Carla ha gli occhi neri"
+  },
+  {
+    "id": 9,
+    "question": "Dico: 'Adel ѐ simpatico e allegro', quando .......",
+    "type": "اختيار من متعدد",
+    "options": [
+      "parlo dell’aspetto di Aldo",
+      "descrivo il carattere di Aldo",
+      "descrivo Aldo",
+      "indico l’età di Aldo",
+      "indico la nazionalità di Aldo"
+    ],
+    "correct_answer": "descrivo il carattere di Aldo, descrivo Aldo"
+  },
+  {
+    "id": 10,
+    "question": "Rispondi all’e-mail seguente scrivendo frasi complete: Ciao Sara, Tu hai una nuova amica. Com’ѐ questa ragazza? E di dov’ѐ? Saluti Stefania",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "إجابة البريد الإلكتروني بوصف الفتاة وذكر موطنها"
+  },
+  {
+    "id": 11,
+    "question": "Quando descrivo il mio carattere, dico:",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Io sono simpatica",
+      "Io sono magra",
+      "ho i capelli corti",
+      "Io sono intelligente",
+      "Io sono egiziana"
+    ],
+    "correct_answer": "Io sono simpatica, Io sono intelligente"
+  },
+  {
+    "id": 12,
+    "question": "Dico: 'Io ho la bocca piccola', quando .......",
+    "type": "اختيار من متعدد",
+    "options": [
+      "descrivo il mio carattere",
+      "descrivo il mio aspetto",
+      "descrivo un amico",
+      "indico il nome",
+      "mi descrivo"
+    ],
+    "correct_answer": "descrivo il mio aspetto, mi descrivo"
+  },
+  {
+    "id": 13,
+    "question": "Rispondi all’email seguente scrivendo frasi complete: Ciao Gianna, La tua amica nuova si chiama Anna. Dove abita? E di dov‘ѐ? Saluti Stella",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "إجابة البريد الإلكتروني بذكر مكان السكن والجنسية"
+  },
+  {
+    "id": 14,
+    "question": "Dico: 'Alessia ha gli occhi verdi', quando .......",
+    "type": "اختيار من متعدد",
+    "options": [
+      "descrivo l‘aspetto",
+      "descrivo il carattere",
+      "descrivo una persona",
+      "indico l’età",
+      "indico la nazionalità"
+    ],
+    "correct_answer": "descrivo l‘aspetto, descrivo una persona"
+  },
+  {
+    "id": 15,
+    "question": "Quando mi descrivo, dico:",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Io vado a scuola con Paolo",
+      "Io sono a casa",
+      "Io sono basso",
+      "Io preferisco studiare l‘italiano",
+      "Io sono gentile"
+    ],
+    "correct_answer": "Io sono basso, Io sono gentile"
+  },
+  {
+    "id": 16,
+    "question": "Rispondi all’email seguente scrivendo frasi complete: Ciao Salma, La mamma di Laila ѐ simpatica.... Come si chiama? E Che lavoro fa? Baci Samira",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "إجابة البريد الإلكتروني بذكر الاسم والوظيفة"
+  }
+]

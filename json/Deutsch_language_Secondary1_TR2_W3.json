@@ -1,0 +1,177 @@
+[
+  {
+    "id": 1,
+    "question": "Ergänze den Dialog zwischen der Kundin und der Verkäuferin!",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Verkäuferin: Kann ich Ihnen helfen? / Kundin: Ich brauche Birnen. Haben Sie Birnen? / Verkäuferin: Ja, natürlich. Wie viel möchten Sie? / Kundin: Drei Kilo. / Verkäuferin: Gern. Sonst noch etwas? / Kundin: Nein, danke. Das ist alles."
+  },
+  {
+    "id": 2,
+    "question": "Bilde richtig Sätze! (1. Ihnen – helfen – ich – kann? 2. Fleisch – brauchen – wie viel – Sie? 3. wir – noch – haben – Milch. 4. Joghurt – brauchst – wie viel – du? 5. ein Kilo – ich – Reis – möchte.)",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "1. Kann ich Ihnen helfen? 2. Wie viel Fleisch brauchen Sie? 3. Wir haben noch Milch. 4. Wie viel Joghurt brauchst du? 5. Ich möchte ein Kilo Reis."
+  },
+  {
+    "id": 3,
+    "question": "Wo findet man das im Supermarkt? Sortiere die Waren! (Kaffee, Butter, Äpfel, Tee, Käse, Wurst, Joghurt, Orangensaft, Birnen, Reis, Tomaten, Sahne, Milch, Salz, Brötchen, Mineralwasser, Kartoffeln, Zucker, Orangen, Kuchen)",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Fleisch: Wurst; Gemüse: Tomaten, Kartoffeln; Obst: Äpfel, Birnen, Orangen; Getränke: Kaffee, Tee, Orangensaft, Mineralwasser; Milchprodukte: Butter, Käse, Joghurt, Sahne, Milch; sonstiges: Reis, Salz, Brötchen, Zucker, Kuchen"
+  },
+  {
+    "id": 4,
+    "question": "Wer sagt was? Verbinde! (1. Nein, danke, Das ist alles. 2. Haben Sie Kiwis? 3. Kann ich Ihnen helfen? 4. Nein, tut mir leid. 5. Wie viel möchten Sie? 6. Gern. Sonst noch etwas? 7. Ich brauche 2 Kilo, bitte.)",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "der Kunde: 1, 2, 7; der Verkäufer: 3, 4, 5, 6"
+  },
+  {
+    "id": 5,
+    "question": "Haben Sie französischen Käse? - ........................ .",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Ja, 2 Liter",
+      "Nein, tut mir leid",
+      "Nicht so gut",
+      "Gut, danke"
+    ],
+    "correct_answer": "Nein, tut mir leid"
+  },
+  {
+    "id": 6,
+    "question": "Ich brauche Reis? - ............... möchten Sie? - Zwei Kilo.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Wie viel",
+      "Was",
+      "Wie",
+      "Wer"
+    ],
+    "correct_answer": "Wie viel"
+  },
+  {
+    "id": 7,
+    "question": "Haben wir noch Obst? – ............, wir haben Birnen und Bananen.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Ja",
+      "Nein",
+      "Nicht",
+      "keine"
+    ],
+    "correct_answer": "Ja"
+  },
+  {
+    "id": 8,
+    "question": "Du bist im Supermarkt. Der Verkäufer fragt dich: ...............",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Kann ich Ihnen helfen?",
+      "Was ist das denn?",
+      "Bist du neu hier?",
+      "Was hast du noch?",
+      "Was möchten Sie?"
+    ],
+    "correct_answer": "Kann ich Ihnen helfen? / Was möchten Sie?"
+  },
+  {
+    "id": 9,
+    "question": "Haben wir Gemüse? – .................., wir brauchen Kartoffeln und Tomaten.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Ja",
+      "Nein",
+      "Nicht",
+      "Gerne"
+    ],
+    "correct_answer": "Ja"
+  },
+  {
+    "id": 10,
+    "question": "Haben Sie griechischen Joghurt? - ........................ .",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Nicht so gut",
+      "Gut, danke",
+      "Ja, 2 Liter",
+      "Nein, tut mir leid"
+    ],
+    "correct_answer": "Nein, tut mir leid"
+  },
+  {
+    "id": 11,
+    "question": "Ich brauche Birnen? - ............... möchten Sie? - Ein Kilo.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Wie viel",
+      "Was",
+      "Wie",
+      "Wer"
+    ],
+    "correct_answer": "Wie viel"
+  },
+  {
+    "id": 12,
+    "question": "Der Verkäufer sagt: „Sonst noch etwas“. Wie antwortest du?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Nein, tut mir leid.",
+      "Vielleicht kein Apfel.",
+      "Ja, Milch und Käse.",
+      "Gut, sehr gut.",
+      "Nein, danke. Das ist alles."
+    ],
+    "correct_answer": "Ja, Milch und Käse. / Nein, danke. Das ist alles."
+  },
+  {
+    "id": 13,
+    "question": "Ich brauche Kartoffeln? - ............... möchten Sie? - Ein Kilo.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Wie",
+      "Was",
+      "Wie viel",
+      "Wer"
+    ],
+    "correct_answer": "Wie viel"
+  },
+  {
+    "id": 14,
+    "question": "Haben wir Obst? – .................., wir brauchen Trauben und Kiwis.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Ja",
+      "Nein",
+      "Nicht",
+      "Gerne"
+    ],
+    "correct_answer": "Ja"
+  },
+  {
+    "id": 15,
+    "question": "Haben Sie ägyptische Orangen? - ........................ .",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Nicht so gut",
+      "Gut, danke",
+      "Ja, 2 Liter",
+      "Nein, tut mir leid"
+    ],
+    "correct_answer": "Nein, tut mir leid"
+  },
+  {
+    "id": 16,
+    "question": "Der Verkäufer sagt: „Kann ich Ihnen helfen?“ Wie antwortet der Kunde?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Das ist alles.",
+      "Haben Sie Butter?",
+      "Was möchten Sie?",
+      "Ich möchte 2 Kilo Reis.",
+      "Gut, sehr gut."
+    ],
+    "correct_answer": "Haben Sie Butter? / Ich möchte 2 Kilo Reis."
+  }
+]

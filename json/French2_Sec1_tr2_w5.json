@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "question": "Tu demandes à un copain sa matière préférée, tu dis :",
+    "type": "اختيار من متعدد",
+    "options": [
+      "À quelle heure tu as français ?",
+      "Quelle matière préfères-tu ?",
+      "Les SVT, c’est quoi ?",
+      "Quelle est ta matière préférée ?",
+      "Pourquoi tu aimes le français ?"
+    ],
+    "correct_answer": "Quelle matière préfères-tu ? / Quelle est ta matière préférée ?"
+  },
+  {
+    "id": 2,
+    "question": "Décris le CDI de ton lycée. (Ordinateurs – DVD)",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Dans mon lycée, il y a un grand CDI. Il y a des ordinateurs pour faire des recherches et des DVD pour regarder des films."
+  },
+  {
+    "id": 3,
+    "question": "Transforme la phrase : C’est le sac de Rami.",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "C’est son sac / Le sac est à lui."
+  },
+  {
+    "id": 4,
+    "question": "Transforme la phrase : C’est le stylo de Mai.",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "C’est son stylo / Le stylo est à elle."
+  },
+  {
+    "id": 5,
+    "question": "Transforme la phrase : Ce sont les crayons de Sami.",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Ce sont ses crayons / Les crayons sont à lui."
+  },
+  {
+    "id": 6,
+    "question": "Réponds à ce mail par deux phrases complètes : Salut ! Le lundi, c’est mon jour préféré. Et toi, Quel jour aimes-tu ? Et pourquoi ? À plus !",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Salut ! J'aime le vendredi parce que c'est le week-end. À plus !"
+  },
+  {
+    "id": 7,
+    "question": "……………… est ta sœur ? – ma sœur est sociable.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Comment",
+      "Qui",
+      "Que",
+      "Combien"
+    ],
+    "correct_answer": "Comment"
+  },
+  {
+    "id": 8,
+    "question": "J’adore ……………… baskets.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "ton",
+      "le",
+      "tes",
+      "la"
+    ],
+    "correct_answer": "tes"
+  },
+  {
+    "id": 9,
+    "question": "Pour écouter de la musique, on a besoin ……………… CD.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "d’un",
+      "d’une",
+      "de l’",
+      "de la"
+    ],
+    "correct_answer": "d’un"
+  },
+  {
+    "id": 10,
+    "question": "……………… sont mes magazines préférés.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Ce",
+      "Se",
+      "C’",
+      "S’"
+    ],
+    "correct_answer": "Ce"
+  }
+]

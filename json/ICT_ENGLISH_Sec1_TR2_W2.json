@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "question": "What is meant by a communication protocol?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "A device to strengthen the network.",
+      "A set of rules that govern the exchange of data.",
+      "A web browsing program.",
+      "A type of cable."
+    ],
+    "correct_answer": "A set of rules that govern the exchange of data."
+  },
+  {
+    "id": 2,
+    "question": "Which protocol is used for communication over the Internet?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "HDMI",
+      "USB",
+      "TCP/IP",
+      "VGA"
+    ],
+    "correct_answer": "TCP/IP"
+  },
+  {
+    "id": 3,
+    "question": "A database is:",
+    "type": "اختيار من متعدد",
+    "options": [
+      "A collection of unordered files.",
+      "A word processing program.",
+      "An external storage device.",
+      "An organized collection of data."
+    ],
+    "correct_answer": "An organized collection of data."
+  },
+  {
+    "id": 4,
+    "question": "The primary goal of using databases is:",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Data redundancy (repetition).",
+      "Difficulty in accessing information.",
+      "Ease of storing and retrieving data.",
+      "Increasing file sizes."
+    ],
+    "correct_answer": "Ease of storing and retrieving data."
+  },
+  {
+    "id": 5,
+    "question": "The IP protocol is responsible for:",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Encrypting data.",
+      "Identifying the device address on the network.",
+      "Displaying web pages.",
+      "Sending emails."
+    ],
+    "correct_answer": "Identifying the device address on the network."
+  },
+  {
+    "id": 6,
+    "question": "The importance of communication protocols lies in being:",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Optional.",
+      "Used in small networks only.",
+      "Essential for successful communication between devices.",
+      "Responsible for increasing data size."
+    ],
+    "correct_answer": "Essential for successful communication between devices."
+  },
+  {
+    "id": 7,
+    "question": "A Database Management System (DBMS) is:",
+    "type": "اختيار من متعدد",
+    "options": [
+      "A computer hardware.",
+      "A programming language.",
+      "A software program to manage databases.",
+      "An operating system."
+    ],
+    "correct_answer": "A software program to manage databases."
+  },
+  {
+    "id": 8,
+    "question": "Which of the following is an example of a Database Management System?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Microsoft Access",
+      "Google Chrome",
+      "Microsoft Word",
+      "Windows"
+    ],
+    "correct_answer": "Microsoft Access"
+  },
+  {
+    "id": 9,
+    "question": "The TCP protocol is responsible for:",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Identifying the device address.",
+      "Ensuring data arrives complete and in order.",
+      "Translating domain names.",
+      "Encrypting data."
+    ],
+    "correct_answer": "Ensuring data arrives complete and in order."
+  },
+  {
+    "id": 10,
+    "question": "Which statement is true regarding communication protocols?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "They differ from one user to another.",
+      "They are unnecessary in networks.",
+      "They organize the communication process between devices.",
+      "They are used in computers only."
+    ],
+    "correct_answer": "They organize the communication process between devices."
+  },
+  {
+    "id": 11,
+    "question": "Which of the following is an example of a database?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "A picture.",
+      "A video.",
+      "An organized data table.",
+      "An audio file."
+    ],
+    "correct_answer": "An organized data table."
+  },
+  {
+    "id": 12,
+    "question": "One of the advantages of databases is:",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Difficulty in updating data.",
+      "Information redundancy.",
+      "Easy loss of data.",
+      "Speed of searching and editing."
+    ],
+    "correct_answer": "Speed of searching and editing."
+  }
+]

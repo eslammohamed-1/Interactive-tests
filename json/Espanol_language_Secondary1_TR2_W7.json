@@ -1,0 +1,444 @@
+[
+  {
+    "id": 1,
+    "question": "Yo……………….... la radio.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "escucha",
+      "escuchas",
+      "escucho",
+      "escuchan"
+    ],
+    "correct_answer": "escucho"
+  },
+  {
+    "id": 2,
+    "question": "¿Dónde vives? - …………….en El Cairo.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Vivimos",
+      "Viven",
+      "Vives",
+      "Vivo"
+    ],
+    "correct_answer": "Vivo"
+  },
+  {
+    "id": 3,
+    "question": "Los niños………….en el patio.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "juego",
+      "juega",
+      "jugamos",
+      "juegan"
+    ],
+    "correct_answer": "juegan"
+  },
+  {
+    "id": 4,
+    "question": "Ali prefiere…………..en casa.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "comer",
+      "como",
+      "come",
+      "comes"
+    ],
+    "correct_answer": "comer"
+  },
+  {
+    "id": 5,
+    "question": "¿Pepe,……….venir tú mañana a la clase?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "puedes",
+      "podemos",
+      "pueden",
+      "podéis"
+    ],
+    "correct_answer": "puedes"
+  },
+  {
+    "id": 6,
+    "question": "Nos…………temprano.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "acostáis",
+      "acostamos",
+      "acuestan",
+      "acuestas"
+    ],
+    "correct_answer": "acostamos"
+  },
+  {
+    "id": 7,
+    "question": "Noha……………..viste un nuevo vestido.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "me",
+      "os",
+      "se",
+      "te"
+    ],
+    "correct_answer": "se"
+  },
+  {
+    "id": 8,
+    "question": "………………la tarde, voy al gimnasio.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "De",
+      "A",
+      "Por",
+      "En"
+    ],
+    "correct_answer": "Por"
+  },
+  {
+    "id": 9,
+    "question": "Mi amigo Pablo ............ en Madrid.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "vive",
+      "vives"
+    ],
+    "correct_answer": "vive"
+  },
+  {
+    "id": 10,
+    "question": "............ a las siete de la mañana.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Me levanto",
+      "Se levanta"
+    ],
+    "correct_answer": "Se levanta"
+  },
+  {
+    "id": 11,
+    "question": "A las siete ............ la mañana.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "por",
+      "de"
+    ],
+    "correct_answer": "de"
+  },
+  {
+    "id": 12,
+    "question": "Pablo ............ y se viste.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Se ducha",
+      "Se duchan"
+    ],
+    "correct_answer": "Se ducha"
+  },
+  {
+    "id": 13,
+    "question": "Pablo se ducha y ............ .",
+    "type": "اختيار من متعدد",
+    "options": [
+      "te vistes",
+      "se viste"
+    ],
+    "correct_answer": "se viste"
+  },
+  {
+    "id": 14,
+    "question": "Luego, Pablo ............ .",
+    "type": "اختيار من متعدد",
+    "options": [
+      "desayuno",
+      "desayuna"
+    ],
+    "correct_answer": "desayuna"
+  },
+  {
+    "id": 15,
+    "question": "A las ocho Pablo ............ al trabajo.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "va",
+      "voy"
+    ],
+    "correct_answer": "va"
+  },
+  {
+    "id": 16,
+    "question": "Pablo ............ profesor y trabaja en una escuela.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Eres",
+      "Es"
+    ],
+    "correct_answer": "Es"
+  },
+  {
+    "id": 17,
+    "question": "Pablo es profesor y ............ en una escuela.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "trabaja",
+      "trabajas"
+    ],
+    "correct_answer": "trabaja"
+  },
+  {
+    "id": 18,
+    "question": "A las tres, Pablo ............ a casa.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "vuelvo",
+      "vuelve"
+    ],
+    "correct_answer": "vuelve"
+  },
+  {
+    "id": 19,
+    "question": "Pablo vuelve a casa y ............ con su familia.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "comen",
+      "come"
+    ],
+    "correct_answer": "come"
+  },
+  {
+    "id": 20,
+    "question": "Ellos ............ juntos.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "comemos",
+      "comen"
+    ],
+    "correct_answer": "comen"
+  },
+  {
+    "id": 21,
+    "question": "Ellos comen juntos y ............ sobre el día.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "habla",
+      "hablan"
+    ],
+    "correct_answer": "hablan"
+  },
+  {
+    "id": 22,
+    "question": "Por la noche, Pablo ............ la tele.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "ve",
+      "ves"
+    ],
+    "correct_answer": "ve"
+  },
+  {
+    "id": 23,
+    "question": "Pablo ve la tele o ............ un libro.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "lees",
+      "lee"
+    ],
+    "correct_answer": "lee"
+  },
+  {
+    "id": 24,
+    "question": "A las diez, Pablo ............ .",
+    "type": "اختيار من متعدد",
+    "options": [
+      "se acuesta",
+      "se acuestan"
+    ],
+    "correct_answer": "se acuesta"
+  },
+  {
+    "id": 25,
+    "question": "¿Qué dices para preguntar por la frecuencia?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Siempre voy al club.",
+      "¿Normalmente juegas al fútbol?",
+      "¿Con qué frecuencia vas al club?",
+      "Normalmente juego al fútbol.",
+      "Said habla con sus amigos."
+    ],
+    "correct_answer": "¿Normalmente juegas al fútbol?, ¿Con qué frecuencia vas al club?"
+  },
+  {
+    "id": 26,
+    "question": "¿Cuándo dices: \"¿Comes en mi casa?\"?- Al……………… .",
+    "type": "اختيار من متعدد",
+    "options": [
+      "invitar",
+      "hablar sobre el recreo",
+      "expresar gustos",
+      "proponer",
+      "preguntar por hábitos"
+    ],
+    "correct_answer": "invitar, proponer"
+  },
+  {
+    "id": 27,
+    "question": "Yo……………………….a casa muy tarde.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "volver",
+      "vuelves",
+      "volvemos",
+      "vuelvo"
+    ],
+    "correct_answer": "vuelvo"
+  },
+  {
+    "id": 28,
+    "question": "Tú no……………………….a Don Omar.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "conoces",
+      "conoce",
+      "conocemos",
+      "conocen"
+    ],
+    "correct_answer": "conoces"
+  },
+  {
+    "id": 29,
+    "question": "Mi hijo…………………….un videoclip.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "veo",
+      "ve",
+      "ves",
+      "ven"
+    ],
+    "correct_answer": "ve"
+  },
+  {
+    "id": 30,
+    "question": "¿Qué dices para invitar o proponer una idea?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "¿Juegas al fútbol?",
+      "¿Qué haces el fin de semana?",
+      "¿Dónde está el club?",
+      "Me gusta la música clásica.",
+      "¿Comemos pizza?"
+    ],
+    "correct_answer": "¿Juegas al fútbol?, ¿Comemos pizza?"
+  },
+  {
+    "id": 31,
+    "question": "¿Cuándo dices: \"A veces hago deporte.\"? - Al expresar……………… .",
+    "type": "اختيار من متعدد",
+    "options": [
+      "gustos",
+      "frecuencia",
+      "preferencia",
+      "intereses",
+      "hábitos"
+    ],
+    "correct_answer": "frecuencia, hábitos"
+  },
+  {
+    "id": 32,
+    "question": "Celin…………………………………………con el móvil.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "jugamos",
+      "juegas",
+      "jugar",
+      "juega"
+    ],
+    "correct_answer": "juega"
+  },
+  {
+    "id": 33,
+    "question": "Por la mañana, yo………….un tostado con mermelada.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "desayunas",
+      "desayuno",
+      "desayuna",
+      "desayunan"
+    ],
+    "correct_answer": "desayuno"
+  },
+  {
+    "id": 34,
+    "question": "Los alumnos………………………………….en la clase.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "están",
+      "estás",
+      "está",
+      "estamos"
+    ],
+    "correct_answer": "están"
+  },
+  {
+    "id": 35,
+    "question": "¿Qué dices para expresar frecuencia?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Siempre voy a la escuela.",
+      "¿Qué haces en el recreo?",
+      "Nura habla con sus amigos.",
+      "Normalmente juego al fútbol el viernes.",
+      "¿Con qué frecuencia vas al cine?"
+    ],
+    "correct_answer": "Siempre voy a la escuela., Normalmente juego al fútbol el viernes."
+  },
+  {
+    "id": 36,
+    "question": "¿Cuándo dices: \"¿Vamos a clase?\"? - Al……………… .",
+    "type": "اختيار من متعدد",
+    "options": [
+      "expresar gustos",
+      "invitar",
+      "expresar preferencia",
+      "proponer",
+      "preguntar por hábitos"
+    ],
+    "correct_answer": "invitar, proponer"
+  },
+  {
+    "id": 37,
+    "question": "La clase…………………….a las ocho.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "empiezan",
+      "empezamos",
+      "empezar",
+      "empieza"
+    ],
+    "correct_answer": "empieza"
+  },
+  {
+    "id": 38,
+    "question": "Yo no………………….al cole el sábado.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "va",
+      "voy",
+      "vamos",
+      "vas"
+    ],
+    "correct_answer": "voy"
+  },
+  {
+    "id": 39,
+    "question": "Omar se……………………………tarde.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "acuesta",
+      "acuestan",
+      "acostamos",
+      "acostáis"
+    ],
+    "correct_answer": "acuesta"
+  }
+]

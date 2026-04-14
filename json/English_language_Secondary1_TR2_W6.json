@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "question": "Artists often use creativity and skill to ………… distinctive works of art.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "create",
+      "play",
+      "give",
+      "adapt"
+    ],
+    "correct_answer": "create"
+  },
+  {
+    "id": 2,
+    "question": "Youth should …….. for jobs that suit their skills.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "waste",
+      "apply",
+      "replace",
+      "make"
+    ],
+    "correct_answer": "apply"
+  },
+  {
+    "id": 3,
+    "question": "He gains practical experience by joining a company as a/an …………….",
+    "type": "اختيار من متعدد",
+    "options": [
+      "employer",
+      "intern",
+      "owner",
+      "cheat"
+    ],
+    "correct_answer": "intern"
+  },
+  {
+    "id": 4,
+    "question": "Education develops….……by providing knowledge, experiences, and challenges.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "intelligence",
+      "stupidity",
+      "obstacles",
+      "violence"
+    ],
+    "correct_answer": "intelligence"
+  },
+  {
+    "id": 5,
+    "question": "When we have a problem, we should find the best ……… to overcome it.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "failure",
+      "aim",
+      "obstacle",
+      "solution"
+    ],
+    "correct_answer": "solution"
+  },
+  {
+    "id": 6,
+    "question": "Asmaa ……………. Aswan recently.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "visits",
+      "has visited",
+      "is visiting",
+      "visit"
+    ],
+    "correct_answer": "has visited"
+  },
+  {
+    "id": 7,
+    "question": "They …………………… friends all their lives.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "have been",
+      "have gone",
+      "had been",
+      "were"
+    ],
+    "correct_answer": "have been"
+  },
+  {
+    "id": 8,
+    "question": "It's three hours since he.………..back home.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "has come",
+      "come",
+      "coming",
+      "came"
+    ],
+    "correct_answer": "came"
+  },
+  {
+    "id": 9,
+    "question": "She has been studying English …………… two hours now.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "for",
+      "ago",
+      "from",
+      "since"
+    ],
+    "correct_answer": "for"
+  },
+  {
+    "id": 10,
+    "question": "Yossif................in a band since 2001.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "plays",
+      "was playing",
+      "has played",
+      "is playing"
+    ],
+    "correct_answer": "has played"
+  },
+  {
+    "id": 11,
+    "question": "A professional ………………. can provide expert advice to businesses.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "artist",
+      "volunteer",
+      "candidate",
+      "consultant"
+    ],
+    "correct_answer": "consultant"
+  },
+  {
+    "id": 12,
+    "question": "Good leaders always aim to …………stress among their team members.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "reduce",
+      "increase",
+      "replace",
+      "artificial"
+    ],
+    "correct_answer": "reduce"
+  },
+  {
+    "id": 13,
+    "question": "Spending too much …………. can harm mental and physical well-being.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "screen time",
+      "replace",
+      "drone",
+      "adapt"
+    ],
+    "correct_answer": "screen time"
+  },
+  {
+    "id": 14,
+    "question": "I haven’t met my old friends since they …………… to Aswan.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "moved",
+      "move",
+      "were moved",
+      "has moved"
+    ],
+    "correct_answer": "moved"
+  },
+  {
+    "id": 15,
+    "question": "We ………… in Minia for 6 years.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "lived",
+      "have lived",
+      "had been living",
+      "were living"
+    ],
+    "correct_answer": "have lived"
+  },
+  {
+    "id": 16,
+    "question": "I have known him ………………..we joined the university.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "for",
+      "since",
+      "already",
+      "just"
+    ],
+    "correct_answer": "since"
+  },
+  {
+    "id": 17,
+    "question": "...................the last meeting, we haven’t seen each other again.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "For",
+      "During",
+      "Since",
+      "While"
+    ],
+    "correct_answer": "Since"
+  },
+  {
+    "id": 18,
+    "question": "A………………… salary ensures workers are paid fairly for their efforts.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "artificial",
+      "drone",
+      "decent",
+      "flexible"
+    ],
+    "correct_answer": "decent"
+  },
+  {
+    "id": 19,
+    "question": "Engineers in the space industry work with advanced ………………. systems.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "road",
+      "factory",
+      "aerospace",
+      "farm"
+    ],
+    "correct_answer": "aerospace"
+  },
+  {
+    "id": 20,
+    "question": "…………… means the ability to produce new and original ideas or works.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Empathy",
+      "Creativity",
+      "Flexibility",
+      "Addiction"
+    ],
+    "correct_answer": "Creativity"
+  },
+  {
+    "id": 21,
+    "question": "People make a …………… when they guess what will happen in the future.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "plan",
+      "decision",
+      "prediction",
+      "rule"
+    ],
+    "correct_answer": "prediction"
+  },
+  {
+    "id": 22,
+    "question": "He has received so many telephone calls ……………. he came.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "for",
+      "just",
+      "yet",
+      "since"
+    ],
+    "correct_answer": "since"
+  },
+  {
+    "id": 23,
+    "question": "Once I ………………. the meeting, I will go to the club.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "will finish",
+      "finished",
+      "have finished",
+      "had started"
+    ],
+    "correct_answer": "have finished"
+  },
+  {
+    "id": 24,
+    "question": "Volunteers often……………… their time to help communities and make a difference.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "volunteer",
+      "replace",
+      "waste",
+      "adapt"
+    ],
+    "correct_answer": "volunteer"
+  },
+  {
+    "id": 25,
+    "question": "Many products in the market are ……………………..rather than natural.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "artificial",
+      "sustainable",
+      "empathy",
+      "virtual"
+    ],
+    "correct_answer": "artificial"
+  },
+  {
+    "id": 26,
+    "question": "We will go for a trip as soon as our car……………………….",
+    "type": "اختيار من متعدد",
+    "options": [
+      "has repaired",
+      "will be repaired",
+      "has been repaired",
+      "had repaired"
+    ],
+    "correct_answer": "has been repaired"
+  },
+  {
+    "id": 27,
+    "question": "A healthy …………………. includes balanced meals, exercise, and good habits.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "drone",
+      "lifestyle",
+      "specialist",
+      "artificial"
+    ],
+    "correct_answer": "lifestyle"
+  },
+  {
+    "id": 28,
+    "question": "She needs to…………………to life in the new city to have a comfortable residence.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "replace",
+      "adapt",
+      "drone",
+      "artificial"
+    ],
+    "correct_answer": "adapt"
+  },
+  {
+    "id": 29,
+    "question": "A/An ……….. in renewable energy should have knowledge of wind and solar systems.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "volunteer",
+      "expert",
+      "assistant",
+      "artist"
+    ],
+    "correct_answer": "expert"
+  },
+  {
+    "id": 30,
+    "question": "…………………how long have you waited for the bus?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "For",
+      "Since",
+      "Already",
+      "Just"
+    ],
+    "correct_answer": "For"
+  }
+]

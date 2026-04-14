@@ -1,0 +1,143 @@
+[
+  {
+    "id": 1,
+    "question": "Réponds à ce mail par 2 phrases complètes : Salut ! Quelle est la couleur de ton sac ? Quelles affaires tu as dans ta trousse ? À plus !",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Mon sac est bleu. Dans ma trousse, j'ai un stylo et une gomme."
+  },
+  {
+    "id": 2,
+    "question": "Au lycée, ton ami te demande où tu vas pour manger, tu dis : (Choisis les 2 réponses correctes)",
+    "type": "اختيار من متعدد",
+    "options": [
+      "On va au CDI.",
+      "On va au self.",
+      "On va à la cantine.",
+      "On va à la salle de sport.",
+      "On va à la salle de musique."
+    ],
+    "correct_answer": "On va au self. / On va à la cantine."
+  },
+  {
+    "id": 3,
+    "question": "Quel âge a Léa ?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Elle a quinze ans",
+      "Elle a seize ans et demi",
+      "Elle a quinze ans et demi",
+      "Elle a douze ans"
+    ],
+    "correct_answer": "Elle a quinze ans et demi"
+  },
+  {
+    "id": 4,
+    "question": "Quelle matière Léa aime-t-elle?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Elle aime les maths.",
+      "Elle aime la SVT.",
+      "Elle aime l’anglais.",
+      "Elle aime le français."
+    ],
+    "correct_answer": "Elle aime la SVT."
+  },
+  {
+    "id": 5,
+    "question": "Pourquoi va-t-elle au CDI ?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Pour s’amuser.",
+      "Pour lire.",
+      "Pour faire du sport.",
+      "Pour avoir un contrôle de maths."
+    ],
+    "correct_answer": "Pour lire."
+  },
+  {
+    "id": 6,
+    "question": "Une amie te demande ta matière préférée, tu dis : (Choisis les 2 réponses correctes)",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Les maths, c’est difficile.",
+      "Je déteste l’anglais",
+      "J’adore le français",
+      "J’aime la SVT",
+      "Je préfère le tennis."
+    ],
+    "correct_answer": "J’adore le français / J’aime la SVT"
+  },
+  {
+    "id": 7,
+    "question": "……. aime les maths ? - Léa",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Que",
+      "Qui",
+      "Quoi",
+      "Qu'est-ce que"
+    ],
+    "correct_answer": "Qui"
+  },
+  {
+    "id": 8,
+    "question": "Le professeur est……. aujourd’hui !",
+    "type": "اختيار من متعدد",
+    "options": [
+      "absent",
+      "absente",
+      "absents",
+      "absentes"
+    ],
+    "correct_answer": "absent"
+  },
+  {
+    "id": 9,
+    "question": "Thomas a …… contrôle de maths .",
+    "type": "اختيار من متعدد",
+    "options": [
+      "un",
+      "une",
+      "de",
+      "des"
+    ],
+    "correct_answer": "un"
+  },
+  {
+    "id": 10,
+    "question": "Le vélo est …..",
+    "type": "اختيار من متعدد",
+    "options": [
+      "orange",
+      "verte",
+      "noire",
+      "bleue"
+    ],
+    "correct_answer": "orange"
+  },
+  {
+    "id": 11,
+    "question": "Moi, je n’ aime pas …… mardi.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "le",
+      "la",
+      "l’",
+      "les"
+    ],
+    "correct_answer": "le"
+  },
+  {
+    "id": 12,
+    "question": "C’est la photo de qui ? elle est à…. ?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "me",
+      "toi",
+      "tu",
+      "je"
+    ],
+    "correct_answer": "toi"
+  }
+]

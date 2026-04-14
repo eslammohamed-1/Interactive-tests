@@ -1,0 +1,247 @@
+[
+  {
+    "id": 1,
+    "question": "If matrix A of order $3 \\times 2$ and matrix B of order $2 \\times 1$, then find the order of the matrix $AB$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$3 \\times 1$"
+  },
+  {
+    "id": 2,
+    "question": "If matrix A of order $4 \\times 2$ and matrix AB of order $4 \\times 3$, then find the order of matrix B",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$2 \\times 3$"
+  },
+  {
+    "id": 3,
+    "question": "If $A = \\begin{pmatrix} 3 & 1 \\\\ 6 & 2 \\end{pmatrix}$, $B = \\begin{pmatrix} 10 & 3 \\\\ 3 & 9 \\end{pmatrix}$, find $AB$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$\\begin{pmatrix} 33 & 18 \\\\ 66 & 36 \\end{pmatrix}$"
+  },
+  {
+    "id": 4,
+    "question": "Solve the equation $\\tan \\theta - \\tan \\theta \\sin \\theta = 0, \\theta \\in [0, \\frac{3\\pi}{2}[$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$\\{0, \\pi\\}$"
+  },
+  {
+    "id": 5,
+    "question": "Solve the equation $\\cos \\theta = \\frac{1}{\\sqrt{2}}, \\theta \\in [0, \\pi[$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$\\{\\frac{\\pi}{4}\\}$"
+  },
+  {
+    "id": 6,
+    "question": "If $\\vec{A} = (3, 6), \\vec{B} = (k, 12)$, find $k$ when $\\vec{A} // \\vec{B}$.",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$k = 6$"
+  },
+  {
+    "id": 7,
+    "question": "If $\\vec{A} = (2, 7), \\vec{B} = (14, k)$, find $k$ when $\\vec{A} \\perp \\vec{B}$.",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$k = -4$"
+  },
+  {
+    "id": 8,
+    "question": "If $\\vec{A} = 3\\vec{i} + 4\\vec{j}, \\vec{B} = -6\\vec{i} - 8\\vec{j}$, prove that $\\vec{A} // \\vec{B}$.",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Since $\\vec{B} = -2\\vec{A}$, then $\\vec{A} // \\vec{B}$"
+  },
+  {
+    "id": 9,
+    "question": "If $\\vec{B} = (6, -9), \\vec{C} = (3, 2)$ prove that $\\vec{B} \\perp \\vec{C}$.",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Since $6(3) + (-9)(2) = 18 - 18 = 0$, then $\\vec{B} \\perp \\vec{C}$"
+  },
+  {
+    "id": 10,
+    "question": "In triangle ABC, $D \\in \\overline{BC}$, where $BD:DC = 3:2$. Prove that $2\\vec{AB} + 3\\vec{AC} = 5\\vec{AD}$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Proof using vector addition: $2(\\vec{AD}+\\vec{DB}) + 3(\\vec{AD}+\\vec{DC}) = 5\\vec{AD} + 2\\vec{DB} + 3\\vec{DC}$. Since $2\\vec{DB} + 3\\vec{DC} = 0$ (opposite directions and ratio), the result is $5\\vec{AD}$."
+  },
+  {
+    "id": 11,
+    "question": "If matrix A of order $3 \\times 1$ and matrix B of order $1 \\times 2$, find the order of the matrix $AB$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$3 \\times 2$"
+  },
+  {
+    "id": 12,
+    "question": "If the matrix A of order $3 \\times 2$ and the matrix AB of order $3 \\times 3$, find the order of matrix B",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$2 \\times 3$"
+  },
+  {
+    "id": 13,
+    "question": "If $A = \\begin{pmatrix} 0 & 1 \\\\ -1 & 2 \\end{pmatrix}$, $B = \\begin{pmatrix} 2 & -1 \\\\ 0 & 4 \\end{pmatrix}$, find $AB$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$\\begin{pmatrix} 0 & 4 \\\\ -2 & 9 \\end{pmatrix}$"
+  },
+  {
+    "id": 14,
+    "question": "Solve the equation $\\sin \\theta - \\sin \\theta \\tan \\theta = 0, \\theta \\in [0, \\frac{3\\pi}{2}[$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$\\{0, \\pi, \\frac{\\pi}{4}\\}$"
+  },
+  {
+    "id": 15,
+    "question": "Solve the equation $\\tan \\theta = \\frac{1}{\\sqrt{3}}, \\theta \\in [0, \\pi[$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$\\{\\frac{\\pi}{6}\\}$"
+  },
+  {
+    "id": 16,
+    "question": "If $\\vec{A} = (2, 4), \\vec{B} = (k, 12)$ find $k$ when $\\vec{A} // \\vec{B}$.",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$k = 6$"
+  },
+  {
+    "id": 17,
+    "question": "If $\\vec{A} = (5, -2), \\vec{B} = (6, k)$ find $k$ when $\\vec{A} \\perp \\vec{B}$.",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$k = 15$"
+  },
+  {
+    "id": 18,
+    "question": "If $\\vec{A} = 2\\vec{i} + 5\\vec{j}, \\vec{B} = 4\\vec{i} + 10\\vec{j}$, prove that $\\vec{A} // \\vec{B}$.",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Since $\\vec{B} = 2\\vec{A}$, then $\\vec{A} // \\vec{B}$"
+  },
+  {
+    "id": 19,
+    "question": "If $\\vec{B} = (2, -4), \\vec{C} = (8, 4)$ prove that $\\vec{B} \\perp \\vec{C}$.",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Since $2(8) + (-4)(4) = 16 - 16 = 0$, then $\\vec{B} \\perp \\vec{C}$"
+  },
+  {
+    "id": 20,
+    "question": "In triangle ABC, $D \\in \\overline{BC}$, where $BD:DC = 1:2$. Prove that $2\\vec{AB} + \\vec{AC} = 3\\vec{AD}$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Proof using vector addition: $2(\\vec{AD}+\\vec{DB}) + (\\vec{AD}+\\vec{DC}) = 3\\vec{AD} + 2\\vec{DB} + \\vec{DC}$. Since $2\\vec{DB} + \\vec{DC} = 0$ (opposite directions and ratio), the result is $3\\vec{AD}$."
+  },
+  {
+    "id": 21,
+    "question": "If matrix A of order $2 \\times 2$ and matrix B of order $2 \\times 1$, find the order of the matrix $AB$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$2 \\times 1$"
+  },
+  {
+    "id": 22,
+    "question": "If $A = \\begin{pmatrix} 3 \\\\ 5 \\end{pmatrix}, B = \\begin{pmatrix} 1 & 3 \\end{pmatrix}$, find $AB$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$\\begin{pmatrix} 3 & 9 \\\\ 5 & 15 \\end{pmatrix}$"
+  },
+  {
+    "id": 23,
+    "question": "Solve the equation $\\sin \\theta = \\frac{\\sqrt{2}}{2}, \\theta \\in [0, \\frac{\\pi}{2}[$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$\\{\\frac{\\pi}{4}\\}$"
+  },
+  {
+    "id": 24,
+    "question": "If $\\vec{A} = (1, 3), \\vec{B} = (m, 12)$ find $m$ when $\\vec{A} // \\vec{B}$.",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$m = 4$"
+  },
+  {
+    "id": 25,
+    "question": "If $\\vec{A} = (3, 1), \\vec{B} = (6, m)$ find $m$ when $\\vec{A} \\perp \\vec{B}$.",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$m = -18$"
+  },
+  {
+    "id": 26,
+    "question": "If matrix A of order $3 \\times 3$ and matrix B of order $3 \\times 1$, find the order of the matrix $AB$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$3 \\times 1$"
+  },
+  {
+    "id": 27,
+    "question": "If $A = \\begin{pmatrix} 1 \\\\ 2 \\end{pmatrix}, B = \\begin{pmatrix} 5 & 4 \\end{pmatrix}$, find $AB$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$\\begin{pmatrix} 5 & 4 \\\\ 10 & 8 \\end{pmatrix}$"
+  },
+  {
+    "id": 28,
+    "question": "Solve the equation $\\sin \\theta = \\frac{\\sqrt{3}}{2}, \\theta \\in [0, \\frac{\\pi}{2}[$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$\\{\\frac{\\pi}{3}\\}$"
+  },
+  {
+    "id": 29,
+    "question": "If $\\vec{A} = (m, 1), \\vec{B} = (16, 4)$ find $m$ when $\\vec{A} // \\vec{B}$.",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$m = 4$"
+  },
+  {
+    "id": 30,
+    "question": "If $\\vec{A} = (m, 6), \\vec{B} = (6, 3)$ find $m$ when $\\vec{A} \\perp \\vec{B}$.",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$m = -3$"
+  },
+  {
+    "id": 31,
+    "question": "If matrix A of order $2 \\times 4$ and matrix B of order $4 \\times 3$, find the order of matrix $AB$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$2 \\times 3$"
+  },
+  {
+    "id": 32,
+    "question": "If $A = \\begin{pmatrix} 1 \\\\ 4 \\end{pmatrix}, B = \\begin{pmatrix} 2 & 1 \\end{pmatrix}$, find $AB$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$\\begin{pmatrix} 2 & 1 \\\\ 8 & 4 \\end{pmatrix}$"
+  },
+  {
+    "id": 33,
+    "question": "Solve the equation $\\sin \\theta = \\frac{1}{2}, \\theta \\in [0, \\frac{\\pi}{2}[$",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$\\{\\frac{\\pi}{6}\\}$"
+  },
+  {
+    "id": 34,
+    "question": "If $\\vec{A} = (5, 2), \\vec{B} = (m, 8)$ find $m$ when $\\vec{A} // \\vec{B}$.",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$m = 20$"
+  },
+  {
+    "id": 35,
+    "question": "If $\\vec{A} = (m, -1), \\vec{B} = (3, 9)$ find $m$ when $\\vec{A} \\perp \\vec{B}$.",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "$m = 3$"
+  }
+]

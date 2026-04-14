@@ -1,0 +1,228 @@
+[
+  {
+    "id": 1,
+    "question": "Hör zu und ergänze die Lücken! (Lisa: Hans, guten Morgen! Hans: Guten Morgen, Lisa! Was ist dein ...? Lisa: Mein Lieblingsessen ist ... mit Pommes. Und ... isst du gern? Hans: Ich ... gern Fisch und ... . Das ... lecker. Lisa: Oh, gut. Und was trinkst du gern, Hans? Hans: Ich trinke sehr gern ... . Was ist dein Lieblingsgetränk? Lisa: Mein ... ist Cola. Hans: Okey, bis bald! Lisa: Tschüs!)",
+    "type": "مقالي",
+    "options": [
+      "Lieblingsessen",
+      "wie",
+      "Lieblingsgetränk",
+      "Hähnchen",
+      "was",
+      "essen",
+      "Gemüse",
+      "Gemüsesuppe",
+      "esse",
+      "schmeckt",
+      "trinken",
+      "Apfelsaft",
+      "Suppe"
+    ],
+    "correct_answer": "1. Lieblingsessen, 2. Hähnchen, 3. was, 4. esse, 5. Gemüsesuppe, 6. schmeckt, 7. Apfelsaft, 8. Lieblingsgetränk"
+  },
+  {
+    "id": 2,
+    "question": "Verbinde die Sätze aus Spalte 1 mit Spalte 2: 1. Im Supermarkt, 2. Auf dem Markt, 3. In der Mensa, 4. Im Restaurant, 5. Zu Hause",
+    "type": "مقالي",
+    "options": [
+      "a kauft man frisches Obst und Gemüse.",
+      "b kauft man Lebensmittel, wie z.B. Käse, Milch, …….",
+      "c isst die ganze Familie zusammen.",
+      "d essen die Freunde und Freundinnen zu Mittag oder zu Abend zusammen.",
+      "e essen die Studenten und Studentinnen zusammen."
+    ],
+    "correct_answer": "1-b, 2-a, 3-e, 4-d, 5-c"
+  },
+  {
+    "id": 3,
+    "question": "... du gern Pommes? - Ja.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Iss",
+      "Esse",
+      "Isst",
+      "Esst"
+    ],
+    "correct_answer": "Isst"
+  },
+  {
+    "id": 4,
+    "question": "... Monika und du gern Obstsalat? - Ja.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Esst",
+      "Isst",
+      "Esse",
+      "Essen"
+    ],
+    "correct_answer": "Esst"
+  },
+  {
+    "id": 5,
+    "question": "Was ... Sie gern? - Schokoladenkuchen.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "trinken",
+      "sind",
+      "essen",
+      "sprechen"
+    ],
+    "correct_answer": "essen"
+  },
+  {
+    "id": 6,
+    "question": "... deine Geschwister gern Fisch? - Ja.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Isst",
+      "Esst",
+      "Essen",
+      "Esse"
+    ],
+    "correct_answer": "Essen"
+  },
+  {
+    "id": 7,
+    "question": "Laila ... gern Pizza.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "esst",
+      "isst",
+      "essen",
+      "esse"
+    ],
+    "correct_answer": "isst"
+  },
+  {
+    "id": 8,
+    "question": "Du bist beim Essen und Mama fragt dich: „Schmeckt dir das Essen?“ Was sagst du? (Wähle 2 richtige Antworten)",
+    "type": "اختيار من متعدد",
+    "options": [
+      "a) Ja, das ist lecker.",
+      "b) Ja, das ist aus Berlin.",
+      "c) Ja, hier ist das Essen.",
+      "d) Ja, das ist sehr gut.",
+      "e) Ja, das trinke ich gern."
+    ],
+    "correct_answer": "a, d"
+  },
+  {
+    "id": 9,
+    "question": "... deine Schwester gern Steak? - Ja.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Iss",
+      "Esse",
+      "Isst",
+      "Esst"
+    ],
+    "correct_answer": "Isst"
+  },
+  {
+    "id": 10,
+    "question": "Was ... Herr Müller gern? – Reis und Gemüsesuppe.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "esst",
+      "isst",
+      "esse",
+      "essen"
+    ],
+    "correct_answer": "isst"
+  },
+  {
+    "id": 11,
+    "question": "Antworte auf die folgende E-Mail mit ganzen Sätzen! (Hi Mark, ich habe Hunger und möchte in der Mensa essen. Wie schmeckt das Essen dort? Wie viel kostet Spaghetti mit Tomatensoße? Johan)",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Hallo Johan, das Essen in der Mensa schmeckt sehr gut. Spaghetti mit Tomatensoße kostet 5 Euro. Tschüs, Mark."
+  },
+  {
+    "id": 12,
+    "question": "„Ich esse gern Hähnchen mit Pommes”. Wann sagst du das? (Wähle 2 richtige Antworten)",
+    "type": "اختيار من متعدد",
+    "options": [
+      "a) Du bist im Supermarkt und kaufst Lebensmittel.",
+      "b) Du bist im Restaurant und hast Hunger.",
+      "c) Du fragst jemanden nach dem Lieblingsgetränk.",
+      "d) Der Verkäufer fragt dich nach dem Preis.",
+      "e) Jemand fragt dich nach dem Lieblingsessen."
+    ],
+    "correct_answer": "b, e"
+  },
+  {
+    "id": 13,
+    "question": "... deine Tochter gern Hähnchensuppe? - Ja.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Esse",
+      "Isst",
+      "Iss",
+      "Esst"
+    ],
+    "correct_answer": "Isst"
+  },
+  {
+    "id": 14,
+    "question": "Was ... Frau Bauer gern? – Fisch.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "essen",
+      "isst",
+      "esse",
+      "esst"
+    ],
+    "correct_answer": "isst"
+  },
+  {
+    "id": 15,
+    "question": "Antworte auf die folgende E-Mail mit ganzen Sätzen! (Hi Mark, ich habe Durst und möchte etwas trinken. Wie schmeckt der Apfelsaft in der Mensa? Wie viel kostet der Kaffee auch? Johan)",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Hallo Johan, der Apfelsaft in der Mensa schmeckt gut. Der Kaffee kostet 2 Euro. Tschüs, Mark."
+  },
+  {
+    "id": 16,
+    "question": "„Das ist mein Lieblingsgetränk“. Du hast ... (Wähle 2 richtige Antworten)",
+    "type": "اختيار من متعدد",
+    "options": [
+      "a) Tee mit Milch",
+      "b) Fisch und Salat",
+      "c) eine Flasche Apfelsaft",
+      "d) eine Pizza",
+      "e) eine Gemüsesuppe"
+    ],
+    "correct_answer": "a, c"
+  },
+  {
+    "id": 17,
+    "question": "... Kareem gern Fleisch? - Ja.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Isst",
+      "Esse",
+      "Iss",
+      "Essen"
+    ],
+    "correct_answer": "Isst"
+  },
+  {
+    "id": 18,
+    "question": "Was ... Ihre Lehrerin gern? – Gemüsesalat mit Hähnchen.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "essen",
+      "isst",
+      "esse",
+      "esst"
+    ],
+    "correct_answer": "isst"
+  },
+  {
+    "id": 19,
+    "question": "Antworte auf die folgende E-Mail mit ganzen Sätzen! (Hi Mama, ich bin im Supermarkt. Ich habe vergessen, wie viel Reis möchtest du? Was brauchst du noch? Johan)",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Hallo Johan, ich möchte ein Kilo Reis. Ich brauche noch Milch und Eier. Tschüs, Mama."
+  }
+]

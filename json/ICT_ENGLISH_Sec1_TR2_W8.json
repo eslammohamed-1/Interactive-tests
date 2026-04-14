@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "question": "Generative AI is used in creating a static web page to:",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Run the server",
+      "Suggest HTML and CSS code",
+      "Run a database",
+      "Increase internet speed"
+    ],
+    "correct_answer": "Suggest HTML and CSS code"
+  },
+  {
+    "id": 2,
+    "question": "A static page created by AI is characterized by:",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Content that changes automatically",
+      "Reliance on user interaction",
+      "Displaying fixed (constant) content",
+      "Always requiring JavaScript"
+    ],
+    "correct_answer": "Displaying fixed (constant) content"
+  },
+  {
+    "id": 3,
+    "question": "Generative AI helps create interactive pages by:",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Writing text only",
+      "Generating JavaScript code for interaction",
+      "Deleting page elements",
+      "Changing the operating system"
+    ],
+    "correct_answer": "Generating JavaScript code for interaction"
+  },
+  {
+    "id": 4,
+    "question": "Which element makes a page interactive when used with JavaScript?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "$<p>$",
+      "$<h1>$",
+      "$<button>$",
+      "$<hr>$"
+    ],
+    "correct_answer": "$<button>$"
+  },
+  {
+    "id": 5,
+    "question": "When using AI to create a static web page, you must specify:",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Internet speed",
+      "The desired layout and content of the page",
+      "Processor type",
+      "Operating system"
+    ],
+    "correct_answer": "The desired layout and content of the page"
+  },
+  {
+    "id": 6,
+    "question": "The primary language suggested by AI to build the page structure is:",
+    "type": "اختيار من متعدد",
+    "options": [
+      "CSS",
+      "JavaScript",
+      "HTML",
+      "Python"
+    ],
+    "correct_answer": "HTML"
+  },
+  {
+    "id": 7,
+    "question": "An interactive page differs from a static page in that it:",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Contains no text",
+      "Responds to user actions",
+      "Does not use code",
+      "Has fixed content"
+    ],
+    "correct_answer": "Responds to user actions"
+  },
+  {
+    "id": 8,
+    "question": "Which of the following is an example of interaction on a web page?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Displaying a static image",
+      "Unchanging text",
+      "Changing text when a button is clicked",
+      "A main heading only"
+    ],
+    "correct_answer": "Changing text when a button is clicked"
+  },
+  {
+    "id": 9,
+    "question": "One of the advantages of using Generative AI to create static web pages is:",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Increasing complexity",
+      "Saving time and effort",
+      "Preventing modifications",
+      "Reducing page quality"
+    ],
+    "correct_answer": "Saving time and effort"
+  },
+  {
+    "id": 10,
+    "question": "The CSS suggested by AI is used to:",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Write the content",
+      "Design the page layout/appearance",
+      "Execute interaction",
+      "Store data"
+    ],
+    "correct_answer": "Design the page layout/appearance"
+  },
+  {
+    "id": 11,
+    "question": "Generative AI can suggest interactive code based on:",
+    "type": "اختيار من متعدد",
+    "options": [
+      "HTML only",
+      "CSS only",
+      "JavaScript",
+      "Images"
+    ],
+    "correct_answer": "JavaScript"
+  },
+  {
+    "id": 12,
+    "question": "The primary purpose of creating an interactive web page using AI is:",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Making the page static",
+      "Improving user interaction with the page",
+      "Increasing file size",
+      "Disabling the user"
+    ],
+    "correct_answer": "Improving user interaction with the page"
+  }
+]

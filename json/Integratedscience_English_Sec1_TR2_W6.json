@@ -1,0 +1,351 @@
+[
+  {
+    "id": 1,
+    "question": "Artificial kidney membranes prevent proteins from passing because of ….",
+    "type": "اختيار من متعدد",
+    "options": [
+      "their electrical charge",
+      "the large size of their molecules",
+      "their high speed",
+      "the viscosity of the cleaning fluid"
+    ],
+    "correct_answer": "the large size of their molecules"
+  },
+  {
+    "id": 2,
+    "question": "The bioartificial kidney differs from traditional dialysis machines in its ability to ……",
+    "type": "اختيار من متعدد",
+    "options": [
+      "remove excess water",
+      "eliminate urea",
+      "simulate biochemical functions",
+      "cool the blood"
+    ],
+    "correct_answer": "simulate biochemical functions"
+  },
+  {
+    "id": 3,
+    "question": "The property that helps reveal the texture of an organ is ….",
+    "type": "اختيار من متعدد",
+    "options": [
+      "wave scattering",
+      "regular reflection",
+      "constant sound speed",
+      "tissue viscosity"
+    ],
+    "correct_answer": "wave scattering"
+  },
+  {
+    "id": 4,
+    "question": "The diagnosis that does not require surgery thanks to Ultrasound is …",
+    "type": "اختيار من متعدد",
+    "options": [
+      "kidney transplantation",
+      "heart valve replacement",
+      "cell engineering",
+      "detection of stones and inflammations"
+    ],
+    "correct_answer": "detection of stones and inflammations"
+  },
+  {
+    "id": 5,
+    "question": "Carbon returns to the atmosphere from living organisms through two processes …",
+    "type": "اختيار من متعدد",
+    "options": [
+      "photosynthesis and transpiration",
+      "weathering and deposition",
+      "respiration and decomposition",
+      "fixation and denitrification"
+    ],
+    "correct_answer": "respiration and decomposition"
+  },
+  {
+    "id": 6,
+    "question": "Lightning contributes to ….",
+    "type": "اختيار من متعدد",
+    "options": [
+      "decomposition",
+      "fixation of atmospheric nitrogen",
+      "respiration",
+      "phosphate deposition"
+    ],
+    "correct_answer": "fixation of atmospheric nitrogen"
+  },
+  {
+    "id": 7,
+    "question": "Excretion is not merely the elimination of toxins, but rather ……..",
+    "type": "اختيار من متعدد",
+    "options": [
+      "a means of gaining weight",
+      "a purely physical process",
+      "a source of solar energy",
+      "an important link in the continuation of element cycles"
+    ],
+    "correct_answer": "an important link in the continuation of element cycles"
+  },
+  {
+    "id": 8,
+    "question": "Using Infrared Thermography to measure skin temperature is a measurement of …..",
+    "type": "اختيار من متعدد",
+    "options": [
+      "nuclear energy",
+      "soil nitrates",
+      "energy lost in the process of thermal balance",
+      "sound waves"
+    ],
+    "correct_answer": "energy lost in the process of thermal balance"
+  },
+  {
+    "id": 9,
+    "question": "Without decomposer organisms, the element cycles …..",
+    "type": "اختيار من متعدد",
+    "options": [
+      "stop",
+      "accelerate",
+      "become gaseous only",
+      "depend on the artificial kidney"
+    ],
+    "correct_answer": "stop"
+  },
+  {
+    "id": 10,
+    "question": "The boundaries in Ultrasound mean the transition from …..",
+    "type": "اختيار من متعدد",
+    "options": [
+      "liquid to gas only",
+      "carbon to phosphorus",
+      "bacteria to nitrates",
+      "one medium with acoustic impedance to another medium"
+    ],
+    "correct_answer": "one medium with acoustic impedance to another medium"
+  },
+  {
+    "id": 11,
+    "question": "Excretion processes and natural cycles together ensure ….",
+    "type": "اختيار من متعدد",
+    "options": [
+      "depletion of resources",
+      "the survival and sustainability of life in the biosphere",
+      "the cessation of sound waves",
+      "the freezing of the Earth"
+    ],
+    "correct_answer": "the survival and sustainability of life in the biosphere"
+  },
+  {
+    "id": 12,
+    "question": "Increasing the amount of urea in soil leads to ….",
+    "type": "اختيار من متعدد",
+    "options": [
+      "increased nitrates available to plants",
+      "decreased rate of photosynthesis",
+      "accumulation of carbon dioxide in the atmosphere",
+      "stoppage of the carbon cycle"
+    ],
+    "correct_answer": "increased nitrates available to plants"
+  },
+  {
+    "id": 13,
+    "question": "Which of the following reflects a disruption in the nitrogen cycle due to human activity?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "planting diverse crops",
+      "crop rotation",
+      "excessive use of chemical fertilizers",
+      "presence of nitrifying bacteria in soil"
+    ],
+    "correct_answer": "excessive use of chemical fertilizers"
+  },
+  {
+    "id": 14,
+    "question": "Explain: the role of photosynthesis as a chemical driver of the carbon cycle.",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Photosynthesis acts as a primary driver by removing carbon dioxide from the atmosphere and converting it into organic compounds, which then move through the food chain."
+  },
+  {
+    "id": 15,
+    "question": "Explain: The nitrogen cycle represents an example of cooperation among living organisms.",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "It involves a symbiotic relationship where nitrogen-fixing bacteria provide usable nitrogen to plants, which in turn provide nutrients to animals, and decomposers return nitrogen to the soil."
+  },
+  {
+    "id": 16,
+    "question": "Explain: The bioartificial kidney can contribute to reducing dependence on traditional dialysis.",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "The bioartificial kidney uses living renal cells to perform metabolic and endocrine functions that traditional dialysis cannot, offering a more comprehensive treatment for kidney failure."
+  },
+  {
+    "id": 17,
+    "question": "Clarify the role of humans in disrupting the carbon cycle.",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Human activities such as burning fossil fuels and deforestation increase atmospheric carbon dioxide levels, leading to an imbalance in the natural carbon cycle and contributing to global warming."
+  },
+  {
+    "id": 18,
+    "question": "Ultrasound devices used for imaging organs rely on sound properties such as …..",
+    "type": "اختيار من متعدد",
+    "options": [
+      "evaporation and transpiration",
+      "weathering and deposition",
+      "fixation and denitrification",
+      "reflection and refraction"
+    ],
+    "correct_answer": "reflection and refraction"
+  },
+  {
+    "id": 19,
+    "question": "The process that \"pulls\" carbon from the atmosphere is ….",
+    "type": "اختيار من متعدد",
+    "options": [
+      "respiration",
+      "combustion",
+      "photosynthesis",
+      "decomposition"
+    ],
+    "correct_answer": "photosynthesis"
+  },
+  {
+    "id": 20,
+    "question": "Farmers rely on planting legumes to improve soil fertility because they …",
+    "type": "اختيار من متعدد",
+    "options": [
+      "consume small amounts of nitrogen",
+      "produce more proteins than other plants",
+      "prevent nitrification",
+      "contain bacteria that fix nitrogen in their roots"
+    ],
+    "correct_answer": "contain bacteria that fix nitrogen in their roots"
+  },
+  {
+    "id": 21,
+    "question": "The phosphorus cycle differs from the carbon and nitrogen cycles in that ….",
+    "type": "اختيار من متعدد",
+    "options": [
+      "the atmosphere is not part of it",
+      "it does not require decomposers",
+      "it is very fast",
+      "it occurs in outer space"
+    ],
+    "correct_answer": "the atmosphere is not part of it"
+  },
+  {
+    "id": 22,
+    "question": "Explain: The skin plays a vital role in \"thermal regulation\" in hot environments.",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "In hot environments, the skin regulates body temperature by producing sweat, which cools the body through evaporation, and by dilating blood vessels to dissipate heat."
+  },
+  {
+    "id": 23,
+    "question": "Ultrasound waves of high frequency are specifically used because they ….",
+    "type": "اختيار من متعدد",
+    "options": [
+      "kill bacteria",
+      "heat tissues",
+      "provide high resolution for imaging small details",
+      "travel faster than light"
+    ],
+    "correct_answer": "provide high resolution for imaging small details"
+  },
+  {
+    "id": 24,
+    "question": "Carbon moves from plants to animals through ….",
+    "type": "اختيار من متعدد",
+    "options": [
+      "respiration",
+      "evaporation",
+      "decomposition",
+      "feeding"
+    ],
+    "correct_answer": "feeding"
+  },
+  {
+    "id": 25,
+    "question": "The decomposition of urea in soil by bacteria produces ……",
+    "type": "اختيار من متعدد",
+    "options": [
+      "ammonia and then nitrates absorbed by plants",
+      "oxygen gas",
+      "rock phosphates",
+      "sound echoes"
+    ],
+    "correct_answer": "ammonia and then nitrates absorbed by plants"
+  },
+  {
+    "id": 26,
+    "question": "The process that releases phosphorus from rocks is called …..",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Respiration",
+      "Evaporation",
+      "Weathering",
+      "Nitrification"
+    ],
+    "correct_answer": "Weathering"
+  },
+  {
+    "id": 27,
+    "question": "Explain: Phosphorus is not considered a pollutant of the atmosphere.",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Phosphorus does not exist in a significant gaseous state under normal conditions, so it does not circulate through or pollute the atmosphere like carbon or nitrogen oxides."
+  },
+  {
+    "id": 28,
+    "question": "The strength of ultrasound wave reflection depends on ….",
+    "type": "اختيار من متعدد",
+    "options": [
+      "the acoustic impedance of the tissue",
+      "the color of the organ",
+      "its temperature",
+      "the amount of urea in the blood"
+    ],
+    "correct_answer": "the acoustic impedance of the tissue"
+  },
+  {
+    "id": 29,
+    "question": "The role of factories in the carbon cycle is …..",
+    "type": "اختيار من متعدد",
+    "options": [
+      "absorbing carbon",
+      "releasing carbon oxides",
+      "fixing nitrogen",
+      "recycling proteins"
+    ],
+    "correct_answer": "releasing carbon oxides"
+  },
+  {
+    "id": 30,
+    "question": "Eliminating nitrogen-fixing bacteria in the soil leads to …..",
+    "type": "اختيار من متعدد",
+    "options": [
+      "increased protein production in plants",
+      "increased rate of cellular respiration",
+      "accumulation of nitrogen gas in the atmosphere",
+      "decreased soil fertility"
+    ],
+    "correct_answer": "decreased soil fertility"
+  },
+  {
+    "id": 31,
+    "question": "Which of the following reflects the importance of excretion in ecological balance?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Accumulation of wastes without decomposition",
+      "Cessation of carbon dioxide excretion",
+      "Decomposition of urea into ammonia in the soil",
+      "Absence of decomposer bacteria"
+    ],
+    "correct_answer": "Decomposition of urea into ammonia in the soil"
+  },
+  {
+    "id": 32,
+    "question": "Explain: Animal respiration contributes to the sustainability of plant life.",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Animal respiration releases carbon dioxide into the atmosphere, which is an essential raw material for plants to perform photosynthesis and produce oxygen and glucose."
+  }
+]

@@ -1,0 +1,217 @@
+[
+  {
+    "id": 1,
+    "question": "¿Qué dices para preguntar por la causa?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "a) ¿Qué haces en la escuela?",
+      "b) ¿Por qué haces mucho deporte?",
+      "c) ¿Qué lenguas hablas?",
+      "d) ¿Por qué no comes tu sándwich?",
+      "e) ¿Tienes hora?"
+    ],
+    "correct_answer": "b, d"
+  },
+  {
+    "id": 2,
+    "question": "¿Qué dices para preguntar por el horario?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "a) ¿A qué hora empieza el examen?",
+      "b) ¿Por qué haces mucho deporte?",
+      "c) ¿Qué lenguas hablas?",
+      "d) ¿Por qué no comes tu sándwich?",
+      "e) ¿A qué hora termina la clase?"
+    ],
+    "correct_answer": "a, e"
+  },
+  {
+    "id": 3,
+    "question": "¿Cuándo dices: \"Porque mañana voy al club.\"? – Al…..………. .",
+    "type": "اختيار من متعدد",
+    "options": [
+      "a) expresar gustos",
+      "b) expresar causa",
+      "c) dar información sobre gustos",
+      "d) dar información sobre causa",
+      "e) preguntar por el horario"
+    ],
+    "correct_answer": "b, d"
+  },
+  {
+    "id": 4,
+    "question": "¿………………………comes frutas? – Porque hago dieta.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "a) Por qué",
+      "b) Qué",
+      "c) Cómo",
+      "d) Dónde"
+    ],
+    "correct_answer": "a) Por qué"
+  },
+  {
+    "id": 5,
+    "question": "¿………….ir al cine o al teatro? – Prefiero ir al cine.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "a) Preferís",
+      "b) Preferimos",
+      "c) Prefieres",
+      "d) Preferir"
+    ],
+    "correct_answer": "c) Prefieres"
+  },
+  {
+    "id": 6,
+    "question": "A nosotros nos…………salir por la noche.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "a) gustar",
+      "b) gusta",
+      "c) gustan",
+      "d) gusto"
+    ],
+    "correct_answer": "b) gusta"
+  },
+  {
+    "id": 7,
+    "question": "Yo vivo en el…………….piso.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "a) segundo",
+      "b) tercera",
+      "c) primero",
+      "d) quinta"
+    ],
+    "correct_answer": "a) segundo"
+  },
+  {
+    "id": 8,
+    "question": "¿Qué dices para pedir información sobre la causa?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "a) ¿Por qué te gusta leer?",
+      "b) ¿Qué te gusta leer?",
+      "c) ¿Qué libros lees?",
+      "d) ¿Por qué lees mucho?",
+      "e) ¿Lees novelas románticas?"
+    ],
+    "correct_answer": "a, d"
+  },
+  {
+    "id": 9,
+    "question": "¿Cuándo dices: \"¿Por qué estudia Omar Ciencias?\"? – Al…..………. .",
+    "type": "اختيار من متعدد",
+    "options": [
+      "a) preguntar por la hora",
+      "b) preguntar por la causa",
+      "c) pedir información sobre la hora",
+      "d) pedir información sobre la causa",
+      "e) expresar gustos"
+    ],
+    "correct_answer": "b, d"
+  },
+  {
+    "id": 10,
+    "question": "Estudio español………….es una lengua interessante.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "a) por",
+      "b) para",
+      "c) porque",
+      "d) pero"
+    ],
+    "correct_answer": "c) porque"
+  },
+  {
+    "id": 11,
+    "question": "En la clase……………muchas ventanas.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "a) está",
+      "b) hay",
+      "c) es",
+      "d) tiene"
+    ],
+    "correct_answer": "b) hay"
+  },
+  {
+    "id": 12,
+    "question": "Son las tres………….punto.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "a) en",
+      "b) a",
+      "c) con",
+      "d) de"
+    ],
+    "correct_answer": "a) en"
+  },
+  {
+    "id": 13,
+    "question": "El partido empieza………….las siete.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "a) por",
+      "b) de",
+      "c) en",
+      "d) a"
+    ],
+    "correct_answer": "d) a"
+  },
+  {
+    "id": 14,
+    "question": "………………….prefiere practicar deporte.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "a) Ellos",
+      "b) Yo",
+      "c) Tú",
+      "d) Ella"
+    ],
+    "correct_answer": "d) Ella"
+  },
+  {
+    "id": 15,
+    "question": "Lee el siguiente correo electrónico y responde a las preguntas en frases completas: ¡Hola Laila! Dime, ¿Cómo es tu nueva escuela? Y ¿a qué hora empieza la primera clase? Saludos, Maha.",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Mi nueva escuela es grande y moderna. La primera clase empieza a las ocho."
+  },
+  {
+    "id": 16,
+    "question": "Escribe de 15 a 20 palabras sobre el siguiente tema usando los elementos entre paréntesis: Mi asignatura preferida: (causa – horario)",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Mi asignatura preferida es el español porque es divertido. Tengo clase los lunes a las nueve."
+  },
+  {
+    "id": 17,
+    "question": "Lee el siguiente correo electrónico y responde a las preguntas en frases completas: ¡Buenos días amigo! Por favor, dime: ¿Qué prefieres estudiar? Y ¿por qué quieres estudiar esta asignatura? Saludos, Farid.",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Prefiero estudiar matemáticas. Quiero estudiar esta asignatura porque me gustan los números."
+  },
+  {
+    "id": 18,
+    "question": "Escribe de 15 a 20 palabras sobre el siguiente tema usando los elementos entre paréntesis: Tu escuela: (descripción – horario de clases)",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Mi escuela es muy bonita y limpia. El horario de clases es de ocho a dos de la tarde."
+  },
+  {
+    "id": 19,
+    "question": "Lee el siguiente correo electrónico y responde a las preguntas en frases completas: ¡Hola Adam! Dime, ¿Cómo se llama tu escuela? Y ¿cuántas clases tiene? Saludos, Celin.",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Mi escuela se llama El-Salam. Tiene veinte clases en total."
+  },
+  {
+    "id": 20,
+    "question": "Escribe de 15 a 20 palabras sobre el siguiente tema usando los elementos entre paréntesis: La clase: (descripción – horario de asignaturas)",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "La clase es grande y tiene muchas ventanas. El horario de asignaturas es variado e interesante."
+  }
+]

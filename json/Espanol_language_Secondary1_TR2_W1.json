@@ -1,0 +1,301 @@
+[
+  {
+    "id": 1,
+    "question": "Observa la foto y completa con la parte de la escuela que corresponde: 1-",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "El patio"
+  },
+  {
+    "id": 2,
+    "question": "Observa la foto y completa con la parte de la escuela que corresponde: 2-",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "La entrada"
+  },
+  {
+    "id": 3,
+    "question": "Observa la foto y completa con la parte de la escuela que corresponde: 3-",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "El gimnasio"
+  },
+  {
+    "id": 4,
+    "question": "Observa la foto y completa con la parte de la escuela que corresponde: 4-",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "La biblioteca"
+  },
+  {
+    "id": 5,
+    "question": "Observa la foto y completa con la parte de la escuela que corresponde: 5-",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "El aula de informática"
+  },
+  {
+    "id": 6,
+    "question": "Observa la foto y completa con la parte de la escuela que corresponde: 6-",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "El laboratorio"
+  },
+  {
+    "id": 7,
+    "question": "Mi compañero …………………en la clase.",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "está"
+  },
+  {
+    "id": 8,
+    "question": "La clase ………………….… muchas ventanas.",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "tiene"
+  },
+  {
+    "id": 9,
+    "question": "Mi escuela ………………..…… cerca de casa.",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "está"
+  },
+  {
+    "id": 10,
+    "question": "El libro ………………….….. en la mochila.",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "está"
+  },
+  {
+    "id": 11,
+    "question": "La mochila ……………..…… tres cuadernos y dos bolígrafos.",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "tiene"
+  },
+  {
+    "id": 12,
+    "question": "Yo estudio español ……………..…. alemán.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "y",
+      "pero",
+      "en",
+      "también"
+    ],
+    "correct_answer": "y"
+  },
+  {
+    "id": 13,
+    "question": "Mi escuela tiene teatro, …….. no tiene gimnasio.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "pero",
+      "y",
+      "también",
+      "para"
+    ],
+    "correct_answer": "pero"
+  },
+  {
+    "id": 14,
+    "question": "Me gustan las Lenguas y las Ciencias. ………. me gusta la Historia",
+    "type": "اختيار من متعدد",
+    "options": [
+      "También",
+      "Y",
+      "Por",
+      "Pero"
+    ],
+    "correct_answer": "También"
+  },
+  {
+    "id": 15,
+    "question": "¿Qué dices para describir edificios? (اختر إجابتين)",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Es Yussef.",
+      "Es grande.",
+      "Es inteligente.",
+      "Es alto.",
+      "Es moderno."
+    ],
+    "correct_answer": "Es grande, Es moderno"
+  },
+  {
+    "id": 16,
+    "question": "¿Cuándo dices: \"Mi nueva escuela está cerca de casa.\"? – Al….",
+    "type": "اختيار من متعدد",
+    "options": [
+      "decir el lugar de la escuela",
+      "pedir información sobre el lugar de la escuela",
+      "preguntar por el físico",
+      "preguntar por el lugar de la escuela",
+      "dar información sobre el lugar de la escuela"
+    ],
+    "correct_answer": "dar información sobre el lugar de la escuela"
+  },
+  {
+    "id": 17,
+    "question": "En la mochila ……………………... tres libros.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "es",
+      "tiene",
+      "hay",
+      "está"
+    ],
+    "correct_answer": "hay"
+  },
+  {
+    "id": 18,
+    "question": "Yo estudio español, …………………… no estudio chino.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "y",
+      "pero",
+      "para",
+      "también"
+    ],
+    "correct_answer": "pero"
+  },
+  {
+    "id": 19,
+    "question": "Mi escuela ……………………… bonita.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "es",
+      "eres",
+      "son",
+      "soy"
+    ],
+    "correct_answer": "es"
+  },
+  {
+    "id": 20,
+    "question": "¿Qué dices para preguntar por la descripción de la escuela? (اختر إجابتين)",
+    "type": "اختيار من متعدد",
+    "options": [
+      "¿Cómo vas a la escuela?",
+      "¿Cómo es tu escuela?",
+      "¿Dónde está tu escuela?",
+      "¿Es grande tu escuela?",
+      "¿Cuándo vas a la escuela?"
+    ],
+    "correct_answer": "¿Cómo es tu escuela?, ¿Es grande tu escuela?"
+  },
+  {
+    "id": 21,
+    "question": "¿Cuándo dices: ''Mi mochila es bonita y roja.''? – Al ….",
+    "type": "اختيار من متعدد",
+    "options": [
+      "preguntar por la descripción",
+      "preguntar por el color",
+      "hablar del color",
+      "hablar de la descripción",
+      "decir la nacionalidad"
+    ],
+    "correct_answer": "hablar del color, hablar de la descripción"
+  },
+  {
+    "id": 22,
+    "question": "En la escuela ……………..….. muchas clases.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "está",
+      "es",
+      "tiene",
+      "hay"
+    ],
+    "correct_answer": "hay"
+  },
+  {
+    "id": 23,
+    "question": "La casa ……………..… lejos de la escuela.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "está",
+      "tiene",
+      "es",
+      "son"
+    ],
+    "correct_answer": "está"
+  },
+  {
+    "id": 24,
+    "question": "Me gusta hacer deporte …………………..…. escuchar música.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "pero",
+      "y",
+      "para",
+      "porque"
+    ],
+    "correct_answer": "y"
+  },
+  {
+    "id": 25,
+    "question": "¿Qué dices para dar información sobre la descripción de un edificio? (اختر إجابتين)",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Es gracioso.",
+      "¿Cómo se llaman?",
+      "Es grande.",
+      "¿Cómo son?",
+      "Es bonitos."
+    ],
+    "correct_answer": "Es grande, Es bonitos."
+  },
+  {
+    "id": 26,
+    "question": "¿Cuándo dices: \"La escuela es moderna.\"? – Al describir….",
+    "type": "اختيار من متعدد",
+    "options": [
+      "una escuela",
+      "un edificio",
+      "una persona",
+      "un carácter",
+      "una profesora"
+    ],
+    "correct_answer": "una escuela, un edificio"
+  },
+  {
+    "id": 27,
+    "question": "¿……………..……..es tu escuela? – Es antigua.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Dónde",
+      "Qué",
+      "Cuántos",
+      "Cómo"
+    ],
+    "correct_answer": "Cómo"
+  },
+  {
+    "id": 28,
+    "question": "La entrada …………..…..… unos dibujos preciosos.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "es",
+      "tiene",
+      "hay",
+      "está"
+    ],
+    "correct_answer": "tiene"
+  },
+  {
+    "id": 29,
+    "question": "Mi clase es pequeña, ………………….. bonita.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "también",
+      "pero",
+      "por",
+      "e"
+    ],
+    "correct_answer": "pero"
+  }
+]

@@ -1,0 +1,155 @@
+[
+  {
+    "id": 1,
+    "question": "Reliez le mot à sa définition : Alimentaire",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Une enquête réalisée pour connaître l’opinion des gens.",
+      "La science des régimes et de l’alimentation équilibrée.",
+      "Qui concerne la nourriture.",
+      "Plante cultivée pour ses grains (blé, riz, maïs…).",
+      "D’une manière certaine, sans aucun doute."
+    ],
+    "correct_answer": "Qui concerne la nourriture."
+  },
+  {
+    "id": 2,
+    "question": "Reliez le mot à sa définition : Un sondage",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Une enquête réalisée pour connaître l’opinion des gens.",
+      "La science des régimes et de l’alimentation équilibrée.",
+      "Qui concerne la nourriture.",
+      "Plante cultivée pour ses grains (blé, riz, maïs…).",
+      "D’une manière certaine, sans aucun doute."
+    ],
+    "correct_answer": "Une enquête réalisée pour connaître l’opinion des gens."
+  },
+  {
+    "id": 3,
+    "question": "Reliez le mot à sa définition : Diététique",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Une enquête réalisée pour connaître l’opinion des gens.",
+      "La science des régimes et de l’alimentation équilibrée.",
+      "Qui concerne la nourriture.",
+      "Plante cultivée pour ses grains (blé, riz, maïs…).",
+      "D’une manière certaine, sans aucun doute."
+    ],
+    "correct_answer": "La science des régimes et de l’alimentation équilibrée."
+  },
+  {
+    "id": 4,
+    "question": "Reliez le mot à sa définition : Céréale",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Une enquête réalisée pour connaître l’opinion des gens.",
+      "La science des régimes et de l’alimentation équilibrée.",
+      "Qui concerne la nourriture.",
+      "Plante cultivée pour ses grains (blé, riz, maïs…).",
+      "D’une manière certaine, sans aucun doute."
+    ],
+    "correct_answer": "Plante cultivée pour ses grains (blé, riz, maïs…)."
+  },
+  {
+    "id": 5,
+    "question": "Reliez le mot à sa définition : Incontestablement",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Une enquête réalisée pour connaître l’opinion des gens.",
+      "La science des régimes et de l’alimentation équilibrée.",
+      "Qui concerne la nourriture.",
+      "Plante cultivée pour ses grains (blé, riz, maïs…).",
+      "D’une manière certaine, sans aucun doute."
+    ],
+    "correct_answer": "D’une manière certaine, sans aucun doute."
+  },
+  {
+    "id": 6,
+    "question": "Est-ce que cette phrase exprime un bon conseil alimentaire ? : Il faut manger des fruits et des légumes tous les jours.",
+    "type": "صح وخطأ",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "correct_answer": "Vrai"
+  },
+  {
+    "id": 7,
+    "question": "Est-ce que cette phrase exprime un bon conseil alimentaire ? : Mange beaucoup de bonbons avant de dormir.",
+    "type": "صح وخطأ",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "correct_answer": "Faux"
+  },
+  {
+    "id": 8,
+    "question": "Est-ce que cette phrase exprime un bon conseil alimentaire ? : Il est conseillé de boire suffisamment d’eau.",
+    "type": "صح وخطأ",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "correct_answer": "Vrai"
+  },
+  {
+    "id": 9,
+    "question": "Est-ce que cette phrase exprime un bon conseil alimentaire ? : Saute le petit-déjeuner si tu n’as pas faim.",
+    "type": "صح وخطأ",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "correct_answer": "Faux"
+  },
+  {
+    "id": 10,
+    "question": "Est-ce que cette phrase exprime un bon conseil alimentaire ? : Il vaut mieux éviter les boissons trop sucrées.",
+    "type": "صح وخطأ",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "correct_answer": "Vrai"
+  },
+  {
+    "id": 11,
+    "question": "Est-ce que cette phrase exprime un bon conseil alimentaire ? : Mange des fast-foods tous les jours.",
+    "type": "صح وخطأ",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "correct_answer": "Faux"
+  },
+  {
+    "id": 12,
+    "question": "Comment les enfants sont-ils arrivés à French-den le 6 mai ?",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Ils sont arrivés à French-den en utilisant un canot pour traverser la rivière ou atteindre la rive."
+  },
+  {
+    "id": 13,
+    "question": "Que font les enfants quand le mauvais temps les empêche de chasser ou de cueillir des plantes ?",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Ils restent à l'intérieur de leur abri (French-den) pour étudier, lire ou s'occuper de tâches domestiques."
+  },
+  {
+    "id": 14,
+    "question": "Faites une phrase complète avec le mot : (un sondage)",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Exemple : Le journal a réalisé un sondage sur les habitudes alimentaires des jeunes."
+  },
+  {
+    "id": 15,
+    "question": "Faites une phrase complète avec le mot : (avouer)",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Exemple : Il doit avouer la vérité à ses parents."
+  }
+]

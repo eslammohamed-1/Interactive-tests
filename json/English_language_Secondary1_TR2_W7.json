@@ -1,0 +1,157 @@
+[
+  {
+    "id": 1,
+    "question": "When I was on holiday, I ..............................swimming every day.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "go",
+      "goes",
+      "went",
+      "was going"
+    ],
+    "correct_answer": "went"
+  },
+  {
+    "id": 2,
+    "question": "I wanted to play with Adham, but he didn’t ....................to play with me.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "wanted",
+      "want",
+      "wants",
+      "wanting"
+    ],
+    "correct_answer": "want"
+  },
+  {
+    "id": 3,
+    "question": "Helping sick people gives his job a very ........................purpose.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "meaningful",
+      "globalized",
+      "fixed",
+      "brief"
+    ],
+    "correct_answer": "meaningful"
+  },
+  {
+    "id": 4,
+    "question": "She eats a healthy .........................between breakfast and lunch daily.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "gadget",
+      "treasure",
+      "dish",
+      "snack"
+    ],
+    "correct_answer": "snack"
+  },
+  {
+    "id": 5,
+    "question": "The children……………………..how to protect themselves from bullying.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "were teaching",
+      "have taught",
+      "taught",
+      "are taught"
+    ],
+    "correct_answer": "are taught"
+  },
+  {
+    "id": 6,
+    "question": "The service in the hotel ………………….in the bill.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "included",
+      "includes",
+      "is included",
+      "is including"
+    ],
+    "correct_answer": "is included"
+  },
+  {
+    "id": 7,
+    "question": "It…………………..that the teacher will explain a new lesson today.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "is saying",
+      "is said",
+      "said",
+      "was said"
+    ],
+    "correct_answer": "is said"
+  },
+  {
+    "id": 8,
+    "question": "A blog post is a personal online piece where someone shares …………",
+    "type": "اختيار من متعدد",
+    "options": [
+      "experiences, thoughts",
+      "exams, stories",
+      "maps, thoughts",
+      "recipes, films"
+    ],
+    "correct_answer": "experiences, thoughts"
+  },
+  {
+    "id": 9,
+    "question": "A blog post is like a digital …………………. .",
+    "type": "اختيار من متعدد",
+    "options": [
+      "essay",
+      "poster",
+      "magazine",
+      "textbook"
+    ],
+    "correct_answer": "essay"
+  },
+  {
+    "id": 10,
+    "question": "Having .............. his work, my father left the office",
+    "type": "اختيار من متعدد",
+    "options": [
+      "finishing",
+      "finish",
+      "finishes",
+      "finished"
+    ],
+    "correct_answer": "finished"
+  },
+  {
+    "id": 11,
+    "question": "Why does Santiago plan to fish together with Manolin next time?",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Santiago plans to fish with Manolin because he realizes he needs the boy's help and companionship, and he wants to continue teaching him the skills of fishing."
+  },
+  {
+    "id": 12,
+    "question": "How does the story transform failure into a form of success?",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "The story transforms failure into success by showing that although Santiago lost the fish to sharks (physical failure), he regained his dignity, proved his endurance, and earned the respect of the village (moral success)."
+  },
+  {
+    "id": 13,
+    "question": "Why does Santiago feel both victorious and defeated?",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "He feels victorious because he successfully caught the giant marlin after a long struggle, but he feels defeated because the sharks devoured the fish, leaving him with nothing but the skeleton."
+  },
+  {
+    "id": 14,
+    "question": "Why do you think the villagers’ attitude changed towards Santiago?",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "The villagers' attitude changed because they saw the massive skeleton of the marlin, which served as physical proof of Santiago's incredible strength, skill, and perseverance."
+  },
+  {
+    "id": 15,
+    "question": "How does the boy’s promise change Santiago’s future?",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Manolin's promise to fish with Santiago again gives the old man renewed hope, a sense of purpose, and the comfort of knowing he will no longer be alone at sea."
+  }
+]

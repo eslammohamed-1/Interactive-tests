@@ -1,0 +1,241 @@
+[
+  {
+    "id": 1,
+    "question": "Chi invita a casa sua Alessia?",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "تعتمد الإجابة على نص الحوار في صفحة 39 من الكتاب المدرسي."
+  },
+  {
+    "id": 2,
+    "question": "Che cosa possono fare gli amici da lei?",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "تعتمد الإجابة على نص الحوار في صفحة 39 من الكتاب المدرسي."
+  },
+  {
+    "id": 3,
+    "question": "Cosa fa Chiara nel tempo libero?",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "تعتمد الإجابة على نص الحوار في صفحة 39 من الكتاب المدرسي."
+  },
+  {
+    "id": 4,
+    "question": "Dov’ѐ la casa di Alessia?",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "تعتمد الإجابة على نص الحوار في صفحة 39 من الكتاب المدرسي."
+  },
+  {
+    "id": 5,
+    "question": "Quale autobus deve prendere Chiara?",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "تعتمد الإجابة على نص الحوار في صفحة 39 من الكتاب المدرسي."
+  },
+  {
+    "id": 6,
+    "question": "Ragazzi, a che ora ..............tornare a casa?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "deve",
+      "devono",
+      "devi",
+      "dovete"
+    ],
+    "correct_answer": "dovete"
+  },
+  {
+    "id": 7,
+    "question": "Silvia, vuoi .......... al cinema con noi?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "venire",
+      "vieni",
+      "viene",
+      "vengo"
+    ],
+    "correct_answer": "venire"
+  },
+  {
+    "id": 8,
+    "question": "La domenica io e Paolo ....................fare tante cose.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "posso",
+      "potete",
+      "possiamo",
+      "possono"
+    ],
+    "correct_answer": "possiamo"
+  },
+  {
+    "id": 9,
+    "question": "Gianna puό ..............il compito da sola.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "fa",
+      "fai",
+      "fate",
+      "fare"
+    ],
+    "correct_answer": "fare"
+  },
+  {
+    "id": 10,
+    "question": "Io ................andare a teatro con i ragazzi.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "vogliano",
+      "voglio",
+      "volete",
+      "vuoi"
+    ],
+    "correct_answer": "voglio"
+  },
+  {
+    "id": 11,
+    "question": "Chi scrive questa mail?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Paolo",
+      "Alessia",
+      "Dino",
+      "Chiara"
+    ],
+    "correct_answer": "Chiara"
+  },
+  {
+    "id": 12,
+    "question": "Paolo e Alessia vanno da Chiara........................",
+    "type": "اختيار من متعدد",
+    "options": [
+      "il lunedì",
+      "il fine settimana",
+      "il martedì",
+      "il venerdì"
+    ],
+    "correct_answer": "il fine settimana"
+  },
+  {
+    "id": 13,
+    "question": "Perché Dino e Giulia non vanno da Chiara la mattina? perché devono............",
+    "type": "اختيار من متعدد",
+    "options": [
+      "dormire",
+      "giocare con la playstation",
+      "studiare",
+      "guardare un film"
+    ],
+    "correct_answer": "studiare"
+  },
+  {
+    "id": 14,
+    "question": "A che ora comincia il film?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Alle 5",
+      "Alle 6",
+      "Alle 7",
+      "Alle 10"
+    ],
+    "correct_answer": "Alle 5"
+  },
+  {
+    "id": 15,
+    "question": "A Chi scrive Alessia questa mail?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "A Carmen",
+      "A Chiara",
+      "A Sara",
+      "A Gianna"
+    ],
+    "correct_answer": "A Gianna"
+  },
+  {
+    "id": 16,
+    "question": "Le amiche vanno da Alessia........................",
+    "type": "اختيار من متعدد",
+    "options": [
+      "il lunedì",
+      "il sabato",
+      "il martedì",
+      "il venerdì"
+    ],
+    "correct_answer": "il sabato"
+  },
+  {
+    "id": 17,
+    "question": "Orlando Bloom ѐ...................",
+    "type": "اختيار من متعدد",
+    "options": [
+      "l’attore preferito di Chiara",
+      "l’amico preferito di Carmen",
+      "l’amico preferito di Alessia",
+      "l’attore preferito di Alessia"
+    ],
+    "correct_answer": "l’attore preferito di Alessia"
+  },
+  {
+    "id": 18,
+    "question": "A che ora comincia il film?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Alle 5",
+      "Alle 6",
+      "Alle 7",
+      "Alle 10"
+    ],
+    "correct_answer": "Alle 7"
+  },
+  {
+    "id": 19,
+    "question": "Di Chi è questo blog?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Di Paolo",
+      "Di Alessia",
+      "Di Dino",
+      "Di Giulia"
+    ],
+    "correct_answer": "Di Giulia"
+  },
+  {
+    "id": 20,
+    "question": "Quando Dino e Alessia vanno da Giulia?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Il lunedì",
+      "Il fine settimana",
+      "Il martedì",
+      "Il venerdì"
+    ],
+    "correct_answer": "Il fine settimana"
+  },
+  {
+    "id": 21,
+    "question": "Paolo e Chiara non vanno da Giulia la domenica mattina perché devono......",
+    "type": "اختيار من متعدد",
+    "options": [
+      "dormire",
+      "giocare con la playstation",
+      "guardare un film",
+      "fare il compito"
+    ],
+    "correct_answer": "fare il compito"
+  },
+  {
+    "id": 22,
+    "question": "A che ora comincia il film?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Alle 5",
+      "Alle 6",
+      "Alle 7",
+      "Alle 10"
+    ],
+    "correct_answer": "Alle 6"
+  }
+]

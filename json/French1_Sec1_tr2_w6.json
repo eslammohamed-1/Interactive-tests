@@ -1,0 +1,157 @@
+[
+  {
+    "id": 1,
+    "question": "La robe ______ elle porte pour le défilé est créée par un jeune styliste",
+    "type": "اختيار من متعدد",
+    "options": [
+      "qui",
+      "que",
+      "dont",
+      "où"
+    ],
+    "correct_answer": "que"
+  },
+  {
+    "id": 2,
+    "question": "C’est un créateur ______ les collections sont toujours très originales.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "que",
+      "qui",
+      "dont",
+      "où"
+    ],
+    "correct_answer": "dont"
+  },
+  {
+    "id": 3,
+    "question": "La Fashion Week est un événement ______ attire des stylistes du monde entier.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "que",
+      "dont",
+      "qui",
+      "où"
+    ],
+    "correct_answer": "qui"
+  },
+  {
+    "id": 4,
+    "question": "Voici la boutique ______ j’ai acheté cette veste tendance.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "que",
+      "qui",
+      "dont",
+      "où"
+    ],
+    "correct_answer": "où"
+  },
+  {
+    "id": 5,
+    "question": "C’est une marque ______ tout le monde parle cette saison.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "que",
+      "qui",
+      "où",
+      "dont"
+    ],
+    "correct_answer": "dont"
+  },
+  {
+    "id": 6,
+    "question": "Je préfère ______ est fabriqué en coton bio.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "celui",
+      "celui qui",
+      "ce qui",
+      "ce que"
+    ],
+    "correct_answer": "ce qui"
+  },
+  {
+    "id": 7,
+    "question": "Parmi toutes ces robes, j’aime beaucoup ______ tu as choisie.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "celle qui",
+      "celle que",
+      "celle dont",
+      "ce qui"
+    ],
+    "correct_answer": "celle que"
+  },
+  {
+    "id": 8,
+    "question": "Les sacs dans cette vitrine sont plus élégants que ______ sont exposés à l’entrée.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "ceux qui",
+      "ceux que",
+      "celles qui",
+      "ce qui"
+    ],
+    "correct_answer": "ceux qui"
+  },
+  {
+    "id": 9,
+    "question": "Je n’aime pas les chaussures rouges, je préfère ______ sont en cuir noir.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "celles qui",
+      "ceux qui",
+      "celles que",
+      "ce que"
+    ],
+    "correct_answer": "celles qui"
+  },
+  {
+    "id": 10,
+    "question": "Elle hésite entre plusieurs stylistes, mais elle choisira ______ les créations sont les plus modernes.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "celui que",
+      "celui dont",
+      "celui qui",
+      "ce qui"
+    ],
+    "correct_answer": "celui dont"
+  },
+  {
+    "id": 11,
+    "question": "Pourquoi Briant est-il en colère contre son frère au début du passage ?",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Briant est en colère car son frère Jack est paresseux, négligent et ne participe pas aux efforts collectifs du groupe."
+  },
+  {
+    "id": 12,
+    "question": "Comment Briant réagit-il après l’élection et l’obtention de la majorité des voix ? Que montre cette réaction sur son caractère ?",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Briant réagit avec modestie et sérieux sans aucune trace de vanité. Cela montre son grand sens des responsabilités, sa maturité et son dévouement envers ses camarades."
+  },
+  {
+    "id": 13,
+    "question": "Pourquoi le changement de chef crée-t-il des tensions après l’élection ? Expliquez en vous appuyant sur le comportement de Doniphan.",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Le changement crée des tensions car Doniphan est jaloux et orgueilleux. Il refuse d'accepter l'autorité de Briant, ce qui provoque une rivalité et une division au sein du groupe."
+  },
+  {
+    "id": 14,
+    "question": "Faites une phrase complète avec le mot suivant : (ridicule)",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Ce chapeau est vraiment ridicule avec toutes ces couleurs."
+  },
+  {
+    "id": 15,
+    "question": "Faites une phrase complète avec le mot suivant : (adorer)",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "J'adore porter des vêtements élégants pour les grandes occasions."
+  }
+]

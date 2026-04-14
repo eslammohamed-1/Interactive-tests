@@ -1,0 +1,313 @@
+[
+  {
+    "id": 1,
+    "question": "El número ordinal de 2 es",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "segundo"
+  },
+  {
+    "id": 2,
+    "question": "¿Cómo se escribe el número ordinal de 5 en letras?",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "quinto"
+  },
+  {
+    "id": 3,
+    "question": "¿Qué número ordinal viene después de noveno?",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "décimo"
+  },
+  {
+    "id": 4,
+    "question": "¿A qué hora empieza la clase de español?",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "A las ocho"
+  },
+  {
+    "id": 5,
+    "question": "¿Qué hora es? (Imagen a: 7:00)",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Son las siete"
+  },
+  {
+    "id": 6,
+    "question": "¿Qué hora es? (Imagen b: 3:30)",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Son las tres y media"
+  },
+  {
+    "id": 7,
+    "question": "¿Qué hora es? (Imagen c: 9:00)",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Son las nueve"
+  },
+  {
+    "id": 8,
+    "question": "¿Qué hora es? (Imagen d: 4:10)",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Son las cuatro y diez"
+  },
+  {
+    "id": 9,
+    "question": "¿Qué hora es? (Imagen e: 2:15)",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "Son las dos y cuarto"
+  },
+  {
+    "id": 10,
+    "question": "¿Qué dices para preguntar por la hora? (Elige las dos respuestas correctas)",
+    "type": "اختيار من متعدد",
+    "options": [
+      "¿Qué hora es?",
+      "¿A qué hora es el examen?",
+      "Son las ocho.",
+      "Mi escuela es bonita.",
+      "¿Tienes hora?"
+    ],
+    "correct_answer": "¿Qué hora es? / ¿Tienes hora?"
+  },
+  {
+    "id": 11,
+    "question": "¿Cuándo dices: \"Son las dos en punto.\"? (Elige las dos respuestas correctas)",
+    "type": "اختيار من متعدد",
+    "options": [
+      "decir la hora",
+      "decir la edad",
+      "dar información sobre la hora",
+      "dar información sobre la edad",
+      "preguntar por el horario"
+    ],
+    "correct_answer": "decir la hora / dar información sobre la hora"
+  },
+  {
+    "id": 12,
+    "question": "Nosotros………………………comer pizza.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "prefiero",
+      "prefiere",
+      "preferimos",
+      "prefieres"
+    ],
+    "correct_answer": "preferimos"
+  },
+  {
+    "id": 13,
+    "question": "Hassan, ¿……….las Lenguas o la Historia?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "preferís",
+      "prefieres",
+      "prefiere",
+      "prefieren"
+    ],
+    "correct_answer": "prefieres"
+  },
+  {
+    "id": 14,
+    "question": "………………….prefiero practicar deporte.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Él",
+      "Yo",
+      "Tú",
+      "Ella"
+    ],
+    "correct_answer": "Yo"
+  },
+  {
+    "id": 15,
+    "question": "¿Qué dices para hablar de un horario? (Elige las dos respuestas correctas)",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Voy a la escuela a las ocho.",
+      "Mi clase es moderna.",
+      "Me gusta el español.",
+      "No, no es grande.",
+      "A las nueve empieza la película."
+    ],
+    "correct_answer": "Voy a la escuela a las ocho. / A las nueve empieza la película."
+  },
+  {
+    "id": 16,
+    "question": "¿Cuándo dices, \"Son las tres y media.\"? (Elige las dos respuestas correctas)",
+    "type": "اختيار من متعدد",
+    "options": [
+      "decir la hora",
+      "preguntar por la hora.",
+      "dar información sobre la hora",
+      "pedir información sobre la hora",
+      "decir la nacionalidad"
+    ],
+    "correct_answer": "decir la hora / dar información sobre la hora"
+  },
+  {
+    "id": 17,
+    "question": "¿………………………..hora es?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Cómo",
+      "Cuánto",
+      "Qué",
+      "Dónde"
+    ],
+    "correct_answer": "Qué"
+  },
+  {
+    "id": 18,
+    "question": "la clase es……………..las diez.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "en",
+      "de",
+      "a",
+      "por"
+    ],
+    "correct_answer": "a"
+  },
+  {
+    "id": 19,
+    "question": "Yo vivo en la planta…………….. .",
+    "type": "اختيار من متعدد",
+    "options": [
+      "primera",
+      "primer",
+      "segundo",
+      "tercer"
+    ],
+    "correct_answer": "primera"
+  },
+  {
+    "id": 20,
+    "question": "¿Qué dices para decir la hora? (Elige las dos respuestas correctas)",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Son graciosos.",
+      "Son las tres y media.",
+      "Son grandes.",
+      "Son las cinco.",
+      "Son bonitos."
+    ],
+    "correct_answer": "Son las tres y media. / Son las cinco."
+  },
+  {
+    "id": 21,
+    "question": "¿Cuándo dices, \"A las cuatro y media.\"? (Elige las dos respuestas correctas)",
+    "type": "اختيار من متعدد",
+    "options": [
+      "decir el horario",
+      "preguntar por el horario",
+      "dar información sobre el horario",
+      "pedir información sobre el horario",
+      "decir la nacionalidad"
+    ],
+    "correct_answer": "decir el horario / dar información sobre el horario"
+  },
+  {
+    "id": 22,
+    "question": "¿A……………..hora es la clase de Matemáticas?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "qué",
+      "cómo",
+      "dónde",
+      "cuánto"
+    ],
+    "correct_answer": "qué"
+  },
+  {
+    "id": 23,
+    "question": "Ahmed vive en la…………………………calle.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "segundo",
+      "octavo",
+      "tercera",
+      "primer"
+    ],
+    "correct_answer": "tercera"
+  },
+  {
+    "id": 24,
+    "question": "……………………………...la una en punto.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Son",
+      "Es",
+      "Eres",
+      "Soy"
+    ],
+    "correct_answer": "Es"
+  },
+  {
+    "id": 25,
+    "question": "¿Qué dices para pedir información sobre la hora? (Elige las dos respuestas correctas)",
+    "type": "اختيار من متعدد",
+    "options": [
+      "¿A qué hora termina las clases?",
+      "¿Qué te gusta comer?",
+      "¿Tienes hora?",
+      "¿Cómo es tu escuela?",
+      "¿Qué hora es?"
+    ],
+    "correct_answer": "¿Tienes hora? / ¿Qué hora es?"
+  },
+  {
+    "id": 26,
+    "question": "¿Cuándo dices, \"¿A qué hora termina tus deberes?\"? (Elige las dos respuestas correctas)",
+    "type": "اختيار من متعدد",
+    "options": [
+      "decir el horario",
+      "preguntar por el horario",
+      "dar información sobre el horario",
+      "pedir información sobre el horario",
+      "decir la nacionalidad"
+    ],
+    "correct_answer": "preguntar por el horario / pedir información sobre el horario"
+  },
+  {
+    "id": 27,
+    "question": "¿……..…………hora tienes?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Qué",
+      "Cómo",
+      "Dónde",
+      "Cuánto"
+    ],
+    "correct_answer": "Qué"
+  },
+  {
+    "id": 28,
+    "question": "Estoy en el…………….curso secundario.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "segundo",
+      "octava",
+      "tercera",
+      "primer"
+    ],
+    "correct_answer": "primer"
+  },
+  {
+    "id": 29,
+    "question": "…………….las cinco y media.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Son",
+      "Es",
+      "Eres",
+      "Soy"
+    ],
+    "correct_answer": "Son"
+  }
+]

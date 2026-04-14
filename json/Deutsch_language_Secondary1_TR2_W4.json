@@ -1,0 +1,259 @@
+[
+  {
+    "id": 1,
+    "question": "Der Kunde und der Verkäufer …………………………… .",
+    "type": "اختيار من متعدد",
+    "options": [
+      "kaufen Lebensmittel",
+      "führen ein Einkaufsgespräch",
+      "brauchen Würste und Säfte",
+      "haben keine Lebensmittel"
+    ],
+    "correct_answer": "führen ein Einkaufsgespräch"
+  },
+  {
+    "id": 2,
+    "question": "Der Kunde braucht …………………………..",
+    "type": "اختيار من متعدد",
+    "options": [
+      "nur Orangensaft",
+      "zwei Orangen",
+      "Orangensaft und Wurst",
+      "zwei Würste"
+    ],
+    "correct_answer": "Orangensaft und Wurst"
+  },
+  {
+    "id": 3,
+    "question": "Was kosten 2 Liter Orangensaft?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "$1,99€$",
+      "$12,90€$",
+      "$3,98€$",
+      "$6,45€$"
+    ],
+    "correct_answer": "$3,98€$"
+  },
+  {
+    "id": 4,
+    "question": "Was kostet $6,45€$?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "3 Liter Orangensaft.",
+      "4 Liter Orangensaft.",
+      "2 Kilo Wurst.",
+      "500 Gramm Wurst"
+    ],
+    "correct_answer": "500 Gramm Wurst"
+  },
+  {
+    "id": 5,
+    "question": "Wie viel kostet alles zusammen?",
+    "type": "اختيار من متعدد",
+    "options": [
+      "zwölf Euro neunzig",
+      "zehn Euro dreiundvierzig Cent",
+      "zehn Euro vierunddreißig Cent",
+      "drei Euro achtundneunzig Cent"
+    ],
+    "correct_answer": "zehn Euro dreiundvierzig Cent"
+  },
+  {
+    "id": 6,
+    "question": "Du bist im Supermarkt und möchtest nach den Preisen fragen. Was sagst du? (اختر إجابتين صحيحتين)",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Wie viel kostet alles zusammen?",
+      "Brauchen wir Obst und Gemüse?",
+      "Wie viel möchten Sie?",
+      "Was kostet ein Kilo Kartoffeln?",
+      "Was möchten Sie?"
+    ],
+    "correct_answer": "Wie viel kostet alles zusammen? / Was kostet ein Kilo Kartoffeln?"
+  },
+  {
+    "id": 7,
+    "question": ".................. kostet alles zusammen? - $56 €$.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Was",
+      "Wie",
+      "Wo",
+      "Wer"
+    ],
+    "correct_answer": "Wie"
+  },
+  {
+    "id": 8,
+    "question": "200 Gramm Wurst ...................... $1.39€$.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "kostet",
+      "kosten",
+      "möchtet",
+      "möchten"
+    ],
+    "correct_answer": "kosten"
+  },
+  {
+    "id": 9,
+    "question": "Ich möchte bitte eine ................. Cola.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Dose",
+      "Packung",
+      "Becher",
+      "Kilo"
+    ],
+    "correct_answer": "Dose"
+  },
+  {
+    "id": 10,
+    "question": "Jemand fragt: „Wie viel kostet ein Becher Joghurt, bitte?“ Der Verkäufer sagt: ............ (اختر إجابتين صحيحتين)",
+    "type": "اختيار من متعدد",
+    "options": [
+      "$0,99$ Cent",
+      "$500$ Pfund",
+      "$1,00$ Liter",
+      "$200$ Gramm",
+      "$1,12 €$"
+    ],
+    "correct_answer": "$0,99$ Cent / $1,12 €$"
+  },
+  {
+    "id": 11,
+    "question": "Eine Flasche ...................... brauche ich noch.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Fleisch",
+      "Fisch",
+      "Reis",
+      "Apfelsaft"
+    ],
+    "correct_answer": "Apfelsaft"
+  },
+  {
+    "id": 12,
+    "question": "Sie möchten Käse! ................ möchten Sie? - $100$ Gramm.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Was",
+      "Wie",
+      "Wie viel",
+      "Wer"
+    ],
+    "correct_answer": "Wie viel"
+  },
+  {
+    "id": 13,
+    "question": "Zwei Liter Öl ...................... $4,99 €$.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "kostet",
+      "kosten",
+      "möchtet",
+      "möchten"
+    ],
+    "correct_answer": "kosten"
+  },
+  {
+    "id": 14,
+    "question": "Der Verkäufer antwortet: „$5$ Euro.“ Wie heißt die Frage? (اختر إجابتين صحيحتين)",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Wie viele Äpfel möchten Sie?",
+      "Was kosten $5$ Kiwis?",
+      "Wie viel kostet ein Kilo Orangen?",
+      "Haben Sie Orangen?",
+      "Wie viel Käse brauchen Sie?"
+    ],
+    "correct_answer": "Was kosten $5$ Kiwis? / Wie viel kostet ein Kilo Orangen?"
+  },
+  {
+    "id": 15,
+    "question": "Zwei Packungen Tee ……………… $5,99 €$.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "kosten",
+      "kostet",
+      "möchtet",
+      "möchten"
+    ],
+    "correct_answer": "kosten"
+  },
+  {
+    "id": 16,
+    "question": "Ja, wir haben Trauben. ……………….. möchten Sie? – Drei Kilo.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Wer",
+      "Wie viel",
+      "Wo",
+      "Wie"
+    ],
+    "correct_answer": "Wie viel"
+  },
+  {
+    "id": 17,
+    "question": "Wir brauchen fünf ……………… Joghurt.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Flaschen",
+      "Dosen",
+      "Packung",
+      "Becher"
+    ],
+    "correct_answer": "Becher"
+  },
+  {
+    "id": 18,
+    "question": "Wie viel ............... eine Flasche Öl? – $2,30€$.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "kosten",
+      "kostet"
+    ],
+    "correct_answer": "kostet"
+  },
+  {
+    "id": 19,
+    "question": "10 Eier ............... $1,70€$.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "kosten",
+      "kostet"
+    ],
+    "correct_answer": "kosten"
+  },
+  {
+    "id": 20,
+    "question": "Ein Kilo Orangen .................. $1,22€$.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "kosten",
+      "kostet"
+    ],
+    "correct_answer": "kostet"
+  },
+  {
+    "id": 21,
+    "question": "200 Gramm Käse .................... $0,75 €$.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "kosten",
+      "kostet"
+    ],
+    "correct_answer": "kosten"
+  },
+  {
+    "id": 22,
+    "question": "Ein Stück Kuchen ............... $1,02€$.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "kosten",
+      "kostet"
+    ],
+    "correct_answer": "kostet"
+  }
+]

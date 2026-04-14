@@ -1,0 +1,194 @@
+[
+  {
+    "id": 1,
+    "question": "Wie ................ dir die Zimmer? - Hell und modern.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "nicht",
+      "gefällt",
+      "gefallen",
+      "hässlich",
+      "klein"
+    ],
+    "correct_answer": "gefallen"
+  },
+  {
+    "id": 2,
+    "question": "Ist die Küche groß? – Nein, ................. .",
+    "type": "اختيار من متعدد",
+    "options": [
+      "nicht",
+      "gefällt",
+      "gefallen",
+      "hässlich",
+      "klein"
+    ],
+    "correct_answer": "klein"
+  },
+  {
+    "id": 3,
+    "question": "Nein, der Obstsalat schmeckt .......... gut.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "nicht",
+      "gefällt",
+      "gefallen",
+      "hässlich",
+      "klein"
+    ],
+    "correct_answer": "nicht"
+  },
+  {
+    "id": 4,
+    "question": "Die Wohnung .............. mir nicht.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "nicht",
+      "gefällt",
+      "gefallen",
+      "hässlich",
+      "klein"
+    ],
+    "correct_answer": "gefällt"
+  },
+  {
+    "id": 5,
+    "question": "Findest du das Bad schön? – Nein, ……… .",
+    "type": "اختيار من متعدد",
+    "options": [
+      "nicht",
+      "gefällt",
+      "gefallen",
+      "hässlich",
+      "klein"
+    ],
+    "correct_answer": "hässlich"
+  },
+  {
+    "id": 6,
+    "question": "Ist der Balkon groß? – Nein, ............",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "klein"
+  },
+  {
+    "id": 7,
+    "question": "Ist der Flur breit? – Nein, ....................",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "schmal"
+  },
+  {
+    "id": 8,
+    "question": "Ist das Haus teuer? – Nein, ....................",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "billig"
+  },
+  {
+    "id": 9,
+    "question": "Findest du das Arbeitszimmer hell? – Nein, ....................",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "dunkel"
+  },
+  {
+    "id": 10,
+    "question": "Findest du die Küche neu? – Nein, ....................",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "alt"
+  },
+  {
+    "id": 11,
+    "question": "Findest du das Bad schön? – Nein, ....................",
+    "type": "مقالي",
+    "options": [],
+    "correct_answer": "hässlich"
+  },
+  {
+    "id": 12,
+    "question": "Du sagst: „Das Zimmer gefällt mir nicht.“ Das bedeutet: Das Zimmer ist ……… .",
+    "type": "اختيار من متعدد",
+    "options": [
+      "breit",
+      "hässlich",
+      "schmal",
+      "schön",
+      "groß"
+    ],
+    "correct_answer": "hässlich"
+  },
+  {
+    "id": 13,
+    "question": "Wie findest du mein Haus? – Es ............ mir gut.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "gefällt",
+      "gefallen",
+      "finde",
+      "findet"
+    ],
+    "correct_answer": "gefällt"
+  },
+  {
+    "id": 14,
+    "question": "Das ist ............ mein Zimmer. Das ist Ahmeds Zimmer.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "nicht",
+      "eine",
+      "keine",
+      "kein"
+    ],
+    "correct_answer": "nicht"
+  },
+  {
+    "id": 15,
+    "question": "............ ist der Garten? – Leider nicht groß.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "Wie",
+      "Was",
+      "Wo",
+      "Wer"
+    ],
+    "correct_answer": "Wie"
+  },
+  {
+    "id": 16,
+    "question": "Die Kinder spielen ............ im Garten.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "nicht",
+      "kein",
+      "keine",
+      "nein"
+    ],
+    "correct_answer": "nicht"
+  },
+  {
+    "id": 17,
+    "question": "Wie ............ dir mein Haus? – Es ist schön.",
+    "type": "اختيار من متعدد",
+    "options": [
+      "gefällt",
+      "findest",
+      "schmeckt",
+      "hast"
+    ],
+    "correct_answer": "gefällt"
+  },
+  {
+    "id": 18,
+    "question": "Findest du das Bad schön? – Nein, ............",
+    "type": "اختيار من متعدد",
+    "options": [
+      "breit",
+      "groß",
+      "hässlich",
+      "gut"
+    ],
+    "correct_answer": "hässlich"
+  }
+]
