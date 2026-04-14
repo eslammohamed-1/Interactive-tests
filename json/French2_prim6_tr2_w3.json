@@ -1,0 +1,23 @@
+{
+  "Écris un mot sous chaque image :": {
+    "Image 1 (Globe)": "géographie",
+    "Image 2 (Laboratoire)": "sciences",
+    "Image 3 (Palette de peinture)": "dessin",
+    "Image 4 (Tour Eiffel)": "français",
+    "Image 5 (Train)": "train"
+  },
+  "Écris une phrase sous chaque image à l’aide de mot donné :": {
+    "sport": "J'aime le sport.",
+    "géographie": "J'aime la géographie.",
+    "musique": "J'aime la musique.",
+    "français": "J'aime le français.",
+    "maths": "J'aime les maths."
+  },
+  "Choisis la bonne réponse :": {
+    "1- J’……………. français. ( as – ai – a )": "ai",
+    "2- Elle ………………………… la géographie. ( aime – aimes – aimer )": "aime",
+    "3- Tu aimes ……………… école ? ( le – les – l’ )": "l’",
+    "4- ……………. est sept heures. ( Tu – Je – Il )": "Il",
+    "5- J’ai sciences ……………. 10 heures. ( au – à – aux )": "à"
+  }
+}

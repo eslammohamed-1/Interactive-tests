@@ -1,0 +1,10 @@
+{
+  "Files can be recovered from the Recycle Bin if they have not been permanently deleted.": "True (√)",
+  "program Recuva one of the free programs for recovering deleted files.": "True (√)",
+  "To restore the file from the Recycle Bin, right-click on the file and select restore": "True (√)",
+  "It is recommended to install the recovery software on the same disk from which the files were deleted.": "False (×)",
+  "Good communication helps build good relationships with our colleagues.": "True (√)",
+  "Deep scan option helps find deleted file a long time ago": "True (√)",
+  "The first step to recovering a deleted file from your computer.......................": "c- Open the recycle bin and restore the file.",
+  "When installing the recovery program, it is recommended to install it on..............................": "b- Different or external disk."
+}

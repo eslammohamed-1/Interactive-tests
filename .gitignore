@@ -1,0 +1,16 @@
+# مجلد التحميلات المحلي (كبير ولا يُرفع)
+التقييمات_الوزارية/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+venv/
+.venv/
+
+# OS / IDE
+Thumbs.db
+.DS_Store
+.idea/
+.vscode/

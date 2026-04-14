@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>اختبارات تفاعلية</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&family=Inter:wght@400;600;700;800&family=JetBrains+Mono:wght@500&display=swap"
+    rel="stylesheet"
+  />
+  <style>
+    /* neobrutalism-inspired tokens (typeui.sh) + RTL للطلاب */
+    :root {
+      --color-primary: #fdc800;
+      --color-secondary: #432dd7;
+      --color-success: #16a34a;
+      --color-warning: #d97706;
+      --color-danger: #dc2626;
+      --color-surface: #fbfbf9;
+      --color-surface-2: #fff;
+      --color-text: #1c293c;
+      --color-text-muted: #3d5266;
+      --color-ink: #0a0f14;
+      --border-width: 3px;
+      --radius: 6px;
+      --shadow: 5px 5px 0 var(--color-ink);
+      --shadow-sm: 3px 3px 0 var(--color-ink);
+      --space-1: 4px;
+      --space-2: 8px;
+      --space-3: 12px;
+      --space-4: 16px;
+      --space-5: 24px;
+      --space-6: 32px;
+      --font-ui: "Inter", "Cairo", system-ui, sans-serif;
+      --font-ar: "Cairo", "Inter", system-ui, sans-serif;
+      --font-mono: "JetBrains Mono", ui-monospace, monospace;
+    }
+    * {
+      box-sizing: border-box;
+    }
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: var(--font-ar);
+      font-size: 15px;
+      line-height: 1.55;
+      color: var(--color-text);
+      background-color: var(--color-surface);
+      background-image: radial-gradient(circle at 100% 0%, rgba(253, 200, 0, 0.18) 0%, transparent 42%),
+        radial-gradient(circle at 0% 100%, rgba(67, 45, 215, 0.12) 0%, transparent 45%);
+      overflow-x: hidden;
+    }
+    .wrap {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: var(--space-5) var(--space-4);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    header {
+      text-align: center;
+      padding: var(--space-5) 0 var(--space-4);
+    }
+    header h1 {
+      margin: 0;
+      font-family: var(--font-ar);
+      font-size: clamp(1.35rem, 4vw, 1.7rem);
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      color: var(--color-text);
+      display: inline-block;
+      padding: var(--space-3) var(--space-5);
+      background: var(--color-primary);
+      border: var(--border-width) solid var(--color-ink);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      transform: rotate(-0.5deg);
+    }
+    header p {
+      margin: var(--space-4) 0 0;
+      color: var(--color-text-muted);
+      font-size: 15px;
+      font-weight: 600;
+      max-width: 36em;
+      margin-inline: auto;
+    }
+    .screen {
+      display: none;
+      flex: 1;
+      animation: popIn 0.35s ease;
+    }
+    .screen.active {
+      display: flex;
+      flex-direction: column;
+    }
+    @keyframes popIn {
+      from {
+        opacity: 0;
+        transform: translateY(10px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    .card {
+      background: var(--color-surface-2);
+      border: var(--border-width) solid var(--color-ink);
+      border-radius: var(--radius);
+      padding: var(--space-5);
+      box-shadow: var(--shadow);
+      border-top: 8px solid var(--color-secondary);
+    }
+    label {
+      display: block;
+      font-weight: 700;
+      margin-bottom: var(--space-2);
+      color: var(--color-text);
+      font-size: 13px;
+      text-transform: none;
+    }
+    select,
+    input[type="text"] {
+      width: 100%;
+      padding: var(--space-3) var(--space-4);
+      border-radius: var(--radius);
+      border: var(--border-width) solid var(--color-ink);
+      background: var(--color-surface);
+      color: var(--color-text);
+      font-family: var(--font-ar);
+      font-size: 15px;
+      font-weight: 600;
+      margin-bottom: var(--space-4);
+      box-shadow: var(--shadow-sm);
+    }
+    select:focus,
+    input[type="text"]:focus {
+      outline: none;
+      box-shadow: var(--shadow-sm), 0 0 0 3px var(--color-secondary);
+    }
+    select:disabled {
+      opacity: 0.55;
+      cursor: not-allowed;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: var(--space-2);
+      padding: var(--space-3) var(--space-4);
+      border-radius: var(--radius);
+      border: var(--border-width) solid var(--color-ink);
+      font-family: var(--font-ar);
+      font-weight: 800;
+      font-size: 15px;
+      cursor: pointer;
+      box-shadow: var(--shadow-sm);
+      transition: transform 0.1s ease, box-shadow 0.1s ease, background 0.15s ease, opacity 0.15s;
+    }
+    .btn:focus-visible {
+      outline: 3px solid var(--color-secondary);
+      outline-offset: 2px;
+    }
+    .btn:active:not(:disabled) {
+      transform: translate(2px, 2px);
+      box-shadow: 1px 1px 0 var(--color-ink);
+    }
+    .btn:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+      box-shadow: none;
+    }
+    .btn-primary {
+      background: var(--color-primary);
+      color: var(--color-ink);
+    }
+    .btn-primary.block-full {
+      width: 100%;
+      margin-top: var(--space-3);
+    }
+    .btn-primary:hover:not(:disabled) {
+      filter: brightness(1.05);
+    }
+    .btn-ghost {
+      background: var(--color-surface);
+      color: var(--color-text);
+    }
+    .btn-ghost:hover:not(:disabled) {
+      background: #eee;
+    }
+    .btn-choice {
+      width: 100%;
+      text-align: right;
+      justify-content: flex-start;
+      background: var(--color-surface-2);
+      color: var(--color-text);
+      margin-bottom: var(--space-3);
+      font-weight: 700;
+    }
+    .btn-choice:hover:not(:disabled) {
+      background: #fff9e6;
+      border-color: var(--color-secondary);
+    }
+    .btn-choice.correct {
+      border-color: var(--color-success);
+      background: #dcfce7;
+      color: #14532d;
+    }
+    .btn-choice.wrong {
+      border-color: var(--color-danger);
+      background: #fee2e2;
+      color: #7f1d1d;
+    }
+    .row {
+      display: flex;
+      gap: var(--space-3);
+      margin-top: var(--space-4);
+    }
+    .row .btn {
+      flex: 1;
+      width: auto;
+      margin-top: 0;
+    }
+    .progress-wrap {
+      margin-bottom: var(--space-4);
+    }
+    .progress-bar {
+      height: 14px;
+      border-radius: 999px;
+      background: #e2e8f0;
+      border: var(--border-width) solid var(--color-ink);
+      overflow: hidden;
+      box-shadow: inset 2px 2px 0 rgba(0, 0, 0, 0.06);
+    }
+    .progress-fill {
+      height: 100%;
+      border-radius: 999px;
+      background: repeating-linear-gradient(
+        -45deg,
+        var(--color-primary),
+        var(--color-primary) 8px,
+        #f59e0b 8px,
+        #f59e0b 16px
+      );
+      width: 0%;
+      transition: width 0.35s ease;
+      border-right: 2px solid var(--color-ink);
+    }
+    [dir="rtl"] .progress-fill {
+      border-right: none;
+      border-left: 2px solid var(--color-ink);
+    }
+    .progress-text {
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--color-text-muted);
+      margin-top: var(--space-2);
+      text-align: center;
+      font-family: var(--font-ui);
+    }
+    .q-body {
+      font-size: 17px;
+      line-height: 1.75;
+      font-weight: 700;
+      color: var(--color-text);
+      margin-bottom: var(--space-4);
+      padding: var(--space-4);
+      background: var(--color-surface);
+      border: var(--border-width) solid var(--color-ink);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow-sm);
+    }
+    .feedback {
+      display: none;
+      margin-top: var(--space-4);
+      padding: var(--space-4);
+      border-radius: var(--radius);
+      font-weight: 700;
+      border: var(--border-width) solid var(--color-ink);
+      box-shadow: var(--shadow-sm);
+    }
+    .feedback.show {
+      display: block;
+    }
+    .feedback.ok {
+      background: #dcfce7;
+      color: #14532d;
+      border-color: var(--color-success);
+    }
+    .feedback.bad {
+      background: #fee2e2;
+      color: #7f1d1d;
+      border-color: var(--color-danger);
+    }
+    .alert {
+      padding: var(--space-4);
+      border-radius: var(--radius);
+      border: var(--border-width) solid var(--color-danger);
+      background: #fee2e2;
+      color: #7f1d1d;
+      margin-bottom: var(--space-4);
+      font-size: 14px;
+      line-height: 1.6;
+      font-weight: 600;
+      box-shadow: var(--shadow-sm);
+    }
+    .alert--warning {
+      border-color: var(--color-warning);
+      background: #fffbeb;
+      color: #78350f;
+      margin-top: var(--space-4);
+      margin-bottom: 0;
+    }
+    .result-score {
+      text-align: center;
+      padding: var(--space-4) 0;
+    }
+    .result-score .big {
+      font-size: clamp(2.25rem, 8vw, 2.75rem);
+      font-weight: 800;
+      font-family: var(--font-ui);
+      color: var(--color-secondary);
+      text-shadow: 2px 2px 0 var(--color-primary);
+    }
+    .text-muted {
+      color: var(--color-text-muted);
+      font-weight: 600;
+      font-size: 15px;
+    }
+    .section-title {
+      margin: 0 0 var(--space-3);
+      font-size: 17px;
+      font-weight: 800;
+      padding-bottom: var(--space-2);
+      border-bottom: var(--border-width) solid var(--color-ink);
+    }
+    .circle-wrap {
+      display: flex;
+      justify-content: center;
+      margin: var(--space-4) 0 var(--space-5);
+    }
+    .circle {
+      --p: 0;
+      width: 144px;
+      height: 144px;
+      border-radius: 50%;
+      background: conic-gradient(var(--color-primary) calc(var(--p) * 1%), #e2e8f0 0);
+      display: grid;
+      place-items: center;
+      border: var(--border-width) solid var(--color-ink);
+      box-shadow: var(--shadow);
+    }
+    .circle-inner {
+      width: 108px;
+      height: 108px;
+      border-radius: 50%;
+      background: var(--color-surface-2);
+      display: grid;
+      place-items: center;
+      font-size: 21px;
+      font-weight: 800;
+      font-family: var(--font-ui);
+      color: var(--color-text);
+      border: var(--border-width) solid var(--color-ink);
+    }
+    .review-item {
+      padding: var(--space-3) var(--space-4);
+      margin-bottom: var(--space-3);
+      border-radius: var(--radius);
+      border: var(--border-width) solid var(--color-ink);
+      font-size: 14px;
+      background: var(--color-surface);
+      box-shadow: 2px 2px 0 var(--color-ink);
+    }
+    .review-item.ok {
+      border-color: var(--color-success);
+      background: #f0fdf4;
+    }
+    .review-item.bad {
+      border-color: var(--color-danger);
+      background: #fef2f2;
+    }
+    .review-q {
+      font-weight: 800;
+      margin-bottom: var(--space-2);
+      color: var(--color-text);
+    }
+    footer {
+      text-align: center;
+      padding: var(--space-5) var(--space-2);
+      font-size: 13px;
+      color: var(--color-text-muted);
+      font-weight: 600;
+    }
+    footer code {
+      font-family: var(--font-mono);
+      font-size: 12px;
+      padding: 2px 6px;
+      background: var(--color-surface-2);
+      border: 2px solid var(--color-ink);
+      border-radius: 4px;
+    }
+    .mt-lg {
+      margin-top: var(--space-4);
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>اختبارات تفاعلية</h1>
+      <p>اختر مرحلتك والفصل والاختبار، ثم حل الأسئلة خطوة بخطوة</p>
+    </header>
+
+    <div id="load-error" class="alert" style="display: none;"></div>
+
+    <!-- شاشة الاختيار -->
+    <section id="screen-select" class="screen active">
+      <div class="card">
+        <label for="sel-stage">المرحلة</label>
+        <select id="sel-stage"><option value="">— اختر المرحلة —</option></select>
+
+        <label for="sel-grade">الصف</label>
+        <select id="sel-grade" disabled><option value="">— اختر الصف —</option></select>
+
+        <label for="sel-term">الفصل الدراسي</label>
+        <select id="sel-term" disabled><option value="">— اختر الفصل —</option></select>
+
+        <label for="sel-quiz">الاختبار</label>
+        <select id="sel-quiz" disabled><option value="">— اختر الاختبار —</option></select>
+
+        <button type="button" class="btn btn-primary block-full" id="btn-start" disabled>ابدأ الاختبار</button>
+        <div id="pending-box" class="alert alert--warning" style="display: none"></div>
+      </div>
+    </section>
+
+    <!-- شاشة الاختبار -->
+    <section id="screen-quiz" class="screen">
+      <div class="card">
+        <div class="progress-wrap">
+          <div class="progress-bar"><div class="progress-fill" id="progress-fill"></div></div>
+          <div class="progress-text" id="progress-text"></div>
+        </div>
+        <div class="q-body" id="q-text"></div>
+        <div id="q-mcq"></div>
+        <div id="q-text-wrap" style="display: none;">
+          <input type="text" id="q-input" autocomplete="off" placeholder="اكتب إجابتك هنا" />
+          <button type="button" class="btn btn-primary block-full" id="btn-check">تحقق من الإجابة</button>
+        </div>
+        <div class="feedback" id="feedback" role="status"></div>
+        <div class="row">
+          <button type="button" class="btn btn-ghost" id="btn-prev">السابق</button>
+          <button type="button" class="btn btn-primary" id="btn-next" disabled>التالي</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- شاشة النتيجة -->
+    <section id="screen-result" class="screen">
+      <div class="card">
+        <div class="result-score">
+          <div class="big" id="score-line"></div>
+          <p id="score-sub" class="text-muted" style="margin: 0.5rem 0 0"></p>
+        </div>
+        <div class="circle-wrap">
+          <div class="circle" id="score-circle" style="--p: 0">
+            <div class="circle-inner" id="score-pct">0%</div>
+          </div>
+        </div>
+        <h2 class="section-title">مراجعة الإجابات</h2>
+        <div id="review-list"></div>
+        <button type="button" class="btn btn-primary block-full mt-lg" id="btn-restart">اختبار جديد</button>
+      </div>
+    </section>
+
+    <footer>ضع ملفات JSON داخل مجلد <code>json/</code> وحدّث <code>json/index.json</code></footer>
+  </div>
+
+  <script>
+    const JSON_BASE = "json/";
+    let indexData = null;
+    let questions = [];
+    let currentIndex = 0;
+    let results = [];
+
+    function norm(s) {
+      return String(s ?? "")
+        .trim()
+        .replace(/\s+/g, " ")
+        .toLowerCase()
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "");
+    }
+
+    /**
+     * يستخرج خيارات الاختيار من متعدد من آخر أقواس تحتوي على فواصل – أو -
+     * ويعيد نص السؤال بدون تلك الأقواس لأن الخيارات تُعرض كأزرار تحت.
+     */
+    function parseMultipleChoice(questionText) {
+      const re = /\(([^)]+)\)/g;
+      let m;
+      let best = null;
+      while ((m = re.exec(questionText)) !== null) {
+        const inner = m[1];
+        if (!/[–\-]/.test(inner)) continue;
+        const parts = inner.split(/\s*[–\-]\s*/).map((s) => s.trim()).filter(Boolean);
+        if (parts.length < 2) continue;
+        best = { full: m[0], index: m.index, parts };
+      }
+      if (!best) return null;
+      const stem =
+        (questionText.slice(0, best.index) + questionText.slice(best.index + best.full.length))
+          .replace(/\s+$/, "")
+          .trim();
+      return { choices: best.parts, stem: stem || questionText };
+    }
+
+    function buildQuestionsFromObject(obj) {
+      const out = [];
+      for (const [q, a] of Object.entries(obj)) {
+        const parsed = parseMultipleChoice(q);
+        out.push({
+          question: q,
+          displayQuestion: parsed ? parsed.stem : q,
+          answer: a,
+          choices: parsed ? parsed.choices : null,
+        });
+      }
+      return out;
+    }
+
+    function showScreen(id) {
+      document.querySelectorAll(".screen").forEach((el) => el.classList.remove("active"));
+      document.getElementById(id).classList.add("active");
+    }
+
+    function setLoadError(msg) {
+      const el = document.getElementById("load-error");
+      el.style.display = "block";
+      el.innerHTML = msg;
+    }
+
+    async function loadIndex() {
+      const res = await fetch(JSON_BASE + "index.json");
+      if (!res.ok) throw new Error("HTTP " + res.status);
+      return res.json();
+    }
+
+    async function loadQuiz(filename) {
+      const res = await fetch(JSON_BASE + encodeURIComponent(filename));
+      if (!res.ok) throw new Error("HTTP " + res.status);
+      return res.json();
+    }
+
+    function fillSelect(el, options, placeholder) {
+      el.innerHTML = "";
+      const ph = document.createElement("option");
+      ph.value = "";
+      ph.textContent = placeholder;
+      el.appendChild(ph);
+      for (const o of options) {
+        const opt = document.createElement("option");
+        opt.value = o;
+        opt.textContent = o;
+        el.appendChild(opt);
+      }
+    }
+
+    function getNestedKeys(obj) {
+      return obj && typeof obj === "object" ? Object.keys(obj) : [];
+    }
+
+    /** مفاتيح المراحل فقط (يتجاهل المصفوفات ومفاتيح تبدأ بـ _) */
+    function getIndexStages(obj) {
+      return Object.keys(obj || {}).filter((k) => {
+        if (k.startsWith("_")) return false;
+        const v = obj[k];
+        if (Array.isArray(v)) return false;
+        return v && typeof v === "object";
+      });
+    }
+
+    function initSelectors() {
+      const sStage = document.getElementById("sel-stage");
+      const sGrade = document.getElementById("sel-grade");
+      const sTerm = document.getElementById("sel-term");
+      const sQuiz = document.getElementById("sel-quiz");
+      const btnStart = document.getElementById("btn-start");
+
+      fillSelect(sStage, getIndexStages(indexData), "— اختر المرحلة —");
+      sGrade.disabled = true;
+      sTerm.disabled = true;
+      sQuiz.disabled = true;
+      fillSelect(sGrade, [], "— اختر الصف —");
+      fillSelect(sTerm, [], "— اختر الفصل —");
+      fillSelect(sQuiz, [], "— اختر الاختبار —");
+      btnStart.disabled = true;
+
+      sStage.addEventListener("change", () => {
+        const st = sStage.value;
+        fillSelect(sGrade, st ? getNestedKeys(indexData[st]) : [], "— اختر الصف —");
+        sGrade.disabled = !st;
+        fillSelect(sTerm, [], "— اختر الفصل —");
+        fillSelect(sQuiz, [], "— اختر الاختبار —");
+        sTerm.disabled = true;
+        sQuiz.disabled = true;
+        btnStart.disabled = true;
+      });
+
+      sGrade.addEventListener("change", () => {
+        const st = sStage.value;
+        const gr = sGrade.value;
+        const terms = st && gr ? getNestedKeys(indexData[st][gr]) : [];
+        fillSelect(sTerm, terms, "— اختر الفصل —");
+        sTerm.disabled = !gr;
+        fillSelect(sQuiz, [], "— اختر الاختبار —");
+        sQuiz.disabled = true;
+        btnStart.disabled = true;
+      });
+
+      sTerm.addEventListener("change", () => {
+        const st = sStage.value;
+        const gr = sGrade.value;
+        const te = sTerm.value;
+        const quizzes = st && gr && te ? getNestedKeys(indexData[st][gr][te]) : [];
+        fillSelect(sQuiz, quizzes, "— اختر الاختبار —");
+        sQuiz.disabled = !te;
+        btnStart.disabled = true;
+      });
+
+      sQuiz.addEventListener("change", () => {
+        btnStart.disabled = !sQuiz.value;
+      });
+
+      btnStart.addEventListener("click", async () => {
+        const st = sStage.value;
+        const gr = sGrade.value;
+        const te = sTerm.value;
+        const quizLabel = sQuiz.value;
+        if (!st || !gr || !te || !quizLabel) return;
+        const file = indexData[st][gr][te][quizLabel];
+        try {
+          const data = await loadQuiz(file);
+          questions = buildQuestionsFromObject(data);
+          results = questions.map((q) => ({
+            question: q.question,
+            displayQuestion: q.displayQuestion,
+            correctAnswer: q.answer,
+            userAnswer: null,
+            correct: null,
+            choices: q.choices,
+          }));
+          currentIndex = 0;
+          showScreen("screen-quiz");
+          renderQuestion();
+        } catch (e) {
+          setLoadError("تعذر تحميل ملف الاختبار: " + file + "<br><small>" + String(e) + "</small>");
+        }
+      });
+    }
+
+    function renderQuestion() {
+      const q = questions[currentIndex];
+      const total = questions.length;
+      const pct = total ? ((currentIndex + 1) / total) * 100 : 0;
+      document.getElementById("progress-fill").style.width = pct + "%";
+      document.getElementById("progress-text").textContent =
+        "سؤال " + (currentIndex + 1) + " من " + total;
+
+      document.getElementById("q-text").textContent = q.displayQuestion;
+      const fb = document.getElementById("feedback");
+      fb.className = "feedback";
+      fb.textContent = "";
+
+      const mcq = document.getElementById("q-mcq");
+      const tw = document.getElementById("q-text-wrap");
+      const inp = document.getElementById("q-input");
+      mcq.innerHTML = "";
+      inp.value = "";
+
+      const res = results[currentIndex];
+
+      if (q.choices) {
+        tw.style.display = "none";
+        q.choices.forEach((c) => {
+          const b = document.createElement("button");
+          b.type = "button";
+          b.className = "btn btn-choice";
+          b.textContent = c;
+          if (res.correct !== null) {
+            b.disabled = true;
+            if (norm(c) === norm(res.correctAnswer)) b.classList.add("correct");
+            else if (norm(c) === norm(res.userAnswer) && !res.correct) b.classList.add("wrong");
+          } else {
+            b.addEventListener("click", () => onMcqPick(c, b));
+          }
+          mcq.appendChild(b);
+        });
+      } else {
+        tw.style.display = "block";
+        if (res.correct !== null) {
+          inp.value = res.userAnswer ?? "";
+          inp.disabled = true;
+          document.getElementById("btn-check").style.display = "none";
+          showFeedback(res);
+        } else {
+          inp.disabled = false;
+          document.getElementById("btn-check").style.display = "block";
+        }
+      }
+
+      document.getElementById("btn-prev").disabled = currentIndex === 0;
+      const answered = res.correct !== null;
+      document.getElementById("btn-next").disabled = !answered;
+      if (currentIndex === total - 1 && answered) {
+        document.getElementById("btn-next").textContent = "عرض النتيجة";
+      } else {
+        document.getElementById("btn-next").textContent = "التالي";
+      }
+    }
+
+    function showFeedback(res) {
+      const fb = document.getElementById("feedback");
+      fb.classList.add("show");
+      if (res.correct) {
+        fb.classList.add("ok");
+        fb.textContent = "إجابة صحيحة! أحسنت.";
+      } else {
+        fb.classList.add("bad");
+        fb.textContent =
+          "إجابة غير صحيحة. الإجابة الصحيحة: " + String(res.correctAnswer);
+      }
+    }
+
+    function onMcqPick(choice, btnEl) {
+      const res = results[currentIndex];
+      res.userAnswer = choice;
+      res.correct = norm(choice) === norm(res.correctAnswer);
+      const mcq = document.getElementById("q-mcq");
+      Array.from(mcq.querySelectorAll(".btn-choice")).forEach((b) => {
+        b.disabled = true;
+        const t = b.textContent;
+        if (norm(t) === norm(res.correctAnswer)) b.classList.add("correct");
+        else if (b === btnEl && !res.correct) b.classList.add("wrong");
+      });
+      showFeedback(res);
+      document.getElementById("btn-next").disabled = false;
+      if (currentIndex === questions.length - 1) {
+        document.getElementById("btn-next").textContent = "عرض النتيجة";
+      }
+    }
+
+    document.getElementById("btn-check").addEventListener("click", () => {
+      const res = results[currentIndex];
+      const inp = document.getElementById("q-input");
+      const val = inp.value;
+      res.userAnswer = val;
+      res.correct = norm(val) === norm(res.correctAnswer);
+      inp.disabled = true;
+      document.getElementById("btn-check").style.display = "none";
+      showFeedback(res);
+      document.getElementById("btn-next").disabled = false;
+      if (currentIndex === questions.length - 1) {
+        document.getElementById("btn-next").textContent = "عرض النتيجة";
+      }
+    });
+
+    document.getElementById("btn-next").addEventListener("click", () => {
+      if (currentIndex < questions.length - 1) {
+        currentIndex++;
+        renderQuestion();
+      } else {
+        showResults();
+      }
+    });
+
+    document.getElementById("btn-prev").addEventListener("click", () => {
+      if (currentIndex > 0) {
+        currentIndex--;
+        renderQuestion();
+      }
+    });
+
+    function showResults() {
+      const total = results.length;
+      const correct = results.filter((r) => r.correct).length;
+      const pct = total ? Math.round((correct / total) * 100) : 0;
+      document.getElementById("score-line").textContent = correct + " / " + total;
+      document.getElementById("score-sub").textContent = "نسبة النجاح: " + pct + "%";
+      document.getElementById("score-circle").style.setProperty("--p", pct);
+      document.getElementById("score-pct").textContent = pct + "%";
+
+      const list = document.getElementById("review-list");
+      list.innerHTML = "";
+      results.forEach((r) => {
+        const div = document.createElement("div");
+        div.className = "review-item " + (r.correct ? "ok" : "bad");
+        div.innerHTML =
+          '<div class="review-q">' +
+          escapeHtml(r.displayQuestion || r.question) +
+          "</div>" +
+          "<div>إجابتك: " +
+          escapeHtml(String(r.userAnswer ?? "—")) +
+          "</div>" +
+          (!r.correct
+            ? "<div>الصحيح: " + escapeHtml(String(r.correctAnswer)) + "</div>"
+            : "");
+        list.appendChild(div);
+      });
+
+      showScreen("screen-result");
+    }
+
+    function escapeHtml(s) {
+      return String(s)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;");
+    }
+
+    function renderPendingList() {
+      const pending = indexData["لم_يُحوّل_بعد"];
+      const box = document.getElementById("pending-box");
+      if (!box || !Array.isArray(pending) || !pending.length) return;
+      box.style.display = "block";
+      box.innerHTML =
+        "<strong>ملفات PDF لم يُحوّل لها JSON بعد</strong> (" +
+        pending.length +
+        ") — راجعها في <code>json/index.json</code> تحت المفتاح <code>لم_يُحوّل_بعد</code><br><small style=\"line-height:1.8\">" +
+        pending.map((p) => escapeHtml(p)).join(" · ") +
+        "</small>";
+    }
+
+    document.getElementById("btn-restart").addEventListener("click", () => {
+      document.getElementById("load-error").style.display = "none";
+      showScreen("screen-select");
+    });
+
+    document.getElementById("q-input").addEventListener("keydown", (e) => {
+      if (e.key === "Enter") document.getElementById("btn-check").click();
+    });
+
+    (async function boot() {
+      try {
+        indexData = await loadIndex();
+        initSelectors();
+        renderPendingList();
+      } catch (e) {
+        setLoadError(
+          "لم يتم تحميل فهرس الاختبارات. إذا فتحت الملف مباشرة من القرص، المتصفح قد يمنع التحميل.<br>" +
+            "<strong>الحل:</strong> شغّل <code>serve.bat</code> من نفس المجلد، ثم افتح في المتصفح:<br>" +
+            "<code>http://127.0.0.1:8080</code><br><small>" +
+            String(e) +
+            "</small>"
+        );
+        document.getElementById("screen-select").classList.remove("active");
+      }
+    })();
+  </script>
+</body>
+</html>

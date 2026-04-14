@@ -1,0 +1,10 @@
+{
+  "If the message 'File is corrupt' appears, this means that the keyboard is not working": "False (×)",
+  "If you forget your password, you must guess it in order for it to work.": "False (×)",
+  "JavaScript language is used to create static web pages only.": "False (×)",
+  "When attempting to delete a file that cannot be deleted, check if it contains any special characters": "True (√)",
+  "The best way to protect files from permanent loss is to save them to cloud storage": "True (√)",
+  "HTML programming language creates the page structure, and JavaScript adds interactivity and animation to it": "True (√)",
+  "What is the best option to protect files from permanent loss?": "D- Save it to cloud storage.",
+  "In your opinion, why should passwords be strong and unique?": "A- To protect the account from hacking"
+}

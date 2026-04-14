@@ -1,0 +1,23 @@
+{
+  "Che cos’hai?": "Ho sonno, Ho sete, Ho caldo, Ho fame, Ho freddo",
+  "1-Che cos’hai?..............sonno. (ho-hai-ha)": "ho",
+  "2- Togo……………sete. (ho-hai-ha)": "ha",
+  "3-Lei…………..caldo. (ho –hai –ha)": "ha",
+  "4-che cosa ha Bianca?................fame. (ho- hai -ha)": "ha",
+  "5-lui …………….freddo. (ho-hai-ha)": "ha",
+  "Modello A: 1-caldo-freddo-sonno-specchio": "specchio",
+  "Modello A: 2-bagno-cucina- pane-salotto": "pane",
+  "Modello A: 3-banco-pizza-formaggio-pasta": "banco",
+  "Modello A: 4-macchina-trattore-pesce-palla": "pesce",
+  "Modello A: 5-letto-specchio-doccia-prosciutto": "prosciutto",
+  "Modello B: 1-doccia-freddo-letto-specchio": "freddo",
+  "Modello B: 2-bagno-cucina- pane-salotto": "pane",
+  "Modello B: 3-tavolo-pizza-formaggio-pasta": "tavolo",
+  "Modello B: 4-chitarra-pupazzo-pesce-palla": "pesce",
+  "Modello B: 5-letto-specchio-doccia-racchetta": "racchetta",
+  "Modello C: 1-chitarra- palla-macchina-cucina": "cucina",
+  "Modello C: 2-pizza-giardino-formaggio-prosciutto": "giardino",
+  "Modello C: 3-tavolo-banco-cioccolato -lettera": "cioccolato",
+  "Modello C: 4-chitarra-pupazzo-fame -palla": "fame",
+  "Modello C: 5-televisione-poltrona-panchina-zaino": "zaino"
+}
