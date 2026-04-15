@@ -24,6 +24,9 @@
       --color-text-muted: #6B7280;
       --color-ink: #111827;
       --color-border: #E5E7EB;
+      --color-bg: #F3F4F6;
+      --color-bg-gradient1: rgba(0,189,125,.07);
+      --color-bg-gradient2: rgba(0,189,125,.04);
       --border-width: 1px;
       --radius: 12px;
       --radius-sm: 8px;
@@ -41,6 +44,43 @@
       --font-display: "Oswald", "Cairo", system-ui, sans-serif;
       --font-mono: "JetBrains Mono", ui-monospace, monospace;
     }
+    [data-theme="dark"] {
+      --color-surface: #1E1E2E;
+      --color-surface-2: #252538;
+      --color-text: #E4E4EF;
+      --color-text-muted: #9CA3AF;
+      --color-ink: #E4E4EF;
+      --color-border: #3B3B52;
+      --color-bg: #13131D;
+      --color-bg-gradient1: rgba(0,189,125,.10);
+      --color-bg-gradient2: rgba(0,189,125,.06);
+      --shadow-layer: 0 1px 3px rgba(0,0,0,.20), 0 6px 16px rgba(0,0,0,.15);
+      --shadow-depth: 0 4px 20px rgba(0,189,125,.15), 0 8px 32px rgba(0,0,0,.20);
+      --shadow-raised: 0 12px 40px rgba(0,0,0,.25), 0 2px 6px rgba(0,0,0,.10);
+    }
+    [data-theme="dark"] .btn-choice.correct {
+      background: #064E3B; color: #A7F3D0; border-color: #10B981;
+      box-shadow: inset 0 0 0 1px #10B981;
+    }
+    [data-theme="dark"] .btn-choice.wrong {
+      background: #450A0A; color: #FCA5A5; border-color: #EF4444;
+      box-shadow: inset 0 0 0 1px #EF4444;
+    }
+    [data-theme="dark"] .feedback.ok {
+      background: #064E3B; color: #A7F3D0; border-color: #10B981;
+    }
+    [data-theme="dark"] .feedback.bad {
+      background: #450A0A; color: #FCA5A5; border-color: #EF4444;
+    }
+    [data-theme="dark"] .review-item.ok {
+      background: #064E3B; border-color: #10B981;
+    }
+    [data-theme="dark"] .review-item.bad {
+      background: #450A0A; border-color: #EF4444;
+    }
+    [data-theme="dark"] .alert {
+      background: #450A0A; color: #FCA5A5; border-color: #EF4444;
+    }
     * {
       box-sizing: border-box;
     }
@@ -54,11 +94,12 @@
       font-size: 15px;
       line-height: 1.55;
       color: var(--color-text);
-      background-color: #F3F4F6;
+      background-color: var(--color-bg);
       background-image:
-        linear-gradient(160deg, rgba(0,189,125,.07) 0%, transparent 40%),
-        linear-gradient(340deg, rgba(0,189,125,.04) 0%, transparent 50%);
+        linear-gradient(160deg, var(--color-bg-gradient1) 0%, transparent 40%),
+        linear-gradient(340deg, var(--color-bg-gradient2) 0%, transparent 50%);
       overflow-x: hidden;
+      transition: background-color .3s, color .3s;
     }
     .wrap {
       max-width: 720px;
@@ -608,6 +649,173 @@
       color: var(--color-text-muted);
       font-family: var(--font-ui);
     }
+    /* ── Toolbar ── */
+    .toolbar {
+      display: flex;
+      justify-content: center;
+      gap: var(--space-2);
+      margin-bottom: var(--space-4);
+      flex-wrap: wrap;
+    }
+    .toolbar-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px; height: 40px;
+      border-radius: 50%;
+      border: 1px solid var(--color-border);
+      background: var(--color-surface);
+      color: var(--color-text);
+      font-size: 18px;
+      cursor: pointer;
+      box-shadow: var(--shadow-layer);
+      transition: transform .15s, box-shadow .15s, background .15s, border-color .15s;
+    }
+    .toolbar-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-depth);
+      border-color: var(--color-primary);
+    }
+    .toolbar-btn.active {
+      background: var(--color-primary);
+      color: #fff;
+      border-color: var(--color-primary);
+    }
+    .toolbar-btn[title]::after { content: none; }
+    /* ── Search ── */
+    .search-wrap {
+      position: relative;
+      margin-bottom: var(--space-4);
+    }
+    .search-wrap input {
+      width: 100%;
+      padding: var(--space-3) var(--space-4);
+      padding-inline-start: 40px;
+      border-radius: var(--radius-sm);
+      border: 1px solid var(--color-border);
+      background: var(--color-surface);
+      color: var(--color-text);
+      font-family: var(--font-ar);
+      font-size: 14px;
+      box-shadow: inset 0 1px 2px rgba(0,0,0,.04);
+      transition: border-color .2s, box-shadow .2s;
+    }
+    .search-wrap input:focus {
+      outline: none;
+      border-color: var(--color-primary);
+      box-shadow: 0 0 0 3px rgba(0,189,125,.18);
+    }
+    .search-wrap .search-icon {
+      position: absolute;
+      top: 50%; transform: translateY(-50%);
+      inset-inline-start: 12px;
+      font-size: 16px;
+      color: var(--color-text-muted);
+      pointer-events: none;
+    }
+    .search-results {
+      list-style: none;
+      margin: 0; padding: 0;
+      max-height: 240px;
+      overflow-y: auto;
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-sm);
+      background: var(--color-surface);
+      box-shadow: var(--shadow-layer);
+      display: none;
+    }
+    .search-results.visible { display: block; }
+    .search-results li {
+      padding: var(--space-3) var(--space-4);
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: 500;
+      border-bottom: 1px solid var(--color-border);
+      transition: background .15s;
+    }
+    .search-results li:last-child { border-bottom: none; }
+    .search-results li:hover {
+      background: rgba(0,189,125,.08);
+    }
+    .search-results li .sr-sub {
+      display: block;
+      font-size: 12px;
+      color: var(--color-text-muted);
+      margin-top: 2px;
+    }
+    /* ── Timer ── */
+    .timer-bar {
+      display: none;
+      align-items: center;
+      justify-content: center;
+      gap: var(--space-2);
+      margin-bottom: var(--space-3);
+      font-family: var(--font-display);
+      font-size: 1.3rem;
+      font-weight: 700;
+      color: var(--color-primary);
+    }
+    .timer-bar.active { display: flex; }
+    .timer-bar.warning { color: var(--color-warning); }
+    .timer-bar.danger { color: var(--color-danger); animation: timerPulse .6s ease-in-out infinite alternate; }
+    @keyframes timerPulse {
+      from { opacity: 1; } to { opacity: .5; }
+    }
+    /* ── Quiz Options Row ── */
+    .quiz-options {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-3);
+      margin-top: var(--space-3);
+      margin-bottom: var(--space-2);
+    }
+    .quiz-opt {
+      display: flex;
+      align-items: center;
+      gap: var(--space-2);
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--color-text);
+      cursor: pointer;
+      user-select: none;
+    }
+    .quiz-opt input[type="checkbox"] {
+      accent-color: var(--color-primary);
+      width: 16px; height: 16px;
+      cursor: pointer;
+    }
+    .quiz-opt select {
+      padding: 4px 8px;
+      border-radius: 6px;
+      border: 1px solid var(--color-border);
+      background: var(--color-surface);
+      color: var(--color-text);
+      font-family: var(--font-ar);
+      font-size: 13px;
+      font-weight: 600;
+      margin-bottom: 0;
+    }
+    /* ── Share toast ── */
+    .toast {
+      position: fixed;
+      bottom: 24px;
+      left: 50%; transform: translateX(-50%) translateY(80px);
+      background: var(--color-primary);
+      color: #fff;
+      padding: var(--space-3) var(--space-5);
+      border-radius: var(--radius);
+      font-weight: 700;
+      font-size: 14px;
+      box-shadow: var(--shadow-raised);
+      opacity: 0;
+      transition: transform .3s ease, opacity .3s ease;
+      z-index: 100;
+      pointer-events: none;
+    }
+    .toast.show {
+      transform: translateX(-50%) translateY(0);
+      opacity: 1;
+    }
   </style>
 </head>
 <body>
@@ -617,6 +825,12 @@
       <h1>اختبارات تفاعلية</h1>
       <p id="header-desc">اطّلع على المراحل، ثم اضغط دخول لاختيار التقييم</p>
     </header>
+
+    <!-- شريط أدوات -->
+    <div class="toolbar" id="toolbar">
+      <button type="button" class="toolbar-btn" id="btn-dark" title="الوضع الداكن">🌙</button>
+      <button type="button" class="toolbar-btn" id="btn-random" title="اختبار عشوائي سريع">🎲</button>
+    </div>
 
     <div id="load-error" class="alert" style="display: none;"></div>
 
@@ -632,6 +846,13 @@
     <!-- شاشة الاختيار -->
     <section id="screen-select" class="screen">
       <div class="card">
+        <!-- بحث -->
+        <div class="search-wrap" id="search-wrap">
+          <span class="search-icon">🔍</span>
+          <input type="text" id="search-input" placeholder="ابحث عن اختبار..." autocomplete="off" />
+          <ul class="search-results" id="search-results"></ul>
+        </div>
+
         <label for="sel-stage">المرحلة</label>
         <select id="sel-stage"><option value="">— اختر المرحلة —</option></select>
 
@@ -644,6 +865,22 @@
         <label for="sel-quiz">الاختبار</label>
         <select id="sel-quiz" disabled><option value="">— اختر الاختبار —</option></select>
 
+        <!-- خيارات الاختبار -->
+        <div class="quiz-options">
+          <label class="quiz-opt"><input type="checkbox" id="opt-shuffle" /> 🔀 خلط الأسئلة</label>
+          <label class="quiz-opt">
+            ⏱️ مؤقت:
+            <select id="opt-timer">
+              <option value="0">بدون</option>
+              <option value="30">30 ثانية</option>
+              <option value="45">45 ثانية</option>
+              <option value="60">دقيقة</option>
+              <option value="90">90 ثانية</option>
+              <option value="120">دقيقتين</option>
+            </select>
+          </label>
+        </div>
+
         <button type="button" class="btn btn-primary block-full" id="btn-start" disabled>ابدأ الاختبار</button>
       </div>
     </section>
@@ -651,6 +888,8 @@
     <!-- شاشة الاختبار -->
     <section id="screen-quiz" class="screen">
       <div class="card">
+        <!-- مؤقت -->
+        <div class="timer-bar" id="timer-bar">⏱️ <span id="timer-display">00:00</span></div>
         <div class="progress-wrap">
           <div class="progress-bar"><div class="progress-fill" id="progress-fill"></div></div>
           <div class="progress-text" id="progress-text"></div>
@@ -693,11 +932,17 @@
         </div>
         <h2 class="section-title">مراجعة الإجابات</h2>
         <div id="review-list"></div>
-        <button type="button" class="btn btn-primary block-full mt-lg" id="btn-restart">اختبار جديد</button>
+        <div class="row mt-lg">
+          <button type="button" class="btn btn-primary" id="btn-restart" style="flex:1">اختبار جديد</button>
+          <button type="button" class="btn btn-ghost" id="btn-share" title="مشاركة الاختبار">🔗 مشاركة</button>
+        </div>
       </div>
     </section>
 
   </div>
+
+  <!-- Toast -->
+  <div class="toast" id="toast"></div>
 
   <script>
     const JSON_BASE = "json/";
@@ -707,6 +952,250 @@
     let results = [];
     /** اسم ملف JSON الحالي (لتخمين لغة المادة: إنجليزي، فرنسي، عربي…) */
     let currentQuizFile = "";
+
+    /* ── Dark Mode ── */
+    (function initTheme() {
+      const saved = localStorage.getItem("quiz-theme");
+      if (saved === "dark") document.documentElement.setAttribute("data-theme", "dark");
+    })();
+
+    function toggleDarkMode() {
+      const html = document.documentElement;
+      const isDark = html.getAttribute("data-theme") === "dark";
+      if (isDark) {
+        html.removeAttribute("data-theme");
+        localStorage.setItem("quiz-theme", "light");
+        document.getElementById("btn-dark").textContent = "🌙";
+        document.getElementById("btn-dark").classList.remove("active");
+      } else {
+        html.setAttribute("data-theme", "dark");
+        localStorage.setItem("quiz-theme", "dark");
+        document.getElementById("btn-dark").textContent = "☀️";
+        document.getElementById("btn-dark").classList.add("active");
+      }
+    }
+    document.getElementById("btn-dark").addEventListener("click", toggleDarkMode);
+    // sync button state on load
+    if (document.documentElement.getAttribute("data-theme") === "dark") {
+      document.getElementById("btn-dark").textContent = "☀️";
+      document.getElementById("btn-dark").classList.add("active");
+    }
+
+    /* ── Toast ── */
+    function showToast(msg, duration = 2200) {
+      const t = document.getElementById("toast");
+      t.textContent = msg;
+      t.classList.add("show");
+      clearTimeout(t._tid);
+      t._tid = setTimeout(() => t.classList.remove("show"), duration);
+    }
+
+    /* ── Timer state ── */
+    let timerInterval = null;
+    let timerSeconds = 0;
+    let timerPerQuestion = 0;
+
+    function clearTimer() {
+      if (timerInterval) { clearInterval(timerInterval); timerInterval = null; }
+      const bar = document.getElementById("timer-bar");
+      bar.classList.remove("active", "warning", "danger");
+    }
+
+    function startQuestionTimer() {
+      clearTimer();
+      if (timerPerQuestion <= 0) return;
+      timerSeconds = timerPerQuestion;
+      const bar = document.getElementById("timer-bar");
+      const disp = document.getElementById("timer-display");
+      bar.classList.add("active");
+      bar.classList.remove("warning", "danger");
+      const updateDisp = () => {
+        const m = Math.floor(timerSeconds / 60);
+        const s = timerSeconds % 60;
+        disp.textContent = String(m).padStart(2, "0") + ":" + String(s).padStart(2, "0");
+        if (timerSeconds <= 5) { bar.classList.add("danger"); bar.classList.remove("warning"); }
+        else if (timerSeconds <= 10) { bar.classList.add("warning"); bar.classList.remove("danger"); }
+      };
+      updateDisp();
+      timerInterval = setInterval(() => {
+        timerSeconds--;
+        if (timerSeconds <= 0) {
+          clearTimer();
+          autoSkipQuestion();
+          return;
+        }
+        updateDisp();
+      }, 1000);
+    }
+
+    function autoSkipQuestion() {
+      const res = results[currentIndex];
+      if (res.correct !== null) return; // already answered
+      // Mark as wrong with no answer
+      res.userAnswer = "⏰ انتهى الوقت";
+      res.correct = false;
+      showFeedback(res);
+      updateLiveScore();
+      document.getElementById("btn-next").disabled = false;
+      if (currentIndex === questions.length - 1) {
+        document.getElementById("btn-next").textContent = "عرض النتيجة";
+      }
+      // disable MCQ buttons
+      const mcq = document.getElementById("q-mcq");
+      Array.from(mcq.querySelectorAll(".btn-choice")).forEach(b => {
+        b.disabled = true;
+        if (norm(b.textContent) === norm(res.correctAnswer)) b.classList.add("correct");
+      });
+      // disable text input
+      const inp = document.getElementById("q-input");
+      inp.disabled = true;
+      document.getElementById("btn-check").style.display = "none";
+    }
+
+    /* ── Shuffle helper ── */
+    function shuffleArray(arr) {
+      const a = [...arr];
+      for (let i = a.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [a[i], a[j]] = [a[j], a[i]];
+      }
+      return a;
+    }
+
+    /* ── Search index (built after loading index.json) ── */
+    let searchIndex = []; // { label, path: [stage, grade, term, quizLabel], file }
+
+    function buildSearchIndex(data) {
+      searchIndex = [];
+      const stages = Object.keys(data).filter(k => !k.startsWith("_") && typeof data[k] === "object" && !Array.isArray(data[k]));
+      for (const st of stages) {
+        for (const gr of Object.keys(data[st])) {
+          for (const te of Object.keys(data[st][gr])) {
+            const quizzes = data[st][gr][te];
+            if (typeof quizzes !== "object" || Array.isArray(quizzes)) continue;
+            for (const ql of Object.keys(quizzes)) {
+              if (typeof quizzes[ql] !== "string") continue;
+              searchIndex.push({
+                label: ql,
+                sub: st + " → " + gr + " → " + te,
+                path: [st, gr, te, ql],
+                file: quizzes[ql],
+              });
+            }
+          }
+        }
+      }
+    }
+
+    function initSearch() {
+      const inp = document.getElementById("search-input");
+      const list = document.getElementById("search-results");
+      inp.addEventListener("input", () => {
+        const q = inp.value.trim().toLowerCase();
+        if (q.length < 2) { list.classList.remove("visible"); list.innerHTML = ""; return; }
+        const matches = searchIndex.filter(s =>
+          s.label.toLowerCase().includes(q) || s.sub.toLowerCase().includes(q) || s.file.toLowerCase().includes(q)
+        ).slice(0, 12);
+        if (!matches.length) { list.classList.remove("visible"); list.innerHTML = ""; return; }
+        list.innerHTML = matches.map((m, i) =>
+          '<li data-idx="' + i + '">' + escapeHtml(m.label) + '<span class="sr-sub">' + escapeHtml(m.sub) + '</span></li>'
+        ).join("");
+        list.classList.add("visible");
+        list.querySelectorAll("li").forEach((li, i) => {
+          li.addEventListener("click", () => {
+            const m = matches[i];
+            startQuizDirect(m.path[0], m.path[1], m.path[2], m.path[3]);
+            inp.value = "";
+            list.classList.remove("visible");
+            list.innerHTML = "";
+          });
+        });
+      });
+      // close on click outside
+      document.addEventListener("click", (e) => {
+        if (!document.getElementById("search-wrap").contains(e.target)) {
+          list.classList.remove("visible");
+        }
+      });
+    }
+
+    /* ── Direct quiz start (from search or deep link) ── */
+    async function startQuizDirect(stage, grade, term, quizLabel) {
+      if (!indexData || !indexData[stage] || !indexData[stage][grade] || !indexData[stage][grade][term]) return;
+      const file = indexData[stage][grade][term][quizLabel];
+      if (!file) return;
+      try {
+        currentQuizFile = file;
+        const data = await loadQuiz(file);
+        launchQuiz(data, file);
+      } catch (e) {
+        setLoadError("تعذر تحميل ملف الاختبار: " + file + "<br><small>" + String(e) + "</small>");
+      }
+    }
+
+    /* ── Share link ── */
+    function getShareUrl() {
+      const base = location.href.split("#")[0].split("?")[0];
+      return base + "?quiz=" + encodeURIComponent(currentQuizFile);
+    }
+
+    document.getElementById("btn-share").addEventListener("click", () => {
+      const url = getShareUrl();
+      if (navigator.clipboard) {
+        navigator.clipboard.writeText(url).then(() => showToast("✅ تم نسخ رابط الاختبار!"));
+      } else {
+        prompt("انسخ الرابط:", url);
+      }
+    });
+
+    /* ── Random quiz ── */
+    document.getElementById("btn-random").addEventListener("click", async () => {
+      if (!searchIndex.length) { showToast("⏳ جاري التحميل..."); return; }
+      const pick = searchIndex[Math.floor(Math.random() * searchIndex.length)];
+      showToast("🎲 " + pick.label);
+      await startQuizDirect(pick.path[0], pick.path[1], pick.path[2], pick.path[3]);
+    });
+
+    /* ── Unified quiz launcher ── */
+    function launchQuiz(data, file) {
+      currentQuizFile = file;
+      let qs = normalizeLoadedQuiz(data);
+      if (!qs.length) {
+        setLoadError(
+          "ملف الاختبار فارغ أو بتنسيق غير مدعوم: <code>" + escapeHtml(file) +
+          "</code><br><small>التنسيقات المدعومة: كائن سؤال/إجابة (ابتدائي) أو مصفوفة أسئلة بحقول question و correct_answer و options.</small>"
+        );
+        return;
+      }
+      // Shuffle if enabled
+      const shouldShuffle = document.getElementById("opt-shuffle").checked;
+      if (shouldShuffle) {
+        qs = shuffleArray(qs);
+        qs = qs.map(q => {
+          if (q.choices && q.choices.length > 1) {
+            return { ...q, choices: shuffleArray(q.choices) };
+          }
+          return q;
+        });
+      }
+      questions = qs;
+      results = questions.map(q => ({
+        question: q.question,
+        displayQuestion: q.displayQuestion,
+        correctAnswer: q.answer,
+        userAnswer: null,
+        correct: null,
+        choices: q.choices,
+      }));
+      currentIndex = 0;
+      // Timer
+      timerPerQuestion = parseInt(document.getElementById("opt-timer").value, 10) || 0;
+      // Update URL
+      try { history.replaceState(null, "", "?quiz=" + encodeURIComponent(file)); } catch(e) {}
+      showScreen("screen-quiz");
+      updateLiveScore();
+      renderQuestion();
+    }
 
     function updateLiveScore() {
       const total = results.length;
@@ -1108,29 +1597,8 @@
         if (!st || !gr || !te || !quizLabel) return;
         const file = indexData[st][gr][te][quizLabel];
         try {
-          currentQuizFile = file;
           const data = await loadQuiz(file);
-          questions = normalizeLoadedQuiz(data);
-          if (!questions.length) {
-            setLoadError(
-              "ملف الاختبار فارغ أو بتنسيق غير مدعوم: <code>" +
-                escapeHtml(file) +
-                "</code><br><small>التنسيقات المدعومة: كائن سؤال/إجابة (ابتدائي) أو مصفوفة أسئلة بحقول question و correct_answer و options.</small>"
-            );
-            return;
-          }
-          results = questions.map((q) => ({
-            question: q.question,
-            displayQuestion: q.displayQuestion,
-            correctAnswer: q.answer,
-            userAnswer: null,
-            correct: null,
-            choices: q.choices,
-          }));
-          currentIndex = 0;
-          showScreen("screen-quiz");
-          updateLiveScore();
-          renderQuestion();
+          launchQuiz(data, file);
         } catch (e) {
           setLoadError("تعذر تحميل ملف الاختبار: " + file + "<br><small>" + String(e) + "</small>");
         }
@@ -1144,6 +1612,11 @@
       document.getElementById("progress-fill").style.width = pct + "%";
       document.getElementById("progress-text").textContent =
         "سؤال " + (currentIndex + 1) + " من " + total;
+
+      // Start timer if not already answered
+      const resCheck = results[currentIndex];
+      if (resCheck.correct === null) startQuestionTimer();
+      else clearTimer();
 
       const qTextEl = document.getElementById("q-text");
       qTextEl.textContent = q.displayQuestion;
@@ -1224,6 +1697,7 @@
     }
 
     function onMcqPick(choice, btnEl) {
+      clearTimer();
       const res = results[currentIndex];
       res.userAnswer = choice;
       res.correct = norm(choice) === norm(res.correctAnswer);
@@ -1244,6 +1718,7 @@
     }
 
     document.getElementById("btn-check").addEventListener("click", () => {
+      clearTimer();
       const res = results[currentIndex];
       const inp = document.getElementById("q-input");
       const val = inp.value;
@@ -1306,6 +1781,7 @@
       });
 
       showScreen("screen-result");
+      clearTimer();
     }
 
     function escapeHtml(s) {
@@ -1318,6 +1794,8 @@
 
     document.getElementById("btn-restart").addEventListener("click", () => {
       document.getElementById("load-error").style.display = "none";
+      clearTimer();
+      try { history.replaceState(null, "", location.pathname); } catch(e) {}
       setHeaderSelectMode();
       showScreen("screen-select");
     });
@@ -1334,8 +1812,25 @@
     (async function boot() {
       try {
         indexData = await loadIndex();
+        buildSearchIndex(indexData);
         initSelectors();
+        initSearch();
         renderLandingStats();
+
+        // Deep link: ?quiz=filename.json
+        const params = new URLSearchParams(location.search);
+        const deepQuiz = params.get("quiz");
+        if (deepQuiz) {
+          // Find the quiz in searchIndex
+          const match = searchIndex.find(s => s.file === deepQuiz);
+          if (match) {
+            setHeaderSelectMode();
+            const data = await loadQuiz(deepQuiz);
+            launchQuiz(data, deepQuiz);
+            return;
+          }
+        }
+
         showScreen("screen-landing");
       } catch (e) {
         setLoadError(
