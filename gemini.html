@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>معالج ملفات PDF و JSON الذكي</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap');
+        body {
+            font-family: 'Cairo', sans-serif;
+            background-color: #f3f4f6;
+        }
+        .loader {
+            border: 3px solid #f3f3f3;
+            border-radius: 50%;
+            border-top: 3px solid #3b82f6;
+            width: 20px;
+            height: 20px;
+            -webkit-animation: spin 1s linear infinite;
+            animation: spin 1s linear infinite;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        #logArea::-webkit-scrollbar { width: 8px; }
+        #logArea::-webkit-scrollbar-track { background: #f1f1f1; }
+        #logArea::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 4px; }
+        #logArea::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
+        
+        /* Tab Styles */
+        .tab-active { border-bottom: 3px solid #2563eb; color: #2563eb; background-color: #eff6ff; }
+        .tab-inactive { color: #6b7280; hover:color: #374151; background-color: #f9fafb; }
+    </style>
+</head>
+<body class="text-gray-800">
+
+    <div class="max-w-5xl mx-auto mt-10 bg-white rounded-2xl shadow-xl overflow-hidden mb-10">
+        <div class="bg-blue-600 p-6 text-white text-center relative">
+            <h1 class="text-3xl font-bold mb-2"><i class="fas fa-brain mr-2 ml-2"></i> مساعد الذكاء الاصطناعي للاختبارات</h1>
+            <p class="text-blue-100 text-sm">استخراج من PDF وتدقيق JSON للأنظمة البرمجية</p>
+        </div>
+
+        <!-- Tabs Navigation -->
+        <div class="flex border-b border-gray-200 cursor-pointer">
+            <div id="tab1" class="flex-1 text-center py-4 font-bold tab-active transition-all" onclick="switchTab('pdf')">
+                <i class="fas fa-file-pdf ml-1"></i> استخراج الأسئلة (من PDF)
+            </div>
+            <div id="tab2" class="flex-1 text-center py-4 font-bold tab-inactive transition-all border-l border-gray-200" onclick="switchTab('json')">
+                <i class="fas fa-broom ml-1"></i> تدقيق وتصحيح (ملفات JSON)
+            </div>
+            <div id="tab3" class="flex-1 text-center py-4 font-bold tab-inactive transition-all border-l border-gray-200" onclick="switchTab('audio')">
+                <i class="fas fa-microphone-alt ml-1"></i> شروحات صوتية (للطلاب)
+            </div>
+        </div>
+
+        <div class="p-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                
+                <!-- Inputs Section (Dynamic based on Tab) -->
+                <div class="space-y-6">
+                    
+                    <!-- PDF Mode Inputs -->
+                    <div id="pdfInputSection" class="space-y-6">
+                        <div class="bg-blue-50 p-4 rounded-xl border border-blue-100 text-sm text-blue-800">
+                            <i class="fas fa-info-circle ml-1"></i> ارفع ملف <b>ZIP يحتوي على ملفات PDF</b>. سيقوم الذكاء الاصطناعي بقراءتها واستخراج الأسئلة منها بصيغة JSON.
+                        </div>
+                        <div>
+                            <label class="block text-sm font-semibold mb-2 text-gray-700">عدد الملفات المتزامنة (Chunk Size):</label>
+                            <input type="number" id="chunkSizeInputPdf" value="5" min="1" max="20" class="w-full p-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all text-sm" />
+                        </div>
+                        <div>
+                            <label class="block text-sm font-semibold mb-2 text-gray-700">اختر ملف الـ ZIP (كتب PDF):</label>
+                            <label for="zipFileInputPdf" class="flex flex-col items-center justify-center w-full h-32 border-2 border-dashed border-blue-300 rounded-xl cursor-pointer bg-blue-50 hover:bg-blue-100 transition-all">
+                                <div class="flex flex-col items-center justify-center pt-5 pb-6">
+                                    <i class="fas fa-file-archive text-3xl text-blue-400 mb-3"></i>
+                                    <p class="mb-2 text-sm text-gray-600"><span class="font-semibold">اضغط لاختيار ملف</span></p>
+                                    <p class="text-xs text-red-500 font-bold mt-1">فقط ملفات ZIP</p>
+                                </div>
+                                <input id="zipFileInputPdf" type="file" accept=".zip" class="hidden" onchange="fileSelected(this, 'pdf')" />
+                            </label>
+                            <p id="fileSelectedTextPdf" class="text-sm text-green-600 mt-2 hidden font-semibold"></p>
+                        </div>
+                        <button id="startBtnPdf" onclick="startProcess('pdf')" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-4 rounded-xl transition-all shadow-md flex justify-center items-center gap-2">
+                            <i class="fas fa-play"></i> ابدأ الاستخراج
+                        </button>
+                    </div>
+
+                    <!-- JSON Mode Inputs -->
+                    <div id="jsonInputSection" class="space-y-6 hidden">
+                        <div class="bg-amber-50 p-4 rounded-xl border border-amber-100 text-sm text-amber-800">
+                            <i class="fas fa-shield-alt ml-1"></i> ارفع ملف <b>ZIP يحتوي على ملفات JSON</b> التي استخرجتها سابقاً. سيتم تنظيفها، حذف الأسئلة المعتمدة على صور، وضبط التنسيق.
+                        </div>
+                        <div>
+                            <label class="block text-sm font-semibold mb-2 text-gray-700">عدد الملفات المتزامنة (Chunk Size):</label>
+                            <input type="number" id="chunkSizeInputJson" value="10" min="1" max="50" class="w-full p-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-amber-500 focus:border-amber-500 outline-none transition-all text-sm" />
+                        </div>
+                        <div>
+                            <label class="block text-sm font-semibold mb-2 text-gray-700">اختر ملف الـ ZIP (ملفات JSON):</label>
+                            <label for="zipFileInputJson" class="flex flex-col items-center justify-center w-full h-32 border-2 border-dashed border-amber-300 rounded-xl cursor-pointer bg-amber-50 hover:bg-amber-100 transition-all">
+                                <div class="flex flex-col items-center justify-center pt-5 pb-6">
+                                    <i class="fas fa-file-code text-3xl text-amber-400 mb-3"></i>
+                                    <p class="mb-2 text-sm text-gray-600"><span class="font-semibold">اضغط لاختيار ملف</span></p>
+                                    <p class="text-xs text-red-500 font-bold mt-1">فقط ملفات ZIP</p>
+                                </div>
+                                <input id="zipFileInputJson" type="file" accept=".zip" class="hidden" onchange="fileSelected(this, 'json')" />
+                            </label>
+                            <p id="fileSelectedTextJson" class="text-sm text-green-600 mt-2 hidden font-semibold"></p>
+                        </div>
+                        <button id="startBtnJson" onclick="startProcess('json')" class="w-full bg-amber-500 hover:bg-amber-600 text-white font-bold py-3 px-4 rounded-xl transition-all shadow-md flex justify-center items-center gap-2">
+                            <i class="fas fa-magic"></i> ابدأ التدقيق والتنظيف
+                        </button>
+                    </div>
+
+                    <!-- Audio Mode Inputs -->
+                    <div id="audioInputSection" class="space-y-6 hidden">
+                        <div class="bg-purple-50 p-4 rounded-xl border border-purple-100 text-sm text-purple-800">
+                            <i class="fas fa-headphones ml-1"></i> ارفع ملف <b>ZIP يحتوي على ملفات JSON</b> (الأسئلة). سيقوم النظام بترقيمها وتوليد <b>شرح صوتي</b> ذكي لكل سؤال، وتحميلهم في مجلدات منظمة.
+                        </div>
+                        <div>
+                            <label class="block text-sm font-semibold mb-2 text-gray-700">عدد الملفات المتزامنة للبدء:</label>
+                            <input type="number" id="chunkSizeInputAudio" value="1" min="1" max="5" class="w-full p-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-purple-500 focus:border-purple-500 outline-none transition-all text-sm" />
+                            <p class="text-xs text-gray-500 mt-1">يفضل تركه 1 لتجنب تجاوز حد الطلبات الصوتية الخاصة بالذكاء الاصطناعي.</p>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-semibold mb-2 text-gray-700">اختر ملف الـ ZIP (ملفات JSON):</label>
+                            <label for="zipFileInputAudio" class="flex flex-col items-center justify-center w-full h-32 border-2 border-dashed border-purple-300 rounded-xl cursor-pointer bg-purple-50 hover:bg-purple-100 transition-all">
+                                <div class="flex flex-col items-center justify-center pt-5 pb-6">
+                                    <i class="fas fa-file-audio text-3xl text-purple-400 mb-3"></i>
+                                    <p class="mb-2 text-sm text-gray-600"><span class="font-semibold">اضغط لاختيار ملف</span></p>
+                                    <p class="text-xs text-red-500 font-bold mt-1">فقط ملفات ZIP</p>
+                                </div>
+                                <input id="zipFileInputAudio" type="file" accept=".zip" class="hidden" onchange="fileSelected(this, 'audio')" />
+                            </label>
+                            <p id="fileSelectedTextAudio" class="text-sm text-green-600 mt-2 hidden font-semibold"></p>
+                        </div>
+                        <button id="startBtnAudio" onclick="startProcess('audio')" class="w-full bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 px-4 rounded-xl transition-all shadow-md flex justify-center items-center gap-2">
+                            <i class="fas fa-microphone"></i> ابدأ توليد الصوتيات
+                        </button>
+                    </div>
+
+                    <div id="errorMsg" class="hidden bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative" role="alert">
+                        <span class="block sm:inline" id="errorMsgText"></span>
+                    </div>
+                </div>
+
+                <!-- Status & Log Section -->
+                <div class="bg-gray-50 rounded-xl p-6 border border-gray-200 flex flex-col h-full">
+                    <h3 class="text-lg font-bold mb-4 border-b pb-2"><i class="fas fa-tasks text-blue-500 ml-2" id="statusIcon"></i> حالة التقدم</h3>
+                    
+                    <div class="mb-4">
+                        <div class="flex justify-between text-sm mb-1 font-semibold">
+                            <span id="progressText">في انتظار البدء...</span>
+                            <span id="progressPercent">0%</span>
+                        </div>
+                        <div class="w-full bg-gray-200 rounded-full h-2.5">
+                            <div id="progressBar" class="bg-blue-600 h-2.5 rounded-full transition-all duration-300" style="width: 0%"></div>
+                        </div>
+                    </div>
+
+                    <div id="logArea" class="flex-grow bg-white border border-gray-300 rounded-lg p-3 text-sm font-mono overflow-y-auto h-48 sm:h-auto whitespace-pre-wrap">
+                        <!-- Logs will appear here -->
+                    </div>
+
+                    <button id="downloadBtn" onclick="downloadZip()" class="hidden mt-4 w-full bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-4 rounded-xl transition-all shadow-md flex justify-center items-center gap-2">
+                        <i class="fas fa-download"></i> تحميل ملف الـ ZIP النهائي
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const apiKey = ""; // API Key is provided by the execution environment
+        const modelUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-09-2025:generateContent?key=${apiKey}`;
+
+        // Schema is exactly the same for BOTH extracting and cleaning to ensure consistency
+        const systemSchema = {
+            type: "ARRAY",
+            description: "قائمة بالأسئلة السليمة والمنسقة",
+            items: {
+                type: "OBJECT",
+                properties: {
+                    id: { type: "INTEGER", description: "رقم تسلسلي للسؤال" },
+                    question: { type: "STRING", description: "نص السؤال الأساسي" },
+                    type: { type: "STRING", description: "نوع السؤال: مثلاً 'اختيار من متعدد' أو 'صح وخطأ' أو 'مقالي'" },
+                    options: { 
+                        type: "ARRAY", 
+                        items: { type: "STRING" },
+                        description: "مصفوفة الخيارات. فارغة للأسئلة المقالية."
+                    },
+                    correct_answer: { type: "STRING", description: "الإجابة الصحيحة" }
+                },
+                required: ["id", "question", "type", "options", "correct_answer"]
+            }
+        };
+
+        let currentMode = 'pdf'; // 'pdf', 'json', or 'audio'
+        let outputZip = null;
+        let isProcessing = false;
+
+        function switchTab(mode) {
+            if (isProcessing) {
+                alert("يرجى الانتظار حتى تنتهي العملية الحالية.");
+                return;
+            }
+            currentMode = mode;
+            
+            // Toggle UI Tabs
+            document.getElementById('tab1').className = mode === 'pdf' ? 'flex-1 text-center py-4 font-bold tab-active transition-all' : 'flex-1 text-center py-4 font-bold tab-inactive transition-all';
+            document.getElementById('tab2').className = mode === 'json' ? 'flex-1 text-center py-4 font-bold tab-active transition-all border-l border-gray-200' : 'flex-1 text-center py-4 font-bold tab-inactive transition-all border-l border-gray-200';
+            document.getElementById('tab3').className = mode === 'audio' ? 'flex-1 text-center py-4 font-bold tab-active transition-all border-l border-gray-200' : 'flex-1 text-center py-4 font-bold tab-inactive transition-all border-l border-gray-200';
+            
+            // Toggle Input Sections
+            document.getElementById('pdfInputSection').classList.toggle('hidden', mode !== 'pdf');
+            document.getElementById('jsonInputSection').classList.toggle('hidden', mode !== 'json');
+            document.getElementById('audioInputSection').classList.toggle('hidden', mode !== 'audio');
+            
+            // Reset UI
+            document.getElementById('progressBar').className = mode === 'pdf' ? 'bg-blue-600 h-2.5 rounded-full transition-all duration-300' : (mode === 'json' ? 'bg-amber-500 h-2.5 rounded-full transition-all duration-300' : 'bg-purple-600 h-2.5 rounded-full transition-all duration-300');
+            document.getElementById('statusIcon').className = mode === 'pdf' ? 'fas fa-tasks text-blue-500 ml-2' : (mode === 'json' ? 'fas fa-shield-check text-amber-500 ml-2' : 'fas fa-headphones text-purple-500 ml-2');
+            resetUI();
+        }
+
+        function resetUI() {
+            document.getElementById('logArea').innerHTML = '';
+            document.getElementById('progressText').textContent = 'في انتظار البدء...';
+            document.getElementById('progressPercent').textContent = '0%';
+            document.getElementById('progressBar').style.width = '0%';
+            document.getElementById('downloadBtn').classList.add('hidden');
+            document.getElementById('errorMsg').classList.add('hidden');
+        }
+
+        function fileSelected(input, mode) {
+            let textElement;
+            if (mode === 'pdf') textElement = document.getElementById('fileSelectedTextPdf');
+            else if (mode === 'json') textElement = document.getElementById('fileSelectedTextJson');
+            else textElement = document.getElementById('fileSelectedTextAudio');
+            
+            if (input.files.length > 0) {
+                textElement.textContent = `تم اختيار: ${input.files[0].name}`;
+                textElement.classList.remove('hidden');
+                document.getElementById('errorMsg').classList.add('hidden');
+            }
+        }
+
+        function logMessage(msg, isError = false) {
+            const logArea = document.getElementById('logArea');
+            const span = document.createElement('div');
+            span.className = isError ? 'text-red-500 mb-1' : 'text-gray-700 mb-1';
+            span.innerHTML = msg;
+            logArea.appendChild(span);
+            logArea.scrollTop = logArea.scrollHeight;
+        }
+
+        function showError(msg) {
+            document.getElementById('errorMsgText').textContent = msg;
+            document.getElementById('errorMsg').classList.remove('hidden');
+        }
+
+        async function fetchWithRetry(payload, maxRetries = 5) {
+            return fetchWithRetryGeneral(modelUrl, payload, maxRetries);
+        }
+
+        async function fetchWithRetryGeneral(url, payload, maxRetries = 5) {
+            const delays = [1000, 2000, 4000, 8000, 16000];
+            for (let i = 0; i < maxRetries; i++) {
+                try {
+                    const response = await fetch(url, {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify(payload)
+                    });
+
+                    if (!response.ok) {
+                        if (response.status === 429 || response.status >= 500) throw new Error(`HTTP ${response.status}`);
+                        const errText = await response.text();
+                        throw new Error(`API Error`);
+                    }
+                    return await response.json();
+                } catch (error) {
+                    if (i === maxRetries - 1) throw error;
+                    await new Promise(resolve => setTimeout(resolve, delays[i]));
+                }
+            }
+        }
+
+        // --- MODE 1: Extract from PDF ---
+        async function processPDF(base64Data) {
+            const prompt = `استخرج جميع الأسئلة من المستند المرفق.
+التعليمات:
+1. ابحث عن أي أسئلة. استخرج نص السؤال دون إدراج الخيارات بداخله.
+2. ضع الخيارات كعناصر منفصلة في "options". وضع الإجابة الصحيحة في "correct_answer".
+3. المعادلات والرموز الرياضية يجب كتابتها بتنسيق LaTeX محاطة بـ $.
+4. قم بترقيم الأسئلة بدءاً من 1.`;
+
+            const payload = {
+                contents: [{ role: "user", parts: [{ text: prompt }, { inlineData: { mimeType: "application/pdf", data: base64Data } }] }],
+                generationConfig: { responseMimeType: "application/json", temperature: 0.1, responseSchema: systemSchema }
+            };
+
+            const result = await fetchWithRetry(payload);
+            return extractJsonFromResult(result);
+        }
+
+        // --- MODE 2: Clean and Fix JSON ---
+        async function processJSONContent(jsonText) {
+            const prompt = `أنت مدقق جودة لبيانات JSON خاصة بأنظمة الاختبارات.
+إليك محتوى ملف JSON يحتوي على أسئلة تم استخراجها آلياً. قد يحتوي على أخطاء أو أسئلة غير صالحة.
+المطلوب منك إجراء عملية تنظيف صارمة كالتالي:
+1. احذف فوراً أي عنصر ليس سؤالاً حقيقياً (مثل الفهارس، العناوين، أو النصوص العشوائية).
+2. احذف فوراً أي سؤال يعتمد على وجود (صورة، مخطط، شكل، أو جدول) لأنه غير مفيد بدون الصورة.
+3. أعد هيكلة وتنسيق الأسئلة المتبقية لتطابق الهيكل المطلوب بالضبط.
+4. تأكد من أن المعادلات الرياضية مكتوبة بصيغة LaTeX محاطة بـ $.
+5. أعد ترقيم حقل 'id' بشكل متسلسل للأسئلة المتبقية لتبدأ من 1.
+
+المحتوى المراد تدقيقه:
+${jsonText}`;
+
+            const payload = {
+                contents: [{ role: "user", parts: [{ text: prompt }] }],
+                generationConfig: { responseMimeType: "application/json", temperature: 0.1, responseSchema: systemSchema }
+            };
+
+            const result = await fetchWithRetry(payload);
+            return extractJsonFromResult(result);
+        }
+
+        function extractJsonFromResult(result) {
+            if (result && result.candidates && result.candidates.length > 0) {
+                let textResponse = result.candidates[0].content.parts[0].text;
+                try {
+                    textResponse = textResponse.replace(/^```json\s*/im, '').replace(/```\s*$/im, '').trim();
+                    JSON.parse(textResponse); 
+                    return textResponse;
+                } catch (e) {
+                    throw new Error("فشل تحويل المخرجات إلى JSON صالح.");
+                }
+            }
+            throw new Error("استجابة فارغة من النموذج.");
+        }
+
+        // --- MODE 3: Audio Generation (TTS) ---
+        async function generateExplanationsScript(questionsChunk) {
+            const prompt = `أنت معلم ودود. اكتب "نص شرح صوتي" قصير باللغة العربية الفصحى لكل سؤال، ليتم تحويله إلى تسجيل صوتي.
+المطلوب: اقرأ السؤال، ثم اشرح ببساطة وإيجابية سبب الإجابة الصحيحة (في حدود سطرين أو ثلاثة).
+الأسئلة:
+${JSON.stringify(questionsChunk)}`;
+
+            const payload = {
+                contents: [{ role: "user", parts: [{ text: prompt }] }],
+                generationConfig: {
+                    responseMimeType: "application/json",
+                    temperature: 0.2,
+                    responseSchema: {
+                        type: "ARRAY",
+                        description: "نصوص الشرح الصوتي للأسئلة",
+                        items: {
+                            type: "OBJECT",
+                            properties: {
+                                id: { type: "INTEGER", description: "نفس رقم السؤال" },
+                                explanation: { type: "STRING", description: "نص الشرح الصوتي الودود" }
+                            },
+                            required: ["id", "explanation"]
+                        }
+                    }
+                }
+            };
+            const result = await fetchWithRetryGeneral(modelUrl, payload);
+            return extractJsonFromResult(result);
+        }
+
+        async function generateTTS(text) {
+            const ttsUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-tts:generateContent?key=${apiKey}`;
+            const payload = {
+                contents: [{ parts: [{ text: text }] }],
+                generationConfig: {
+                    responseModalities: ["AUDIO"],
+                    speechConfig: {
+                        voiceConfig: {
+                            prebuiltVoiceConfig: { voiceName: "Aoede" } 
+                        }
+                    }
+                },
+                model: "gemini-2.5-flash-preview-tts"
+            };
+            
+            const result = await fetchWithRetryGeneral(ttsUrl, payload);
+            if (!result.candidates || !result.candidates[0].content.parts[0].inlineData) {
+                 throw new Error("فشل توليد الصوت من الخادم.");
+            }
+            const inlineData = result.candidates[0].content.parts[0].inlineData;
+            let rate = 24000;
+            const rateMatch = inlineData.mimeType.match(/rate=(\d+)/);
+            if (rateMatch) rate = parseInt(rateMatch[1]);
+            
+            return { base64: inlineData.data, sampleRate: rate };
+        }
+
+        function pcmToWav(base64, sampleRate) {
+            const binary = window.atob(base64);
+            const dataSize = binary.length;
+            const buffer = new ArrayBuffer(44 + dataSize);
+            const view = new DataView(buffer);
+
+            const writeString = (offset, string) => {
+                for (let i = 0; i < string.length; i++) {
+                    view.setUint8(offset + i, string.charCodeAt(i));
+                }
+            };
+
+            writeString(0, 'RIFF');
+            view.setUint32(4, 36 + dataSize, true);
+            writeString(8, 'WAVE');
+            writeString(12, 'fmt ');
+            view.setUint32(16, 16, true);
+            view.setUint16(20, 1, true); // PCM
+            view.setUint16(22, 1, true); // Mono
+            view.setUint32(24, sampleRate, true);
+            view.setUint32(28, sampleRate * 2, true); // Byte rate
+            view.setUint16(32, 2, true); // Block align
+            view.setUint16(34, 16, true); // Bits per sample
+            writeString(36, 'data');
+            view.setUint32(40, dataSize, true);
+
+            for (let i = 0; i < dataSize; i++) {
+                view.setUint8(44 + i, binary.charCodeAt(i));
+            }
+            
+            return buffer;
+        }
+
+        async function processAudioFile(fileEntry, originalName, baseName) {
+            const jsonText = await fileEntry.async("string");
+            let questions;
+            try {
+                questions = JSON.parse(jsonText);
+            } catch (e) {
+                throw new Error("ملف الـ JSON غير صالح ولا يمكن قراءته.");
+            }
+            if (!Array.isArray(questions)) questions = [questions];
+            
+            questions.forEach((q, i) => { if (!q.id) q.id = i + 1; });
+            
+            const folder = outputZip.folder(baseName);
+            const chunkSize = 5;
+            for (let i = 0; i < questions.length; i += chunkSize) {
+                const chunk = questions.slice(i, i + chunkSize);
+                logMessage(`&nbsp;&nbsp;&nbsp;جاري كتابة نصوص الشرح (الأسئلة ${i+1} إلى ${Math.min(i+chunkSize, questions.length)})...`);
+                
+                try {
+                    const explanationsRaw = await generateExplanationsScript(chunk);
+                    const explanations = typeof explanationsRaw === 'string' ? JSON.parse(explanationsRaw) : explanationsRaw;
+                    
+                    chunk.forEach((q) => {
+                        const expObj = explanations.find(e => e.id === q.id);
+                        q.explanation_script = expObj ? expObj.explanation : `السؤال رقم ${q.id}. الإجابة الصحيحة هي ${q.correct_answer}.`;
+                    });
+                } catch (e) {
+                    logMessage(`&nbsp;&nbsp;&nbsp;⚠️ خطأ أثناء كتابة الشرح (تم وضع شرح افتراضي).`, true);
+                    chunk.forEach(q => q.explanation_script = `السؤال: ${q.question}. الإجابة الصحيحة هي: ${q.correct_answer}.`);
+                }
+            }
+            
+            folder.file(`${baseName}_numbered_with_scripts.json`, JSON.stringify(questions, null, 2));
+
+            for (let q of questions) {
+                logMessage(`&nbsp;&nbsp;&nbsp;🎙️ جاري توليد الصوت للسؤال (${q.id})...`);
+                try {
+                    const audioResult = await generateTTS(q.explanation_script);
+                    const wavBuffer = pcmToWav(audioResult.base64, audioResult.sampleRate);
+                    folder.file(`question_${q.id}.wav`, wavBuffer);
+                } catch (err) {
+                    logMessage(`&nbsp;&nbsp;&nbsp;❌ فشل توليد صوت السؤال ${q.id}: ${err.message}`, true);
+                }
+                await new Promise(r => setTimeout(r, 1000));
+            }
+        }
+
+        async function startProcess(mode) {
+            if (isProcessing) return;
+
+            let fileInput, chunkSizeInput, btnId;
+            if (mode === 'pdf') { fileInput = document.getElementById('zipFileInputPdf'); chunkSizeInput = document.getElementById('chunkSizeInputPdf'); btnId = 'startBtnPdf'; }
+            else if (mode === 'json') { fileInput = document.getElementById('zipFileInputJson'); chunkSizeInput = document.getElementById('chunkSizeInputJson'); btnId = 'startBtnJson'; }
+            else { fileInput = document.getElementById('zipFileInputAudio'); chunkSizeInput = document.getElementById('chunkSizeInputAudio'); btnId = 'startBtnAudio'; }
+
+            const file = fileInput.files[0];
+            const chunkSize = parseInt(chunkSizeInput.value) || (mode === 'audio' ? 1 : 5);
+
+            if (!file) {
+                showError('يرجى اختيار ملف ZIP أولاً.');
+                return;
+            }
+
+            if (file.name.toLowerCase().endsWith('.rar')) {
+                showError('عذراً، الأداة لا تدعم ملفات RAR. يرجى إعادة ضغط الملف بصيغة ZIP.');
+                return;
+            }
+
+            resetUI();
+            isProcessing = true;
+            
+            const btn = document.getElementById(btnId);
+            const originalBtnHtml = btn.innerHTML;
+            const originalBtnClass = btn.className;
+            
+            btn.innerHTML = `<span class="loader"></span> جاري المعالجة...`;
+            btn.disabled = true;
+            btn.className = `w-full bg-gray-400 text-white font-bold py-3 px-4 rounded-xl shadow-md flex justify-center items-center gap-2 cursor-not-allowed`;
+            
+            outputZip = new JSZip();
+
+            try {
+                logMessage(`<i class="fas fa-spinner fa-spin"></i> جاري فك ضغط الملف...`);
+                const loadedZip = await JSZip.loadAsync(file);
+                
+                const targetFiles = [];
+                const extension = mode === 'pdf' ? '.pdf' : '.json'; // Note: Audio mode also accepts .json files
+                
+                loadedZip.forEach((relativePath, zipEntry) => {
+                    if (!zipEntry.dir && relativePath.toLowerCase().endsWith(extension)) {
+                        targetFiles.push(zipEntry);
+                    }
+                });
+
+                if (targetFiles.length === 0) {
+                    throw new Error(`لم يتم العثور على أي ملفات ${extension.toUpperCase()} داخل ملف الـ ZIP.`);
+                }
+
+                logMessage(`تم العثور على ${targetFiles.length} ملف. تبدأ الآن عملية ${mode === 'pdf' ? 'الاستخراج' : (mode === 'json' ? 'التدقيق' : 'توليد الصوت')}...`);
+                
+                let processedCount = 0;
+                
+                for (let i = 0; i < targetFiles.length; i += chunkSize) {
+                    const chunk = targetFiles.slice(i, i + chunkSize);
+                    logMessage(`<br><span class="font-bold ${mode==='pdf'?'text-blue-600':'text-amber-600'}">بدء معالجة الدفعة ${(i / chunkSize) + 1}...</span>`);
+
+                    const chunkPromises = chunk.map(async (fileEntry) => {
+                        const originalName = fileEntry.name.split('/').pop();
+                        const baseName = originalName.substring(0, originalName.lastIndexOf('.'));
+                        
+                        try {
+                            if (mode === 'pdf') {
+                                const base64Data = await fileEntry.async("base64");
+                                const jsonResponse = await processPDF(base64Data);
+                                outputZip.file(`${baseName}.json`, jsonResponse);
+                                logMessage(`✅ تمت معالجة <span class="font-bold">${originalName}</span>`);
+                            } else if (mode === 'json') {
+                                const textData = await fileEntry.async("string");
+                                const jsonResponse = await processJSONContent(textData);
+                                const parsed = JSON.parse(jsonResponse);
+                                if (parsed.length === 0) {
+                                    logMessage(`⚠️ تم حذف جميع الأسئلة في <span class="font-bold">${originalName}</span> (غير صالحة).`, true);
+                                }
+                                outputZip.file(`${baseName}.json`, jsonResponse);
+                                logMessage(`✅ تمت معالجة <span class="font-bold">${originalName}</span>`);
+                            } else {
+                                // Audio Mode
+                                logMessage(`📂 بدء العمل على أسئلة ملف <span class="font-bold text-purple-600">${originalName}</span>...`);
+                                await processAudioFile(fileEntry, originalName, baseName);
+                                logMessage(`✅ اكتملت شروحات ملف <span class="font-bold">${originalName}</span> بنجاح.`);
+                            }
+                        } catch (err) {
+                            logMessage(`❌ خطأ في <span class="font-bold">${originalName}</span>: ${err.message}`, true);
+                            outputZip.file(`${baseName}_ERROR.json`, JSON.stringify({ error: err.message }));
+                        } finally {
+                            processedCount++;
+                            const percent = Math.round((processedCount / targetFiles.length) * 100);
+                            document.getElementById('progressBar').style.width = `${percent}%`;
+                            document.getElementById('progressPercent').textContent = `${percent}%`;
+                            document.getElementById('progressText').textContent = `تم معالجة ${processedCount} من ${targetFiles.length}`;
+                        }
+                    });
+
+                    await Promise.all(chunkPromises);
+                    if (i + chunkSize < targetFiles.length) await new Promise(r => setTimeout(r, 1000));
+                }
+
+                logMessage(`<br><i class="fas fa-check-circle text-green-500"></i> انتهت العملية بنجاح!`);
+                document.getElementById('downloadBtn').classList.remove('hidden');
+
+            } catch (err) {
+                showError(err.message || 'حدث خطأ غير متوقع.');
+                logMessage(`حدث خطأ: ${err.message}`, true);
+            } finally {
+                btn.innerHTML = originalBtnHtml;
+                btn.className = originalBtnClass;
+                btn.disabled = false;
+                isProcessing = false;
+            }
+        }
+
+        async function downloadZip() {
+            if (!outputZip) return;
+            try {
+                logMessage(`<i class="fas fa-spinner fa-spin"></i> جاري تجهيز ملف التحميل...`);
+                const blob = await outputZip.generateAsync({type:"blob"});
+                const url = window.URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.style.display = 'none';
+                a.href = url;
+                a.download = `نتائج_${currentMode === 'pdf' ? 'الاستخراج' : (currentMode === 'json' ? 'التدقيق' : 'الصوتيات')}_${new Date().getTime()}.zip`;
+                document.body.appendChild(a);
+                a.click();
+                window.URL.revokeObjectURL(url);
+                document.body.removeChild(a);
+                logMessage(`✅ تم التحميل!`);
+            } catch (err) {
+                logMessage(`❌ خطأ أثناء التحميل: ${err.message}`, true);
+            }
+        }
+    </script>
+</body>
+</html>
