@@ -816,6 +816,36 @@
       transform: translateX(-50%) translateY(0);
       opacity: 1;
     }
+    /* ── Audio Button ── */
+    .btn-audio {
+      display: inline-flex;
+      align-items: center;
+      gap: var(--space-2);
+      padding: var(--space-2) var(--space-4);
+      background: var(--color-surface-2);
+      border: 1px solid var(--color-primary);
+      color: var(--color-primary);
+      border-radius: var(--radius-sm);
+      cursor: pointer;
+      font-weight: 700;
+      margin-top: var(--space-2);
+      transition: all .2s;
+    }
+    .btn-audio:hover {
+      background: var(--color-primary);
+      color: #fff;
+    }
+    .btn-audio:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+    .audio-wrap {
+      margin-top: var(--space-3);
+      display: none;
+    }
+    .audio-wrap.visible {
+      display: block;
+    }
   </style>
 </head>
 <body>
@@ -911,6 +941,11 @@
           <button type="button" class="btn btn-primary block-full" id="btn-check">تحقق من الإجابة</button>
         </div>
         <div class="feedback" id="feedback" role="status"></div>
+        <div id="audio-area" class="audio-wrap">
+          <button type="button" class="btn-audio" id="btn-audio-play">
+            <span>🔊 استمع للشرح</span>
+          </button>
+        </div>
         <div class="row">
           <button type="button" class="btn btn-ghost" id="btn-prev">السابق</button>
           <button type="button" class="btn btn-primary" id="btn-next" disabled>التالي</button>
@@ -952,6 +987,9 @@
     let results = [];
     /** اسم ملف JSON الحالي (لتخمين لغة المادة: إنجليزي، فرنسي، عربي…) */
     let currentQuizFile = "";
+
+    /* ── Audio Mapping (Drive IDs) ── */
+    let audioMap = {}; // Loaded from audio_map.json
 
     /* ── Dark Mode ── */
     (function initTheme() {
@@ -1180,6 +1218,8 @@
       }
       questions = qs;
       results = questions.map(q => ({
+        id: q.id,
+        explanation: q.explanation,
         question: q.question,
         displayQuestion: q.displayQuestion,
         correctAnswer: q.answer,
@@ -1409,6 +1449,8 @@
         : [];
       if (opts.length >= 2) {
         return {
+          id: item.id || null,
+          explanation: item.explanation_script || null,
           question: q,
           displayQuestion: q,
           answer: String(ans),
@@ -1417,6 +1459,8 @@
       }
       const parsed = parseMultipleChoice(q);
       return {
+        id: item.id || null,
+        explanation: item.explanation_script || null,
         question: q,
         displayQuestion: parsed ? parsed.stem : q,
         answer: String(ans),
@@ -1628,6 +1672,9 @@
       fb.removeAttribute("dir");
       fb.removeAttribute("lang");
 
+      document.getElementById("audio-area").classList.remove("visible");
+      stopAudio();
+
       const mcq = document.getElementById("q-mcq");
       const tw = document.getElementById("q-text-wrap");
       const inp = document.getElementById("q-input");
@@ -1694,6 +1741,71 @@
           "إجابة غير صحيحة. الإجابة الصحيحة: " + String(res.correctAnswer);
       }
       applyTextDirection(fb, fb.textContent);
+
+      // Audio Logic
+      if (res.id) {
+        const audioArea = document.getElementById("audio-area");
+        const audioBtn = document.getElementById("btn-audio-play");
+        
+        // Try to get Drive ID from map
+        const folderName = currentQuizFile.replace(".json", "");
+        const driveId = (audioMap[folderName] && audioMap[folderName][res.id]) ? audioMap[folderName][res.id] : null;
+        
+        if (driveId) {
+          audioArea.classList.add("visible");
+          const audioUrl = "https://drive.google.com/uc?export=view&id=" + driveId;
+          audioBtn.onclick = () => playAudio(audioUrl);
+        } else {
+          // Fallback to local if exists (optional)
+          audioArea.classList.remove("visible"); 
+        }
+      }
+    }
+
+    let globalAudio = null;
+    function playAudio(path) {
+      stopAudio();
+      globalAudio = new Audio(path);
+      const btn = document.getElementById("btn-audio-play");
+      btn.disabled = true;
+      btn.querySelector("span").textContent = "⏳ جاري التحميل...";
+      
+      globalAudio.onerror = () => {
+        showToast("❌ تعذر تحميل الملف الصوتي");
+        stopAudio();
+      };
+      
+      globalAudio.oncanplaythrough = () => {
+        btn.querySelector("span").textContent = "⏸️ إيقاف الشرح";
+        btn.disabled = false;
+        globalAudio.play();
+      };
+      
+      globalAudio.onended = () => {
+        stopAudio();
+      };
+    }
+
+    function stopAudio() {
+      if (globalAudio) {
+        globalAudio.pause();
+        globalAudio = null;
+      }
+      const btn = document.getElementById("btn-audio-play");
+      if (btn) {
+        btn.disabled = false;
+        btn.querySelector("span").textContent = "🔊 استمع للشرح";
+        btn.onclick = () => {
+          const res = results[currentIndex];
+          if (res && res.id) {
+            const folderName = currentQuizFile.replace(".json", "");
+            const driveId = (audioMap[folderName] && audioMap[folderName][res.id]) ? audioMap[folderName][res.id] : null;
+            if (driveId) {
+              playAudio("https://drive.google.com/uc?export=view&id=" + driveId);
+            }
+          }
+        };
+      }
     }
 
     function onMcqPick(choice, btnEl) {
@@ -1812,6 +1924,13 @@
     (async function boot() {
       try {
         indexData = await loadIndex();
+        
+        // Load Audio Map (optional)
+        try {
+          const audioRes = await fetch("audio_map.json");
+          if (audioRes.ok) audioMap = await audioRes.json();
+        } catch(e) { console.log("No audio map found"); }
+
         buildSearchIndex(indexData);
         initSelectors();
         initSearch();
